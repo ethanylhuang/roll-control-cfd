@@ -1,0 +1,33 @@
+SimScale-matched run [ramp]: d15 M0.5 V=169.6 m/s p=97690 T=286.2 rho=1.1892 CofR z=0.399 endTime=2000 avg from 1500 case=M0.50_sealedcad_fine_opensides
+[mesh] levels {'body': 5, 'fins': 6, 'tab': 6, 'slot': 6} -> mesh 'mesh_sealedcad_fine'
+[d15] mesh_sealedcad_fine exists — reusing (1500649 cells)
+[solve] pressure bounds 20000 .. 300000 Pa; relaxation overrides: p=0.3,rho=0.05,U=0.7,h=0.7,k=0.7,omega=0.7
+[solve] hinge fitted from 15.0 deg at ['-0.0854', '-0.0000', '0.0525']
+[solve] sides -> pressure outlet (open far field)
+[solve] ramped start -50 -> -169.6 m/s over 300 iterations, no potentialFoam
+[solve] rhoSimpleFoam to 2000 ...
+[solve] stop=endTime rc=0 iters=2000
+{
+ "stop_reason": "endTime",
+ "n_avg_samples": 501,
+ "moments_Nm": {
+  "Mroll": 0.3445503624451098,
+  "Mpitch": 0.03136998363481437,
+  "Myaw": 2.4135731441916173
+ },
+ "forces_N": {
+  "Fx": -0.1711549618851497,
+  "Fy": 7.207071292075849,
+  "Fz": -41.573249404790424
+ },
+ "convergence": {
+  "mean": 0.3445503624451098,
+  "std": 0.004355305058301175,
+  "slope_per_iter": -6.115076715413762e-07,
+  "drift": 0.0003057538357706881,
+  "drift_pct": 0.08873995476333235,
+  "std_rel_pct": 1.264054702306406,
+  "flags": []
+ },
+ "postprocess_error": null
+}

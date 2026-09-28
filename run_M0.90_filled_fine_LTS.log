@@ -1,0 +1,33 @@
+06:36:56 case M0.90_filled_fine_LTS: M0.9 V=305.0 m/s, rhoPimpleFoam localEuler transonic, endTime 3000, mesh ../../mesh_filled_fine/constant/polyMesh
+Uinf        (0 0 -305);
+rampTable   ((0 (0 0 -50)) (300 (0 0 -305)) (1000000 (0 0 -305)));
+magUinf     305;
+endTime     3000;
+
+06:36:58 decomposePar rc=0
+06:36:58 rhoPimpleFoam ...
+07:59:11 solver rc=0 last=3000 stop=endTime wall=4933s
+{
+ "stop_reason": "endTime",
+ "n_avg_samples": 501,
+ "moments_Nm": {
+  "Mroll": 0.5933360570459081,
+  "Mpitch": -0.08685150812195609,
+  "Myaw": 3.65644597489022
+ },
+ "forces_N": {
+  "Fx": 0.18842497468463076,
+  "Fy": 10.714626348303394,
+  "Fz": -165.0481305229541
+ },
+ "convergence": {
+  "mean": 0.5933360570459081,
+  "std": 0.00012418139579500748,
+  "slope_per_iter": -2.829371554262825e-07,
+  "drift": 0.00014146857771314125,
+  "drift_pct": 0.023842909264183726,
+  "std_rel_pct": 0.020929352652741144,
+  "flags": []
+ },
+ "postprocess_error": null
+}

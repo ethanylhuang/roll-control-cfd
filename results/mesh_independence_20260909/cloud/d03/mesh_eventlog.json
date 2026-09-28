@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "code": "MSG_OF_CHECKMESH_FINISHED",
+      "details": {},
+      "message": "Mesh check finished.",
+      "severity": "INFO"
+    },
+    {
+      "code": "MSG_MESH_ENTITY_COUNT",
+      "details": {},
+      "message": "Number of pyramids: \t 0",
+      "severity": "INFO"
+    },
+    {
+      "code": "MSG_MESH_ENTITY_COUNT",
+      "details": {},
+      "message": "Number of volumes: \t 3232874",
+      "severity": "INFO"
+    },
+    {
+      "code": "MSG_MESH_ENTITY_COUNT",
+      "details": {},
+      "message": "Number of hexahedra: \t 2895604",
+      "severity": "INFO"
+    },
+    {
+      "code": "MSG_MESH_ENTITY_COUNT",
+      "details": {},
+      "message": "Number of polyhedra: \t 256201",
+      "severity": "INFO"
+    },
+    {
+      "code": "MSG_MESH_ENTITY_COUNT",
+      "details": {},
+      "message": "Number of tetrahedra: \t 0",
+      "severity": "INFO"
+    },
+    {
+      "code": "MSG_MESH_ENTITY_COUNT",
+      "details": {},
+      "message": "Number of nodes: \t 3765637",
+      "severity": "INFO"
+    },
+    {
+      "code": "MSG_MESH_ENTITY_COUNT",
+      "details": {},
+      "message": "Number of faces: \t 10212378",
+      "severity": "INFO"
+    },
+    {
+      "code": "MSG_MESH_ENTITY_COUNT",
+      "details": {},
+      "message": "Number of prisms: \t 80307",
+      "severity": "INFO"
+    },
+    {
+      "code": "MSG_OF_RUN_FINISHED",
+      "details": {},
+      "message": "Run finished.",
+      "severity": "SUCCESS"
+    },
+    {
+      "code": "MSG_GOOD_MESH_QUALITY",
+      "details": {},
+      "message": "This mesh meets our quality criteria.",
+      "severity": "SUCCESS"
+    }
+  ]
+}

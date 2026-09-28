@@ -1,0 +1,4 @@
+20:05:57 sim 08c65a73 run d708c1ae started (V=169.6, mesh bc5fa055)
+20:44:11 run FINISHED CPUh 9.86888888888889
+{"moments_Nm": {"Mroll": 0.2084784791046814, "Mpitch": 0.050331127248142024, "Myaw": 1.526292159886052}, "forces_N": {"Fx": -0.24562758345389094, "Fy": 4.563282567100548, "Fz": -41.76998158010786}, "convergence": {"std_rel_pct": 6.588171526397426, "block_std_pct": 0.13161450531156188, "block_means": [0.2087153768922416, 0.208274682083626, 0.2086489765034524, 0.2087623425459232, 0.2084853688988324, 0.2079841277040128], "drift_pct": 0.23379790570596745, "window": 1500, "p_residual": 0.000203381266828, "flags": []}}
+RESULT /Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d09_M0.5_fine_sealed.json

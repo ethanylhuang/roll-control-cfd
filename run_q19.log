@@ -1,0 +1,167 @@
+23:34:51 q18 finished; restoring np=10 and starting q19
+23:34:51 start d00 M0.30_sealedcad_fine_opensides
+00:23:16 done d00 M0.30_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.0002522147471470359,
+  sheet: row 8: M0.3 d0 Mroll -0.0003 Cl -0.00027 CA 0.90722 CY 0.00613 CN -0.00611 Cm 0.03778 Cn 0.03474 mroll_drift(15.9%), mroll_noisy(std=90.8%)
+00:23:17 start d00 M0.50_sealedcad_fine_opensides
+01:11:42 done d00 M0.50_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.0008111019398387225,
+  sheet: row 16: M0.5 d0 Mroll -0.0008 Cl -0.00031 CA 0.91354 CY 0.00565 CN 0.00414 Cm -0.01991 Cn 0.03223 mroll_drift(9.4%), mroll_noisy(std=1299.8%)
+01:11:43 start d00 M0.60_sealedcad_fine_opensides
+01:59:56 done d00 M0.60_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.0016205410378317365,
+  sheet: row 24: M0.6 d0 Mroll -0.0016 Cl -0.00043 CA 0.92962 CY 0.00375 CN 0.005 Cm -0.02496 Cn 0.02174 mroll_drift(38.9%), mroll_noisy(std=785.5%)
+01:59:56 start d00 M0.70_sealedcad_fine_opensides
+02:47:49 done d00 M0.70_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.0023475231908302993,
+  sheet: row 32: M0.7 d0 Mroll -0.0023 Cl -0.00046 CA 0.9646 CY 0.00106 CN 0.00245 Cm -0.01094 Cn 0.00678 mroll_drift(37.0%), mroll_noisy(std=470.4%)
+02:47:50 start d00 M0.80_sealedcad_fine_opensides
+03:35:23 done d00 M0.80_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.0011343459595806388,
+  sheet: row 40: M0.8 d0 Mroll -0.0011 Cl -0.00017 CA 1.04935 CY -0.0003 CN -0.00047 Cm 0.00618 Cn -0.00116 mroll_drift(90.6%), mroll_noisy(std=2535.3%)
+03:35:23 start d00 M0.85_sealedcad_fine_opensides
+04:23:24 done d00 M0.85_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.00283367976943014,
+  sheet: row 48: M0.85 d0 Mroll 0.0028 Cl 0.00038 CA 1.14312 CY 0.00113 CN 0.00011 Cm 0.00415 Cn 0.00693 mroll_noisy(std=468.6%)
+04:23:24 start d00 M0.90_sealedcad_fine_opensides
+05:11:34 done d00 M0.90_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.006350145902508783,
+  sheet: row 56: M0.9 d0 Mroll 0.0064 Cl 0.00076 CA 1.30909 CY 0.00168 CN -0.0005 Cm 0.00806 Cn 0.00977 mroll_drift(50.4%), mroll_noisy(std=269.8%)
+05:11:36 skip d03 M0.30_sealedcad_fine_opensides (done)
+  sheet: row 9: M0.3 d3 Mroll 0.0242 Cl 0.02598 CA 0.90732 CY 0.02382 CN 0.00635 Cm -0.03191 Cn 0.10152 
+05:11:36 start d03 M0.50_sealedcad_fine_opensides
+06:00:26 done d03 M0.50_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.0700273143247505,
+  sheet: row 17: M0.5 d3 Mroll 0.07 Cl 0.02698 CA 0.91346 CY 0.03585 CN 0.00497 Cm -0.02445 Cn 0.16819 mroll_noisy(std=9.7%)
+06:00:27 start d03 M0.60_sealedcad_fine_opensides
+06:49:17 done d03 M0.60_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.10390585131776447,
+  sheet: row 25: M0.6 d3 Mroll 0.1039 Cl 0.02781 CA 0.92951 CY 0.03748 CN 0.00327 Cm -0.01503 Cn 0.17668 mroll_noisy(std=8.1%)
+06:49:18 start d03 M0.70_sealedcad_fine_opensides
+07:38:17 done d03 M0.70_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.1486844601057884,
+  sheet: row 33: M0.7 d3 Mroll 0.1487 Cl 0.02924 CA 0.96457 CY 0.03139 CN -0.00131 Cm 0.01103 Cn 0.14124 mroll_noisy(std=9.0%)
+07:38:17 start d03 M0.80_sealedcad_fine_opensides
+08:27:04 done d03 M0.80_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.21087492357684634,
+  sheet: row 41: M0.8 d3 Mroll 0.2109 Cl 0.03176 CA 1.04917 CY 0.03792 CN 0.00033 Cm 0.00277 Cn 0.17735 
+08:27:04 start d03 M0.85_sealedcad_fine_opensides
+09:16:19 done d03 M0.85_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.25241978709381235,
+  sheet: row 49: M0.85 d3 Mroll 0.2524 Cl 0.03368 CA 1.14344 CY 0.04186 CN 0.00216 Cm -0.00775 Cn 0.20128 
+09:16:20 start d03 M0.90_sealedcad_fine_opensides
+10:05:07 done d03 M0.90_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.3006751351616766,
+  sheet: row 57: M0.9 d3 Mroll 0.3007 Cl 0.03583 CA 1.30849 CY 0.03992 CN 0.00128 Cm -0.00123 Cn 0.1926 
+10:05:09 start d06 M0.30_sealedcad_fine_opensides
+10:53:33 done d06 M0.30_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.04740432925748503,
+  sheet: row 10: M0.3 d6 Mroll 0.0474 Cl 0.0508 CA 0.9035 CY 0.0654 CN -0.00613 Cm 0.03804 Cn 0.30343 
+10:53:34 start d06 M0.50_sealedcad_fine_opensides
+11:41:20 done d06 M0.50_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.13764301688423153,
+  sheet: row 18: M0.5 d6 Mroll 0.1376 Cl 0.05304 CA 0.90856 CY 0.06232 CN 0.00565 Cm -0.02815 Cn 0.28445 
+11:41:20 start d06 M0.60_sealedcad_fine_opensides
+12:29:54 done d06 M0.60_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.20546673396606785,
+  sheet: row 26: M0.6 d6 Mroll 0.2055 Cl 0.05499 CA 0.92536 CY 0.0637 CN 0.00538 Cm -0.02697 Cn 0.29072 mroll_noisy(std=5.9%)
+12:29:55 start d06 M0.70_sealedcad_fine_opensides
+13:17:55 done d06 M0.70_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.2945392483173653,
+  sheet: row 34: M0.7 d6 Mroll 0.2945 Cl 0.05793 CA 0.95931 CY 0.06746 CN 0.00258 Cm -0.011 Cn 0.30985 
+13:17:56 start d06 M0.80_sealedcad_fine_opensides
+14:05:47 done d06 M0.80_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.4170773799161676,
+  sheet: row 42: M0.8 d6 Mroll 0.4171 Cl 0.06281 CA 1.04487 CY 0.07471 CN 0.00066 Cm 0.00115 Cn 0.34956 
+14:05:48 start d06 M0.85_sealedcad_fine_opensides
+14:53:39 done d06 M0.85_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.49877575091816373,
+  sheet: row 50: M0.85 d6 Mroll 0.4988 Cl 0.06656 CA 1.13905 CY 0.07745 CN 0.00175 Cm -0.00271 Cn 0.36688 
+14:53:40 start d06 M0.90_sealedcad_fine_opensides
+15:41:31 done d06 M0.90_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.5947017005469061,
+  sheet: row 58: M0.9 d6 Mroll 0.5947 Cl 0.07086 CA 1.30586 CY 0.07816 CN 0.00487 Cm -0.01944 Cn 0.37719 
+15:41:32 start d09 M0.30_sealedcad_fine_opensides
+16:30:51 done d09 M0.30_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.07264697194251497,
+  sheet: row 11: M0.3 d9 Mroll 0.0726 Cl 0.07785 CA 0.90331 CY 0.09502 CN 0.0052 Cm -0.02941 Cn 0.43735 
+16:30:52 start d09 M0.50_sealedcad_fine_opensides
+17:19:09 done d09 M0.50_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.21038218183832336,
+  sheet: row 19: M0.5 d9 Mroll 0.2104 Cl 0.08107 CA 0.90883 CY 0.09949 CN 0.00203 Cm -0.01224 Cn 0.45998 
+17:19:10 start d09 M0.60_sealedcad_fine_opensides
+18:07:30 done d09 M0.60_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.3127963884491018,
+  sheet: row 27: M0.6 d9 Mroll 0.3128 Cl 0.08372 CA 0.92577 CY 0.09771 CN 0.00326 Cm -0.01986 Cn 0.44775 
+18:07:31 start d09 M0.70_sealedcad_fine_opensides
+18:55:31 done d09 M0.70_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.44668482219560884,
+  sheet: row 35: M0.7 d9 Mroll 0.4467 Cl 0.08785 CA 0.96067 CY 0.10371 CN -0.00158 Cm 0.00737 Cn 0.47892 
+18:55:32 start d09 M0.80_sealedcad_fine_opensides
+19:43:28 done d09 M0.80_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.6288214031956089,
+  sheet: row 43: M0.8 d9 Mroll 0.6288 Cl 0.09469 CA 1.04716 CY 0.11234 CN -0.00124 Cm 0.006 Cn 0.5261 
+19:43:29 start d09 M0.85_sealedcad_fine_opensides
+20:32:08 done d09 M0.85_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.7502628238003992,
+  sheet: row 51: M0.85 d9 Mroll 0.7503 Cl 0.10012 CA 1.14229 CY 0.11705 CN 0.00157 Cm -0.00806 Cn 0.55588 
+20:32:09 start d09 M0.90_sealedcad_fine_opensides
+21:20:55 done d09 M0.90_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.8909033285908183,
+  sheet: row 59: M0.9 d9 Mroll 0.8909 Cl 0.10615 CA 1.31012 CY 0.11578 CN 0.00474 Cm -0.02345 Cn 0.5589 
+21:20:56 start d10 M0.30_sealedcad_fine_opensides
+22:13:19 done d10 M0.30_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.07304413761656686,
+  sheet: row 12: M0.3 d10 Mroll 0.073 Cl 0.07828 CA 0.88886 CY 0.09678 CN 0.00516 Cm -0.02907 Cn 0.44396 
+22:13:21 start d10 M0.50_sealedcad_fine_opensides
+23:13:40 done d10 M0.50_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.2161645850738523,
+  sheet: row 20: M0.5 d10 Mroll 0.2162 Cl 0.0833 CA 0.8952 CY 0.10202 CN 0.00582 Cm -0.03389 Cn 0.46898 
+23:13:41 skip d10 M0.60_sealedcad_fine_opensides (done)
+  sheet: row 28: M0.6 d10 Mroll 0.3265 Cl 0.08739 CA 0.91297 CY 0.10686 CN 0.00164 Cm -0.01122 Cn 0.49284 
+23:13:41 start d10 M0.70_sealedcad_fine_opensides
+00:23:14 done d10 M0.70_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.4735361284371257,
+  sheet: row 36: M0.7 d10 Mroll 0.4735 Cl 0.09313 CA 0.95019 CY 0.11303 CN 0.00159 Cm -0.01209 Cn 0.52346 mroll_noisy(std=6.2%)
+00:23:15 start d10 M0.80_sealedcad_fine_opensides
+01:47:24 done d10 M0.80_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.6796773082874251,
+  sheet: row 44: M0.8 d10 Mroll 0.6797 Cl 0.10235 CA 1.03853 CY 0.12506 CN -0.00101 Cm 0.00275 Cn 0.58814 
+01:47:25 start d10 M0.85_sealedcad_fine_opensides
+02:38:05 done d10 M0.85_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.8187391983253494,
+  sheet: row 52: M0.85 d10 Mroll 0.8187 Cl 0.10926 CA 1.13597 CY 0.12918 CN 0.00193 Cm -0.01246 Cn 0.61422 
+02:38:06 start d10 M0.90_sealedcad_fine_opensides
+03:27:52 done d10 M0.90_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.9769977364251496,
+  sheet: row 60: M0.9 d10 Mroll 0.977 Cl 0.11641 CA 1.30679 CY 0.12365 CN 0.00556 Cm -0.02931 Cn 0.59449 
+03:27:53 start d12 M0.30_sealedcad_fine_opensides
+04:20:18 done d12 M0.30_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.09238875572155689,
+  sheet: row 13: M0.3 d12 Mroll 0.0924 Cl 0.09901 CA 0.91196 CY 0.12075 CN 0.0026 Cm -0.02043 Cn 0.55437 
+04:20:19 start d12 M0.50_sealedcad_fine_opensides
+05:12:26 done d12 M0.50_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.26827590051896205,
+  sheet: row 21: M0.5 d12 Mroll 0.2683 Cl 0.10338 CA 0.91789 CY 0.1265 CN 0.00411 Cm -0.02956 Cn 0.58251 
+05:12:28 start d12 M0.60_sealedcad_fine_opensides
+06:04:41 done d12 M0.60_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.4003901892714571,
+  sheet: row 29: M0.6 d12 Mroll 0.4004 Cl 0.10716 CA 0.93487 CY 0.13251 CN 0.00184 Cm -0.01725 Cn 0.61301 
+06:04:42 start d12 M0.70_sealedcad_fine_opensides
+06:56:31 done d12 M0.70_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.5750749904471059,
+  sheet: row 37: M0.7 d12 Mroll 0.5751 Cl 0.1131 CA 0.96927 CY 0.13929 CN 3e-05 Cm -0.00765 Cn 0.64724 
+06:56:32 start d12 M0.80_sealedcad_fine_opensides
+07:48:27 done d12 M0.80_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.818505989043912,
+  sheet: row 45: M0.8 d12 Mroll 0.8185 Cl 0.12326 CA 1.05589 CY 0.14919 CN 0.00202 Cm -0.01875 Cn 0.70012 
+07:48:28 start d12 M0.85_sealedcad_fine_opensides
+08:41:03 done d12 M0.85_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.982052825752495,
+  sheet: row 53: M0.85 d12 Mroll 0.9821 Cl 0.13105 CA 1.1515 CY 0.15234 CN 0.00446 Cm -0.03094 Cn 0.72048 
+08:41:04 start d12 M0.90_sealedcad_fine_opensides
+09:32:54 done d12 M0.90_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":1.1495989534930142,
+  sheet: row 61: M0.9 d12 Mroll 1.1496 Cl 0.13697 CA 1.31868 CY 0.1486 CN 0.00649 Cm -0.03903 Cn 0.71544 mroll_noisy(std=8.0%)
+09:32:55 start d15 M0.30_sealedcad_fine_opensides
+10:25:25 done d15 M0.30_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.11983948533932137,
+  sheet: row 14: M0.3 d15 Mroll 0.1198 Cl 0.12843 CA 0.91983 CY 0.15452 CN 0.00156 Cm -0.02225 Cn 0.70841 
+10:25:27 start d15 M0.50_sealedcad_fine_opensides
+11:17:38 done d15 M0.50_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.3445503624451098,
+  sheet: row 22: M0.5 d15 Mroll 0.3446 Cl 0.13277 CA 0.9261 CY 0.16055 CN -0.00381 Cm 0.00754 Cn 0.73842 
+11:17:39 start d15 M0.60_sealedcad_fine_opensides
+12:10:29 done d15 M0.60_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.5092336608183633,
+  sheet: row 30: M0.6 d15 Mroll 0.5092 Cl 0.1363 CA 0.94273 CY 0.16521 CN -0.00489 Cm 0.01369 Cn 0.76202 
+12:10:30 start d15 M0.70_sealedcad_fine_opensides
+13:02:46 done d15 M0.70_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.7215599588203593,
+  sheet: row 38: M0.7 d15 Mroll 0.7216 Cl 0.14191 CA 0.97775 CY 0.17211 CN -0.004 Cm 0.00848 Cn 0.79783 
+13:02:47 start d15 M0.80_sealedcad_fine_opensides
+13:54:07 done d15 M0.80_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":1.0151516084031935,
+  sheet: row 46: M0.8 d15 Mroll 1.0152 Cl 0.15287 CA 1.0647 CY 0.1851 CN 0.00021 Cm -0.015 Cn 0.86932 
+13:54:08 skip d15 M0.85_sealedcad_fine_opensides (done)
+  sheet: row 54: M0.85 d15 Mroll 1.2162 Cl 0.16229 CA 1.16073 CY 0.19219 CN 0.00547 Cm -0.04404 Cn 0.915 
+13:54:09 start d15 M0.90_sealedcad_fine_opensides
+14:46:29 done d15 M0.90_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":1.2998913416087825,
+  sheet: row 62: M0.9 d15 Mroll 1.2999 Cl 0.15488 CA 1.33042 CY 0.17084 CN 0.01104 Cm -0.07125 Cn 0.82496 mroll_drift(30.4%), mroll_noisy(std=18.3%)
+14:46:30 start dm06 M0.30_sealedcad_fine_opensides
+15:39:14 done dm06 M0.30_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.04847780012934132,
+  sheet: row 7: M0.3 d-6 Mroll -0.0485 Cl -0.05195 CA 0.89178 CY -0.06646 CN 0.00353 Cm -0.01594 Cn -0.30975 
+15:39:15 start dm06 M0.50_sealedcad_fine_opensides
+16:31:59 done dm06 M0.50_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.14155701108782434,
+  sheet: row 15: M0.5 d-6 Mroll -0.1416 Cl -0.05455 CA 0.89733 CY -0.06871 CN 0.00406 Cm -0.01961 Cn -0.32015 
+16:32:01 start dm06 M0.60_sealedcad_fine_opensides
+17:24:35 done dm06 M0.60_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.21203491831337323,
+  sheet: row 23: M0.6 d-6 Mroll -0.212 Cl -0.05675 CA 0.91466 CY -0.07176 CN 0.0014 Cm -0.00535 Cn -0.33558 mroll_noisy(std=6.0%)
+17:24:37 start dm06 M0.70_sealedcad_fine_opensides
+18:18:59 done dm06 M0.70_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.3033570784031936,
+  sheet: row 31: M0.7 d-6 Mroll -0.3034 Cl -0.05966 CA 0.95015 CY -0.0728 CN 1e-05 Cm 0.00255 Cn -0.33937 
+18:19:00 start dm06 M0.80_sealedcad_fine_opensides
+19:12:25 done dm06 M0.80_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.423210758251497,
+  sheet: row 39: M0.8 d-6 Mroll -0.4232 Cl -0.06373 CA 1.03695 CY -0.07615 CN -0.00085 Cm 0.00856 Cn -0.35777 
+19:12:27 start dm06 M0.85_sealedcad_fine_opensides
+20:04:32 done dm06 M0.85_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.4977664772035928,
+  sheet: row 47: M0.85 d-6 Mroll -0.4978 Cl -0.06643 CA 1.13254 CY -0.07638 CN 0.00047 Cm 0.003 Cn -0.36179 
+20:04:32 start dm06 M0.90_sealedcad_fine_opensides
+20:56:47 done dm06 M0.90_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.5810188000838322,
+  sheet: row 55: M0.9 d-6 Mroll -0.581 Cl -0.06923 CA 1.30185 CY -0.07348 CN 0.00636 Cm -0.02816 Cn -0.35407 mroll_drift(9.4%), mroll_noisy(std=7.0%)
+20:56:49 Q19 DONE

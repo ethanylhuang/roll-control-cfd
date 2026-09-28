@@ -1,0 +1,31 @@
+17:53:05 0/ rewritten: inlet B5_TE5_B5_TE36, outlet B5_TE5_B5_TE9, sides ['B5_TE5_B5_TE2', 'B5_TE5_B5_TE30', 'B5_TE5_B5_TE27', 'B5_TE5_B5_TE33'], walls regex for 76 patches
+17:53:05 SimScale gradient scheme only (cellLimited leastSquares 1 for all gradients)
+17:53:09 decomposePar rc=0
+18:46:55 solver rc=0 last=2000 stop=endTime wall=3226s
+{
+ "stop_reason": "endTime",
+ "n_avg_samples": 501,
+ "moments_Nm": {
+  "Mroll": 0.72006618272298,
+  "Mpitch": -0.4135566115979841,
+  "Myaw": 3.927348876551617
+ },
+ "forces_N": {
+  "Fx": 0.7061473667393213,
+  "Fy": 11.722676055509062,
+  "Fz": -237.63299634530938
+ },
+ "convergence": {
+  "mean": 0.72006618272298,
+  "std": 0.3832782858491323,
+  "slope_per_iter": -6.204214416433058e-05,
+  "drift": 0.03102107208216529,
+  "drift_pct": 4.308086232415049,
+  "std_rel_pct": 53.22820249657316,
+  "flags": [
+   "mroll_drift(4.3%)",
+   "mroll_noisy(std=53.2%)"
+  ]
+ },
+ "postprocess_error": null
+}

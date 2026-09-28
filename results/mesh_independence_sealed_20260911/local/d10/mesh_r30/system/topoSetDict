@@ -1,0 +1,2 @@
+FoamFile { version 2.0; format ascii; class dictionary; object topoSetDict; }
+actions ( { name gapCells; type cellSet; action new; source boxToCell; box (-0.081311 -0.00419698 0.0375552) (-0.080761 -0.00119698 0.0405552); } );

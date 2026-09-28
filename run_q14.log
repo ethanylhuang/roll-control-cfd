@@ -1,0 +1,259 @@
+12:36:55 start d00 M0.30_filled_fine_opensides
+13:51:14 done d00 M0.30_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.0001214345975498633,
+  sheet: row 8: M0.3 d0 Mroll -0.0001 Cl -0.00013 CA 0.90924 CY -0.00693 CN 0.00216 Cm -0.00899 Cn -0.03933 mroll_drift(45.6%), mroll_noisy(std=413.2%)
+13:51:15 start d00 M0.50_filled_fine_opensides
+14:43:32 done d00 M0.50_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.00045993721235455093,
+  sheet: row 16: M0.5 d0 Mroll -0.0005 Cl -0.00018 CA 0.91677 CY 0.00324 CN -0.00606 Cm 0.0368 Cn 0.01773 mroll_drift(32.2%), mroll_noisy(std=846.3%)
+14:43:34 start d00 M0.60_filled_fine_opensides
+15:36:26 done d00 M0.60_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.0007180306842838323,
+  sheet: row 24: M0.6 d0 Mroll -0.0007 Cl -0.00019 CA 0.93399 CY -0.0047 CN 0.00172 Cm -0.00734 Cn -0.0271 mroll_drift(90.6%), mroll_noisy(std=1468.3%)
+15:36:28 start d00 M0.70_filled_fine_opensides
+16:28:01 done d00 M0.70_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.0016159652435083834,
+  sheet: row 32: M0.7 d0 Mroll -0.0016 Cl -0.00032 CA 0.9678 CY -0.00127 CN 0.00025 Cm 0.00066 Cn -0.00772 mroll_drift(46.8%), mroll_noisy(std=520.2%)
+16:28:02 start d00 M0.80_filled_fine_opensides
+17:21:51 done d00 M0.80_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.0006666481172039521,
+  sheet: row 40: M0.8 d0 Mroll -0.0007 Cl -0.0001 CA 1.05224 CY -6e-05 CN -0.00042 Cm 0.00491 Cn -0.00119 mroll_drift(18.5%), mroll_noisy(std=670.8%)
+17:21:53 start d00 M0.85_filled_fine_opensides
+18:13:22 done d00 M0.85_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.0034120764646654485,
+  sheet: row 48: M0.85 d0 Mroll 0.0034 Cl 0.00046 CA 1.14656 CY 0.00298 CN 0.00228 Cm -0.0106 Cn 0.01687 mroll_drift(35.8%), mroll_noisy(std=419.9%)
+18:13:23 start d00 M0.90_filled_fine_opensides
+19:05:28 done d00 M0.90_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.007026862653608526,
+  sheet: row 56: M0.9 d0 Mroll 0.007 Cl 0.00084 CA 1.31121 CY 0.00096 CN 0.00026 Cm 0.00239 Cn 0.00384 mroll_drift(52.5%), mroll_noisy(std=85.2%)
+19:05:29 start d06 M0.30_filled_fine_opensides
+19:57:59 done d06 M0.30_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.03684978706287425,
+  sheet: row 10: M0.3 d6 Mroll 0.0368 Cl 0.03949 CA 0.90765 CY 0.0409 CN 0.00728 Cm -0.03833 Cn 0.17894 
+19:58:00 start d06 M0.50_filled_fine_opensides
+20:48:58 done d06 M0.50_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.10619842486407186,
+  sheet: row 18: M0.5 d6 Mroll 0.1062 Cl 0.04092 CA 0.91365 CY 0.04258 CN 0.00482 Cm -0.02517 Cn 0.18709 mroll_noisy(std=5.1%)
+20:48:59 start d06 M0.60_filled_fine_opensides
+21:40:04 done d06 M0.60_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.15772241837325351,
+  sheet: row 26: M0.6 d6 Mroll 0.1577 Cl 0.04221 CA 0.92947 CY 0.04525 CN 0.00331 Cm -0.01694 Cn 0.20063 mroll_noisy(std=5.9%)
+21:40:06 start d06 M0.70_filled_fine_opensides
+22:45:14 done d06 M0.70_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.22572583441317365,
+  sheet: row 34: M0.7 d6 Mroll 0.2257 Cl 0.04439 CA 0.96429 CY 0.05387 CN 0.00268 Cm -0.01355 Cn 0.24731 mroll_noisy(std=5.2%)
+22:45:15 start d06 M0.80_filled_fine_opensides
+00:11:09 done d06 M0.80_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.32631150555489025,
+  sheet: row 42: M0.8 d6 Mroll 0.3263 Cl 0.04914 CA 1.04861 CY 0.06036 CN 0.0007 Cm -0.00164 Cn 0.28145 
+00:11:09 start d06 M0.85_filled_fine_opensides
+01:20:34 done d06 M0.85_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.40032825738922156,
+  sheet: row 50: M0.85 d6 Mroll 0.4003 Cl 0.05342 CA 1.14192 CY 0.06421 CN 0.00011 Cm 0.00338 Cn 0.30317 
+01:20:35 start d06 M0.90_filled_fine_opensides
+02:16:05 done d06 M0.90_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.4946778846746507,
+  sheet: row 58: M0.9 d6 Mroll 0.4947 Cl 0.05894 CA 1.30719 CY 0.06488 CN 0.00302 Cm -0.01234 Cn 0.31096 
+02:16:05 start d12 M0.30_filled_fine_opensides
+03:09:03 done d12 M0.30_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.07911934773273453,
+  sheet: row 13: M0.3 d12 Mroll 0.0791 Cl 0.08479 CA 0.91063 CY 0.10279 CN 0.00614 Cm -0.03788 Cn 0.47101 
+03:09:04 start d12 M0.50_filled_fine_opensides
+04:01:15 done d12 M0.50_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.22857509954091815,
+  sheet: row 21: M0.5 d12 Mroll 0.2286 Cl 0.08808 CA 0.91658 CY 0.10702 CN 0.00524 Cm -0.03398 Cn 0.49186 
+04:01:16 start d12 M0.60_filled_fine_opensides
+04:54:31 done d12 M0.60_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.340110557736527,
+  sheet: row 29: M0.6 d12 Mroll 0.3401 Cl 0.09103 CA 0.93238 CY 0.10544 CN 0.00526 Cm -0.03476 Cn 0.48048 
+04:54:32 start d12 M0.70_filled_fine_opensides
+05:46:44 done d12 M0.70_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.4871438221596806,
+  sheet: row 37: M0.7 d12 Mroll 0.4871 Cl 0.09581 CA 0.96684 CY 0.11631 CN 0.00211 Cm -0.0181 Cn 0.53842 
+05:46:45 start d12 M0.80_filled_fine_opensides
+06:39:04 done d12 M0.80_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.697898017748503,
+  sheet: row 45: M0.8 d12 Mroll 0.6979 Cl 0.1051 CA 1.05253 CY 0.12775 CN -0.00076 Cm -0.00254 Cn 0.59984 
+06:39:05 start d12 M0.85_filled_fine_opensides
+07:30:59 done d12 M0.85_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.8457472920998004,
+  sheet: row 53: M0.85 d12 Mroll 0.8457 Cl 0.11286 CA 1.14723 CY 0.13345 CN 0.00093 Cm -0.01126 Cn 0.63484 
+07:31:00 start d12 M0.90_filled_fine_opensides
+08:22:54 done d12 M0.90_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":1.0027103714970058,
+  sheet: row 61: M0.9 d12 Mroll 1.0027 Cl 0.11947 CA 1.3133 CY 0.1294 CN 0.00494 Cm -0.03039 Cn 0.62295 mroll_noisy(std=9.3%)
+08:23:16 start d03 M0.30_filled_fine_opensides
+09:14:40 done d03 M0.30_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.020074127979041914,
+  sheet: row 9: M0.3 d3 Mroll 0.0201 Cl 0.02151 CA 0.90271 CY 0.03112 CN 0.00573 Cm -0.02658 Cn 0.14707 
+09:14:41 start d03 M0.50_filled_fine_opensides
+10:05:56 done d03 M0.50_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.05779276267065868,
+  sheet: row 17: M0.5 d3 Mroll 0.0578 Cl 0.02227 CA 0.9083 CY 0.03222 CN 0.00199 Cm -0.00641 Cn 0.15272 mroll_noisy(std=15.3%)
+10:05:57 start d03 M0.60_filled_fine_opensides
+10:58:04 done d03 M0.60_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.08605156355129741,
+  sheet: row 25: M0.6 d3 Mroll 0.0861 Cl 0.02303 CA 0.92479 CY 0.03092 CN 0.00318 Cm -0.01352 Cn 0.14492 mroll_noisy(std=18.2%)
+10:58:05 start d03 M0.70_filled_fine_opensides
+11:58:18 done d03 M0.70_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.1239141510219561,
+  sheet: row 33: M0.7 d3 Mroll 0.1239 Cl 0.02437 CA 0.95851 CY 0.0305 CN 0.00118 Cm -0.00267 Cn 0.14156 mroll_noisy(std=7.7%)
+11:58:19 start d03 M0.80_filled_fine_opensides
+12:59:05 done d03 M0.80_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.18189826606387224,
+  sheet: row 41: M0.8 d3 Mroll 0.1819 Cl 0.02739 CA 1.04439 CY 0.03503 CN -0.00185 Cm 0.01483 Cn 0.16571 mroll_noisy(std=8.3%)
+12:59:06 start d03 M0.85_filled_fine_opensides
+13:51:58 done d03 M0.85_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.22571753592814373,
+  sheet: row 49: M0.85 d3 Mroll 0.2257 Cl 0.03012 CA 1.13916 CY 0.03577 CN -0.00099 Cm 0.01091 Cn 0.16987 
+13:51:59 start d03 M0.90_filled_fine_opensides
+14:43:05 done d03 M0.90_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.2753625435469062,
+  sheet: row 57: M0.9 d3 Mroll 0.2754 Cl 0.03281 CA 1.30618 CY 0.03952 CN 0.00261 Cm -0.00872 Cn 0.19417 
+14:43:07 start d09 M0.30_filled_fine_opensides
+15:36:48 done d09 M0.30_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.05610020816027944,
+  sheet: row 11: M0.3 d9 Mroll 0.0561 Cl 0.06012 CA 0.90736 CY 0.07334 CN 0.00685 Cm -0.03759 Cn 0.33504 
+15:36:50 start d09 M0.50_filled_fine_opensides
+16:34:49 done d09 M0.50_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.16362933695808385,
+  sheet: row 19: M0.5 d9 Mroll 0.1636 Cl 0.06305 CA 0.91309 CY 0.07741 CN 0.0055 Cm -0.03109 Cn 0.35519 mroll_noisy(std=5.1%)
+16:34:50 start d09 M0.60_filled_fine_opensides
+17:32:11 done d09 M0.60_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.2448978660718563,
+  sheet: row 27: M0.6 d9 Mroll 0.2449 Cl 0.06555 CA 0.92916 CY 0.07779 CN 0.00461 Cm -0.02645 Cn 0.35489 mroll_noisy(std=5.5%)
+17:32:12 start d09 M0.70_filled_fine_opensides
+18:28:13 done d09 M0.70_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.3535885506207585,
+  sheet: row 35: M0.7 d9 Mroll 0.3536 Cl 0.06954 CA 0.96319 CY 0.08251 CN 0.00227 Cm -0.01385 Cn 0.37828 mroll_noisy(std=5.5%)
+18:28:14 start d09 M0.80_filled_fine_opensides
+19:25:07 done d09 M0.80_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.5103651012814371,
+  sheet: row 43: M0.8 d9 Mroll 0.5104 Cl 0.07686 CA 1.04872 CY 0.09223 CN 0.00045 Cm -0.00351 Cn 0.42982 
+19:25:08 start d09 M0.85_filled_fine_opensides
+19:43:53 done d09 M0.85_filled_fine_opensides rc=0: [solve] stop=diverged rc=0 iters=236 | "Mroll":0.13907404142000002,
+  sheet: row 51: M0.85 d9 Mroll 0.1391 Cl 0.01856 CA 0.2232 CY 0.01751 CN 0.00045 Cm -0.00292 Cn 0.08259 
+19:43:54 start d09 M0.90_filled_fine_opensides
+19:43:57 done d09 M0.90_filled_fine_opensides rc=1:  | 
+19:43:57 start d15 M0.30_filled_fine_opensides
+19:43:57 done d15 M0.30_filled_fine_opensides rc=1:  | 
+19:43:57 start d15 M0.50_filled_fine_opensides
+run_defl:6: no space left on device: run_d15_M0.50_filled_fine_opensides.log
+grep: run_d15_M0.50_filled_fine_opensides.log: No such file or directory
+grep: run_d15_M0.50_filled_fine_opensides.log: No such file or directory
+19:43:57 done d15 M0.50_filled_fine_opensides rc=1:  | 
+19:43:57 start d15 M0.60_filled_fine_opensides
+run_defl:6: no space left on device: run_d15_M0.60_filled_fine_opensides.log
+grep: run_d15_M0.60_filled_fine_opensides.log: No such file or directory
+grep: run_d15_M0.60_filled_fine_opensides.log: No such file or directory
+19:43:57 done d15 M0.60_filled_fine_opensides rc=1:  | 
+19:43:57 start d15 M0.70_filled_fine_opensides
+run_defl:6: no space left on device: run_d15_M0.70_filled_fine_opensides.log
+grep: run_d15_M0.70_filled_fine_opensides.log: No such file or directory
+grep: run_d15_M0.70_filled_fine_opensides.log: No such file or directory
+19:43:57 done d15 M0.70_filled_fine_opensides rc=1:  | 
+19:43:57 start d15 M0.80_filled_fine_opensides
+run_defl:6: no space left on device: run_d15_M0.80_filled_fine_opensides.log
+grep: run_d15_M0.80_filled_fine_opensides.log: No such file or directory
+grep: run_d15_M0.80_filled_fine_opensides.log: No such file or directory
+19:43:57 done d15 M0.80_filled_fine_opensides rc=1:  | 
+19:43:57 start d15 M0.85_filled_fine_opensides
+run_defl:6: no space left on device: run_d15_M0.85_filled_fine_opensides.log
+grep: run_d15_M0.85_filled_fine_opensides.log: No such file or directory
+grep: run_d15_M0.85_filled_fine_opensides.log: No such file or directory
+19:43:57 done d15 M0.85_filled_fine_opensides rc=1:  | 
+19:43:57 start d15 M0.90_filled_fine_opensides
+run_defl:6: no space left on device: run_d15_M0.90_filled_fine_opensides.log
+grep: run_d15_M0.90_filled_fine_opensides.log: No such file or directory
+grep: run_d15_M0.90_filled_fine_opensides.log: No such file or directory
+19:43:57 done d15 M0.90_filled_fine_opensides rc=1:  | 
+19:43:57 start dm06 M0.30_filled_fine_opensides
+run_defl:6: no space left on device: run_dm06_M0.30_filled_fine_opensides.log
+grep: run_dm06_M0.30_filled_fine_opensides.log: No such file or directory
+grep: run_dm06_M0.30_filled_fine_opensides.log: No such file or directory
+grep: : grep: : grep: 19:47:11 skip d00 M0.30_filled_fine_opensides (done)
+19:47:11 skip d00 M0.50_filled_fine_opensides (done)
+19:47:11 skip d00 M0.60_filled_fine_opensides (done)
+19:47:11 skip d00 M0.70_filled_fine_opensides (done)
+19:47:11 skip d00 M0.80_filled_fine_opensides (done)
+19:47:11 skip d00 M0.85_filled_fine_opensides (done)
+19:47:11 skip d00 M0.90_filled_fine_opensides (done)
+19:47:11 skip d06 M0.30_filled_fine_opensides (done)
+19:47:11 skip d06 M0.50_filled_fine_opensides (done)
+19:47:11 skip d06 M0.60_filled_fine_opensides (done)
+19:47:11 skip d06 M0.70_filled_fine_opensides (done)
+19:47:11 skip d06 M0.80_filled_fine_opensides (done)
+19:47:11 skip d06 M0.85_filled_fine_opensides (done)
+19:47:11 skip d06 M0.90_filled_fine_opensides (done)
+19:47:11 skip d12 M0.30_filled_fine_opensides (done)
+19:47:11 skip d12 M0.50_filled_fine_opensides (done)
+19:47:11 skip d12 M0.60_filled_fine_opensides (done)
+19:47:11 skip d12 M0.70_filled_fine_opensides (done)
+19:47:11 skip d12 M0.80_filled_fine_opensides (done)
+19:47:11 skip d12 M0.85_filled_fine_opensides (done)
+19:47:11 skip d12 M0.90_filled_fine_opensides (done)
+19:47:11 skip d03 M0.30_filled_fine_opensides (done)
+19:47:11 skip d03 M0.50_filled_fine_opensides (done)
+19:47:11 skip d03 M0.60_filled_fine_opensides (done)
+19:47:11 skip d03 M0.70_filled_fine_opensides (done)
+19:47:11 skip d03 M0.80_filled_fine_opensides (done)
+19:47:11 skip d03 M0.85_filled_fine_opensides (done)
+19:47:11 skip d03 M0.90_filled_fine_opensides (done)
+19:47:11 skip d09 M0.30_filled_fine_opensides (done)
+19:47:11 skip d09 M0.50_filled_fine_opensides (done)
+19:47:11 skip d09 M0.60_filled_fine_opensides (done)
+19:47:11 skip d09 M0.70_filled_fine_opensides (done)
+19:47:11 skip d09 M0.80_filled_fine_opensides (done)
+19:47:11 start d09 M0.85_filled_fine_opensides
+22:12:11 done d09 M0.85_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.61934553399002,
+  sheet: row 51: M0.85 d9 Mroll 0.6193 Cl 0.08265 CA 1.14253 CY 0.09723 CN 0.00111 Cm -0.00521 Cn 0.45923 
+22:12:13 start d09 M0.90_filled_fine_opensides
+01:42:52 done d09 M0.90_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.7505265997465069,
+  sheet: row 59: M0.9 d9 Mroll 0.7505 Cl 0.08943 CA 1.30857 CY 0.09497 CN 0.00563 Cm -0.02818 Cn 0.45362 
+01:43:34 start d15 M0.30_filled_fine_opensides
+05:26:56 done d15 M0.30_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.1019244615231537,
+  sheet: row 14: M0.3 d15 Mroll 0.1019 Cl 0.10923 CA 0.91516 CY 0.1299 CN 0.00511 Cm -0.03611 Cn 0.59389 
+05:26:58 start d15 M0.50_filled_fine_opensides
+05:38:43 skip d00 M0.30_filled_fine_opensides (done)
+05:38:43 skip d00 M0.50_filled_fine_opensides (done)
+05:38:43 skip d00 M0.60_filled_fine_opensides (done)
+05:38:43 skip d00 M0.70_filled_fine_opensides (done)
+05:38:43 skip d00 M0.80_filled_fine_opensides (done)
+05:38:43 skip d00 M0.85_filled_fine_opensides (done)
+05:38:43 skip d00 M0.90_filled_fine_opensides (done)
+05:38:43 skip d06 M0.30_filled_fine_opensides (done)
+05:38:43 skip d06 M0.50_filled_fine_opensides (done)
+05:38:43 skip d06 M0.60_filled_fine_opensides (done)
+05:38:43 skip d06 M0.70_filled_fine_opensides (done)
+05:38:43 skip d06 M0.80_filled_fine_opensides (done)
+05:38:43 skip d06 M0.85_filled_fine_opensides (done)
+05:38:43 skip d06 M0.90_filled_fine_opensides (done)
+05:38:43 skip d12 M0.30_filled_fine_opensides (done)
+05:38:43 skip d12 M0.50_filled_fine_opensides (done)
+05:38:43 skip d12 M0.60_filled_fine_opensides (done)
+05:38:43 skip d12 M0.70_filled_fine_opensides (done)
+05:38:43 skip d12 M0.80_filled_fine_opensides (done)
+05:38:43 skip d12 M0.85_filled_fine_opensides (done)
+05:38:43 skip d12 M0.90_filled_fine_opensides (done)
+05:38:43 skip d03 M0.30_filled_fine_opensides (done)
+05:38:43 skip d03 M0.50_filled_fine_opensides (done)
+05:38:43 skip d03 M0.60_filled_fine_opensides (done)
+05:38:43 skip d03 M0.70_filled_fine_opensides (done)
+05:38:43 skip d03 M0.80_filled_fine_opensides (done)
+05:38:43 skip d03 M0.85_filled_fine_opensides (done)
+05:38:43 skip d03 M0.90_filled_fine_opensides (done)
+05:38:43 skip d09 M0.30_filled_fine_opensides (done)
+05:38:43 skip d09 M0.50_filled_fine_opensides (done)
+05:38:43 skip d09 M0.60_filled_fine_opensides (done)
+05:38:43 skip d09 M0.70_filled_fine_opensides (done)
+05:38:43 skip d09 M0.80_filled_fine_opensides (done)
+05:38:43 skip d09 M0.85_filled_fine_opensides (done)
+05:38:43 skip d09 M0.90_filled_fine_opensides (done)
+05:38:43 skip d15 M0.30_filled_fine_opensides (done)
+05:38:43 start d15 M0.50_filled_fine_opensides
+06:42:01 done d15 M0.50_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.29181209899002,
+  sheet: row 22: M0.5 d15 Mroll 0.2918 Cl 0.11245 CA 0.92138 CY 0.13515 CN 0.00311 Cm -0.02604 Cn 0.62057 
+06:42:02 start d15 M0.60_filled_fine_opensides
+07:45:40 done d15 M0.60_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.43044302104990023,
+  sheet: row 30: M0.6 d15 Mroll 0.4304 Cl 0.11521 CA 0.9374 CY 0.13817 CN 0.003 Cm -0.0262 Cn 0.63528 
+07:45:41 start d15 M0.70_filled_fine_opensides
+08:48:12 done d15 M0.70_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.6103478915429141,
+  sheet: row 38: M0.7 d15 Mroll 0.6103 Cl 0.12004 CA 0.97297 CY 0.14553 CN 0.00158 Cm -0.01932 Cn 0.67395 
+08:48:14 start d15 M0.80_filled_fine_opensides
+09:51:38 done d15 M0.80_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.8668709451037924,
+  sheet: row 46: M0.8 d15 Mroll 0.8669 Cl 0.13054 CA 1.05846 CY 0.15765 CN -0.0003 Cm -0.00976 Cn 0.73951 
+09:51:40 start d15 M0.85_filled_fine_opensides
+10:45:50 done d15 M0.85_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":1.051829464530938,
+  sheet: row 54: M0.85 d15 Mroll 1.0518 Cl 0.14036 CA 1.15281 CY 0.16411 CN 0.00025 Cm -0.01126 Cn 0.77856 
+10:45:51 start d15 M0.90_filled_fine_opensides
+11:46:06 done d15 M0.90_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":1.0845606917165669,
+  sheet: row 62: M0.9 d15 Mroll 1.0846 Cl 0.12923 CA 1.32306 CY 0.13865 CN 0.01091 Cm -0.06703 Cn 0.66558 mroll_drift(36.7%), mroll_noisy(std=20.8%)
+11:46:07 start dm06 M0.30_filled_fine_opensides
+12:40:35 done dm06 M0.30_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.036549513065469066,
+  sheet: row 7: M0.3 d-6 Mroll -0.0365 Cl -0.03917 CA 0.9074 CY -0.05192 CN 0.00583 Cm -0.02905 Cn -0.2414 
+12:40:36 start dm06 M0.50_filled_fine_opensides
+13:32:08 done dm06 M0.50_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.10576689749321357,
+  sheet: row 15: M0.5 d-6 Mroll -0.1058 Cl -0.04076 CA 0.91339 CY -0.05315 CN 0.00482 Cm -0.02407 Cn -0.24665 mroll_noisy(std=7.9%)
+13:32:10 start dm06 M0.60_filled_fine_opensides
+14:24:25 done dm06 M0.60_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.1576355614530938,
+  sheet: row 23: M0.6 d-6 Mroll -0.1576 Cl -0.04219 CA 0.92928 CY -0.05538 CN 0.00322 Cm -0.01556 Cn -0.25786 mroll_noisy(std=5.0%)
+14:24:26 start dm06 M0.70_filled_fine_opensides
+15:15:44 done dm06 M0.70_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.22663732335728545,
+  sheet: row 31: M0.7 d-6 Mroll -0.2266 Cl -0.04457 CA 0.96418 CY -0.0578 CN 0.00134 Cm -0.00527 Cn -0.27005 mroll_noisy(std=5.1%)
+15:15:45 start dm06 M0.80_filled_fine_opensides
+16:07:32 done dm06 M0.80_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.3255202603512974,
+  sheet: row 39: M0.8 d-6 Mroll -0.3255 Cl -0.04902 CA 1.04857 CY -0.06031 CN 0.00085 Cm -0.00177 Cn -0.28227 mroll_noisy(std=5.5%)
+16:07:33 start dm06 M0.85_filled_fine_opensides
+17:00:49 done dm06 M0.85_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.3933046238123753,
+  sheet: row 47: M0.85 d-6 Mroll -0.3933 Cl -0.05249 CA 1.14143 CY -0.06238 CN 0.00044 Cm 0.00224 Cn -0.29499 mroll_noisy(std=6.4%)
+17:00:50 start dm06 M0.90_filled_fine_opensides
+17:58:15 done dm06 M0.90_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.47789953372255495,
+  sheet: row 55: M0.9 d-6 Mroll -0.4779 Cl -0.05694 CA 1.30704 CY -0.06358 CN 0.00493 Cm -0.02152 Cn -0.30665 mroll_drift(7.2%), mroll_noisy(std=5.8%)
+17:58:16 Q14 DONE

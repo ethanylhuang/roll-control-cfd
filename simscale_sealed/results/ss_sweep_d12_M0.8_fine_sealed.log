@@ -1,0 +1,4 @@
+03:18:09 sim f6e76541 run d4ecb6ff started (V=271.3, mesh e2583c24)
+04:08:26 run FINISHED CPUh 12.645277777777778
+{"moments_Nm": {"Mroll": 0.8142066228181046, "Mpitch": -0.14845964725687294, "Myaw": 5.906247478046788}, "forces_N": {"Fx": 0.06009692502058203, "Fy": 17.4329811183884, "Fz": -125.53706737542133}, "convergence": {"std_rel_pct": 2.6271958965893227, "block_std_pct": 0.029957191339883185, "block_means": [0.8138850184796512, 0.8141162309937252, 0.814520895110058, 0.8145357922519104, 0.8141665949469948, 0.8140152051262884], "drift_pct": 0.0751358242147048, "window": 1500, "p_residual": 0.000170798431323, "flags": []}}
+RESULT /Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d12_M0.8_fine_sealed.json

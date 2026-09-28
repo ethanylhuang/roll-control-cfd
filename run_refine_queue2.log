@@ -1,0 +1,7 @@
+08:50:45 start M0.90_sealedfine_opensides
+10:08:09 done M0.90_sealedfine_opensides: [solve] stop=endTime rc=0 iters=3000 [d10] mesh_sealed_fine OK cells=1500105 coverage={'rocket_body': 98.9, 'rocket_fins': 94.5, 'rocket_tab': 50.9} gap~None
+10:08:09 start M0.60_sealedfine_opensides
+11:23:53 done M0.60_sealedfine_opensides: [solve] stop=endTime rc=0 iters=3000 
+11:23:53 start M0.60_gap8_opensides
+12:20:27 done M0.60_gap8_opensides: [solve] stop=endTime rc=0 iters=3000 
+12:20:27 start M0.60_gap9_opensides

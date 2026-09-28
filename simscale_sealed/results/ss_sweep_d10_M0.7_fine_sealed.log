@@ -1,0 +1,4 @@
+05:03:07 sim bae6736d run 83f3f6ec started (V=237.4, mesh 58b60269)
+05:53:24 run FINISHED CPUh 12.840277777777779
+{"moments_Nm": {"Mroll": 0.45774099657282447, "Mpitch": 0.020344777683120527, "Myaw": 3.290399193040678}, "forces_N": {"Fx": -0.2516336651933258, "Fy": 9.83521040345846, "Fz": -86.29146564862798}, "convergence": {"std_rel_pct": 5.141202668544078, "block_std_pct": 0.009607455139074815, "block_means": [0.4577340545570324, 0.457771543143568, 0.45777107559588043, 0.4577772762206216, 0.4577426789761376, 0.4576493509437068], "drift_pct": 0.01830170535320209, "window": 1500, "p_residual": 0.000162460934906, "flags": []}}
+RESULT /Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d10_M0.7_fine_sealed.json

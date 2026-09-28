@@ -1,0 +1,14 @@
+{
+  "computeResource": {
+    "type": "CPU_HOURS",
+    "value": 5.434722222222222
+  },
+  "createdAt": "2026-09-11T04:10:58.308881Z",
+  "duration": "PT10M11.421855S",
+  "finishedAt": "2026-09-11T04:22:05.423911Z",
+  "name": "MI d15 startup diagnostic h relaxation 0.2 \u2014 100 iterations",
+  "progress": 1.0,
+  "runId": "b67f503b-9032-4a50-87e8-9059951463b0",
+  "startedAt": "2026-09-11T04:11:54.002056Z",
+  "status": "FINISHED"
+}

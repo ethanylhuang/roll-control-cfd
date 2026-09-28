@@ -1,0 +1,48 @@
+{
+  "case": "sealed CAD, 15 deg tab, M1.2 (V 406.9 m/s, p 97690 Pa, T 286.2 K), fine mesh 1.5 M cells, local OpenFOAM only (SimScale could not hold M1.2)",
+  "steady_restart": {
+    "solver": "rhoSimpleFoam restart from M0.90_sealedcad_fine_opensides/2000, iteration ramp 305.0->406.9 m/s over 300, transonic True, consistent True, relax 'p=1,U=0.9,h=0.8,k=0.9,omega=0.9'",
+    "Mroll_Nm": 1.93124025712,
+    "Myaw_Nm": 15.396804784,
+    "Fz_N": -421.03389398400003,
+    "note": "converged to 0.01 %; SIMPLEC steady state is not a fixed point of the transient: the transient relaxes away from it within 0.25 ms"
+  },
+  "transient": {
+    "solver": "rhoPimpleFoam Euler PIMPLE 2x2 transonic yes",
+    "endtime_s": 0.01,
+    "dt_s": 3e-06,
+    "window": {
+      "t_start": 0.0075,
+      "t_end": 0.009999,
+      "n": 834
+    },
+    "Mroll_Nm": 1.7896190353357315,
+    "Myaw_Nm": 9.989556219616308,
+    "Mpitch_Nm": -0.30319983467146283,
+    "Fz_N": -328.66808387889694,
+    "Fy_N": 28.5804166911271,
+    "std_pct": 0.018004596154501413,
+    "drift_pct": 0.04388449010940248,
+    "quarter_means": [
+      1.7895299028846154,
+      1.7892563977033495,
+      1.7896022362019228,
+      1.7900870977033492
+    ],
+    "note": "flat from 1.5 ms on; recommended M1.2 value"
+  },
+  "reference_M0.90_transient": {
+    "Mroll_Nm": 1.4252916389339019,
+    "Fz_N": -188.76739007889125
+  },
+  "caveats": [
+    "fixed-pressure side boundaries 0.6 m from the axis reflect the nose shock back onto the body ahead of the fins (domain artifact at M>1); axial force at M1.2 is therefore not trustworthy, roll moment is local to the tab and less affected",
+    "steady vs transient differ by 7 % on roll and 22 % on axial force -> treat the M1.2 roll as 1.79 N.m with ~+8 % upper bound"
+  ],
+  "files": {
+    "steady_case": "runs_v4/d15/M1.20_sealedcad_fine_restart",
+    "transient_case": "runs_v4/d15/M1.20_sealedcad_fine_transient",
+    "still": "results/anim/d15_M1.20_sealedcad_fine_restart_still.png",
+    "video": "results/anim/d15_M1.20_sealedcad_fine_transient.mp4"
+  }
+}

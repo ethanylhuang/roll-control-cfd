@@ -1,0 +1,5 @@
+16:03:12 start local-on-SimScale-mesh --simscale-bcs
+16:56:46 done --simscale-bcs rc=0: 16:56:46 solver rc=0 last=2000 stop=endTime wall=3209s | "Mroll":0.8486579832235529,
+16:56:46 start local-on-SimScale-mesh --simscale-schemes
+17:50:21 done --simscale-schemes rc=0: 17:50:21 solver rc=0 last=2000 stop=endTime wall=3211s | "Mroll":0.7197596396019681,
+17:50:21 Q6 DONE

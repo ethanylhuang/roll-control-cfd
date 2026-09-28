@@ -1,0 +1,1092 @@
+{
+  "tables": {},
+  "primitives": {
+    "domain": "a9f86493-124a-43b8-b406-06c2893a1fc5",
+    "wake": "262a5148-c595-4aaa-811d-bbbfcc405384",
+    "slot": "c7dee2a8-4588-4481-9a52-fecb556ed58b"
+  },
+  "deflections": {
+    "d06": {
+      "runs": {},
+      "rocket_geometry_id": "e8daa3ff-d27c-4b53-8199-be9e76854a53",
+      "onshape": {
+        "deflection_deg": 6.0,
+        "path": "/Users/trasomi/dev/cfd/runs_simscale_v3/d06/geometry/d06_filled_rocket.x_t",
+        "bytes": 214966,
+        "deflection_readback": "6 deg",
+        "api_requests": 3
+      },
+      "waiting_for_extraction": true
+    },
+    "d00": {
+      "runs": {},
+      "rocket_geometry_id": "6525e043-ad7e-433c-902e-53bd8ece18ad",
+      "onshape": {
+        "deflection_deg": 0.0,
+        "path": "/Users/trasomi/dev/cfd/runs_simscale_v3/d00/geometry/d00_filled_rocket.x_t",
+        "bytes": 213822,
+        "deflection_readback": "0 deg",
+        "api_requests": 4
+      },
+      "waiting_for_extraction": true
+    },
+    "d03": {
+      "runs": {},
+      "rocket_geometry_id": "4f1d9798-497b-42e3-ac2e-3543fc6ab6c0",
+      "onshape": {
+        "deflection_deg": 3.0,
+        "path": "/Users/trasomi/dev/cfd/runs_simscale_v3/d03/geometry/d03_filled_rocket.x_t",
+        "bytes": 214979,
+        "deflection_readback": "3 deg",
+        "api_requests": 3
+      },
+      "waiting_for_extraction": true
+    },
+    "dm06": {
+      "runs": {},
+      "rocket_geometry_id": "d5500178-4f3c-49ff-86a3-f2aadb77af4c",
+      "onshape": {
+        "deflection_deg": -6.0,
+        "path": "/Users/trasomi/dev/cfd/runs_simscale_v3/dm06/geometry/dm06_filled_rocket.x_t",
+        "bytes": 214955,
+        "deflection_readback": "-6 deg",
+        "api_requests": 3
+      },
+      "waiting_for_extraction": true
+    },
+    "d09": {
+      "runs": {},
+      "rocket_geometry_id": "1a395624-fdb4-421e-b8f2-15b2b570ce14",
+      "onshape": {
+        "deflection_deg": 9.0,
+        "path": "/Users/trasomi/dev/cfd/runs_simscale_v3/d09/geometry/d09_filled_rocket.x_t",
+        "bytes": 214976,
+        "deflection_readback": "9 deg",
+        "api_requests": 3
+      },
+      "waiting_for_extraction": true
+    },
+    "d12": {
+      "runs": {},
+      "rocket_geometry_id": "2836ca9a-b354-47ce-9e96-4067abbdc51c",
+      "onshape": {
+        "deflection_deg": 12.0,
+        "path": "/Users/trasomi/dev/cfd/runs_simscale_v3/d12/geometry/d12_filled_rocket.x_t",
+        "bytes": 214968,
+        "deflection_readback": "12 deg",
+        "api_requests": 3
+      },
+      "waiting_for_extraction": true
+    },
+    "d15": {
+      "runs": {},
+      "rocket_geometry_id": "4b8daf2b-eb00-4a91-969f-795f7705d6da",
+      "onshape": {
+        "deflection_deg": 15.0,
+        "path": "/Users/trasomi/dev/cfd/runs_simscale_v3/d15/geometry/d15_filled_rocket.x_t",
+        "bytes": 214979,
+        "deflection_readback": "15 deg",
+        "api_requests": 3
+      }
+    }
+  },
+  "core_hours": {},
+  "reference": {
+    "mesh_model": {
+      "type": "FULL_SNAPPY_HEX_MESH",
+      "boundingBoxUuid": "9fdf2869-7050-41c8-ad8c-cea0812a1e1d",
+      "boundingBoxResolution": {
+        "x": 25,
+        "y": 25,
+        "z": 118
+      },
+      "castellatedMeshControls": {
+        "maxLocalCells": 40000000,
+        "maxGlobalCells": 100000000,
+        "minRefinementCells": 100,
+        "maxLoadUnbalance": 0.2,
+        "cellsBetweenLevels": 3,
+        "resolveFeatureAngle": 30,
+        "allowFreeStandingZoneFaces": false
+      },
+      "snapControls": {
+        "meshToGeometryConformationIterations": 5,
+        "tolerance": 2,
+        "solverIterations": 150,
+        "relaxIterations": 8,
+        "maxMexConformationIterations": 10,
+        "implicitFeatureSnap": false,
+        "explicitFeatureSnap": true,
+        "detectFeaturesBetweenMultipleSurfaces": true
+      },
+      "layerAddingControls": {
+        "relativeSize": true,
+        "maxCancelledLayersNearSharpFeatures": 0,
+        "featureAngle": {
+          "value": 150,
+          "unit": "\u00b0"
+        },
+        "slipFeatureAngle": {
+          "value": 75,
+          "unit": "\u00b0"
+        },
+        "relaxIterations": 8,
+        "surfaceNormalsMaxSmoothingIterations": 2,
+        "internalMeshMaxSmoothingIterations": 5,
+        "layerThicknessMaxSmoothingIterations": 10,
+        "maxFaceThicknessRatio": 0.5,
+        "maxThicknessToMedialRatio": 0.3,
+        "minMedianAxisAngle": {
+          "value": 90,
+          "unit": "\u00b0"
+        },
+        "bufferCellsNoExtrude": 0,
+        "layerAdditionMaxIterations": 50,
+        "maxIterationsWithStrictQualityControls": 20
+      },
+      "meshQualityControls": {
+        "maxNonOrthogonality": {
+          "value": 70,
+          "unit": "\u00b0"
+        },
+        "maxBoundarySkewness": {
+          "value": 20,
+          "unit": "\u00b0"
+        },
+        "maxInternalSkewness": {
+          "value": 4,
+          "unit": "\u00b0"
+        },
+        "maxConcaveness": {
+          "value": 80,
+          "unit": "\u00b0"
+        },
+        "minVolume": {
+          "value": 1e-13,
+          "unit": "m\u00b3"
+        },
+        "minTetQuality": -1000000000000000000000000000000,
+        "minFaceArea": {
+          "value": -1,
+          "unit": "m\u00b2"
+        },
+        "minFaceTwist": 0.01,
+        "minDeterminant": 0.001,
+        "minFaceWeight": 0.02,
+        "minVolumeRatio": 0.01,
+        "minTriangleTwist": -1,
+        "errorDistributionIterations": 4,
+        "errorReduction": 0.75,
+        "relaxedMaxNonOrthogonality": {
+          "value": 75,
+          "unit": "\u00b0"
+        },
+        "mergeTolerance": 1e-06
+      },
+      "refinements": [
+        {
+          "type": "SURFACE_V3",
+          "name": "Surface refinement 1",
+          "minLevel": 4,
+          "maxLevel": 4,
+          "cellZone": {
+            "type": "WITHOUT_CELL_ZONE"
+          },
+          "topologicalReference": {
+            "entities": [
+              "B5_TE1653",
+              "B5_TE1660",
+              "B5_TE1667",
+              "B5_TE1674",
+              "B5_TE1681",
+              "B5_TE1688",
+              "B5_TE1695",
+              "B5_TE1702",
+              "B5_TE1710",
+              "B5_TE1717",
+              "B5_TE1725",
+              "B5_TE1732",
+              "B5_TE1739",
+              "B5_TE1767",
+              "B5_TE1774",
+              "B5_TE1781",
+              "B5_TE1788",
+              "B5_TE1802",
+              "B5_TE1809",
+              "B5_TE1816",
+              "B5_TE1823",
+              "B5_TE1830",
+              "B5_TE1837",
+              "B5_TE1844",
+              "B5_TE1851",
+              "B5_TE1858",
+              "B5_TE1865",
+              "B5_TE1872",
+              "B5_TE1879",
+              "B5_TE1886",
+              "B5_TE1893",
+              "B5_TE1900",
+              "B5_TE1907",
+              "B5_TE1914",
+              "B5_TE1921",
+              "B5_TE1928",
+              "B5_TE1935",
+              "B5_TE1942",
+              "B5_TE1950",
+              "B5_TE1957",
+              "B5_TE1964",
+              "B5_TE1971",
+              "B5_TE1978",
+              "B5_TE1985",
+              "B5_TE1992",
+              "B5_TE1999",
+              "B5_TE2006",
+              "B5_TE2013",
+              "B5_TE2020",
+              "B5_TE2027",
+              "B5_TE2034",
+              "B5_TE2041",
+              "B5_TE2048",
+              "B5_TE2055",
+              "B5_TE2062",
+              "B5_TE2069",
+              "B5_TE2076",
+              "B5_TE2083",
+              "B5_TE2090",
+              "B5_TE2097",
+              "B5_TE2104",
+              "B5_TE2111",
+              "B5_TE2118",
+              "B5_TE2125",
+              "B5_TE2132",
+              "B5_TE2139",
+              "B5_TE2146",
+              "B5_TE2153",
+              "B5_TE2160",
+              "B5_TE2167",
+              "B5_TE2174",
+              "B5_TE2181",
+              "B5_TE2188",
+              "B5_TE2195",
+              "B5_TE2202",
+              "B5_TE2210"
+            ],
+            "sets": []
+          }
+        },
+        {
+          "type": "SURFACE_V3",
+          "name": "Surface refinement 2",
+          "minLevel": 5,
+          "maxLevel": 5,
+          "cellZone": {
+            "type": "WITHOUT_CELL_ZONE"
+          },
+          "topologicalReference": {
+            "entities": [
+              "B5_TE1653",
+              "B5_TE1660",
+              "B5_TE1667",
+              "B5_TE1674",
+              "B5_TE1681",
+              "B5_TE1688",
+              "B5_TE1695",
+              "B5_TE1702",
+              "B5_TE1710",
+              "B5_TE1717",
+              "B5_TE1725",
+              "B5_TE1732",
+              "B5_TE1739",
+              "B5_TE1767",
+              "B5_TE1774",
+              "B5_TE1781",
+              "B5_TE1788",
+              "B5_TE1802",
+              "B5_TE1809",
+              "B5_TE1816",
+              "B5_TE1823",
+              "B5_TE1830",
+              "B5_TE1837",
+              "B5_TE1844",
+              "B5_TE1851",
+              "B5_TE1858",
+              "B5_TE1865",
+              "B5_TE1872",
+              "B5_TE1879",
+              "B5_TE1886",
+              "B5_TE1893",
+              "B5_TE1900",
+              "B5_TE1907",
+              "B5_TE1914",
+              "B5_TE1921",
+              "B5_TE1928",
+              "B5_TE1935",
+              "B5_TE1942",
+              "B5_TE1950",
+              "B5_TE1957",
+              "B5_TE1964",
+              "B5_TE1971",
+              "B5_TE1978",
+              "B5_TE1985",
+              "B5_TE1992",
+              "B5_TE1999",
+              "B5_TE2006",
+              "B5_TE2013",
+              "B5_TE2020",
+              "B5_TE2027",
+              "B5_TE2034",
+              "B5_TE2041",
+              "B5_TE2048",
+              "B5_TE2055",
+              "B5_TE2062",
+              "B5_TE2069",
+              "B5_TE2076",
+              "B5_TE2083",
+              "B5_TE2090",
+              "B5_TE2097",
+              "B5_TE2104",
+              "B5_TE2111",
+              "B5_TE2118",
+              "B5_TE2125",
+              "B5_TE2132",
+              "B5_TE2139",
+              "B5_TE2146",
+              "B5_TE2153",
+              "B5_TE2160",
+              "B5_TE2167",
+              "B5_TE2174",
+              "B5_TE2181",
+              "B5_TE2188",
+              "B5_TE2195",
+              "B5_TE2202",
+              "B5_TE2210"
+            ],
+            "sets": []
+          }
+        },
+        {
+          "type": "REGION_LEVELS",
+          "name": "Region refinement 5",
+          "refinement": {
+            "type": "INSIDE",
+            "level": 2
+          },
+          "topologicalReference": {
+            "entities": [],
+            "sets": []
+          },
+          "geometryPrimitiveUuids": [
+            "18182ce4-c7ff-4da2-bbec-8a2c192ea202"
+          ]
+        },
+        {
+          "type": "LAYER_ADDITION",
+          "name": "Inflate boundary layer 6",
+          "layers": 4,
+          "expansionRatio": 1.3,
+          "minThickness": 0.3,
+          "finalLayerThickness": 0.4,
+          "topologicalReference": {
+            "entities": [
+              "B5_TE1653",
+              "B5_TE1660",
+              "B5_TE1667",
+              "B5_TE1674",
+              "B5_TE1681",
+              "B5_TE1688",
+              "B5_TE1695",
+              "B5_TE1702",
+              "B5_TE1710",
+              "B5_TE1717",
+              "B5_TE1725",
+              "B5_TE1732",
+              "B5_TE1739",
+              "B5_TE1767",
+              "B5_TE1774",
+              "B5_TE1781",
+              "B5_TE1788",
+              "B5_TE1802",
+              "B5_TE1809",
+              "B5_TE1816",
+              "B5_TE1823",
+              "B5_TE1830",
+              "B5_TE1837",
+              "B5_TE1844",
+              "B5_TE1851",
+              "B5_TE1858",
+              "B5_TE1865",
+              "B5_TE1872",
+              "B5_TE1879",
+              "B5_TE1886",
+              "B5_TE1893",
+              "B5_TE1900",
+              "B5_TE1907",
+              "B5_TE1914",
+              "B5_TE1921",
+              "B5_TE1928",
+              "B5_TE1935",
+              "B5_TE1942",
+              "B5_TE1950",
+              "B5_TE1957",
+              "B5_TE1964",
+              "B5_TE1971",
+              "B5_TE1978",
+              "B5_TE1985",
+              "B5_TE1992",
+              "B5_TE1999",
+              "B5_TE2006",
+              "B5_TE2013",
+              "B5_TE2020",
+              "B5_TE2027",
+              "B5_TE2034",
+              "B5_TE2041",
+              "B5_TE2048",
+              "B5_TE2055",
+              "B5_TE2062",
+              "B5_TE2069",
+              "B5_TE2076",
+              "B5_TE2083",
+              "B5_TE2090",
+              "B5_TE2097",
+              "B5_TE2104",
+              "B5_TE2111",
+              "B5_TE2118",
+              "B5_TE2125",
+              "B5_TE2132",
+              "B5_TE2139",
+              "B5_TE2146",
+              "B5_TE2153",
+              "B5_TE2160",
+              "B5_TE2167",
+              "B5_TE2174",
+              "B5_TE2181",
+              "B5_TE2188",
+              "B5_TE2195",
+              "B5_TE2202",
+              "B5_TE2210"
+            ],
+            "sets": []
+          }
+        }
+      ],
+      "numOfProcessors": 32,
+      "maxMeshingRunTime": {
+        "value": 18000,
+        "unit": "s"
+      }
+    },
+    "mesh_version": "internal:65",
+    "mesh_name": "d10 filled sealed (from Mesh 48)",
+    "sim_model": {
+      "type": "COMPRESSIBLE",
+      "turbulenceModel": "KOMEGASST",
+      "timeDependency": {
+        "type": "STATIONARY"
+      },
+      "model": {},
+      "materials": {
+        "fluids": [
+          {
+            "type": "COMPRESSIBLE",
+            "name": "Air",
+            "specie": {
+              "type": "SPECIE",
+              "molarWeight": {
+                "value": 28.97,
+                "unit": "kg/kmol"
+              }
+            },
+            "transport": {
+              "type": "CONST",
+              "dynamicViscosity": {
+                "value": 1.83e-05,
+                "unit": "kg/(s\u00b7m)"
+              },
+              "prandtlNumber": 0.713,
+              "thermo": {
+                "type": "HCONST",
+                "specificHeat": {
+                  "value": 1004,
+                  "unit": "J/(kg\u00b7K)"
+                },
+                "equationOfState": {
+                  "type": "PERFECT_GAS",
+                  "energy": "SENSIBLE_ENTHALPY"
+                }
+              }
+            },
+            "topologicalReference": {
+              "entities": [
+                "B5_TE5"
+              ],
+              "sets": []
+            },
+            "materialLibraryReference": {
+              "materialGroupId": "internal:af500b1b-bafb-421d-afa3-c976dc706f52",
+              "materialId": "internal:9d5b2b44-38fb-4080-92bb-6ca41ea1664f",
+              "interpolationParameters": {}
+            }
+          }
+        ]
+      },
+      "initialConditions": {
+        "pressure": {
+          "global": {
+            "value": 97690,
+            "unit": "Pa"
+          },
+          "subdomains": []
+        },
+        "velocity": {
+          "global": {
+            "value": {
+              "x": 0,
+              "y": 0,
+              "z": -50.0
+            },
+            "unit": "m/s"
+          },
+          "subdomains": []
+        },
+        "temperature": {
+          "global": {
+            "value": 286.2,
+            "unit": "K"
+          },
+          "subdomains": []
+        },
+        "turbulentKineticEnergy": {
+          "global": {
+            "value": 13.98,
+            "unit": "m\u00b2/s\u00b2"
+          }
+        },
+        "omegaDissipationRate": {
+          "global": {
+            "value": 93500,
+            "unit": "1/s"
+          }
+        }
+      },
+      "boundaryConditions": [
+        {
+          "name": "Velocity inlet 1",
+          "type": "VELOCITY_INLET_V3",
+          "velocity": {
+            "type": "FIXED_VALUE",
+            "value": {
+              "value": {
+                "type": "TABLE_DEFINED",
+                "label": "Table",
+                "tableId": "af92db04-2592-4a5f-9a6a-59f533ec2493",
+                "resultIndex": [
+                  2,
+                  3,
+                  4
+                ],
+                "independentVariables": [
+                  {
+                    "reference": 1,
+                    "parameter": "T",
+                    "unit": "s"
+                  }
+                ],
+                "separator": ",",
+                "outOfBounds": "CLAMP"
+              },
+              "unit": "m/s"
+            }
+          },
+          "turbulence": {
+            "type": "AUTOMATIC_TURBULENCE"
+          },
+          "temperature": {
+            "type": "FIXED_VALUE",
+            "value": {
+              "value": {
+                "type": "CONSTANT",
+                "value": 286.2
+              },
+              "unit": "K"
+            }
+          },
+          "topologicalReference": {
+            "entities": [
+              "B5_TE36"
+            ],
+            "sets": []
+          }
+        },
+        {
+          "name": "Pressure outlet 2",
+          "type": "PRESSURE_OUTLET_V30",
+          "pressure": {
+            "type": "FIXED_VALUE",
+            "value": {
+              "value": {
+                "type": "CONSTANT",
+                "value": 97690
+              },
+              "unit": "Pa"
+            }
+          },
+          "topologicalReference": {
+            "entities": [
+              "B5_TE9"
+            ],
+            "sets": []
+          }
+        },
+        {
+          "name": "Sides open (pressure outlet)",
+          "type": "PRESSURE_OUTLET_V30",
+          "pressure": {
+            "type": "FIXED_VALUE",
+            "value": {
+              "value": {
+                "type": "CONSTANT",
+                "value": 97690
+              },
+              "unit": "Pa"
+            }
+          },
+          "topologicalReference": {
+            "entities": [
+              "B5_TE2",
+              "B5_TE30",
+              "B5_TE27",
+              "B5_TE33"
+            ],
+            "sets": []
+          }
+        },
+        {
+          "name": "Wall 4",
+          "type": "WALL_V34",
+          "velocity": {
+            "type": "NO_SLIP",
+            "turbulenceWall": "WALL_FUNCTION"
+          },
+          "temperature": {
+            "type": "ADIABATIC"
+          },
+          "topologicalReference": {
+            "entities": [
+              "B5_TE1653",
+              "B5_TE1660",
+              "B5_TE1667",
+              "B5_TE1674",
+              "B5_TE1681",
+              "B5_TE1688",
+              "B5_TE1695",
+              "B5_TE1702",
+              "B5_TE1710",
+              "B5_TE1717",
+              "B5_TE1725",
+              "B5_TE1732",
+              "B5_TE1739",
+              "B5_TE1767",
+              "B5_TE1774",
+              "B5_TE1781",
+              "B5_TE1788",
+              "B5_TE1802",
+              "B5_TE1809",
+              "B5_TE1816",
+              "B5_TE1823",
+              "B5_TE1830",
+              "B5_TE1837",
+              "B5_TE1844",
+              "B5_TE1851",
+              "B5_TE1858",
+              "B5_TE1865",
+              "B5_TE1872",
+              "B5_TE1879",
+              "B5_TE1886",
+              "B5_TE1893",
+              "B5_TE1900",
+              "B5_TE1907",
+              "B5_TE1914",
+              "B5_TE1921",
+              "B5_TE1928",
+              "B5_TE1935",
+              "B5_TE1942",
+              "B5_TE1950",
+              "B5_TE1957",
+              "B5_TE1964",
+              "B5_TE1971",
+              "B5_TE1978",
+              "B5_TE1985",
+              "B5_TE1992",
+              "B5_TE1999",
+              "B5_TE2006",
+              "B5_TE2013",
+              "B5_TE2020",
+              "B5_TE2027",
+              "B5_TE2034",
+              "B5_TE2041",
+              "B5_TE2048",
+              "B5_TE2055",
+              "B5_TE2062",
+              "B5_TE2069",
+              "B5_TE2076",
+              "B5_TE2083",
+              "B5_TE2090",
+              "B5_TE2097",
+              "B5_TE2104",
+              "B5_TE2111",
+              "B5_TE2118",
+              "B5_TE2125",
+              "B5_TE2132",
+              "B5_TE2139",
+              "B5_TE2146",
+              "B5_TE2153",
+              "B5_TE2160",
+              "B5_TE2167",
+              "B5_TE2174",
+              "B5_TE2181",
+              "B5_TE2188",
+              "B5_TE2195",
+              "B5_TE2202",
+              "B5_TE2210"
+            ],
+            "sets": []
+          }
+        }
+      ],
+      "advancedConcepts": {
+        "porousMediums": [],
+        "rotatingZones": []
+      },
+      "numerics": {
+        "relaxationType": "MANUAL",
+        "relaxationFactor": {
+          "pressureField": 0.3,
+          "velocityEquation": 0.7,
+          "densityField": 0.05,
+          "enthalpyEquation": 0.7,
+          "internalEnergyEquation": 0.1,
+          "turbulentKineticEnergyEquation": 0.7,
+          "omegaDissipationRateEquation": 0.7
+        },
+        "numNonOrthogonalCorrectors": 1,
+        "pressureReferenceCell": 0,
+        "pressureReferenceValue": {
+          "value": 97690,
+          "unit": "Pa"
+        },
+        "residualControls": {
+          "velocity": {
+            "absoluteTolerance": 1e-05
+          },
+          "pressure": {
+            "absoluteTolerance": 1e-05
+          },
+          "turbulentKineticEnergy": {
+            "absoluteTolerance": 1e-05
+          },
+          "omegaDissipationRate": {
+            "absoluteTolerance": 1e-05
+          }
+        },
+        "solvers": {
+          "velocitySolver": {
+            "type": "PBICGStab",
+            "absoluteTolerance": 1e-08,
+            "relativeTolerance": 0.01,
+            "preconditioner": {
+              "type": "DILU"
+            }
+          },
+          "pressureSolver": {
+            "type": "GAMG",
+            "absoluteTolerance": 1e-07,
+            "relativeTolerance": 0.01,
+            "smoother": "GAUSSSEIDEL",
+            "numPreSweeps": 2,
+            "numPostSweeps": 1,
+            "cacheAgglomerationOn": true,
+            "numCellsCoarsestLevel": 100,
+            "numMergeLevels": 1
+          },
+          "enthalpySolver": {
+            "type": "SMOOTH",
+            "absoluteTolerance": 1e-07,
+            "relativeTolerance": 0.01,
+            "smoother": "GAUSSSEIDEL",
+            "numSweeps": 1
+          },
+          "internalEnergySolver": {
+            "type": "SMOOTH",
+            "absoluteTolerance": 1e-07,
+            "relativeTolerance": 0.01,
+            "smoother": "GAUSSSEIDEL",
+            "numSweeps": 1
+          },
+          "turbulentKineticEnergySolver": {
+            "type": "PBICGStab",
+            "absoluteTolerance": 1e-08,
+            "relativeTolerance": 0.01,
+            "preconditioner": {
+              "type": "DILU"
+            }
+          },
+          "omegaDissipationRateSolver": {
+            "type": "PBICGStab",
+            "absoluteTolerance": 1e-08,
+            "relativeTolerance": 0.01,
+            "preconditioner": {
+              "type": "DILU"
+            }
+          }
+        },
+        "schemes": {
+          "timeDifferentiation": {
+            "forDefault": {
+              "type": "STEADYSTATE"
+            }
+          },
+          "gradient": {
+            "forDefault": {
+              "type": "CELLLIMITED_LEASTSQUARES",
+              "limiterCoefficient": 1
+            }
+          },
+          "divergence": {
+            "forDefault": {
+              "type": "GAUSS_LINEAR"
+            },
+            "div_Phi_velocity": {
+              "type": "GAUSS_LINEARUPWINDV_GRAD_U_"
+            },
+            "div_Phi_kineticEnergy": {
+              "type": "GAUSS_LINEAR"
+            },
+            "div_Phi_enthalpy": {
+              "type": "GAUSS_UPWIND"
+            },
+            "div_Phi_internalEnergy": {
+              "type": "GAUSS_LINEARUPWIND_LIMITEDGRAD"
+            },
+            "div_Phi_turbulentKineticEnergy": {
+              "type": "BOUNDED_GAUSS_UPWIND"
+            },
+            "div_MuEff_dev2_T_grad_velocity": {
+              "type": "GAUSS_LINEAR"
+            },
+            "div_Phi_omegaDissipationRate": {
+              "type": "BOUNDED_GAUSS_UPWIND"
+            },
+            "div_phi_Ekp": {
+              "type": "BOUNDED_GAUSS_UPWIND"
+            }
+          },
+          "laplacian": {
+            "forDefault": {
+              "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+              "limiterCoefficient": 0.5
+            },
+            "laplacian_DkEff_turbulentKineticEnergy": {
+              "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+              "limiterCoefficient": 0.5
+            },
+            "laplacian_alphaEff_enthalpy": {
+              "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+              "limiterCoefficient": 0.5
+            },
+            "laplacian_muEff_velocity": {
+              "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+              "limiterCoefficient": 0.5
+            },
+            "laplacian_alphaEff_internalEnergy": {
+              "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+              "limiterCoefficient": 0.5
+            },
+            "laplacian_DomegaEff_omegaDissipationRate": {
+              "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+              "limiterCoefficient": 0.5
+            },
+            "laplacian_rho_1_A_U_pressure": {
+              "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+              "limiterCoefficient": 0.5
+            },
+            "laplacian_mut_velocity": {
+              "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+              "limiterCoefficient": 0.5
+            }
+          },
+          "interpolation": {
+            "forDefault": {
+              "type": "LINEAR"
+            }
+          },
+          "surfaceNormalGradient": {
+            "forDefault": {
+              "type": "LIMITED",
+              "limiterCoefficient": 0.5
+            }
+          }
+        },
+        "stabilization": {
+          "fieldLimits": {
+            "lowerPressureBound": {
+              "value": 20000,
+              "unit": "Pa"
+            },
+            "upperPressureBound": {
+              "value": 300000,
+              "unit": "Pa"
+            }
+          }
+        }
+      },
+      "simulationControl": {
+        "endTime": {
+          "value": 3000,
+          "unit": "s"
+        },
+        "deltaT": {
+          "value": 1,
+          "unit": "s"
+        },
+        "writeControl": {
+          "type": "TIME_STEP",
+          "writeInterval": 1000
+        },
+        "numProcessors": -1,
+        "maxRunTime": {
+          "value": 20000,
+          "unit": "s"
+        },
+        "potentialFoamInitialization": false,
+        "decomposeAlgorithm": {
+          "type": "SCOTCH"
+        }
+      },
+      "resultControl": {
+        "forcesMoments": [
+          {
+            "type": "FORCES_AND_MOMENTS",
+            "name": "Forces and moments 1",
+            "centerOfRotation": {
+              "value": {
+                "x": 0,
+                "y": 0,
+                "z": 399
+              },
+              "unit": "mm"
+            },
+            "writeControl": {
+              "type": "TIME_STEP",
+              "writeInterval": 1
+            },
+            "topologicalReference": {
+              "entities": [
+                "B5_TE1653",
+                "B5_TE1660",
+                "B5_TE1667",
+                "B5_TE1674",
+                "B5_TE1681",
+                "B5_TE1688",
+                "B5_TE1695",
+                "B5_TE1702",
+                "B5_TE1710",
+                "B5_TE1717",
+                "B5_TE1725",
+                "B5_TE1732",
+                "B5_TE1739",
+                "B5_TE1767",
+                "B5_TE1774",
+                "B5_TE1781",
+                "B5_TE1788",
+                "B5_TE1802",
+                "B5_TE1809",
+                "B5_TE1816",
+                "B5_TE1823",
+                "B5_TE1830",
+                "B5_TE1837",
+                "B5_TE1844",
+                "B5_TE1851",
+                "B5_TE1858",
+                "B5_TE1865",
+                "B5_TE1872",
+                "B5_TE1879",
+                "B5_TE1886",
+                "B5_TE1893",
+                "B5_TE1900",
+                "B5_TE1907",
+                "B5_TE1914",
+                "B5_TE1921",
+                "B5_TE1928",
+                "B5_TE1935",
+                "B5_TE1942",
+                "B5_TE1950",
+                "B5_TE1957",
+                "B5_TE1964",
+                "B5_TE1971",
+                "B5_TE1978",
+                "B5_TE1985",
+                "B5_TE1992",
+                "B5_TE1999",
+                "B5_TE2006",
+                "B5_TE2013",
+                "B5_TE2020",
+                "B5_TE2027",
+                "B5_TE2034",
+                "B5_TE2041",
+                "B5_TE2048",
+                "B5_TE2055",
+                "B5_TE2062",
+                "B5_TE2069",
+                "B5_TE2076",
+                "B5_TE2083",
+                "B5_TE2090",
+                "B5_TE2097",
+                "B5_TE2104",
+                "B5_TE2111",
+                "B5_TE2118",
+                "B5_TE2125",
+                "B5_TE2132",
+                "B5_TE2139",
+                "B5_TE2146",
+                "B5_TE2153",
+                "B5_TE2160",
+                "B5_TE2167",
+                "B5_TE2174",
+                "B5_TE2181",
+                "B5_TE2188",
+                "B5_TE2195",
+                "B5_TE2202",
+                "B5_TE2210"
+              ],
+              "sets": []
+            }
+          }
+        ],
+        "surfaceData": [],
+        "probePoints": [],
+        "fieldCalculations": []
+      }
+    },
+    "sim_version": "internal:629",
+    "freestream": {
+      "T": 286.2,
+      "p": 97690.0,
+      "rho": 1.18911245761147,
+      "a": 339.13890074717176
+    },
+    "velocities": {
+      "0.3": 102.0,
+      "0.5": 170.0,
+      "0.7": 237.0,
+      "0.8": 271.0,
+      "0.85": 288.0,
+      "0.9": 305.0,
+      "0.95": 322.0
+    },
+    "cg_point": [
+      0.0,
+      0.0,
+      0.33
+    ]
+  }
+}

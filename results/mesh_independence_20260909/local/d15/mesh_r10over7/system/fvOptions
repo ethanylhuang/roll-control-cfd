@@ -1,0 +1,30 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2606                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      fvOptions;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+// aerofoilNACA0012 verbatim — guards the energy->T inversion during startup
+
+limitT
+{
+    type       limitTemperature;
+    min        101;
+    max        1000;
+    selectionMode all;
+}
+
+// NOTE: the spec's pMin 1 / pMax 1e8 limits live in fvSolution's SIMPLE dict
+// (pressureControl). v2606 has no limitPressure fvOption — adding one here
+// fails at startup with "Unknown fvOption type limitPressure".
+
+// ************************************************************************* //

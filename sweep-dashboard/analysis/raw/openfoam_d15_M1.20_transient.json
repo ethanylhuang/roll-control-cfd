@@ -1,0 +1,41 @@
+{
+  "deflection": 15.0,
+  "mach": 1.2,
+  "V_mps": 406.9,
+  "solver": "rhoPimpleFoam Euler PIMPLE 2x2 transonic yes",
+  "restart_from": "M1.20_sealedcad_fine_restart/2000",
+  "dt": 3e-06,
+  "endtime": 0.01,
+  "t_last": 0.009999,
+  "pMin": 5000,
+  "pMax": 500000,
+  "mesh_name": "mesh_sealedcad_fine",
+  "stop_reason": "endTime",
+  "window": {
+    "t_start": 0.0075,
+    "t_end": 0.009999,
+    "n": 834
+  },
+  "moments_Nm": {
+    "Mroll": 1.7896190353357315,
+    "Myaw": 9.989556219616308,
+    "Mpitch": -0.30319983467146283
+  },
+  "forces_N": {
+    "Fx": 0.34344798159232615,
+    "Fy": 28.5804166911271,
+    "Fz": -328.66808387889694
+  },
+  "convergence": {
+    "std_rel_pct": 0.018004596154501413,
+    "drift_pct": 0.04388449010940248,
+    "roll_min": 1.78920669,
+    "roll_max": 1.79020068
+  },
+  "quarter_means": [
+    1.7895299028846154,
+    1.7892563977033495,
+    1.7896022362019228,
+    1.7900870977033492
+  ]
+}

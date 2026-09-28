@@ -1,0 +1,453 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2406                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       volVectorField;
+    location    "0";
+    object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   uniform (0 0 -50);
+
+boundaryField
+{
+    B5_TE5_B5_TE2
+    {
+        type            inletOutlet;
+        inletValue      uniform (0 0 0);
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2041
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1964
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2097
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2027
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2202
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1710
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1695
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1872
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2139
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2076
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1893
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2132
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2167
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1957
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1886
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2048
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1788
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2188
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1851
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1844
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1971
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2125
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE33
+    {
+        type            inletOutlet;
+        inletValue      uniform (0 0 0);
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE36
+    {
+        type            uniformFixedValue;
+        uniformValue    csvFile;
+        uniformValueCoeffs
+        {
+            nHeaderLine     0;
+            refColumn       0;
+            componentColumns 3(1 2 3);
+            separator       ",";
+            mergeSeparators 0;
+            file            "constant/CSVfiles/csvData0";
+        }
+        value           uniform (0 0 -50);
+    }
+    B5_TE5_B5_TE1809
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2034
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1992
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1999
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2083
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1774
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1830
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2146
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1907
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1732
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1978
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1942
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2153
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1688
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE9
+    {
+        type            inletOutlet;
+        inletValue      uniform (0 0 0);
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2111
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2062
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1802
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2013
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2055
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1900
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2020
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1921
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1767
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1717
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1879
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2181
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1739
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1653
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2069
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2006
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1914
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1816
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1823
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2118
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2195
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1681
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1702
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1725
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1781
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1985
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1935
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1660
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2104
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1837
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1928
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE30
+    {
+        type            inletOutlet;
+        inletValue      uniform (0 0 0);
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1858
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2160
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1950
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1674
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2210
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE27
+    {
+        type            inletOutlet;
+        inletValue      uniform (0 0 0);
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2174
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE2090
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1865
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    B5_TE5_B5_TE1667
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+}
+
+
+// ************************************************************************* //

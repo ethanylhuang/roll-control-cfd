@@ -1,0 +1,12 @@
+v4 sweep root=/Users/trasomi/dev/cfd deflections=[0, 3, 6, -6, 9, 12, 15] machs=[0.3, 0.4, 0.5, 0.6, 0.7, 0.8] endTime=1500 np=10
+[d00] surfaceFeatureExtract + blockMesh (mesh, levels 4/5/5/8)
+[d00] snappyHexMesh -parallel (np=10) ...
+[d00] mesh OK cells=915509 coverage={'rocket_body': 95.0, 'rocket_fins': 86.6, 'rocket_tab': 92.6} gap~4.0 across []
+  WARNING [d00]: rocket_fins layer coverage 86.6% < 90.0%
+[d00/M0.30] rhoSimpleFoam (ramped cold start, endTime 1500) ...
+[d00/M0.30] stop=endTime iters=1500
+[d00/M0.30] convergence gate tripped (mroll_drift(87.0%), mroll_noisy(std=339.1%)) — continuing to 2500 with rho relax 0.15
+[d00/M0.30] extended: stop=endTime iters=2500 convergence=['mroll_drift(135.2%)', 'mroll_noisy(std=482.9%)']
+[d00/M0.40] rhoSimpleFoam (ramped cold start, endTime 1500) ...
+[d00/M0.40] stop=endTime iters=1500
+[d00/M0.40] convergence gate tripped (mroll_drift(87.8%), mroll_noisy(std=327.0%)) — continuing to 2500 with rho relax 0.15

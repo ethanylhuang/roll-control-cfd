@@ -1,0 +1,215 @@
+{
+  "updated": "2026-09-11T04:09:57.686392+00:00",
+  "qualifiedPoints": 0,
+  "conclusion": "Original sweep fails the mesh-sensitivity screen. No replacement mesh is qualified yet.",
+  "cases": [
+    {
+      "angle": 3,
+      "mach": 0.3,
+      "solver": "OpenFOAM",
+      "baselineRoll": 0.0200668210306,
+      "refinedRoll": 0.01437688310248,
+      "rollDeltaPct": -28.354954277228984,
+      "yawDeltaPct": -44.75969465370441,
+      "axialDeltaPct": -1.0706072582445825,
+      "baselineStable": true,
+      "refinedStable": false,
+      "rollDriftPct": 0.047300068808557624,
+      "yawDriftPct": 0.09774997906013637,
+      "cells": 3137295,
+      "tabLayerCoverage": 61.0,
+      "window": [
+        5001.0,
+        6000.0
+      ],
+      "qualified": false
+    },
+    {
+      "angle": 3,
+      "mach": 0.85,
+      "solver": "OpenFOAM",
+      "baselineRoll": 0.22568165048499997,
+      "refinedRoll": 0.1477336517069,
+      "rollDeltaPct": -34.538917369040064,
+      "yawDeltaPct": -50.0527797346046,
+      "axialDeltaPct": -2.7504707028914277,
+      "baselineStable": true,
+      "refinedStable": false,
+      "rollDriftPct": 0.5530902470488785,
+      "yawDriftPct": 2.2819365234973303,
+      "cells": 3137295,
+      "tabLayerCoverage": 61.0,
+      "window": [
+        5001.0,
+        6000.0
+      ],
+      "qualified": false
+    },
+    {
+      "angle": 15,
+      "mach": 0.3,
+      "solver": "OpenFOAM",
+      "baselineRoll": 0.101896350754,
+      "refinedRoll": 0.07002497497050002,
+      "rollDeltaPct": -31.278230817553442,
+      "yawDeltaPct": -26.58216856531157,
+      "axialDeltaPct": -1.590799203509441,
+      "baselineStable": true,
+      "refinedStable": true,
+      "rollDriftPct": 0.0670793510740893,
+      "yawDriftPct": 0.26313464062302466,
+      "cells": 3136926,
+      "tabLayerCoverage": 58.8,
+      "window": [
+        2001.0,
+        3000.0
+      ],
+      "qualified": false
+    },
+    {
+      "angle": 15,
+      "mach": 0.85,
+      "solver": "OpenFOAM",
+      "baselineRoll": 1.05221456562,
+      "refinedRoll": 0.659349036972,
+      "rollDeltaPct": -37.337016753470856,
+      "yawDeltaPct": -33.74089343309451,
+      "axialDeltaPct": -3.099782205526924,
+      "baselineStable": true,
+      "refinedStable": false,
+      "rollDriftPct": 0.02923032888392699,
+      "yawDriftPct": 4.930286680191145,
+      "cells": 3136926,
+      "tabLayerCoverage": 58.8,
+      "window": [
+        5001.0,
+        6000.0
+      ],
+      "qualified": false
+    }
+  ],
+  "cloud": [
+    {
+      "label": "Original 3\u00b0 cloud attempt",
+      "status": "SETUP_MISMATCH_REQUIRES_CORRECTION",
+      "runId": "fab10443-3d6a-4a7d-9e46-a71140941ffb",
+      "progress": 1.0,
+      "error": "Refined run inlet table differs from immutable M0.30 baseline run. The current editable simulation was copied; this is not a valid same-inlet mesh comparison.",
+      "excluded": true,
+      "cpuHours": 36.16777777777778
+    },
+    {
+      "label": "15\u00b0 / M0.85",
+      "status": "NEEDS_REVIEW",
+      "runId": "13c2eb61-71dc-4e2f-ad44-cdf30ca0112e",
+      "progress": 0.0023333332501351833,
+      "error": "Temperature inversion exceeded maximum iterations during startup.",
+      "excluded": false,
+      "cpuHours": 0.0
+    },
+    {
+      "label": "Corrected 3\u00b0 / M0.30",
+      "status": "RUNNING",
+      "runId": "25007de5-aa68-4511-ad11-bb16f8c98d5f",
+      "progress": 0.0023333332501351833,
+      "error": "",
+      "excluded": false,
+      "cpuHours": 4.824722222222222
+    },
+    {
+      "label": "15\u00b0 energy-relaxation startup test",
+      "status": "NEEDS_REVIEW",
+      "runId": "",
+      "progress": null,
+      "error": "PUT /projects/1269879333705405039/simulations/cf1a99b8-f3f2-4b61-850c-753fda2c43e5 -> HTTP 400: {\n  \"code\" : \"spec-validation-error\",\n  \"details\" : {\n    \"problems\" : [ {\n      \"severity\" : \"ERROR\",\n      \"code\" : \"no-written-timesteps\",\n      \"message\" : \"No data will be written since the write interval is too large. Please choose a shorter write interval.\",\n      \"path\" : \"$.model.simulationControl\",\n      \"allowMarkdown\" : false,\n      \"topoEntities\" : [ ],\n      \"details\" : {\n        \"path\" : \"$.model.simulationControl\",\n        \"topoEntities\" : [ ],\n        \"parameterValuesCombinations\" : [ ]\n      },\n      \"errorMessageAddedToI18N\" : false,\n      \"errorDetails\" : {\n        \"parameters\" : [ ],\n        \"details\" : {\n          \"path\" : \"$.model.simulationControl\",\n          \"topoEntities\" : [ ],\n          \"parameterValuesCombinations\" : [ ]\n        }\n      }\n    } ],\n    \"paramete",
+      "excluded": false,
+      "cpuHours": null
+    }
+  ],
+  "thirdGrid": {
+    "updated": 1789099744.4035351,
+    "state": "RUNNING",
+    "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/mesh_r40",
+    "stage": "snappyHexMesh"
+  },
+  "thirdGridResult": {},
+  "surfaceAudit": {
+    "d03_baseline": {
+      "triangles": 1167,
+      "area": 0.00048095247600408504,
+      "min": [
+        -0.089410976,
+        -0.0063800504,
+        0.025223444
+      ],
+      "max": [
+        -0.081402205,
+        0.0048462981,
+        0.052498272
+      ],
+      "centroid": [
+        -0.0853290586099975,
+        -0.0010069465040477047,
+        0.03720743625161752
+      ]
+    },
+    "d15_refined": {
+      "triangles": 4424,
+      "area": 0.0008896404745389081,
+      "min": [
+        -0.088416871,
+        -0.011688334,
+        0.025608871
+      ],
+      "max": [
+        -0.082405201,
+        0.0037022149,
+        0.0526685
+      ],
+      "centroid": [
+        -0.08540893185717081,
+        -0.0036961016800219544,
+        0.03858972334626242
+      ]
+    },
+    "d15_baseline": {
+      "triangles": 1474,
+      "area": 0.000594916793114278,
+      "min": [
+        -0.089410976,
+        -0.011688325,
+        0.025608889
+      ],
+      "max": [
+        -0.081404837,
+        0.0036933544,
+        0.052485475
+      ],
+      "centroid": [
+        -0.08545524103536281,
+        -0.004728599883031739,
+        0.037034711285237706
+      ]
+    },
+    "d03_refined": {
+      "triangles": 4426,
+      "area": 0.0008905385482571739,
+      "min": [
+        -0.088413636,
+        -0.0063800504,
+        0.025774637
+      ],
+      "max": [
+        -0.082407027,
+        0.0047376859,
+        0.052499998
+      ],
+      "centroid": [
+        -0.08541003050733323,
+        -0.0007441708280474325,
+        0.038129889666612474
+      ]
+    }
+  },
+  "policy": "Historical fits describe provisional CFD means. No global scale factor, invented replacement values, GCI, or physical-accuracy bound is applied."
+}

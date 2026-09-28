@@ -1,0 +1,818 @@
+[
+  {
+    "file": "dm06_openfoam_M0.30_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/dm06/M0.30_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "ec58373d334f0e599766b3cb0a4e88edc2123fadb59df3a4573149f22d2c53a4"
+  },
+  {
+    "file": "dm06_openfoam_M0.50_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/dm06/M0.50_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "37e5b7eaad2d8026fd3f3a7670882c24afd31d2235788cfe530a0a5dfaf1e34f"
+  },
+  {
+    "file": "dm06_openfoam_M0.60_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/dm06/M0.60_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "25d14f3c9b797b412df47aeae14597418fcc2e7b066dc31f05cdcbedbbfe0cf1"
+  },
+  {
+    "file": "dm06_openfoam_M0.70_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/dm06/M0.70_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "1b38d544055022640dfbec8816bf581e3d6caf42a2772e927273e45014dbd635"
+  },
+  {
+    "file": "dm06_openfoam_M0.80_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/dm06/M0.80_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "cd7ae4ffd661e29c5eebfa85bcd84b3faab915f5bc87fbac9d6ce6cb89db1221"
+  },
+  {
+    "file": "dm06_openfoam_M0.85_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/dm06/M0.85_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "6516cb51b1b9f95102fa1d9d53ba0faaff4c4616d758218cfefa6f170569bc5a"
+  },
+  {
+    "file": "dm06_openfoam_M0.90_filled_fine_opensides_long_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/dm06/M0.90_filled_fine_opensides_long/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "4,000-iteration extension",
+    "sha256": "8d67dd95b7f2265c011f1f8bda3d60691c20a19de6301c3883a01738e59abee7"
+  },
+  {
+    "file": "d00_openfoam_M0.30_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d00/M0.30_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "39cc8955fab0a066814bcad554dee970ecaab5022bb77612aac9c846a69a0f4f"
+  },
+  {
+    "file": "d00_openfoam_M0.50_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d00/M0.50_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "449d1152d1d78d66edf1273df2b1ade9d0ea9d6040e060c144bc5ce3444ab012"
+  },
+  {
+    "file": "d00_openfoam_M0.60_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d00/M0.60_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "ed395e68a63cdb10b75a02be71d6638671cf332c5517eaa0ff35f0d0b7619f4e"
+  },
+  {
+    "file": "d00_openfoam_M0.70_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d00/M0.70_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "e3520313416768447b127471f7232b358a21a8cfbda1bc597f3d6623172ee271"
+  },
+  {
+    "file": "d00_openfoam_M0.80_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d00/M0.80_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "e7b24e08a764e4db8f484d02066b61bd815754f0f958aa457159b6bebee0001c"
+  },
+  {
+    "file": "d00_openfoam_M0.85_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d00/M0.85_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "bd82fe6fc66d5acfdb9442450b03e2f9fb8280a8ea4ea1e7d024e5f5d02458aa"
+  },
+  {
+    "file": "d00_openfoam_M0.90_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d00/M0.90_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "0e05396bbf0ea5cbd10678cc0935b08224590fa050ead1e23f1f07f967d1e483"
+  },
+  {
+    "file": "d03_openfoam_M0.30_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d03/M0.30_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "44e9a0557e1d72f618c0ebe1521a1baf6fcc1b61c04a75eb47d5555ae87033ac"
+  },
+  {
+    "file": "d03_openfoam_M0.50_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d03/M0.50_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "5fe262a606bbf91a9af381e696a976084a14b30727e0f922ec9daa848a68d73d"
+  },
+  {
+    "file": "d03_openfoam_M0.60_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d03/M0.60_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "ae2649e1ce1a03823be092ac4d1d0bab113a9eb323af78ba84aca1ae4ac4f2f2"
+  },
+  {
+    "file": "d03_openfoam_M0.70_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d03/M0.70_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "c0d60c0db6cc928def365b3a9a84b17c9d85a96b9e7120b228e0b8ce21467f68"
+  },
+  {
+    "file": "d03_openfoam_M0.80_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d03/M0.80_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "0fe2bae7e5fc88a712deb3b49840627a76994b70fc976bb1b8ca8fdd13627986"
+  },
+  {
+    "file": "d03_openfoam_M0.85_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d03/M0.85_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "5228601b8ed58031100ad7a05178e97c54a2802e5cd127ef610c3a43d9c51f38"
+  },
+  {
+    "file": "d03_openfoam_M0.90_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d03/M0.90_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "30b241b2020801b45e5d629a547c8e293a905272e1b8accce25e381ceb2c5b86"
+  },
+  {
+    "file": "d06_openfoam_M0.30_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d06/M0.30_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "a14b4cb9a7ad9341c50331a0b302c1ebfc8f4fce30d7edc5c5e9d101098e1861"
+  },
+  {
+    "file": "d06_openfoam_M0.50_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d06/M0.50_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "6e2eaf072b94b24a6b22cc9d716a608d50633addc53f8dad2bb1a03f62c587d8"
+  },
+  {
+    "file": "d06_openfoam_M0.60_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d06/M0.60_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "3844daf72d0198ec827361383c157f6f6fd457a56fc92a465d06e665a9da92c3"
+  },
+  {
+    "file": "d06_openfoam_M0.70_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d06/M0.70_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "d098908cdf74549177f1eee0641348e388e31ea913519903775dd7fe6d0695ea"
+  },
+  {
+    "file": "d06_openfoam_M0.80_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d06/M0.80_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "2da1d40b86888c3b2e5a7b8a870251859247207488bbed8327803b7b80907192"
+  },
+  {
+    "file": "d06_openfoam_M0.85_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d06/M0.85_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "13be40952b7feda7aba6849888b0f5c08c288a3f9698f13bdf7d0ea4d229610e"
+  },
+  {
+    "file": "d06_openfoam_M0.90_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d06/M0.90_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "5caba8603e229557e011284e6423cd36496428c6a0e1934f9cee84357326d181"
+  },
+  {
+    "file": "d09_openfoam_M0.30_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d09/M0.30_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "dc50be3213c292cd92e50cc4462a448c82e02afaa6740de5683b22a8d2fd6859"
+  },
+  {
+    "file": "d09_openfoam_M0.50_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d09/M0.50_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "148db4e56b728ccdc67b84702414c576eb673d9892205ca2000f58e9ad06b607"
+  },
+  {
+    "file": "d09_openfoam_M0.60_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d09/M0.60_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "77729be344d2892661673233faf34c0e4be0eccef0d8bfb56c305c095315a612"
+  },
+  {
+    "file": "d09_openfoam_M0.70_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d09/M0.70_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "5c0bce58b48b2dc244995768809b72d6f46427bd0a31548032014f4a31714993"
+  },
+  {
+    "file": "d09_openfoam_M0.80_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d09/M0.80_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "51139a9bf81a7b130c42a955095dea72a0ee35e5ae2a03da832fe86292a3260a"
+  },
+  {
+    "file": "d09_openfoam_M0.85_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d09/M0.85_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "bccc01778781c2759548319da08ac2e44d04248a4efb28aaaf08332f311835fe"
+  },
+  {
+    "file": "d09_openfoam_M0.90_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d09/M0.90_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "997d62ded63289b683cba7fd3735fc90c8c34815de8ee8da29dd138ae363f5aa"
+  },
+  {
+    "file": "d10_openfoam_M0.30_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d10/M0.30_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "8f6828d318f6a3e7cb6e13a01a9cd5b526303e0acf7edf53b28bbc3fb3c514f3"
+  },
+  {
+    "file": "d10_openfoam_M0.50_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d10/M0.50_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "c8bfd09b942da4dba4167402c73b83059a6f5a0d65e4ab313cabac0a1837bd6f"
+  },
+  {
+    "file": "d10_openfoam_M0.60_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d10/M0.60_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "f1677f29bd1f912477db39348aee1781c373faaa8e257d1b97d0a6b33611ea65"
+  },
+  {
+    "file": "d10_openfoam_M0.70_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d10/M0.70_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "037d6333605d3d80b408d99d6093c12dbd9d70874450736145eb1aa767dcd3dd"
+  },
+  {
+    "file": "d10_openfoam_M0.80_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d10/M0.80_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "d400e25ab7aaa6d51460810d6f9a4c70f28ecf0907ada4e6eac7a2077f32e1cc"
+  },
+  {
+    "file": "d10_openfoam_M0.85_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d10/M0.85_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "56732365aec51668e48c21509d3132d2c3029a84de4f10f96d9ef75ff51e77e3"
+  },
+  {
+    "file": "d10_openfoam_M0.90_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d10/M0.90_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "737346be7041705a62e30b64a676490c8c25d7291ca174c4538a17a206334021"
+  },
+  {
+    "file": "d12_openfoam_M0.30_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d12/M0.30_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "00c20fb964d2a30fdfdbab80118e2c46e66a390dcd16dbb6af54e9a9e739c3ea"
+  },
+  {
+    "file": "d12_openfoam_M0.50_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d12/M0.50_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "23501c7a8f763a504da520ceaf4bb5c9d7322e4e0c6d94eb336d97119432c998"
+  },
+  {
+    "file": "d12_openfoam_M0.60_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d12/M0.60_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "c8027d08f1b2d444d3236043e18a11fe0d86d81742f5e77ee10c3c59d0f4f25b"
+  },
+  {
+    "file": "d12_openfoam_M0.70_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d12/M0.70_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "cdba67264417aedea798f3e76b170589eb67e808e7fff001337640f38e605a84"
+  },
+  {
+    "file": "d12_openfoam_M0.80_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d12/M0.80_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "3e7dc68d1ca28b085245a712f593e6fbe4f75e15dabb687d422041b94b958ac6"
+  },
+  {
+    "file": "d12_openfoam_M0.85_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d12/M0.85_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "918a32fbd597e7d8b17ce96af72a48df740180c215c0d000288e4fd1244c5d74"
+  },
+  {
+    "file": "d12_openfoam_M0.90_filled_fine_opensides_long_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d12/M0.90_filled_fine_opensides_long/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "4,000-iteration extension",
+    "sha256": "68d47d55cde4314e3b5b9a274dafe757b6bcaed7a85e1411806cb2812c6a57a6"
+  },
+  {
+    "file": "d15_openfoam_M0.30_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.30_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "29523b41934f39c3aaa826249ed17e2b4c1d615f2899f1b7fcc29ea687458ca5"
+  },
+  {
+    "file": "d15_openfoam_M0.50_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.50_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "a48a988339aa4bb241bcdb338183d0278e6b846e1d3ebf1d8f8bb892b071c9cf"
+  },
+  {
+    "file": "d15_openfoam_M0.60_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.60_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "b684db4fb14645b6bd0a4f2468ef152acdb462586afb27e5c8df03aacdff5dd3"
+  },
+  {
+    "file": "d15_openfoam_M0.70_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.70_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "70cbf0bcf2cb68071ea78e4ba35791bf74d0b1ff832330d991c93ccd96940c6a"
+  },
+  {
+    "file": "d15_openfoam_M0.80_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.80_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "f0999e58db39e8d3d042516a32fb4ae335f0ea36c52ae33f2c67bbb23e9b5b52"
+  },
+  {
+    "file": "d15_openfoam_M0.85_filled_fine_opensides_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.85_filled_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "6525d767cc3171fff5a3b4d0224089f7e07148fe05c85ae758b4661de804dee2"
+  },
+  {
+    "file": "d15_openfoam_M0.90_filled_fine_opensides_long_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.90_filled_fine_opensides_long/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "4,000-iteration extension",
+    "sha256": "8a1c4409a95c334b1055fb02b0438374c810de97881c3426ab90b0838bcf7823"
+  },
+  {
+    "file": "ss_sweep_d03_M0.3_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d03_M0.3_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "434395b64b3e395198e9e734f270268e56b3928d37d13fd5d1ece129079dbe95"
+  },
+  {
+    "file": "ss_sweep_d03_M0.5_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d03_M0.5_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "1d282f68525e240f31a2f3e7dec05aa08810289452f7bb8bff54b0c27b81e283"
+  },
+  {
+    "file": "ss_sweep_d03_M0.6_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d03_M0.6_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "1de0e5b87925e94948ca1501b830f83ea8e6abec48e54dfbc6a24c7d1ee763c0"
+  },
+  {
+    "file": "ss_sweep_d03_M0.7_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d03_M0.7_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "5da84215f9de038d8df15bfdb8178a27036c4dc1d5838716654534cb72420bb6"
+  },
+  {
+    "file": "ss_sweep_d03_M0.85_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d03_M0.85_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "5f60d6df051d368d9ced49778b46e13e257896882ba240f928eede53c1a632e2"
+  },
+  {
+    "file": "ss_sweep_d03_M0.8_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d03_M0.8_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "8d80b64cdda9ad65dfca973b3c84fd39b1f7e163da5db92af9ba683fd85cfaca"
+  },
+  {
+    "file": "ss_sweep_d06_M0.3_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d06_M0.3_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "1a044ea66a8dc32dbfa1d9d9dc27b2d73f1c029baee7333efbc988c9077d858d"
+  },
+  {
+    "file": "ss_sweep_d06_M0.5_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d06_M0.5_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "33a553687456b0359877350d70c473717a272ad5cad08e47dbd63101cd6f573f"
+  },
+  {
+    "file": "ss_sweep_d06_M0.6_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d06_M0.6_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "6ae9818aba9cb7199892e30fb2b24aa9021fa9ef3cd1e921bb69bee4c26e5155"
+  },
+  {
+    "file": "ss_sweep_d06_M0.7_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d06_M0.7_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "ac8c5ca9c9f736bd0332853183b9421e95d50215739753b79718466df7cfa55c"
+  },
+  {
+    "file": "ss_sweep_d06_M0.85_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d06_M0.85_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "ee39cf302662a75a934d8bb6bba0bacde00d978b99aed667f867775c8754dcea"
+  },
+  {
+    "file": "ss_sweep_d06_M0.8_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d06_M0.8_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "d93a5d24369bbe939f0fb4e44edc96c101d206c1f5aaf6cd442c1a8b696ac12f"
+  },
+  {
+    "file": "ss_sweep_d09_M0.3_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d09_M0.3_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "994662a6276f0ec1f08b4f7fdb96008ab872db735cf79ef57c408bc75848f405"
+  },
+  {
+    "file": "ss_sweep_d09_M0.5_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d09_M0.5_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "d017a768874eec73eb4ff8c1783ef1b12fb2545b466415d94c59141571c20f24"
+  },
+  {
+    "file": "ss_sweep_d09_M0.6_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d09_M0.6_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "3dfded0a57303ec3a1b453dfa195274a299018d74f4d32f6b916b980c768538a"
+  },
+  {
+    "file": "ss_sweep_d09_M0.7_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d09_M0.7_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "06bcac44cbf85d8ab37a6c5d88123dbdf8b61cda82c223c4639afc9a5a1ac61c"
+  },
+  {
+    "file": "ss_sweep_d09_M0.85_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d09_M0.85_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "bc2fd561d1fdd4e867b66378f707e018f822c93fc67b359dee73e908e8f988d3"
+  },
+  {
+    "file": "ss_sweep_d09_M0.8_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d09_M0.8_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "75205be7614bfcd43585e298994d21b6c8b6dd00af57b4eb772a3964cdc63257"
+  },
+  {
+    "file": "ss_sweep_d12_M0.3_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d12_M0.3_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "3204f5a05b9d33857db56a9d91eebe1512b71fe99a2d18746b5f0115b20d6923"
+  },
+  {
+    "file": "ss_sweep_d12_M0.5_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d12_M0.5_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "43c6384995362d829fd86c66837c935b466419d1ff7175e83bd997eb93312251"
+  },
+  {
+    "file": "ss_sweep_d12_M0.6_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d12_M0.6_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "2340a5a5e1145a07bfa3132b34b07c28fbe1e2e61acb9c0548533ff5cab6f588"
+  },
+  {
+    "file": "ss_sweep_d12_M0.7_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d12_M0.7_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "c759ac1e4adef038d15e8441e02f409a467910435bca1b66399f95302176ba15"
+  },
+  {
+    "file": "ss_sweep_d12_M0.85_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d12_M0.85_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "20695c8767d991b3ce0ecea8e86d962e5a7a4a76e244cb937ef9c35418266610"
+  },
+  {
+    "file": "ss_sweep_d12_M0.8_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d12_M0.8_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "da3047cc2e9a878f3444167580ff4f3e17bf9a370f074a18a82cb12d51e551fd"
+  },
+  {
+    "file": "ss_sweep_d15_M0.3_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d15_M0.3_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "cba6a2eb0ea7fd1f8afedeaeb878c47aba595fdfccfbfcc6551e0d792d6c17c1"
+  },
+  {
+    "file": "ss_sweep_d15_M0.5_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d15_M0.5_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "8f2db3c23d3931a68c2687992e5376e98d7eddd5fe5c7754c991422485d7054a"
+  },
+  {
+    "file": "ss_sweep_d15_M0.6_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d15_M0.6_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "f430816310a6de726f076238fb45ea05a494475878168efee82cf7b98c228f66"
+  },
+  {
+    "file": "ss_sweep_d15_M0.7_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d15_M0.7_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "1fc89d6263c9a7f2b92db6fadcb50aa8acac3e4161f7a5e66a1e79fb285ed284"
+  },
+  {
+    "file": "ss_sweep_d15_M0.85_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d15_M0.85_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "c926fb26a5ad6e52b3e6c80fe5652bbf58ea7b1ba65cf952629accd72292bc86"
+  },
+  {
+    "file": "ss_sweep_d15_M0.8_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d15_M0.8_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "7fd1029eac93e61014e513b7f5a0d1cd20f64d5cfa5f410da84ecb66e771ca75"
+  },
+  {
+    "file": "ss_sweep_dm06_M0.3_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_dm06_M0.3_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "f40f4141081db521ceb2a6a207869e13d0e27e854a1a81a8d87d654d0e49b456"
+  },
+  {
+    "file": "ss_sweep_dm06_M0.5_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_dm06_M0.5_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "bc019334fbd59cf802b5be0490dbfae3faf82ba5869d224fb30bcdafd6917fb3"
+  },
+  {
+    "file": "ss_sweep_dm06_M0.6_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_dm06_M0.6_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "fc30922fb409bf57791cb602854d63d37ef8825ff5f240d53431063101f0235b"
+  },
+  {
+    "file": "ss_sweep_dm06_M0.7_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_dm06_M0.7_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "847dfffc10d5853f295d29fe102b3ffd18c0a5957aa6bebdfcd5167c4dcd07b2"
+  },
+  {
+    "file": "ss_sweep_dm06_M0.85_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_dm06_M0.85_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "de61798395e72e7d909349f7dcc604cf186ade85d3894d8e80d3cd7b1cea1451"
+  },
+  {
+    "file": "ss_sweep_dm06_M0.8_fine_cfd.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_dm06_M0.8_fine_cfd.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "ba432a509d176710bcb28f36c75bc064e175ea5673f97b6749ad2732c4dd37b7"
+  },
+  {
+    "file": "ss_sweep_d10_M0.3.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d10_M0.3.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "Fine v3 check series; same CFD CAD and settings, promoted from separate check block",
+    "sha256": "0cf38fb98083e2feac7f00a14a473eac71c185c7df2154f17b5326e21ea95ed4"
+  },
+  {
+    "file": "ss_sweep_d10_M0.5.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d10_M0.5.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "Fine v3 check series; same CFD CAD and settings, promoted from separate check block",
+    "sha256": "c795fe217426b4178b2af8d853bd988d99070b6f05f5fc094e56de24dacc2f1a"
+  },
+  {
+    "file": "ss_sweep_d10_M0.6.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d10_M0.6.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "Fine v3 check series; same CFD CAD and settings, promoted from separate check block",
+    "sha256": "59781a8238d97d3466392932448f0abc9b9095ee6133ec7a1d3f80dc875913cf"
+  },
+  {
+    "file": "ss_sweep_d10_M0.7.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d10_M0.7.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "Fine v3 check series; same CFD CAD and settings, promoted from separate check block",
+    "sha256": "cc4e9c0cee8ab866141dea2091760e4e223ed0e4a9a35f5ed981867a2ee93581"
+  },
+  {
+    "file": "ss_sweep_d10_M0.8.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d10_M0.8.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "Fine v3 check series; same CFD CAD and settings, promoted from separate check block",
+    "sha256": "da1efc32dd11c856b1f4a213233919c08f8f07c1b5d9d050cbae3227a51be92f"
+  },
+  {
+    "file": "ss_sweep_d10_M0.85.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d10_M0.85.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "Fine v3 check series; same CFD CAD and settings, promoted from separate check block",
+    "sha256": "fb74d012eed4d13c6265c8c9841b0925db2a07a6ff1fd959138bc5f7b80a40f9"
+  },
+  {
+    "file": "ss_sweep_d00_M0.3_coarse3.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d00_M0.3_coarse3.json",
+    "solver": "SimScale",
+    "role": "context",
+    "note": "Coarse zero-deflection check; excluded from fine-mesh plots and fits",
+    "sha256": "634e81758c586c29e2772ef19f61527257946bc9675c7502d0b65069937ff04f"
+  },
+  {
+    "file": "ss_sweep_d00_M0.5_coarse3.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d00_M0.5_coarse3.json",
+    "solver": "SimScale",
+    "role": "context",
+    "note": "Coarse zero-deflection check; excluded from fine-mesh plots and fits",
+    "sha256": "c504de4f645381f0f78f8cb0976c618cd3c164ef1bee48f2e12df29173a0c937"
+  },
+  {
+    "file": "ss_sweep_d00_M0.6_coarse3.json",
+    "source": "/private/tmp/claude-501/-Users-trasomi-dev-cfd/e77796e5-73f1-4b54-ac10-df1a9b566759/scratchpad/ss_sweep_d00_M0.6_coarse3.json",
+    "solver": "SimScale",
+    "role": "context",
+    "note": "Coarse zero-deflection check; excluded from fine-mesh plots and fits",
+    "sha256": "a1c7e9a42a33dd4da384d187eb3a0c6d60a5f24f410ca8c2a9c608f529c318b5"
+  },
+  {
+    "file": "openfoam_M0.90_filled_fine_transient_result.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.90_filled_fine_transient/result.json",
+    "solver": "OpenFOAM",
+    "role": "context",
+    "note": "Later transient diagnostic, separate from steady sweep; reference z=0.399 from restart case",
+    "sha256": "39a93dc702b7a230b92c7ae564751204df79502bd594fa44554b45e74245b351"
+  }
+]

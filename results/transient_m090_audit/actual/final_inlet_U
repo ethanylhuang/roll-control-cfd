@@ -1,0 +1,15 @@
+    B5_TE5_B5_TE36
+    {
+        type            uniformFixedValue;
+        uniformValue    csvFile;
+        uniformValueCoeffs
+        {
+            nHeaderLine     0;
+            refColumn       0;
+            componentColumns 3(1 2 3);
+            separator       ",";
+            mergeSeparators 0;
+            file            "constant/CSVfiles/csvData0";
+        }
+        value           uniform (0 0 -305);
+    }

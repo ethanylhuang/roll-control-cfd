@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {
+      "code": "warning-msg-surface-data-on-de-featured-face",
+      "details": {},
+      "message": "**Result controls** have been applied on the following topological entities: B5_TE1753,B5_TE1760,B5_TE1746,B5_TE1795. These faces have been defeatured because the meshing parameters are too coarse and will be ignored. However, if they are pertinent to your simulation, please refine the mesh further or review your result control setup.",
+      "severity": "WARNING"
+    },
+    {
+      "code": "of-defeatured-boundary-condition-warning",
+      "details": {},
+      "message": "**Boundary conditions** have been applied on the following faces: B5_TE1753,B5_TE1760,B5_TE1746,B5_TE1795. These faces have been defeatured because the meshing parameters are too coarse. The boundary conditions will be ignored because they have been assessed to be non-critical to the simulation setup. However, if they are pertinent to your simulation, please refine the mesh further or review your boundary condition setup.",
+      "severity": "WARNING"
+    },
+    {
+      "code": "MSG_CASE_CONVERTED",
+      "details": {},
+      "message": "Job was prepared successfully.",
+      "severity": "SUCCESS"
+    },
+    {
+      "code": "MSG_OF_RUN_FINISHED_PRE_PROCESSING",
+      "details": {},
+      "message": "Run pre-processing finished.",
+      "severity": "SUCCESS"
+    },
+    {
+      "code": "MSG_OF_RUN_FINISHED",
+      "details": {},
+      "message": "Run finished.",
+      "severity": "SUCCESS"
+    }
+  ]
+}

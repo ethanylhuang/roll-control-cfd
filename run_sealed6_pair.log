@@ -1,0 +1,5 @@
+04:18:04 start M0.60 slot-level-6
+04:40:30 done M0.60: [solve] stop=endTime rc=0 iters=3000
+04:40:30 start M0.90 slot-level-6
+05:05:04 done M0.90: [solve] stop=endTime rc=0 iters=3000
+PAIR DONE

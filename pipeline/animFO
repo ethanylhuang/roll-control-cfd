@@ -1,0 +1,56 @@
+// Animation output for transient cases (2026-09-13): derived fields every 25 steps (0.1 ms at dt 4e-6) and three cutting planes
+// + a Q-criterion isosurface, written as ascii XML .vtp under postProcessing/animSlices|animRocket|animQ/<time>/. Read with anim_render.py.
+MachNoAnim  { type MachNo;    libs (fieldFunctionObjects); executeControl timeStep; executeInterval 25; writeControl writeTime; }   // caseDicts MachNo executes at writeTime only
+gradRho     { type grad;      libs (fieldFunctionObjects); field rho;       executeControl timeStep; executeInterval 25; writeControl none; }
+magGradRho  { type mag;       libs (fieldFunctionObjects); field grad(rho); executeControl timeStep; executeInterval 25; writeControl none; }
+vorticity1  { type vorticity; libs (fieldFunctionObjects);                  executeControl timeStep; executeInterval 25; writeControl none; }
+Q1          { type Q;         libs (fieldFunctionObjects);                  executeControl timeStep; executeInterval 25; writeControl none; }
+animSlices
+{
+    type            surfaces;
+    libs            (sampling);
+    executeControl  timeStep;   executeInterval 25;
+    writeControl    timeStep;   writeInterval   25;
+    surfaceFormat   vtk;
+    formatOptions   { vtk { format ascii; } }
+    interpolationScheme cellPoint;
+    fields          (p U rho Ma vorticity mag(grad(rho)));
+    surfaces
+    {
+        tabPlane    // through the tab mid-span, aligned with the flow: shock over the tab + its wake
+        { type cuttingPlane; planeType pointAndNormal; pointAndNormalDict { point (-0.0854 0 0); normal (1 0 0); } interpolate true; bounds (-0.2 -0.07 -0.13) (0.2 0.07 0.18); }
+        wakePlane   // cross-flow plane 25 mm behind the fin/tab trailing edge (TE at z=0.025, flow along -z): vortex cores of fins and tab
+        { type cuttingPlane; planeType pointAndNormal; pointAndNormalDict { point (0 0 0); normal (0 0 1); } interpolate true; bounds (-0.15 -0.15 -0.02) (0.15 0.15 0.02); }
+    }
+}
+animRocket   // full-length plane 1 mm above the tab fin's surface (y = 6 mm): nose/shoulder/boat-tail shocks + both x-fin planforms
+{
+    type            surfaces;
+    libs            (sampling);
+    executeControl  timeStep;   executeInterval 25;
+    writeControl    timeStep;   writeInterval   25;
+    surfaceFormat   vtk;
+    formatOptions   { vtk { format ascii; } }
+    interpolationScheme cellPoint;
+    fields          (Ma mag(grad(rho)));
+    surfaces
+    {
+        rocketPlane { type cuttingPlane; planeType pointAndNormal; pointAndNormalDict { point (0 0.006 0); normal (0 1 0); } interpolate true; bounds (-0.22 -0.02 -0.30) (0.22 0.02 1.50); }
+    }
+}
+animQ
+{
+    type            surfaces;
+    libs            (sampling);
+    executeControl  timeStep;   executeInterval 100;
+    writeControl    timeStep;   writeInterval   100;
+    surfaceFormat   vtk;
+    formatOptions   { vtk { format ascii; } }
+    interpolationScheme cellPoint;
+    fields          (Ma p);
+    surfaces
+    {
+        Qiso1e8 { type isoSurface; isoField Q; isoValue 1e8; interpolate true; bounds (-0.14 -0.05 -0.15) (-0.03 0.05 0.15); }
+        Qiso5e8 { type isoSurface; isoField Q; isoValue 5e8; interpolate true; bounds (-0.14 -0.05 -0.15) (-0.03 0.05 0.15); }
+    }
+}

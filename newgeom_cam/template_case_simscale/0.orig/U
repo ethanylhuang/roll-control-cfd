@@ -1,0 +1,53 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2606                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volVectorField;
+    object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+// Inlet ramps -50 -> -V m/s over the first 300 iterations (table below comes
+// from flowSettings). The moving boundary condition doubles as the branch
+// perturbation the old warm-ladder protocol supplied.
+
+#include "$FOAM_CASE/system/flowSettings"
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   uniform $Ustart;
+
+boundaryField
+{
+    inlet
+    {
+        type            uniformFixedValue;
+        uniformValue    table $rampTable;
+        value           uniform $Ustart;
+    }
+
+    outlet
+    {
+        type            inletOutlet;
+        inletValue      uniform (0 0 0);
+        value           uniform $Ustart;
+    }
+
+    sides
+    {
+        type            slip;
+    }
+
+    "rocket.*"
+    {
+        type            noSlip;
+    }
+}
+
+// ************************************************************************* //

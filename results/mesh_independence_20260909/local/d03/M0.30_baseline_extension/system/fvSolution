@@ -1,0 +1,81 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2606                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      fvSolution;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+// v4 spec relaxation: p 0.3, U 0.7, e 0.7, turbulence 0.7. One profile for
+// every Mach (the SimScale-matched setup). Absolute p/T limits live in
+// fvOptions (limitPressure 1..1e8, limitTemperature 101..1000), so no
+// pMinFactor/pMaxFactor here. NO residualControl: reported numbers average
+// iterations 1000-1500, so cases must run to endTime.
+
+solvers
+{
+    p
+    {
+        solver          GAMG;               // SimScale pressureSolver
+        smoother        GaussSeidel;
+        nPreSweeps      2;
+        nPostSweeps     1;
+        cacheAgglomeration on;
+        nCellsInCoarsestLevel 100;
+        mergeLevels     1;
+        tolerance       1e-7;
+        relTol          0.01;
+    }
+
+    "(U|k|omega)"
+    {
+        solver          PBiCGStab;              // SimScale PBICGStab + DILU
+        preconditioner  DILU;
+        tolerance       1e-8;
+        relTol          0.01;
+    }
+    "(e|h)"
+    {
+        solver          smoothSolver;           // SimScale SMOOTH + GaussSeidel
+        smoother        GaussSeidel;
+        nSweeps         1;
+        tolerance       1e-7;
+        relTol          0.01;
+    }
+}
+
+SIMPLE
+{
+    nNonOrthogonalCorrectors 1;
+
+    // spec: absolute pressure bounds (pressureControl). Without them the cold
+    // ramped start can drive p negative -> rho negative -> sigFpe in GAMG.
+    pMin            20000;    // SimScale lowerPressureBound
+    pMax            300000;   // SimScale upperPressureBound
+}
+
+relaxationFactors
+{
+    fields
+    {
+        p 0.3;   // SimScale relaxationFactor.pressureField
+        rho 0.05;    // SimScale relaxationFactor.densityField
+    }
+    equations
+    {
+        U 0.7;
+        e               0.1;
+        h 0.7;
+        k 0.7;
+        omega 0.7;
+    }
+}
+
+// ************************************************************************* //

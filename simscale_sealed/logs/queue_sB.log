@@ -1,0 +1,21 @@
+12:57:19 [sB] mesh d15 READY; waiting
+13:00:19 [sB] mesh d15 READY; waiting
+13:03:20 [sB] mesh d15 READY; waiting
+13:06:20 [sB] mesh d15 READY; waiting
+13:09:21 [sB] mesh d15 READY; waiting
+13:12:22 [sB] mesh d15 READY; waiting
+13:15:22 [sB] mesh d15 READY; waiting
+13:18:23 [sB] mesh d15 READY; waiting
+13:21:24 [sB] mesh d15 READY; waiting
+13:24:24 [sB] mesh d15 READY; waiting
+13:27:25 [sB] mesh d15 READY; waiting
+13:30:25 [sB] mesh d15 READY; waiting
+13:33:26 [sB] mesh d15 READY; waiting
+13:36:26 [sB] mesh d15 READY; waiting
+13:39:27 [sB] mesh d15 READY; waiting
+13:42:28 [sB] mesh d15 QUEUED; waiting
+13:45:28 [sB] mesh d15 RUNNING; waiting
+13:48:29 [sB] mesh d15 RUNNING; waiting
+13:51:30 [sB] start d15 (d15) M0.85 mesh 0fba3cc2 base 77a98f42
+14:41:59 [sB] done d15 M0.85: Mroll 1.2069 Myaw 8.525 Fz -160.5 block_std 0.1% drift 0.0% []
+14:41:59 [sB] QUEUE DONE

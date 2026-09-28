@@ -1,0 +1,11 @@
+{
+  "updated": 1789120595.007328,
+  "state": "READY_FOR_REVIEW",
+  "meanStable": true,
+  "relativeDeltaPct": {
+    "roll": -0.9020797046569884,
+    "yaw": -0.7142750828297739,
+    "axial": -3.9126891677615294,
+    "side": -0.6259775264470857
+  }
+}

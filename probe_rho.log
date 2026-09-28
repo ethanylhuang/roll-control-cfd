@@ -1,0 +1,35 @@
+[d10] mesh_simscale exists — reusing (1247644 cells)
+[probe rho] case /Users/trasomi/dev/cfd/runs_v4/d10/probe_rho
+    fvSchemes: default steadyState;
+    fvSchemes: default Gauss linear;
+    fvSchemes: default none;
+    fvSchemes: div(phi,U) Gauss linearUpwindV grad(U);
+    fvSchemes: div(phi,e) Gauss linearUpwind limited;
+    fvSchemes: div(phi,K) Gauss linear;
+    fvSchemes: div(phi,Ekp) bounded Gauss upwind;
+    fvSchemes: laplacianSchemes
+    fvSchemes: default Gauss linear limited corrected 0.5;
+    fvSchemes: default linear;
+    fvSchemes: snGradSchemes
+    fvSchemes: default limited corrected 0.5;
+    fvSolution: 
+    fvSolution: p
+    fvSolution: nNonOrthogonalCorrectors 1;
+    fvSolution: pMin 50000;
+    fvSolution: pMax 200000;
+    fvSolution: p 0.15;
+    fvSolution: rho 0.05;
+    fvSolution: U 0.5;
+    fvSolution: e 0.1;
+    fvSolution: h 0.5;
+    fvSolution: k 0.3;
+    fvSolution: omega 0.5;
+    thermophysicalProperties: energy sensibleEnthalpy;
+    flowSettings: rampTable ((0 (0 0 -50)) (300 (0 0 -305)) (1000000 (0 0 -305)));
+    flowSettings: kInf 13.98;
+    flowSettings: omegaInf 93500;
+[probe rho] rhoSimpleFoam to 200 ...
+[probe rho] iterations 200  clamps total 72 (after it.70: 54)  zero-pressure-force rows 0
+[probe rho] clamp iterations: [16, 17, 18, 22, 23, 24, 27, 28, 29, 30, 33, 34, 35, 39, 40, 41, 45, 46, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168]
+[probe rho] iter: Fz_tot/Fz_pres/Mroll  25:-17/-14/0.021  50:-17/-15/0.018  75:-24/-21/0.026  100:-33/-30/0.044  125:-48/-43/0.075  150:-72/-66/0.127  175:-86/-77/0.199  200:-72/-60/0.196
+[probe rho] VERDICT FAIL

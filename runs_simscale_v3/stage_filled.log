@@ -1,0 +1,9 @@
+[d00] geometry 6525e043-ad7e-433c-902e-53bd8ece18ad faces=90 regions=4 readback=0 deg
+[d03] geometry 4f1d9798-497b-42e3-ac2e-3543fc6ab6c0 faces=90 regions=4 readback=3 deg
+[d06] geometry e8daa3ff-d27c-4b53-8199-be9e76854a53 faces=90 regions=4 readback=6 deg
+[d09] geometry 1a395624-fdb4-421e-b8f2-15b2b570ce14 faces=90 regions=4 readback=9 deg
+[d12] geometry 2836ca9a-b354-47ce-9e96-4067abbdc51c faces=90 regions=4 readback=12 deg
+[d15] geometry 4b8daf2b-eb00-4a91-969f-795f7705d6da faces=90 regions=4 readback=15 deg
+[dm06] geometry d5500178-4f3c-49ff-86a3-f2aadb77af4c faces=90 regions=4 readback=-6 deg
+#deflection reset to 0 deg
+onshape calls: {'calls': 24, 'fetches': 7} | simscale: {'calls': 35, 'uploads': 7, 'downloads': 0}

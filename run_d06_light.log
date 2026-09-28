@@ -1,0 +1,14 @@
+v4 sweep root=/Users/trasomi/dev/cfd deflections=[6.0] machs=[0.6] endTime=1500 np=10
+[d06] surfaceFeatureExtract + blockMesh (mesh, levels 4/5/5/8)
+[d06] snappyHexMesh -parallel (np=10) ...
+[d06] mesh OK cells=908692 coverage={'rocket_body': 95.1, 'rocket_fins': 86.3, 'rocket_tab': 84.0} gap~4.0 across []
+  WARNING [d06]: rocket_fins layer coverage 86.3% < 90.0%
+  WARNING [d06]: rocket_tab layer coverage 84.0% < 90.0%
+[d06/M0.60] rhoSimpleFoam (ramped cold start, endTime 1500) ...
+[d06/M0.60] stop=endTime iters=1500
+| δ [deg] | M | V [m/s] | Mroll [N·m] | Mpitch [N·m] | Myaw [N·m] | hinge [N·m] | Cd | y+ fins | y+ tab | flags |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 6 | 0.6 | 204 | 0.1044 | 0.16673 | 0.86643 | -0.0051836 | 0.90397 | 1–534 (61) | 1–122 (11) |  |
+| 6 | 2 | 680 |  |  |  |  |  |  |  | stop_diverged;avg_window_not_reached |
+
+wrote /Users/trasomi/dev/cfd/results/v4/sweep_table.csv and .md (2 cases)

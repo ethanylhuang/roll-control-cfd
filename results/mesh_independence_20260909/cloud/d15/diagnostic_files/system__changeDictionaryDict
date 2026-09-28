@@ -1,0 +1,236 @@
+FoamFile {
+    version 2.0;
+    format ascii;
+    class dictionary;
+    object changeDictionaryDict;
+}
+boundary {
+    B5_TE5_B5_TE1653 {
+        type wall;
+    }
+    B5_TE5_B5_TE1660 {
+        type wall;
+    }
+    B5_TE5_B5_TE1667 {
+        type wall;
+    }
+    B5_TE5_B5_TE1674 {
+        type wall;
+    }
+    B5_TE5_B5_TE1681 {
+        type wall;
+    }
+    B5_TE5_B5_TE1688 {
+        type wall;
+    }
+    B5_TE5_B5_TE1695 {
+        type wall;
+    }
+    B5_TE5_B5_TE1702 {
+        type wall;
+    }
+    B5_TE5_B5_TE1710 {
+        type wall;
+    }
+    B5_TE5_B5_TE1717 {
+        type wall;
+    }
+    B5_TE5_B5_TE1725 {
+        type wall;
+    }
+    B5_TE5_B5_TE1732 {
+        type wall;
+    }
+    B5_TE5_B5_TE1739 {
+        type wall;
+    }
+    B5_TE5_B5_TE1767 {
+        type wall;
+    }
+    B5_TE5_B5_TE1774 {
+        type wall;
+    }
+    B5_TE5_B5_TE1781 {
+        type wall;
+    }
+    B5_TE5_B5_TE1788 {
+        type wall;
+    }
+    B5_TE5_B5_TE1802 {
+        type wall;
+    }
+    B5_TE5_B5_TE1809 {
+        type wall;
+    }
+    B5_TE5_B5_TE1816 {
+        type wall;
+    }
+    B5_TE5_B5_TE1823 {
+        type wall;
+    }
+    B5_TE5_B5_TE1830 {
+        type wall;
+    }
+    B5_TE5_B5_TE1837 {
+        type wall;
+    }
+    B5_TE5_B5_TE1844 {
+        type wall;
+    }
+    B5_TE5_B5_TE1851 {
+        type wall;
+    }
+    B5_TE5_B5_TE1858 {
+        type wall;
+    }
+    B5_TE5_B5_TE1865 {
+        type wall;
+    }
+    B5_TE5_B5_TE1872 {
+        type wall;
+    }
+    B5_TE5_B5_TE1879 {
+        type wall;
+    }
+    B5_TE5_B5_TE1886 {
+        type wall;
+    }
+    B5_TE5_B5_TE1893 {
+        type wall;
+    }
+    B5_TE5_B5_TE1900 {
+        type wall;
+    }
+    B5_TE5_B5_TE1907 {
+        type wall;
+    }
+    B5_TE5_B5_TE1914 {
+        type wall;
+    }
+    B5_TE5_B5_TE1921 {
+        type wall;
+    }
+    B5_TE5_B5_TE1928 {
+        type wall;
+    }
+    B5_TE5_B5_TE1935 {
+        type wall;
+    }
+    B5_TE5_B5_TE1942 {
+        type wall;
+    }
+    B5_TE5_B5_TE1950 {
+        type wall;
+    }
+    B5_TE5_B5_TE1957 {
+        type wall;
+    }
+    B5_TE5_B5_TE1964 {
+        type wall;
+    }
+    B5_TE5_B5_TE1971 {
+        type wall;
+    }
+    B5_TE5_B5_TE1978 {
+        type wall;
+    }
+    B5_TE5_B5_TE1985 {
+        type wall;
+    }
+    B5_TE5_B5_TE1992 {
+        type wall;
+    }
+    B5_TE5_B5_TE1999 {
+        type wall;
+    }
+    B5_TE5_B5_TE2006 {
+        type wall;
+    }
+    B5_TE5_B5_TE2013 {
+        type wall;
+    }
+    B5_TE5_B5_TE2020 {
+        type wall;
+    }
+    B5_TE5_B5_TE2027 {
+        type wall;
+    }
+    B5_TE5_B5_TE2034 {
+        type wall;
+    }
+    B5_TE5_B5_TE2041 {
+        type wall;
+    }
+    B5_TE5_B5_TE2048 {
+        type wall;
+    }
+    B5_TE5_B5_TE2055 {
+        type wall;
+    }
+    B5_TE5_B5_TE2062 {
+        type wall;
+    }
+    B5_TE5_B5_TE2069 {
+        type wall;
+    }
+    B5_TE5_B5_TE2076 {
+        type wall;
+    }
+    B5_TE5_B5_TE2083 {
+        type wall;
+    }
+    B5_TE5_B5_TE2090 {
+        type wall;
+    }
+    B5_TE5_B5_TE2097 {
+        type wall;
+    }
+    B5_TE5_B5_TE2104 {
+        type wall;
+    }
+    B5_TE5_B5_TE2111 {
+        type wall;
+    }
+    B5_TE5_B5_TE2118 {
+        type wall;
+    }
+    B5_TE5_B5_TE2125 {
+        type wall;
+    }
+    B5_TE5_B5_TE2132 {
+        type wall;
+    }
+    B5_TE5_B5_TE2139 {
+        type wall;
+    }
+    B5_TE5_B5_TE2146 {
+        type wall;
+    }
+    B5_TE5_B5_TE2153 {
+        type wall;
+    }
+    B5_TE5_B5_TE2160 {
+        type wall;
+    }
+    B5_TE5_B5_TE2167 {
+        type wall;
+    }
+    B5_TE5_B5_TE2174 {
+        type wall;
+    }
+    B5_TE5_B5_TE2181 {
+        type wall;
+    }
+    B5_TE5_B5_TE2188 {
+        type wall;
+    }
+    B5_TE5_B5_TE2195 {
+        type wall;
+    }
+    B5_TE5_B5_TE2202 {
+        type wall;
+    }
+    B5_TE5_B5_TE2210 {
+        type wall;
+    }
+}

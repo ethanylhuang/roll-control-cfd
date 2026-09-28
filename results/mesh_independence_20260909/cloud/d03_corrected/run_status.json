@@ -1,0 +1,14 @@
+{
+  "computeResource": {
+    "type": "CPU_HOURS",
+    "value": 0.0
+  },
+  "createdAt": "2026-09-11T03:57:44.43782Z",
+  "duration": "PT9M36.398779S",
+  "finishedAt": "2026-09-11T04:08:20.718273Z",
+  "name": "MI d03 M0.30 CORRECTED immutable baseline inlet",
+  "progress": 0.0023333332501351833,
+  "runId": "25007de5-aa68-4511-ad11-bb16f8c98d5f",
+  "startedAt": "2026-09-11T03:58:44.319494Z",
+  "status": "FAILED"
+}

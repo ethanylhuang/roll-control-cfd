@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/Users/trasomi/dev/cfd/simscale_sealed/tools/ss_sweep_run_sealed.py", line 29, in <module>
+    rid = api.start_run(COPY, sid, f"sealed d{a.deflection:g} M{a.mach:g} {a.label}")["runId"]; print(f"{time.strftime('%H:%M:%S')} sim {sid[:8]} run {rid[:8]} started (V={V}, mesh {a.mesh[:8]})", flush=True)
+  File "/Users/trasomi/.claude/skills/cfd-sweep/scripts/simscale_api.py", line 249, in start_run
+    return self.post(f"/projects/{pid}/simulations/{sid}/runs/{rid}/start")
+  File "/Users/trasomi/.claude/skills/cfd-sweep/scripts/simscale_api.py", line 103, in post
+    return self.request("POST", path, body=body, params=params or None)
+  File "/Users/trasomi/.claude/skills/cfd-sweep/scripts/simscale_api.py", line 79, in request
+    with urllib.request.urlopen(req, timeout=timeout) as f:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1268, in _send_request
+    self.putrequest(method, url, **skips)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1102, in putrequest
+    self._validate_path(url)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1202, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/v0/projects/1269879333705405039/simulations/412ab9e8-0168-433b-af0b-e1acc9021d79/runs/sealed d3 M0.3 FINE sealed 1.6M/start' (found at least ' ')
+12:58:11 sim 412ab9e8 run 3a8f572b started (V=101.7, mesh 8d90fd8b)
+13:46:27 run FINISHED CPUh 12.410277777777777
+{"moments_Nm": {"Mroll": 0.022877071485831114, "Mpitch": 0.02659964471783668, "Myaw": 0.22371083717679754}, "forces_N": {"Fx": -0.0880275492987694, "Fy": 0.6561239270958416, "Fz": -14.724495042306213}, "convergence": {"std_rel_pct": 8.784561665061556, "block_std_pct": 0.18768746291816132, "block_means": [0.02292961146315608, 0.02286649259616924, 0.02282089166020708, 0.02282823499683656, 0.0228904304318196, 0.02292676776679812], "drift_pct": 0.027696420990383316, "window": 1500, "p_residual": 9.09863306332e-05, "flags": []}}
+RESULT /Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d03_M0.3_fine_sealed.json

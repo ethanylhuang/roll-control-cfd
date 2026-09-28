@@ -1,0 +1,4 @@
+18:24:58 sim 2265ca1f run 4b2275f1 started (V=169.6, mesh 8d90fd8b)
+19:15:16 run FINISHED CPUh 12.971944444444444
+{"moments_Nm": {"Mroll": 0.06532602573245935, "Mpitch": 0.11882626055301022, "Myaw": 0.5831212433148172}, "forces_N": {"Fx": -0.35291384593685804, "Fy": 1.7208885789291866, "Fz": -40.88295096496554}, "convergence": {"std_rel_pct": 9.548608317626988, "block_std_pct": 0.24280876819279526, "block_means": [0.06542854051344887, 0.065106310175738, 0.06543729802715129, 0.06553967818675607, 0.06514288891802464, 0.06530143857363724], "drift_pct": 0.008558647137065296, "window": 1500, "p_residual": 8.02332191624e-05, "flags": []}}
+RESULT /Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d03_M0.5_fine_sealed.json

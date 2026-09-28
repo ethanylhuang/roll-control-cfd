@@ -1,0 +1,4 @@
+18:19:08 mesh op 52c55cbc QUEUED meshId None
+18:21:08 mesh op 52c55cbc RUNNING meshId None
+18:29:11 mesh op 52c55cbc FINISHED meshId db7a21cc-de6d-4d83-a8ae-6b294c8be9e8
+mesh: {"name": "d15 sealed FINE mesh (sweep mirror: L5 body, L6 fins+tab + tab box, 4 layers)", "meshId": "db7a21cc-de6d-4d83-a8ae-6b294c8be9e8", "cellCount": null, "status": null}

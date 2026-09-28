@@ -1,0 +1,162 @@
+[
+  {
+    "name": "0/T.gz",
+    "size": 731
+  },
+  {
+    "name": "0/U.gz",
+    "size": 922
+  },
+  {
+    "name": "0/alphat.gz",
+    "size": 820
+  },
+  {
+    "name": "0/k.gz",
+    "size": 783
+  },
+  {
+    "name": "0/nut.gz",
+    "size": 833
+  },
+  {
+    "name": "0/omega.gz",
+    "size": 827
+  },
+  {
+    "name": "0/p.gz",
+    "size": 747
+  },
+  {
+    "name": "6/T.gz",
+    "size": 15042669
+  },
+  {
+    "name": "6/U.gz",
+    "size": 67581946
+  },
+  {
+    "name": "6/alphat.gz",
+    "size": 22268669
+  },
+  {
+    "name": "6/blendedIndicatorU.gz",
+    "size": 717
+  },
+  {
+    "name": "6/k.gz",
+    "size": 22267932
+  },
+  {
+    "name": "6/nut.gz",
+    "size": 22087100
+  },
+  {
+    "name": "6/omega.gz",
+    "size": 23087932
+  },
+  {
+    "name": "6/p.gz",
+    "size": 18037544
+  },
+  {
+    "name": "6/phi.gz",
+    "size": 73711223
+  },
+  {
+    "name": "6/rho.gz",
+    "size": 16355136
+  },
+  {
+    "name": "6/uniform/time",
+    "size": 1002
+  },
+  {
+    "name": "case.foam",
+    "size": 0
+  },
+  {
+    "name": "constant/CSVfiles/cached/3c0be127-538b-4ce1-99b9-d8a461eb7b47",
+    "size": 79
+  },
+  {
+    "name": "constant/CSVfiles/csvData0",
+    "size": 67
+  },
+  {
+    "name": "constant/polyMesh/boundary",
+    "size": 13854
+  },
+  {
+    "name": "constant/polyMesh/cellZones.gz",
+    "size": 327
+  },
+  {
+    "name": "constant/polyMesh/faceZones.gz",
+    "size": 327
+  },
+  {
+    "name": "constant/polyMesh/faces.gz",
+    "size": 76871664
+  },
+  {
+    "name": "constant/polyMesh/neighbour.gz",
+    "size": 19004507
+  },
+  {
+    "name": "constant/polyMesh/owner.gz",
+    "size": 6570189
+  },
+  {
+    "name": "constant/polyMesh/pointZones.gz",
+    "size": 327
+  },
+  {
+    "name": "constant/polyMesh/points.gz",
+    "size": 63767249
+  },
+  {
+    "name": "constant/polyMesh/rampsFaceMap",
+    "size": 80451647
+  },
+  {
+    "name": "constant/thermophysicalProperties",
+    "size": 488
+  },
+  {
+    "name": "constant/turbulenceProperties",
+    "size": 194
+  },
+  {
+    "name": "system/changeDictionaryDict",
+    "size": 3764
+  },
+  {
+    "name": "system/controlDict",
+    "size": 6978
+  },
+  {
+    "name": "system/decomposeParDict",
+    "size": 137
+  },
+  {
+    "name": "system/fieldOperationsDict.continuedrun.encode",
+    "size": 137
+  },
+  {
+    "name": "system/fieldOperationsDict.decode",
+    "size": 124
+  },
+  {
+    "name": "system/fieldOperationsDict.encode",
+    "size": 124
+  },
+  {
+    "name": "system/fvSchemes",
+    "size": 1184
+  },
+  {
+    "name": "system/fvSolution",
+    "size": 1616
+  }
+]

@@ -1,0 +1,5 @@
+15:20:15 [rB] mesh d15 RUNNING; waiting
+15:23:15 [rB] mesh d15 RUNNING; waiting
+15:26:16 [rB] start d15 (d15) M0.85 mesh 5e0fb8f1 base 77a98f42
+16:40:49 [rB] done d15 M0.85: Mroll 1.1896 Myaw 8.434 Fz -148.1 block_std 0.0% drift 0.0% []
+16:40:49 [rB] QUEUE DONE

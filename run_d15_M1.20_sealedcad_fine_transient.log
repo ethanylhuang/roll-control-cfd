@@ -1,0 +1,35 @@
+03:18:14 case M1.20_sealedcad_fine_transient: restart from M1.20_sealedcad_fine_restart/2000 (M1.2, V=406.9), rhoPimpleFoam Euler dt 3e-06 endTime 0.01
+03:18:15 animation output enabled (system/animFO; MachNo replaced by MachNoAnim every 25 steps)
+03:18:17 decomposePar rc=0
+05:28:31 solver rc=0 last t=0.009999 fatal=False wall=7814s
+{
+ "stop_reason": "endTime",
+ "t_last": 0.009999,
+ "window": {
+  "t_start": 0.0075,
+  "t_end": 0.009999,
+  "n": 834
+ },
+ "moments_Nm": {
+  "Mroll": 1.7896190353357315,
+  "Myaw": 9.989556219616308,
+  "Mpitch": -0.30319983467146283
+ },
+ "forces_N": {
+  "Fx": 0.34344798159232615,
+  "Fy": 28.5804166911271,
+  "Fz": -328.66808387889694
+ },
+ "convergence": {
+  "std_rel_pct": 0.018004596154501413,
+  "drift_pct": 0.04388449010940248,
+  "roll_min": 1.78920669,
+  "roll_max": 1.79020068
+ },
+ "quarter_means": [
+  1.7895299028846154,
+  1.7892563977033495,
+  1.7896022362019228,
+  1.7900870977033492
+ ]
+}

@@ -1,0 +1,14 @@
+{
+  "computeResource": {
+    "type": "CPU_HOURS",
+    "value": 36.16777777777778
+  },
+  "createdAt": "2026-09-10T04:22:22.123179Z",
+  "duration": "PT1H7M48.901616S",
+  "finishedAt": "2026-09-10T05:31:12.856385Z",
+  "name": "MI d03 refined same physics 32 cores",
+  "progress": 1.0,
+  "runId": "fab10443-3d6a-4a7d-9e46-a71140941ffb",
+  "startedAt": "2026-09-10T04:23:23.954769Z",
+  "status": "FINISHED"
+}

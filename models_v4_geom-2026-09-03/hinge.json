@@ -1,0 +1,14 @@
+{
+  "point": [
+    -0.08541097864508629,
+    -4.186704664202862e-09,
+    0.0515000020723782
+  ],
+  "axis": [
+    -1.0,
+    0.0,
+    0.0
+  ],
+  "fitted_from_deflection": 10.0,
+  "note": "axis = outboard (positive deflection is a positive rotation about it); x is tab mid-span"
+}

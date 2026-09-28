@@ -1,0 +1,29 @@
+{
+  "deflection": 0.0,
+  "mach": 0.3,
+  "V_mps": 101.7,
+  "sim": "79e8e710-7ad9-4dce-8a5f-594f4e940eed",
+  "run": "4a6e9211-292a-49d0-b227-60ae2439207b",
+  "n_iterations": 3000,
+  "moments_Nm": {
+    "Mroll": -0.00017379256774905874,
+    "Mpitch": 0.0443771018567087,
+    "Myaw": 0.008160424641776996
+  },
+  "forces_N": {
+    "Fx": -0.1237917386790442,
+    "Fy": 0.03222241838545249,
+    "Fz": -17.2097538216849
+  },
+  "convergence": {
+    "std_rel_pct": 1649.2202922929473,
+    "drift_pct": 118.65375458486048,
+    "p_residual": 0.000468256575031,
+    "flags": [
+      "mroll_drift(118.7%)",
+      "mroll_noisy(std=1649.2%)"
+    ]
+  },
+  "mesh_name": "COARSE cfd 922k",
+  "cofr_z": 0.399
+}

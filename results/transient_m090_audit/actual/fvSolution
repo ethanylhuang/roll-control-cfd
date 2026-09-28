@@ -1,0 +1,196 @@
+FoamFile {
+    version 2.0;
+    format ascii;
+    class dictionary;
+    object fvSolution;
+}
+solvers {
+    U {
+        solver PBiCGStab;
+        tolerance 1e-08;
+        relTol 0.01;
+        minIter 1;
+        maxIter 1000;
+        preconditioner DILU;
+    }
+    UFinal {
+        solver PBiCGStab;
+        tolerance 1e-08;
+        relTol 0.0;
+        minIter 1;
+        maxIter 1000;
+        preconditioner DILU;
+    }
+    rho {
+        solver smoothSolver;
+        tolerance 1e-07;
+        relTol 0.01;
+        minIter 1;
+        maxIter 1000;
+        smoother GaussSeidel;
+    }
+    rhoFinal {
+        solver smoothSolver;
+        tolerance 1e-07;
+        relTol 0.0;
+        minIter 1;
+        maxIter 1000;
+        smoother GaussSeidel;
+    }
+    p {
+        solver GAMG;
+        tolerance 1e-07;
+        relTol 0.01;
+        minIter 1;
+        maxIter 1000;
+        smoother GaussSeidel;
+        nPreSweeps 2;
+        nPostSweeps 1;
+        cacheAgglomeration on;
+        agglomerator faceAreaPair;
+        nCellsInCoarsestLevel 100;
+        mergeLevels 1;
+    }
+    pFinal {
+        solver GAMG;
+        tolerance 1e-07;
+        relTol 0.0;
+        minIter 1;
+        maxIter 1000;
+        smoother GaussSeidel;
+        nPreSweeps 2;
+        nPostSweeps 1;
+        cacheAgglomeration on;
+        agglomerator faceAreaPair;
+        nCellsInCoarsestLevel 100;
+        mergeLevels 1;
+    }
+    h {
+        solver smoothSolver;
+        tolerance 1e-07;
+        relTol 0.01;
+        minIter 1;
+        maxIter 1000;
+        smoother GaussSeidel;
+    }
+    hFinal {
+        solver smoothSolver;
+        tolerance 1e-07;
+        relTol 0.0;
+        minIter 1;
+        maxIter 1000;
+        smoother GaussSeidel;
+    }
+    e {
+        solver smoothSolver;
+        tolerance 1e-07;
+        relTol 0.01;
+        minIter 1;
+        maxIter 1000;
+        smoother GaussSeidel;
+    }
+    eFinal {
+        solver smoothSolver;
+        tolerance 1e-07;
+        relTol 0.0;
+        minIter 1;
+        maxIter 1000;
+        smoother GaussSeidel;
+    }
+    k {
+        solver PBiCGStab;
+        tolerance 1e-08;
+        relTol 0.01;
+        minIter 1;
+        maxIter 1000;
+        preconditioner DILU;
+    }
+    kFinal {
+        solver PBiCGStab;
+        tolerance 1e-08;
+        relTol 0.0;
+        minIter 1;
+        maxIter 1000;
+        preconditioner DILU;
+    }
+    omega {
+        solver PBiCGStab;
+        tolerance 1e-08;
+        relTol 0.01;
+        minIter 1;
+        maxIter 1000;
+        preconditioner DILU;
+    }
+    omegaFinal {
+        solver PBiCGStab;
+        tolerance 1e-08;
+        relTol 0.0;
+        minIter 1;
+        maxIter 1000;
+        preconditioner DILU;
+    }
+    "pcorr.*" {
+        solver GAMG;
+        tolerance 1e-06;
+        relTol 0.001;
+        minIter 1;
+        maxIter 1000;
+        smoother GaussSeidel;
+        nPreSweeps 2;
+        nPostSweeps 1;
+        cacheAgglomeration on;
+        agglomerator faceAreaPair;
+        nCellsInCoarsestLevel 10;
+        mergeLevels 1;
+    }
+}
+relaxationFactors {
+    fields {
+        p 0.7;
+        pFinal 1.0;
+        rho 1.0;
+        rhoFinal 1.0;
+    }
+    equations {
+        U 0.7;
+        UFinal 1.0;
+        h 0.7;
+        hFinal 1.0;
+        e 0.7;
+        eFinal 1.0;
+        k 0.7;
+        kFinal 1.0;
+        omega 0.7;
+        omegaFinal 1.0;
+    }
+}
+PIMPLE {
+    nNonOrthogonalCorrectors 1;
+    nOuterCorrectors 2;
+    nCorrectors 2;
+    momentumPredictor on;
+    turbOnFinalIterOnly on;
+    transonic on;
+    residualControl {
+        U {
+            tolerance 1e-05;
+            relTol 0.01;
+        }
+        "p.*" {
+            tolerance 1e-05;
+            relTol 0.01;
+        }
+        k {
+            tolerance 1e-05;
+            relTol 0.01;
+        }
+        omega {
+            tolerance 1e-05;
+            relTol 0.01;
+        }
+    }
+    rhoMin 0.01;
+    rhoMax 50000.0;
+    pMin 10000.0;
+    pMax 500000.0;
+}

@@ -1,0 +1,44 @@
+# split4cam example config — copy, edit paths/values, run:
+#   .venv/bin/python split4cam.py example.toml
+units = "mm"                     # units of the exported meshes and camera coordinates (mm | cm | m | in)
+
+[output]
+file = "frame.png"
+width = 3840                     # Split 4 records 16:9 only; 3840x2160 = 4K30
+height = 2160
+supersample = 1                  # 2 = anti-aliased (4x rays); use width=1920 + supersample=2 for quick previews
+
+[lens]
+# Measured Gyroflow calibration (63 images, RMS 1.8 px), scaled to the output size.
+profile = "lens/RunCam_Split 4___2.7k_16by9_2704x1520-60.00fps.json"
+
+# One [[mesh]] per exported file; colour is RGB 0-255. Export from Onshape in the SAME coordinate frame
+# (Assembly or Part Studio origin) so parts line up.
+[[mesh]]
+file = "export/airframe.stl"
+color = [205, 212, 222]
+[[mesh]]
+file = "export/fincan.stl"
+color = [35, 38, 48]
+
+[rocket]
+axis = [0, 0, 1]                 # nose direction in the model frame (Onshape: usually +Z or +Y)
+
+[camera]
+# Lens position = centre of the lens front face, in model coordinates (Onshape: Measure a vertex / mate connector).
+position = [23.97, 23.97, 795.0]
+# EITHER give the viewing direction explicitly (lens back centre -> lens face centre, any length) ...
+# look = [0.087, 0.087, -0.992]
+# up = [0.7071, 0.7071, 0.0]     # what should be "up" in the image (usually radially outward from the tube)
+# ... OR give the outward radial direction + tilt (camera looks aft, tilted outward by tilt_deg):
+radial = [0.7071, 0.7071, 0.0]
+tilt_deg = 7.0
+roll_deg = 0.0                   # rotate the image about the lens axis if the frame isn't level
+
+[world]
+altitude_m = 300.0               # lens height above flat ground
+pitch_deg = 0.0                  # rocket tilt from vertical (weathercocking)
+sun_elevation_deg = 55.0
+sun_azimuth_deg = 30.0
+# ground_texture = "maps/launch_site.jpg"   # optional aerial image, centred under the rocket
+# ground_m_per_px = 0.5                     # its scale (metres per pixel)

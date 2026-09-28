@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "cells": 5592072,
+  "baseResolution": [
+    40,
+    40,
+    214
+  ],
+  "layer_coverage": {
+    "rocket_body": 99.1,
+    "rocket_fins": 97.3,
+    "rocket_tab": 73.0
+  }
+}

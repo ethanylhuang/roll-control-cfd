@@ -1,0 +1,33 @@
+# Onshape "Full" assembly (goonmax), exported 2026-09-23; frame = assembly frame, mm, nose +Z
+units = "mm"
+[output]
+file = "full_assembly_current.png"
+width = 3840
+height = 2160
+supersample = 1
+[[mesh]]
+file = "export/airframe.stl"
+color = [205, 212, 222]
+[[mesh]]
+file = "export/fincan.stl"
+color = [35, 38, 48]
+[[mesh]]
+file = "export/tab.stl"
+color = [200, 60, 50]
+[[mesh]]
+file = "export/motor.stl"
+color = [60, 60, 64]
+[[mesh]]
+file = "export/shroud.stl"
+color = [40, 40, 44]
+[rocket]
+axis = [0, 0, 1]
+[camera]
+# RunCam model lens face centre (Extrude (52) aft face) + 0.2 mm, straight aft (0 deg tilt), image up = +Y (outward)
+position = [0.01, 32.22, 730.68]
+look = [0, 0, -1]
+up = [0, 1, 0]
+[world]
+altitude_m = 300.0
+sun_elevation_deg = 55.0
+sun_azimuth_deg = 30.0

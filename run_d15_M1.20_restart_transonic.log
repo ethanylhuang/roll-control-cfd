@@ -1,0 +1,37 @@
+23:44:21 case M1.20_sealedcad_fine_restart: steady restart from M0.90_sealedcad_fine_opensides/2000 (V 305.0 -> 406.9 m/s = M1.2) ramp 300 it, endTime 2000, transonic True consistent True relax 'p=1,U=0.9,h=0.8,k=0.9,omega=0.9'
+23:44:24 decomposePar rc=0
+00:50:46 solver rc=0 last it=2000 fatal=False wall=3982s
+00:50:47 reconstructPar rc=0
+{
+ "stop_reason": "endTime",
+ "last_iteration": 2000,
+ "moments_Nm": {
+  "Mroll": 1.93124025712,
+  "Myaw": 15.396804784,
+  "Mpitch": -5.68062692156
+ },
+ "forces_N": {
+  "Fx": 13.4643079896,
+  "Fy": 41.3552572392,
+  "Fz": -421.03389398400003
+ },
+ "convergence": {
+  "std_rel_pct": 0.008501044267269407,
+  "block_std_pct": 0.000135314080701542,
+  "block_means": [
+   1.93123764388,
+   1.9312428703600002
+  ],
+  "drift_pct": 0.0009142642887123894,
+  "roll_min": 1.9308598,
+  "roll_max": 1.93157858,
+  "last_limitT": [
+   "limitTemperature=limitT, Type=Lower, LimitedCells=0, CellsPercent=0, Tmin=101, UnlimitedTmin=239.70457",
+   "limitTemperature=limitT, Type=Upper, LimitedCells=0, CellsPercent=0, Tmax=1000, UnlimitedTmax=350.26766"
+  ],
+  "last_pressureControl": [
+   "pressureControl: p min 19715.419",
+   "pressureControl: p min 19715.007"
+  ]
+ }
+}

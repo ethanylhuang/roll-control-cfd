@@ -1,0 +1,47 @@
+18:24:50 [qA] skip d03 M0.3 (exists)
+18:24:50 [qA] start d06 (d6) M0.3 mesh f884164c base fb814637
+19:13:18 [qA] done d06 M0.3: Mroll 0.0342 Myaw 0.230 Fz -14.8 block_std 0.2% drift 0.4% []
+19:13:19 [qA] sheet: row 10: M0.3 d6 Mroll 0.0342 Cl 0.0367 CA 0.91419 CY 0.04415 CN -0.00226 Cm -0.00295 Cn 0.19349
+19:13:19 [qA] start d09 (d9) M0.3 mesh bc5fa055 base 57b68a34
+20:01:46 [qA] done d09 M0.3: Mroll 0.0751 Myaw 0.538 Fz -14.9 block_std 0.1% drift 0.1% []
+20:01:48 [qA] sheet: row 11: M0.3 d9 Mroll 0.0751 Cl 0.08046 CA 0.92136 CY 0.09964 CN -0.00726 Cm 0.02099 Cn 0.45743
+20:01:48 [qA] start d12 (d12) M0.3 mesh e2583c24 base bbdfed5e
+20:42:13 [qA] done d12 M0.3: Mroll 0.0931 Myaw 0.653 Fz -14.9 block_std 0.0% drift 0.0% []
+20:42:14 [qA] sheet: row 13: M0.3 d12 Mroll 0.0931 Cl 0.09975 CA 0.92083 CY 0.12104 CN -0.00759 Cm 0.02134 Cn 0.55481
+20:42:14 [qA] start d15 (d15) M0.3 mesh 0fba3cc2 base 77a98f42
+21:30:41 [qA] done d15 M0.3: Mroll 0.1135 Myaw 0.778 Fz -14.9 block_std 0.0% drift 0.0% []
+21:30:42 [qA] sheet: row 14: M0.3 d15 Mroll 0.1135 Cl 0.1216 CA 0.92562 CY 0.14531 CN -0.00588 Cm 0.00473 Cn 0.66074
+21:30:43 [qA] start dm06 (d-6) M0.3 mesh 9e00744d base c28a6a70
+22:19:09 [qA] done dm06 M0.3: Mroll -0.0351 Myaw -0.250 Fz -14.7 block_std 0.1% drift 0.0% []
+22:19:11 [qA] sheet: row 7: M0.3 d-6 Mroll -0.0351 Cl -0.03757 CA 0.91335 CY -0.04636 CN 0.00201 Cm -0.02288 Cn -0.21267
+22:19:11 [qA] start d10 (d10) M0.3 mesh 58b60269 base 10650c16
+23:07:37 [qA] done d10 M0.3: Mroll 0.0750 Myaw 0.539 Fz -14.8 block_std 0.1% drift 0.1% []
+23:07:38 [qA] sheet: row 12: M0.3 d10 Mroll 0.075 Cl 0.08043 CA 0.9158 CY 0.09998 CN -0.00717 Cm 0.02832 Cn 0.4586
+23:07:38 [qA] start d00 (d0) M0.3 mesh 758cbf5c base 282e8fe6
+23:56:06 [qA] done d00 M0.3: Mroll 0.0001 Myaw -0.049 Fz -14.7 block_std 35.6% drift 12.8% ['mroll_drift(12.8%)', 'mroll_noisy(block_std=35.6%)']
+23:56:07 [qA] sheet: row 8: M0.3 d0 Mroll 0.0001 Cl 0.0001 CA 0.91283 CY -0.00741 CN -0.00045 Cm -0.00678 Cn -0.04413 mroll_drift(12.8%), mroll_noisy(block_std=35.6%)
+23:56:07 [qA] start d03 (d3) M0.7 mesh 8d90fd8b base d9122db4
+00:46:35 [qA] done d03 M0.7: Mroll 0.1363 Myaw 1.040 Fz -85.7 block_std 0.3% drift 0.0% []
+00:46:36 [qA] sheet: row 33: M0.7 d3 Mroll 0.1363 Cl 0.0268 CA 0.97478 CY 0.0359 CN -0.0051 Cm 0.01919 Cn 0.16166
+00:46:36 [qA] start d06 (d6) M0.7 mesh f884164c base fb814637
+01:39:03 [qA] done d06 M0.7: Mroll 0.2493 Myaw 1.834 Fz -86.0 block_std 0.0% drift 0.2% []
+01:39:04 [qA] sheet: row 34: M0.7 d6 Mroll 0.2493 Cl 0.04902 CA 0.97724 CY 0.06309 CN -0.00578 Cm 0.01986 Cn 0.28546
+01:39:04 [qA] start d09 (d9) M0.7 mesh bc5fa055 base 57b68a34
+02:29:32 [qA] done d09 M0.7: Mroll 0.4256 Myaw 3.067 Fz -86.5 block_std 0.0% drift 0.1% []
+02:29:33 [qA] sheet: row 35: M0.7 d9 Mroll 0.4256 Cl 0.08369 CA 0.9834 CY 0.10448 CN -0.00242 Cm -0.00563 Cn 0.47855
+02:29:33 [qA] start d12 (d12) M0.7 mesh e2583c24 base bbdfed5e
+03:24:01 [qA] done d12 M0.7: Mroll 0.5720 Myaw 4.077 Fz -86.6 block_std 0.1% drift 0.0% []
+03:24:02 [qA] sheet: row 37: M0.7 d12 Mroll 0.572 Cl 0.1125 CA 0.98454 CY 0.13848 CN -0.00393 Cm 0.00231 Cn 0.63659
+03:24:03 [qA] start d15 (d15) M0.7 mesh 0fba3cc2 base 77a98f42
+04:14:30 [qA] done d15 M0.7: Mroll 0.6803 Myaw 4.918 Fz -87.1 block_std 0.0% drift 0.1% []
+04:14:31 [qA] sheet: row 38: M0.7 d15 Mroll 0.6803 Cl 0.1338 CA 0.99056 CY 0.16707 CN -0.0027 Cm -0.00985 Cn 0.76784
+04:14:32 [qA] start dm06 (d-6) M0.7 mesh 9e00744d base c28a6a70
+05:02:58 [qA] done dm06 M0.7: Mroll -0.2519 Myaw -1.909 Fz -86.0 block_std 0.1% drift 0.2% []
+05:02:59 [qA] sheet: row 31: M0.7 d-6 Mroll -0.2519 Cl -0.04953 CA 0.97766 CY -0.06325 CN -0.00335 Cm 0.00562 Cn -0.29986
+05:03:00 [qA] start d10 (d10) M0.7 mesh 58b60269 base 10650c16
+05:53:27 [qA] done d10 M0.7: Mroll 0.4577 Myaw 3.290 Fz -86.3 block_std 0.0% drift 0.0% []
+05:53:27 [qA] sheet: row 36: M0.7 d10 Mroll 0.4577 Cl 0.09002 CA 0.98108 CY 0.11182 CN -0.00286 Cm 0.00059 Cn 0.51365
+05:53:28 [qA] start d00 (d0) M0.7 mesh 758cbf5c base 282e8fe6
+06:45:55 [qA] done d00 M0.7: Mroll 0.0019 Myaw -0.029 Fz -85.9 block_std 15.5% drift 8.9% ['mroll_drift(8.9%)', 'mroll_noisy(block_std=15.5%)']
+06:45:56 [qA] sheet: row 32: M0.7 d0 Mroll 0.0019 Cl 0.00038 CA 0.97686 CY 4e-05 CN -0.00302 Cm 0.00688 Cn -0.00579 mroll_drift(8.9%), mroll_noisy(block_std=15.5%)
+06:45:56 [qA] QUEUE DONE

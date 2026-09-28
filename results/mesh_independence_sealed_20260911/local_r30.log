@@ -1,0 +1,34 @@
+15:19:57 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d03/mesh_r30", "stage": "surfaceFeatureExtract"}
+15:19:57 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d03/mesh_r30", "stage": "blockMesh"}
+15:19:58 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d03/mesh_r30", "stage": "decomposePar"}
+15:19:59 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d03/mesh_r30", "stage": "snappyHexMesh"}
+15:21:38 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d03/mesh_r30", "stage": "checkMesh"}
+15:21:41 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d03/mesh_r30", "stage": "reconstructParMesh"}
+15:21:44 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d03/mesh_r30", "stage": "renumberMesh"}
+15:21:47 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d03/M0.30_r30", "stage": "decomposePar"}
+15:21:50 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d03/M0.30_r30", "stage": "rhoSimpleFoam_3000"}
+18:19:58 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d03/M0.30_r30", "stage": "reconstructPar"}
+18:20:00 {"state": "CASE_DONE", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d03/M0.30_r30", "relativeDeltaPct": {"roll": 1.524107654191511, "yaw": 53.47500914868337, "axial": -2.3972704207331725, "side": 40.15740415847693}}
+18:20:00 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d15/mesh_r30", "stage": "surfaceFeatureExtract"}
+18:20:01 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d15/mesh_r30", "stage": "blockMesh"}
+18:20:01 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d15/mesh_r30", "stage": "decomposePar"}
+18:20:02 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d15/mesh_r30", "stage": "snappyHexMesh"}
+18:21:40 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d15/mesh_r30", "stage": "checkMesh"}
+18:21:43 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d15/mesh_r30", "stage": "reconstructParMesh"}
+18:21:45 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d15/mesh_r30", "stage": "renumberMesh"}
+18:21:48 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d15/M0.85_r30", "stage": "decomposePar"}
+18:21:52 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d15/M0.85_r30", "stage": "rhoSimpleFoam_3000"}
+20:56:50 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d15/M0.85_r30", "stage": "reconstructPar"}
+20:56:52 {"state": "CASE_DONE", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d15/M0.85_r30", "relativeDeltaPct": {"roll": -0.6174540430912205, "yaw": 1.2954207818102934, "axial": -2.5314380246864117, "side": 1.2320205929886712}}
+20:56:52 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d10/mesh_r30", "stage": "surfaceFeatureExtract"}
+20:56:53 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d10/mesh_r30", "stage": "blockMesh"}
+20:56:53 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d10/mesh_r30", "stage": "decomposePar"}
+20:56:54 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d10/mesh_r30", "stage": "snappyHexMesh"}
+20:58:28 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d10/mesh_r30", "stage": "checkMesh"}
+20:58:31 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d10/mesh_r30", "stage": "reconstructParMesh"}
+20:58:33 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d10/mesh_r30", "stage": "renumberMesh"}
+20:58:36 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d10/M0.60_r30", "stage": "decomposePar"}
+20:58:39 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d10/M0.60_r30", "stage": "rhoSimpleFoam_3000"}
+23:29:57 {"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d10/M0.60_r30", "stage": "reconstructPar"}
+23:29:59 {"state": "CASE_DONE", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d10/M0.60_r30", "relativeDeltaPct": {"roll": 1.2163851321565275, "yaw": 1.685650458467087, "axial": 1.067830965096088, "side": 1.57673143027762}}
+23:29:59 {"state": "COMPLETE", "jobs": [["d03", 0.3], ["d15", 0.85], ["d10", 0.6]], "resolution": [30, 30, 160]}

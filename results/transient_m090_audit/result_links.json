@@ -1,0 +1,22 @@
+[
+  {
+    "category": "FORCE_PLOT",
+    "resultId": "f7f713b5-dd70-4f77-aaac-3252dd096f46",
+    "workbenchUrl": "https://www.simscale.com/workbench/?pid=1269879333705405039&rru=a4ce9cd2-f9cf-4c44-8449-8ae1cd98acd3&ci=f7f713b5-dd70-4f77-aaac-3252dd096f46&ct=PLOT&mt=SIMULATION_RESULT"
+  },
+  {
+    "category": "MOMENT_PLOT",
+    "resultId": "fee8ed61-19e3-4efb-acff-c6e9dcfbe1b0",
+    "workbenchUrl": "https://www.simscale.com/workbench/?pid=1269879333705405039&rru=a4ce9cd2-f9cf-4c44-8449-8ae1cd98acd3&ci=fee8ed61-19e3-4efb-acff-c6e9dcfbe1b0&ct=PLOT&mt=SIMULATION_RESULT"
+  },
+  {
+    "category": "RESIDUALS_PLOT",
+    "resultId": "f827e8e8-41e6-4bff-a37e-10def459c7ac",
+    "workbenchUrl": "https://www.simscale.com/workbench/?pid=1269879333705405039&rru=a4ce9cd2-f9cf-4c44-8449-8ae1cd98acd3&ci=f827e8e8-41e6-4bff-a37e-10def459c7ac&ct=CONVERGENCE_PLOT&mt=SIMULATION_RESULT"
+  },
+  {
+    "category": "SOLUTION",
+    "resultId": "d227d062-d0e3-447a-863b-0885fa36e5fb",
+    "workbenchUrl": "https://www.simscale.com/workbench/?pid=1269879333705405039&rru=a4ce9cd2-f9cf-4c44-8449-8ae1cd98acd3&ci=d227d062-d0e3-447a-863b-0885fa36e5fb&ct=SOLUTION_FIELD&mt=SIMULATION_RESULT"
+  }
+]

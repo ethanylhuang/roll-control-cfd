@@ -1,0 +1,4 @@
+21:32:50 sim be0b58aa run d33514b1 started (V=169.6, mesh 0fba3cc2)
+22:25:08 run FINISHED CPUh 13.115277777777777
+{"moments_Nm": {"Mroll": 0.3260945882206332, "Mpitch": -0.015324362312181138, "Myaw": 2.4012264849898926}, "forces_N": {"Fx": -0.1099843207454161, "Fy": 7.169483844778649, "Fz": -41.71291186129197}, "convergence": {"std_rel_pct": 3.3085914529205276, "block_std_pct": 0.19448386862820471, "block_means": [0.3272516845388124, 0.3254473826054104, 0.3260906384058512, 0.32619090631882, 0.3253113433096376, 0.3262755741452676], "drift_pct": 0.23675148505889726, "window": 1500, "p_residual": 0.000142583119022, "flags": []}}
+RESULT /Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d15_M0.5_fine_sealed.json

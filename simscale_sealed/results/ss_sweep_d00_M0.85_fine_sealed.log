@@ -1,0 +1,4 @@
+05:17:13 sim 73af087e run 84c2fcdb started (V=288.2, mesh 758cbf5c)
+06:09:30 run FINISHED CPUh 13.283611111111112
+{"moments_Nm": {"Mroll": 0.00828678830706786, "Mpitch": -0.07526773379087678, "Myaw": -0.07053543302425448}, "forces_N": {"Fx": 0.10429184070891573, "Fy": -0.10080154456659655, "Fz": -158.61912259409652}, "convergence": {"std_rel_pct": 241.07849165178945, "block_std_pct": 4.643928196033035, "block_means": [0.00840119488719418, 0.008374591759569268, 0.008683855929506107, 0.007843346007283432, 0.008709536137353868, 0.007708205121500308], "drift_pct": 6.230574019799776, "window": 1500, "p_residual": 0.00016413658306, "flags": ["mroll_drift(6.2%)", "mroll_noisy(block_std=4.6%)"]}}
+RESULT /Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d00_M0.85_fine_sealed.json

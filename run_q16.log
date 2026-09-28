@@ -1,0 +1,9 @@
+19:57:01 start d12 M0.90_filled_fine_opensides_long
+21:53:30 done d12 M0.90_filled_fine_opensides_long rc=0: [solve] stop=endTime rc=0 iters=4000 | "Mroll":1.0180994634825173,
+convergence {'std_rel_pct': 2.144161226511074, 'drift_pct': 0.6109376059143521, 'flags': []}
+  sheet: row 61: M0.9 d12 Mroll 1.0181 Cl 0.12131 CA 1.3134 CY 0.12988 CN 0.00711 Cm -0.04256 Cn 0.6247 
+21:53:31 start dm06 M0.90_filled_fine_opensides_long
+23:33:34 done dm06 M0.90_filled_fine_opensides_long rc=0: [solve] stop=endTime rc=0 iters=4000 | "Mroll":-0.48087151570629366,
+convergence {'std_rel_pct': 3.019893435292088, 'drift_pct': 0.3523740525109956, 'flags': []}
+  sheet: row 55: M0.9 d-6 Mroll -0.4809 Cl -0.0573 CA 1.30707 CY -0.06233 CN 0.00523 Cm -0.02367 Cn -0.29939 
+23:33:36 Q16 DONE

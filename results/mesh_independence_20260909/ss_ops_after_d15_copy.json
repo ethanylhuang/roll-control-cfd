@@ -1,0 +1,703 @@
+[
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 2.2130555555555556
+    },
+    "finishedAt": "2026-09-04T05:16:09.584982Z",
+    "meshId": "551305a2-70aa-4ccb-9315-40c9cd6506b8",
+    "meshOperationId": "257498b4-67ab-413b-8402-4a503b476f2d",
+    "name": "Mesh 33",
+    "progress": 1.0,
+    "startedAt": "2026-09-04T05:12:00.592166Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "35ef2c98-cca1-4def-be5e-97ec832fc8a0",
+    "name": "Mesh 34",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "2030f0e0-c0cb-4b66-8d9e-0285d6112b40",
+    "name": "d06 mesh (from Mesh 33)",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "971aedaa-ddea-4e2e-a3d7-d3cad78f4ad8",
+    "name": "d06 mesh (from Mesh 33)",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.443611111111111
+    },
+    "finishedAt": "2026-09-04T07:19:12.762457Z",
+    "meshId": "0a5e37d9-57c6-4dbb-97d5-82c87b2f5ac3",
+    "meshOperationId": "75f538ef-5000-4545-8292-d0d374be8ddc",
+    "name": "Mesh 35",
+    "progress": 1.0,
+    "startedAt": "2026-09-04T07:12:45.353943Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.446111111111111
+    },
+    "finishedAt": "2026-09-04T07:24:29.042067Z",
+    "meshId": "d13e98c6-90db-4693-9dfb-eb828cb1f19b",
+    "meshOperationId": "b58da0be-52e3-4d04-a470-31b951e3e2f3",
+    "name": "Mesh 37",
+    "progress": 1.0,
+    "startedAt": "2026-09-04T07:18:01.346162Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.346111111111111
+    },
+    "finishedAt": "2026-09-04T07:33:11.550448Z",
+    "meshId": "ca91d87d-5607-4376-ae2a-e4198683dd3c",
+    "meshOperationId": "b7473ef9-bc9f-44f0-a603-8696ef5ddba1",
+    "name": "Mesh 39",
+    "progress": 1.0,
+    "startedAt": "2026-09-04T07:26:55.081819Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.4227777777777777
+    },
+    "finishedAt": "2026-09-04T08:23:43.855853Z",
+    "meshId": "e937f9da-b912-450e-963e-68553187ce7a",
+    "meshOperationId": "0ac99ae8-9f04-4055-9ec9-841e752b84f5",
+    "name": "Mesh 41",
+    "progress": 1.0,
+    "startedAt": "2026-09-04T08:17:18.776534Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.5230555555555556
+    },
+    "finishedAt": "2026-09-04T08:28:42.032151Z",
+    "meshId": "6965fd12-26e2-4eca-835d-00ff12a220e3",
+    "meshOperationId": "b7a7d4d2-4c52-4430-b6c8-4d741e3e23a4",
+    "name": "Mesh 43",
+    "progress": 1.0,
+    "startedAt": "2026-09-04T08:22:05.660306Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.4702777777777776
+    },
+    "finishedAt": "2026-09-04T08:30:56.095374Z",
+    "meshId": "bd2c2925-df91-41e4-bc20-91b8a615f83f",
+    "meshOperationId": "cdd563bb-1254-4db6-8632-695c74033982",
+    "name": "Mesh 45",
+    "progress": 1.0,
+    "startedAt": "2026-09-04T08:24:25.665074Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.444722222222222
+    },
+    "finishedAt": "2026-09-04T08:31:58.919134Z",
+    "meshId": "946286b0-291b-4783-8135-c35cd0b647cd",
+    "meshOperationId": "c4963abf-1cc8-4c25-a0dd-569b64c261d2",
+    "name": "Mesh 47",
+    "progress": 1.0,
+    "startedAt": "2026-09-04T08:25:31.364757Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "fb2296fe-ec10-4c12-8aa9-941017501871",
+    "name": "Mesh 33 sealed gap (API)",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.0188888888888887
+    },
+    "finishedAt": "2026-09-04T16:34:22.132687Z",
+    "meshId": "feaa6ff1-c477-44e2-8a19-d51a0c4aa85d",
+    "meshOperationId": "c5b80c86-e090-46f0-8aa9-17d471e13ebe",
+    "name": "Mesh 48 sealed gap (cutout level 5)",
+    "progress": 1.0,
+    "startedAt": "2026-09-04T16:28:42.480268Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "ba5e0209-8fb4-488a-bdc8-c181d49cc7ad",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.269722222222222
+    },
+    "finishedAt": "2026-09-04T18:04:57.326902Z",
+    "meshId": "04c0eade-73dc-4d0c-93ce-5d09e55f36f7",
+    "meshOperationId": "cf889433-81ce-4960-b9bc-5d0fde8946f3",
+    "name": "d10 filled sealed (from Mesh 48)",
+    "progress": 1.0,
+    "startedAt": "2026-09-04T17:58:49.46254Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.703611111111111
+    },
+    "finishedAt": "2026-09-05T05:16:14.802416Z",
+    "meshId": "4a152278-65e5-4817-a232-cdf530572c10",
+    "meshOperationId": "04c0bfae-9d85-42fd-a09e-323fc4276a24",
+    "name": "d10 filled fine (fins+tab L6, body L5)",
+    "progress": 1.0,
+    "startedAt": "2026-09-05T05:09:18.128828Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.6055555555555556
+    },
+    "finishedAt": "2026-09-05T18:16:01.362217Z",
+    "meshId": "c7f754ac-2310-4a3c-8821-112e4e5e8e86",
+    "meshOperationId": "10a364eb-4206-4648-a614-5daf4f320877",
+    "name": "d10 filled fine v2 (L6 fins+tab, 3 layers x1.2, featureAngle 60, strict quality) (API)",
+    "progress": 1.0,
+    "startedAt": "2026-09-05T18:09:15.713066Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 2.6333333333333333
+    },
+    "finishedAt": "2026-09-05T20:46:06.891565Z",
+    "meshId": "efce4f58-2563-48dc-8ed6-40b461101024",
+    "meshOperationId": "b4ed004d-f121-4db0-b76b-b54be7322028",
+    "name": "d10 filled fine v3 = local snappy mirror (L6 tab box, 4 layers x1.3, local snap/quality) (API)",
+    "progress": 1.0,
+    "startedAt": "2026-09-05T20:41:10.612431Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "d5c597b5-3f5f-4af9-8d4c-6f115a776c4d",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "ed01232a-1a78-4d48-b58a-be2489bbeae0",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "70825e55-5cec-48b9-9a19-9a3c0d3b0a89",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "d611d880-e01e-4dea-9ec4-108e9ff418c2",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "e516cf31-f6c7-42f0-84dc-ee34eaa828ca",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "42c029ed-61fa-4735-b83c-d4ebfb663737",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "a67cef53-7056-4eae-ba35-4a145965ac39",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 0.0
+    },
+    "finishedAt": "2026-09-06T06:58:40.138579Z",
+    "meshId": null,
+    "meshOperationId": "a3c13db2-e5da-4ecc-91f7-b491c8d8b896",
+    "name": "Mesh 6",
+    "progress": 0.0,
+    "startedAt": null,
+    "status": "CANCELED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 2.2694444444444444
+    },
+    "finishedAt": "2026-09-06T07:06:53.527356Z",
+    "meshId": "18511bf3-4e94-4d23-b883-a4dc45f852c9",
+    "meshOperationId": "d1f9aaba-9570-417b-b983-6e182538efe9",
+    "name": "d00 filled2 mesh (coarse settings from Mesh 48 lineage)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T07:02:38.191852Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.3444444444444446
+    },
+    "finishedAt": "2026-09-06T07:09:51.699535Z",
+    "meshId": "1fb92547-9bb7-4fc0-9047-207cc2a5905a",
+    "meshOperationId": "29a0095a-ef5d-4656-a94f-9164ebd1045c",
+    "name": "d03 filled2 mesh (coarse settings from Mesh 48 lineage)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T07:03:35.435891Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "4233bf74-555b-4c76-a8c0-8b6960837272",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 2.276666666666667
+    },
+    "finishedAt": "2026-09-06T07:08:47.036336Z",
+    "meshId": "c1d6009c-3415-444f-8893-0c5a4e1915f1",
+    "meshOperationId": "ff56e913-10f6-46ca-aeb6-2ab1d861ad72",
+    "name": "d06 filled2 mesh (coarse settings from Mesh 48 lineage)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T07:04:30.88682Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.2969444444444442
+    },
+    "finishedAt": "2026-09-06T07:11:11.751503Z",
+    "meshId": "5576cb29-b046-4df7-8b58-d187ca95feba",
+    "meshOperationId": "cf8c8de6-6b4c-487d-9490-67ae79ab2aa7",
+    "name": "d09 filled2 mesh (coarse settings from Mesh 48 lineage)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T07:05:00.813606Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 0.0
+    },
+    "finishedAt": "2026-09-06T07:22:33.526328Z",
+    "meshId": null,
+    "meshOperationId": "15df05fd-a5b1-488c-b96d-a2ade18859bd",
+    "name": "d12 filled2 mesh (coarse settings from Mesh 48 lineage)",
+    "progress": 0.0,
+    "startedAt": "2026-09-06T07:17:08.292205Z",
+    "status": "FAILED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.3208333333333333
+    },
+    "finishedAt": "2026-09-06T07:13:37.926356Z",
+    "meshId": "0497ae20-e102-4679-ab05-aa25248ff436",
+    "meshOperationId": "3e03cd17-4310-4c1a-94a3-765e94c252dd",
+    "name": "d15 filled2 mesh (coarse settings from Mesh 48 lineage)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T07:07:24.330697Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 2.2183333333333333
+    },
+    "finishedAt": "2026-09-06T07:12:05.181785Z",
+    "meshId": "1d3f00fb-9a2e-4259-8b31-a9276bbc484c",
+    "meshOperationId": "da9e7a6f-2289-4608-9c79-00dcffcb8e06",
+    "name": "d10 filled2 mesh (coarse settings from Mesh 48 lineage)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T07:07:55.592213Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 2.3244444444444445
+    },
+    "finishedAt": "2026-09-06T07:04:53.422677Z",
+    "meshId": "c5053224-cf8f-4fae-ae0b-925f5a48ef2b",
+    "meshOperationId": "78484029-90d4-4d21-82b7-4425b33a1f28",
+    "name": "dm06 filled2 mesh (coarse settings from Mesh 48 lineage)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T07:00:31.894642Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "1c8584ef-a1d7-44f2-910c-e348d28fb4af",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "6a93eaee-7987-4de5-a095-938537f74b1a",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "2369e570-aa0c-4664-aef6-0d5728df7176",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "530daf48-a999-4de5-9d7e-683a8b888a4c",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "be55585f-20af-4464-9634-d5f7cf3bdb95",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "3b13f099-6bd6-4f87-9cd6-759048398b67",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "496ff92d-652b-4b2a-8048-9d90a36bdc2e",
+    "name": "Mesh 6",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.381388888888889
+    },
+    "finishedAt": "2026-09-06T21:04:49.942839Z",
+    "meshId": "2684342b-5553-4d9a-a670-eac0bc68005d",
+    "meshOperationId": "7e7d2175-5661-4ef9-aab7-bf5a430bb407",
+    "name": "dm06 cfd mesh (coarse settings from Mesh 48 lineage)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T20:58:29.529533Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.401666666666667
+    },
+    "finishedAt": "2026-09-06T21:02:55.839522Z",
+    "meshId": "045b2439-26ca-41a7-8897-8f2682f4c0e9",
+    "meshOperationId": "85fa7e03-bb5a-4396-9bd7-f05cdc3fb481",
+    "name": "d00 cfd mesh (coarse settings from Mesh 48 lineage)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T20:56:33.14535Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.3358333333333334
+    },
+    "finishedAt": "2026-09-06T21:01:27.037156Z",
+    "meshId": "56abc8d9-11ce-4638-b5a2-3d6071700e33",
+    "meshOperationId": "edc936d3-1485-4c35-b138-f370008a32d9",
+    "name": "d03 cfd mesh (coarse settings from Mesh 48 lineage)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T20:55:11.73328Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.3241666666666667
+    },
+    "finishedAt": "2026-09-06T20:59:36.976169Z",
+    "meshId": "3be69d0c-9c4e-4d86-ae8b-b0b2ee3e89b7",
+    "meshOperationId": "418403e5-5aa7-4d15-a44f-416a5693dc85",
+    "name": "d06 cfd mesh (coarse settings from Mesh 48 lineage)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T20:53:22.981267Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.3427777777777776
+    },
+    "finishedAt": "2026-09-06T20:57:55.550834Z",
+    "meshId": "0063d48e-cf43-4e53-92be-b61b5e56c999",
+    "meshOperationId": "6f5aa012-544d-448a-a2ab-f09ef5b06108",
+    "name": "d09 cfd mesh (coarse settings from Mesh 48 lineage)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T20:51:39.462496Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.3144444444444443
+    },
+    "finishedAt": "2026-09-06T20:56:30.881016Z",
+    "meshId": "361e5d94-8c84-427c-beff-33e611456059",
+    "meshOperationId": "bc10b733-eabe-49a8-a4c7-427abf6d0e95",
+    "name": "d12 cfd mesh (coarse settings from Mesh 48 lineage)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T20:50:17.995949Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.3494444444444444
+    },
+    "finishedAt": "2026-09-06T20:55:02.826745Z",
+    "meshId": "343f5194-7ef3-4105-b949-6e3fa3a27416",
+    "meshOperationId": "b912bb9e-3859-46a3-a7f6-e44af44c0f64",
+    "name": "d15 cfd mesh (coarse settings from Mesh 48 lineage)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T20:48:45.994157Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 2.5452777777777778
+    },
+    "finishedAt": "2026-09-06T23:43:32.388068Z",
+    "meshId": "8ec4512e-c3bb-465a-93ff-ac657f87db7b",
+    "meshOperationId": "696ae853-2a64-4f76-b9f2-56f6717f7cfb",
+    "name": "d00 cfd FINE mesh (v3 mirror: L5 body, L6 fins+tab + tab box, 4 layers)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T23:38:46.026185Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 2.4497222222222224
+    },
+    "finishedAt": "2026-09-06T23:49:06.581039Z",
+    "meshId": "0723565d-9dec-441a-b8b1-62cae68cb72d",
+    "meshOperationId": "bcb717e6-546a-4546-aeaf-5c30acde58ca",
+    "name": "d03 cfd FINE mesh (v3 mirror: L5 body, L6 fins+tab + tab box, 4 layers)",
+    "progress": 1.0,
+    "startedAt": "2026-09-06T23:44:30.985429Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.689722222222222
+    },
+    "finishedAt": "2026-09-07T00:15:22.733178Z",
+    "meshId": "6f65bf00-0175-45f1-8abf-a4c8b672a115",
+    "meshOperationId": "5ff938ca-005e-441d-b051-821615a42956",
+    "name": "d06 cfd FINE mesh (v3 mirror: L5 body, L6 fins+tab + tab box, 4 layers)",
+    "progress": 1.0,
+    "startedAt": "2026-09-07T00:08:27.615305Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 2.526666666666667
+    },
+    "finishedAt": "2026-09-07T00:15:22.727772Z",
+    "meshId": "63d533f2-80e2-4878-8a55-de51e59578fd",
+    "meshOperationId": "3d49858a-4001-4573-9011-76290361531f",
+    "name": "d09 cfd FINE mesh (v3 mirror: L5 body, L6 fins+tab + tab box, 4 layers)",
+    "progress": 1.0,
+    "startedAt": "2026-09-07T00:10:38.47624Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.5733333333333333
+    },
+    "finishedAt": "2026-09-07T00:18:44.942504Z",
+    "meshId": "b3e404b1-081a-4b37-a5d6-bf36fc2973ea",
+    "meshOperationId": "3fa53f74-c98a-40b3-9e1b-b2d5a4f23bb0",
+    "name": "d12 cfd FINE mesh (v3 mirror: L5 body, L6 fins+tab + tab box, 4 layers)",
+    "progress": 1.0,
+    "startedAt": "2026-09-07T00:12:02.915064Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.5772222222222223
+    },
+    "finishedAt": "2026-09-07T00:19:31.584957Z",
+    "meshId": "4cedb5c3-ce68-4bde-9200-2e3721bab0b4",
+    "meshOperationId": "725ce7a9-b48e-4ece-9478-dde531c28694",
+    "name": "d15 cfd FINE mesh (v3 mirror: L5 body, L6 fins+tab + tab box, 4 layers)",
+    "progress": 1.0,
+    "startedAt": "2026-09-07T00:12:49.116725Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 2.4383333333333335
+    },
+    "finishedAt": "2026-09-07T00:12:10.559364Z",
+    "meshId": "af5a0a19-d052-4dd6-a4ef-5a09d4e77fa5",
+    "meshOperationId": "9fe526f8-9134-49cd-bf01-35e655cf8e4a",
+    "name": "dm06 cfd FINE mesh (v3 mirror: L5 body, L6 fins+tab + tab box, 4 layers)",
+    "progress": 1.0,
+    "startedAt": "2026-09-07T00:07:36.236787Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": {
+      "type": "CPU_HOURS",
+      "value": 3.4052777777777776
+    },
+    "finishedAt": "2026-09-10T04:21:49.20094Z",
+    "meshId": "e579fe99-4af5-4d78-8c62-6cf08124a4e1",
+    "meshOperationId": "ed040f6c-c63e-4d14-bb8e-f4cda8f818d7",
+    "name": "MI 20260909 d03 refined h0.7",
+    "progress": 1.0,
+    "startedAt": "2026-09-10T04:15:26.079691Z",
+    "status": "FINISHED"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "51865169-739c-4f72-a3b0-040f070bc1d8",
+    "name": "MI d15 refined h0.7 same CFD CAD and layers",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  },
+  {
+    "computeResource": null,
+    "finishedAt": null,
+    "meshId": null,
+    "meshOperationId": "5ffc88ed-fee3-4756-a6ef-70ceed3af8b5",
+    "name": "Mesh 58",
+    "progress": null,
+    "startedAt": null,
+    "status": "READY"
+  }
+]

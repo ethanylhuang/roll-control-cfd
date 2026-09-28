@@ -1,0 +1,4 @@
+23:37:58 start d15 M0.90_filled_fine_transient
+02:07:05 done rc=0: 02:07:05 solver rc=0 last t=0.015 fatal=False wall=8944s | "Mroll":1.2513015193176973,
+transient convergence {'std_rel_pct': 0.144, 'drift_pct': 0.009} quarters [1.2512, 1.2514, 1.2514, 1.2511]
+02:07:05 Q17 DONE

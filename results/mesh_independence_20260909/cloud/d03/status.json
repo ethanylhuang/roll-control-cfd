@@ -1,0 +1,9 @@
+{
+  "updated": 1789098676.703027,
+  "stage": "SETUP_MISMATCH_REQUIRES_CORRECTION",
+  "runStatus": "FINISHED",
+  "runId": "fab10443-3d6a-4a7d-9e46-a71140941ffb",
+  "note": "Final run outcome verified; completed monitor unloaded to prevent relaunch overwriting status.",
+  "meanStable": false,
+  "error": "Refined run inlet table differs from immutable M0.30 baseline run. The current editable simulation was copied; this is not a valid same-inlet mesh comparison."
+}

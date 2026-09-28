@@ -1,0 +1,19 @@
+23:44:19 d15 M0.90 transient process ended
+d15 M0.90 transient Mroll 1.4253 {'std_rel_pct': 0.132, 'drift_pct': 0.009} quarters [1.4253, 1.4252, 1.4255, 1.4251]
+  sheet: row 62: M0.9 d15 Mroll 1.4253 Cl 0.16982 CA 1.30024 CY 0.18631 CN 0.00408 Cm -0.03419 Cn 0.89729 
+23:44:20 rendering d15 M0.90 video
+KeyError: 'Ma'
+./run_q22.sh:15: no matches found: runs_v4/d15/M0.90_sealedcad_fine_transient/anim/*.mp4
+23:44:20 start d15 M1.20 steady restart from M0.90 (transonic + consistent, tutorial relaxation)
+00:50:48 done rc=0: "stop_reason":"endTime","Mroll":1.93124025712,
+  frame 1/1 t=2000 -> frame_0000.png (1s)
+still: results/anim/d15_M1.20_sealedcad_fine_restart_still.png
+00:50:52 dm06 M0.90 drift 9.443341503281205% -> transient restart (15 ms)
+03:18:12 done rc=0: "Mroll":-0.5775252648219615,
+  sheet: row 55: M0.9 d-6 Mroll -0.5775 Cl -0.06881 CA 1.27567 CY -0.07318 CN 0.00903 Cm -0.04264 Cn -0.35065 
+03:18:13 d12 M0.90 drift 0.5711989109608715% -> steady value kept
+03:18:13 start d15 M1.20 transient (10 ms, dt 3e-6, --transonic, animation output)
+05:28:31 done rc=0: "Mroll":1.7896190353357315,
+05:28:31 rendering d15 M1.20 video
+ffmpeg rc=0: /Users/trasomi/dev/cfd/runs_v4/d15/M1.20_sealedcad_fine_transient/anim/d15_M1.20_sealedcad_fine_transient.mp4 (0.6 MB)
+05:31:44 Q22 DONE

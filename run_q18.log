@@ -1,0 +1,9 @@
+11:32:50 start d03 M0.30_sealedcad_fine_opensides
+12:25:47 done d03 M0.30_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.02424709983772455,
+12:25:47 start d15 M0.85_sealedcad_fine_opensides
+13:17:41 done d15 M0.85_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":1.216171361457086,
+13:17:41 start d10 M0.60_sealedcad_fine_opensides
+15:19:56 done d10 M0.60_sealedcad_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.3264913325508982,
+15:19:56 baselines done; starting the r30 grid check
+23:29:59 grid check rc=0
+23:29:59 Q18 DONE

@@ -1,0 +1,31 @@
+18:47:00 0/ rewritten: inlet B5_TE5_B5_TE36, outlet B5_TE5_B5_TE9, sides ['B5_TE5_B5_TE2', 'B5_TE5_B5_TE30', 'B5_TE5_B5_TE27', 'B5_TE5_B5_TE33'], walls regex for 76 patches
+18:47:00 unlimited Gauss linear for all gradients
+18:47:04 decomposePar rc=0
+19:25:46 solver rc=0 last=2000 stop=endTime wall=2322s
+{
+ "stop_reason": "endTime",
+ "n_avg_samples": 501,
+ "moments_Nm": {
+  "Mroll": 0.8631126340339321,
+  "Mpitch": 0.051079990300235543,
+  "Myaw": 5.711928614351297
+ },
+ "forces_N": {
+  "Fx": -0.19620939458407186,
+  "Fy": 16.505945280439125,
+  "Fz": -196.37016541916168
+ },
+ "convergence": {
+  "mean": 0.8631126340339321,
+  "std": 0.0832745729731028,
+  "slope_per_iter": -8.280188006937482e-05,
+  "drift": 0.04140094003468741,
+  "drift_pct": 4.796701890597026,
+  "std_rel_pct": 9.648169855178944,
+  "flags": [
+   "mroll_drift(4.8%)",
+   "mroll_noisy(std=9.6%)"
+  ]
+ },
+ "postprocess_error": null
+}

@@ -1,0 +1,37 @@
+17:05:37 [fB] start d03 (d3) M0.5 mesh 0723565d base 211a48e4
+17:58:01 [fB] done d03 M0.5: Mroll 0.0573 Myaw 0.478 Fz -41.3 std 8.8% drift 0.1% ['mroll_noisy(std=8.8%)']
+17:58:02 [fB] sheet: row 17: M0.5 d3 Mroll 0.0573 Cl 0.02207 CA 0.92051 CY 0.03167 CN -0.00336 Cm 0.0141 Cn 0.14623 mroll_noisy(std=8.8%)
+17:58:03 [fB] start d06 (d6) M0.5 mesh 6f65bf00 base 0015652e
+18:48:29 [fB] done d06 M0.5: Mroll 0.0960 Myaw 0.734 Fz -41.3 std 15.0% drift 0.2% []
+18:48:29 [fB] sheet: row 18: M0.5 d6 Mroll 0.096 Cl 0.03699 CA 0.91961 CY 0.04927 CN -0.00638 Cm 0.02897 Cn 0.22392
+18:48:30 [fB] start d09 (d9) M0.5 mesh 63d533f2 base 11541749
+19:40:58 [fB] done d09 M0.5: Mroll 0.1703 Myaw 1.255 Fz -41.5 std 7.3% drift 0.4% []
+19:40:59 [fB] sheet: row 19: M0.5 d9 Mroll 0.1703 Cl 0.06561 CA 0.9241 CY 0.08432 CN -0.00026 Cm -0.01768 Cn 0.38307
+19:40:59 [fB] start d12 (d12) M0.5 mesh b3e404b1 base 9afd9844
+20:29:24 [fB] done d12 M0.5: Mroll 0.2185 Myaw 1.542 Fz -41.6 std 3.3% drift 0.1% []
+20:29:25 [fB] sheet: row 21: M0.5 d12 Mroll 0.2185 Cl 0.08421 CA 0.9256 CY 0.10346 CN -0.00602 Cm 0.02116 Cn 0.47076
+20:29:26 [fB] start d15 (d15) M0.5 mesh 4cedb5c3 base 8769b659
+21:21:53 [fB] done d15 M0.5: Mroll 0.2774 Myaw 1.858 Fz -41.5 std 3.8% drift 0.1% []
+21:21:54 [fB] sheet: row 22: M0.5 d15 Mroll 0.2774 Cl 0.10688 CA 0.92382 CY 0.12544 CN -0.00564 Cm 0.01697 Cn 0.5664
+21:21:54 [fB] start dm06 (d-6) M0.5 mesh af5a0a19 base 73b003c4
+22:10:21 [fB] done dm06 M0.5: Mroll -0.0938 Myaw -0.745 Fz -41.3 std 11.4% drift 0.3% []
+22:10:22 [fB] sheet: row 15: M0.5 d-6 Mroll -0.0938 Cl -0.03613 CA 0.91919 CY -0.04899 CN -0.00481 Cm 0.02094 Cn -0.22869
+22:10:22 [fB] start d03 (d3) M0.8 mesh 0723565d base 211a48e4
+23:02:49 [fB] done d03 M0.8: Mroll 0.1775 Myaw 1.271 Fz -124.1 std 19.2% drift 0.3% []
+23:02:50 [fB] sheet: row 41: M0.8 d3 Mroll 0.1775 Cl 0.02673 CA 1.08 CY 0.03346 CN -0.00284 Cm 0.00764 Cn 0.15143
+23:02:50 [fB] start d06 (d6) M0.8 mesh 6f65bf00 base 0015652e
+23:59:19 [fB] done d06 M0.8: Mroll 0.3130 Myaw 2.363 Fz -124.1 std 11.6% drift 0.2% []
+23:59:20 [fB] sheet: row 42: M0.8 d6 Mroll 0.313 Cl 0.04714 CA 1.08022 CY 0.06173 CN -0.00156 Cm -0.00118 Cn 0.28215
+23:59:21 [fB] start d09 (d9) M0.8 mesh 63d533f2 base 11541749
+00:51:49 [fB] done d09 M0.8: Mroll 0.5076 Myaw 3.727 Fz -124.6 std 3.4% drift 0.0% []
+00:51:50 [fB] sheet: row 43: M0.8 d9 Mroll 0.5076 Cl 0.07644 CA 1.08507 CY 0.09653 CN -0.00249 Cm -0.00127 Cn 0.44602
+00:51:51 [fB] start d12 (d12) M0.8 mesh b3e404b1 base 9afd9844
+01:42:17 [fB] done d12 M0.8: Mroll 0.6892 Myaw 4.963 Fz -124.8 std 3.1% drift 0.0% []
+01:42:18 [fB] sheet: row 45: M0.8 d12 Mroll 0.6892 Cl 0.10379 CA 1.08626 CY 0.12801 CN -3e-05 Cm -0.01507 Cn 0.5946
+01:42:18 [fB] start d15 (d15) M0.8 mesh 4cedb5c3 base 8769b659
+02:34:44 [fB] done d15 M0.8: Mroll 0.8477 Myaw 6.140 Fz -125.3 std 2.6% drift 0.1% []
+02:34:45 [fB] sheet: row 46: M0.8 d15 Mroll 0.8477 Cl 0.12765 CA 1.09059 CY 0.15829 CN -0.00055 Cm -0.01709 Cn 0.73561
+02:34:46 [fB] start dm06 (d-6) M0.8 mesh af5a0a19 base 73b003c4
+03:33:15 [fB] done dm06 M0.8: Mroll -0.3107 Myaw -2.342 Fz -124.1 std 5.9% drift 0.2% []
+03:33:16 [fB] sheet: row 39: M0.8 d-6 Mroll -0.3107 Cl -0.04678 CA 1.08022 CY -0.05908 CN -0.00262 Cm 0.00482 Cn -0.28209
+03:33:16 [fB] QUEUE DONE

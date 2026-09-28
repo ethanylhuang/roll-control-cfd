@@ -1,0 +1,14 @@
+{
+  "computeResource": {
+    "type": "CPU_HOURS",
+    "value": 3.8744444444444444
+  },
+  "createdAt": "2026-09-09T16:43:19.08851Z",
+  "duration": "PT7M15.895595S",
+  "finishedAt": "2026-09-09T16:51:41.840911Z",
+  "name": "Native FINE startup diagnostic dt0p4us 100steps 32CPU",
+  "progress": 1.0,
+  "runId": "035ff586-7e87-4c5a-87a4-b46f2122c567",
+  "startedAt": "2026-09-09T16:44:25.945316Z",
+  "status": "FINISHED"
+}

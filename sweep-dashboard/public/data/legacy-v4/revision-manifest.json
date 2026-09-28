@@ -1,0 +1,16 @@
+[
+  {
+    "id": "d03_openfoam_M0.30_filled_fine_opensides_result",
+    "source": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d03/M0.30_baseline_extension/result.json",
+    "sha256": "4377b7ad304aebdbc7fe7dad55f237f00ff8576af649995302eb7032e4c10ec1",
+    "originalSource": "/Users/trasomi/dev/cfd/runs_v4/d03/M0.30_filled_fine_opensides/result.json",
+    "originalSha256": "44e9a0557e1d72f618c0ebe1521a1baf6fcc1b61c04a75eb47d5555ae87033ac"
+  },
+  {
+    "id": "d15_openfoam_M0.30_filled_fine_opensides_result",
+    "source": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/M0.30_baseline_extension/result.json",
+    "sha256": "07b20b3324b4422a9cf27d4f265411aa4d9b4356010d8eba6cd0b641464686a8",
+    "originalSource": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.30_filled_fine_opensides/result.json",
+    "originalSha256": "29523b41934f39c3aaa826249ed17e2b4c1d615f2899f1b7fcc29ea687458ca5"
+  }
+]

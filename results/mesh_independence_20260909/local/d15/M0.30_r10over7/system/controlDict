@@ -1,0 +1,153 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2606                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      controlDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+// v4: fixed endTime (no runTimeControl early stop) — reported numbers are the
+// mean of iterations avg_start..endTime (1000..1500), so every case MUST run
+// the full length. Do not add convergence-based stopping here.
+
+#include "flowSettings"
+
+application     rhoSimpleFoam;
+
+startFrom       latestTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         $endTime;
+
+deltaT          1;
+
+writeControl    timeStep;
+
+writeInterval   250;
+
+purgeWrite      2;
+
+writeFormat     binary;
+
+writePrecision  8;
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   6;
+
+runTimeModifiable true;
+
+functions
+{
+    #includeFunc MachNo
+    #includeFunc yPlus
+    #includeFunc solverInfo
+
+    // total loads about the CG (roll/pitch/yaw table source)
+    forces_all
+    {
+        type            forces;
+        libs            (forces);
+        writeControl    timeStep;
+        writeInterval   1;
+        log             false;
+        patches         (rocket_body rocket_fins rocket_tab rocket_slot);
+        p               p;
+        U               U;
+        rho             rho;
+        rhoInf          $rhoInf;
+        CofR            $CofRcg;
+    }
+
+    forceCoeffs_total
+    {
+        type            forceCoeffs;
+        libs            (forces);
+        writeControl    timeStep;
+        writeInterval   1;
+        log             false;
+        patches         (rocket_body rocket_fins rocket_tab rocket_slot);
+        p               p;
+        U               U;
+        rho             rho;
+        rhoInf          $rhoInf;
+        liftDir         (1 0 0);
+        dragDir         (0 0 -1);
+        pitchAxis       (0 1 0);
+        CofR            $CofRcg;
+        magUInf         $magUinf;
+        lRef            $Dref;
+        Aref            $Sref;
+        coefficients    (Cd Cl CmRoll CmPitch CmYaw);
+    }
+
+    // tab-only loads about the CG (authority breakdown, matches old datasets)
+    forceCoeffs_tab
+    {
+        type            forceCoeffs;
+        libs            (forces);
+        writeControl    timeStep;
+        writeInterval   1;
+        log             false;
+        patches         (rocket_tab);
+        p               p;
+        U               U;
+        rho             rho;
+        rhoInf          $rhoInf;
+        liftDir         (1 0 0);
+        dragDir         (0 0 -1);
+        pitchAxis       (0 1 0);
+        CofR            $CofRcg;
+        magUInf         $magUinf;
+        lRef            $Dref;
+        Aref            $Sref;
+        coefficients    (Cd Cl CmRoll CmPitch CmYaw);
+    }
+
+    // hinge moment: tab + slot about a point ON the hinge line (spec).
+    // The moment component along the hinge axis is the servo torque.
+    forces_hinge
+    {
+        type            forces;
+        libs            (forces);
+        writeControl    timeStep;
+        writeInterval   1;
+        log             false;
+        patches         (rocket_tab rocket_slot);
+        p               p;
+        U               U;
+        rho             rho;
+        rhoInf          $rhoInf;
+        CofR            $CofRhinge;
+    }
+
+    // tab-only variant of the same — the number the servo actually fights
+    forces_hinge_tab
+    {
+        type            forces;
+        libs            (forces);
+        writeControl    timeStep;
+        writeInterval   1;
+        log             false;
+        patches         (rocket_tab);
+        p               p;
+        U               U;
+        rho             rho;
+        rhoInf          $rhoInf;
+        CofR            $CofRhinge;
+    }
+}
+
+// ************************************************************************* //

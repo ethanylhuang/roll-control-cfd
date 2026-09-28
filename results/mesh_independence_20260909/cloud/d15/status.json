@@ -1,0 +1,8 @@
+{
+  "updated": 1789098676.703208,
+  "stage": "NEEDS_REVIEW",
+  "runStatus": "FAILED",
+  "runId": "13c2eb61-71dc-4e2f-ad44-cdf30ca0112e",
+  "note": "Final run outcome verified; completed monitor unloaded to prevent relaunch overwriting status.",
+  "error": "Temperature inversion exceeded maximum iterations during startup."
+}

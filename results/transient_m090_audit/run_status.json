@@ -1,0 +1,14 @@
+{
+  "computeResource": {
+    "type": "CPU_HOURS",
+    "value": 48.208888888888886
+  },
+  "createdAt": "2026-09-06T21:41:00.729321Z",
+  "duration": "PT3H47.054464S",
+  "finishedAt": "2026-09-07T00:42:46.246083Z",
+  "name": "T4_fine30",
+  "progress": 1.0,
+  "runId": "f14922f9-cc74-457c-b16d-0deea960985d",
+  "startedAt": "2026-09-06T21:41:59.191619Z",
+  "status": "CANCELED"
+}

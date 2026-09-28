@@ -1,0 +1,42 @@
+{
+ "d03": {
+  "geometry_id": "65a743be-051d-4c75-9561-abef4f9ba89b",
+  "name": "d03 sealed rocket (delta=3, CFD branch sealed tab, API 2026-09-11)",
+  "deflection": 3.0
+ },
+ "d15": {
+  "geometry_id": "7bcdfc06-9d94-43b4-82aa-42b29e41c9ce",
+  "name": "d15 sealed rocket (delta=15, CFD branch sealed tab, API 2026-09-11)",
+  "deflection": 15.0
+ },
+ "d10": {
+  "geometry_id": "1ed66b9f-6bc5-4a41-84c0-fc1e77ed0c7a",
+  "name": "d10 sealed rocket (delta=10, CFD branch sealed tab, API 2026-09-11)",
+  "deflection": 10.0
+ },
+ "d00": {
+  "geometry_id": "cdfbd1e2-23e2-44f0-bd6f-2ffa5b7accc1",
+  "name": "d00 sealed rocket (delta=0, CFD branch sealed tab, API 2026-09-11)",
+  "deflection": 0.0
+ },
+ "d06": {
+  "geometry_id": "f49a673b-9179-4219-bc71-48b958dd4ba9",
+  "name": "d06 sealed rocket (delta=6, CFD branch sealed tab, API 2026-09-11)",
+  "deflection": 6.0
+ },
+ "d09": {
+  "geometry_id": "9ff75590-f0a0-489c-8e6c-abb26948da0a",
+  "name": "d09 sealed rocket (delta=9, CFD branch sealed tab, API 2026-09-11)",
+  "deflection": 9.0
+ },
+ "d12": {
+  "geometry_id": "150723fe-fe02-4b86-89d5-5e3890186560",
+  "name": "d12 sealed rocket (delta=12, CFD branch sealed tab, API 2026-09-11)",
+  "deflection": 12.0
+ },
+ "dm06": {
+  "geometry_id": "8553c94a-1092-4f24-9441-745e06f96b0d",
+  "name": "dm06 sealed rocket (delta=-6, CFD branch sealed tab, API 2026-09-11)",
+  "deflection": -6.0
+ }
+}

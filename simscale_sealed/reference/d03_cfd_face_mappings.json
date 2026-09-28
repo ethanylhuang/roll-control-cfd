@@ -1,0 +1,1056 @@
+{
+ "_embedded": [
+  {
+   "class": "face",
+   "name": "B5_TE1653",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1653@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1660",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1660@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1667",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1667@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1674",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1674@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1681",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1681@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1688",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1688@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1695",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1695@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1702",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1702@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1710",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1710@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1717",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1717@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1725",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1725@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1732",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1732@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1739",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1739@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1746",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1746@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1753",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1753@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1760",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1760@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1767",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1767@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1774",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1774@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1781",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1781@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1788",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1788@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1795",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1795@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1802",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1802@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1809",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1809@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1816",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1816@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1823",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1823@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1830",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1830@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1837",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1837@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1844",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1844@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1851",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1851@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1858",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1858@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1865",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1865@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1872",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1872@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1879",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1879@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1886",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1886@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1893",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1893@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1900",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1900@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1907",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1907@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1914",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1914@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1921",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1921@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1928",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1928@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1935",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1935@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1942",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1942@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1950",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1950@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1957",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1957@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1964",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1964@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1971",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1971@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1978",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1978@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1985",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1985@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1992",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1992@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE1999",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face1999@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "Max X@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2006",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2006@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2013",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2013@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2020",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2020@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2027",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2027@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2034",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2034@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2041",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2041@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2048",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2048@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2055",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2055@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2062",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2062@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2069",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2069@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2076",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2076@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2083",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2083@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2090",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2090@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2097",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2097@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2104",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2104@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2111",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2111@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2118",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2118@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2125",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2125@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2132",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2132@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2139",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2139@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2146",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2146@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2153",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2153@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2160",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2160@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2167",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2167@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2174",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2174@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2181",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2181@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2188",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2188@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2195",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2195@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2202",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2202@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE2210",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "face2210@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE27",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "Max Y@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE30",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "Min X@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE33",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "Min Y@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE36",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "Max Z@Flow region",
+     "path": []
+    }
+   ]
+  },
+  {
+   "class": "face",
+   "name": "B5_TE9",
+   "originateFrom": [
+    {
+     "attributeList": [],
+     "body": "Flow region",
+     "entity": "Min Z@Flow region",
+     "path": []
+    }
+   ]
+  }
+ ],
+ "_links": {
+  "first": {
+   "href": "/projects/1269879333705405039/geometries/b5fd1396-e1ae-4409-ab27-4f28f7ab62d1/mappings?page=1&limit=500"
+  },
+  "last": {
+   "href": "/projects/1269879333705405039/geometries/b5fd1396-e1ae-4409-ab27-4f28f7ab62d1/mappings?page=1&limit=500"
+  },
+  "next": {
+   "href": "/projects/1269879333705405039/geometries/b5fd1396-e1ae-4409-ab27-4f28f7ab62d1/mappings?page=1&limit=500"
+  },
+  "prev": {
+   "href": "/projects/1269879333705405039/geometries/b5fd1396-e1ae-4409-ab27-4f28f7ab62d1/mappings?page=1&limit=500"
+  },
+  "self": {
+   "href": "/projects/1269879333705405039/geometries/b5fd1396-e1ae-4409-ab27-4f28f7ab62d1/mappings?page=1&limit=500"
+  }
+ },
+ "_meta": {
+  "total": 86
+ }
+}

@@ -1,0 +1,46 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2606                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      thermophysicalProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+thermoType
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleEnthalpy;      // SimScale equationOfState.energy
+}
+
+mixture // SimScale material library 'Air' (roll-control project, read 2026-09-04)
+{
+    specie
+    {
+        molWeight       28.97;
+    }
+    thermodynamics
+    {
+        Cp              1004;
+        Hf          0;
+    }
+    transport
+    {
+        mu              1.83e-05;
+        Pr              0.713;
+    }
+}
+
+// ************************************************************************* //

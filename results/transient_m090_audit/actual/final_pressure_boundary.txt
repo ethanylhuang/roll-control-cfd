@@ -1,0 +1,339 @@
+boundaryField
+{
+    B5_TE5_B5_TE2
+    {
+        type            fixedValue;
+        value           uniform 97690;
+    }
+    B5_TE5_B5_TE2041
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1964
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2097
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2027
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2202
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1710
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1695
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1872
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2139
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2076
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1893
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2132
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2167
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1957
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1886
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2048
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1788
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2188
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1851
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1844
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1971
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2125
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE33
+    {
+        type            fixedValue;
+        value           uniform 97690;
+    }
+    B5_TE5_B5_TE36
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1809
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2034
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1992
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1999
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2083
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1774
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1830
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2146
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1907
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1732
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1978
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1942
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2153
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1688
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE9
+    {
+        type            fixedValue;
+        value           uniform 97690;
+    }
+    B5_TE5_B5_TE2111
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2062
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1802
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2013
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2055
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1900
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2020
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1921
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1767
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1717
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1879
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2181
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1739
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1653
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2069
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2006
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1914
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1816
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1823
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2118
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2195
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1681
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1702
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1725
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1781
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1985
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1935
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1660
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2104
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1837
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1928
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE30
+    {
+        type            fixedValue;
+        value           uniform 97690;
+    }
+    B5_TE5_B5_TE1858
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2160
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1950
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1674
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2210
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE27
+    {
+        type            fixedValue;
+        value           uniform 97690;
+    }
+    B5_TE5_B5_TE2174
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE2090
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1865
+    {
+        type            zeroGradient;
+    }
+    B5_TE5_B5_TE1667
+    {
+        type            zeroGradient;
+    }
+}
+
+
+// ************************************************************************* //

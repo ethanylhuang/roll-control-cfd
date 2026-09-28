@@ -1,0 +1,590 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2406                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       volScalarField;
+    location    "0";
+    object      nut;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 2 -1 0 0 0 0];
+
+internalField   uniform 1e-08;
+
+boundaryField
+{
+    B5_TE5_B5_TE2
+    {
+        type            calculated;
+        value           uniform 1e-08;
+    }
+    B5_TE5_B5_TE2041
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1964
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2097
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2027
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2202
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1710
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1695
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1872
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2139
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2076
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1893
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2132
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2167
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1957
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1886
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2048
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1788
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2188
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1851
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1844
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1971
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2125
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE33
+    {
+        type            calculated;
+        value           uniform 1e-08;
+    }
+    B5_TE5_B5_TE36
+    {
+        type            calculated;
+        value           uniform 1e-08;
+    }
+    B5_TE5_B5_TE1809
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2034
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1992
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1999
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2083
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1774
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1830
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2146
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1907
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1732
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1978
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1942
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2153
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1688
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE9
+    {
+        type            calculated;
+        value           uniform 1e-08;
+    }
+    B5_TE5_B5_TE2111
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2062
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1802
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2013
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2055
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1900
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2020
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1921
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1767
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1717
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1879
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2181
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1739
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1653
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2069
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2006
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1914
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1816
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1823
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2118
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2195
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1681
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1702
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1725
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1781
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1985
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1935
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1660
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2104
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1837
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1928
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE30
+    {
+        type            calculated;
+        value           uniform 1e-08;
+    }
+    B5_TE5_B5_TE1858
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2160
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1950
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1674
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2210
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE27
+    {
+        type            calculated;
+        value           uniform 1e-08;
+    }
+    B5_TE5_B5_TE2174
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE2090
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1865
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+    B5_TE5_B5_TE1667
+    {
+        type            nutUSpaldingWallFunction;
+        maxIter         100;
+        tolerance       1e-07;
+        value           uniform 0;
+    }
+}
+
+
+// ************************************************************************* //

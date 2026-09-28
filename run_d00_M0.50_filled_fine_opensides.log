@@ -1,0 +1,36 @@
+SimScale-matched run [ramp]: d0 M0.5 V=169.6 m/s p=97690 T=286.2 rho=1.1892 CofR z=0.399 endTime=2000 avg from 1500 case=M0.50_filled_fine_opensides
+[mesh] levels {'body': 5, 'fins': 6, 'tab': 6, 'slot': 6} -> mesh 'mesh_filled_fine'
+[d00] mesh_filled_fine exists — reusing (1500375 cells)
+[solve] pressure bounds 20000 .. 300000 Pa; relaxation overrides: p=0.3,rho=0.05,U=0.7,h=0.7,k=0.7,omega=0.7
+[solve] hinge fitted from -6.0 deg at ['-0.0854', '-0.0000', '0.0525']
+[solve] sides -> pressure outlet (open far field)
+[solve] ramped start -50 -> -169.6 m/s over 300 iterations, no potentialFoam
+[solve] rhoSimpleFoam to 2000 ...
+[solve] stop=endTime rc=0 iters=2000
+{
+ "stop_reason": "endTime",
+ "n_avg_samples": 501,
+ "moments_Nm": {
+  "Mroll": -0.00045993721235455093,
+  "Mpitch": 0.11427001045525749,
+  "Myaw": 0.056050777902155687
+ },
+ "forces_N": {
+  "Fx": -0.27213334734892214,
+  "Fy": 0.14560280878474252,
+  "Fz": -41.15449066546906
+ },
+ "convergence": {
+  "mean": -0.00045993721235455093,
+  "std": 0.003892267624936521,
+  "slope_per_iter": 2.9663696445437133e-07,
+  "drift": 0.00014831848222718566,
+  "drift_pct": 32.24754993576203,
+  "std_rel_pct": 846.2606461022979,
+  "flags": [
+   "mroll_drift(32.2%)",
+   "mroll_noisy(std=846.3%)"
+  ]
+ },
+ "postprocess_error": null
+}

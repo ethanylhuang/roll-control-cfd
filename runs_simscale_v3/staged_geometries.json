@@ -1,0 +1,93 @@
+{
+ "d00": {
+  "deflection": 0.0,
+  "geometry_id": "6525e043-ad7e-433c-902e-53bd8ece18ad",
+  "onshape": {
+   "deflection_deg": 0.0,
+   "path": "/Users/trasomi/dev/cfd/runs_simscale_v3/d00/geometry/d00_filled_rocket.x_t",
+   "bytes": 213822,
+   "deflection_readback": "0 deg",
+   "api_requests": 4
+  },
+  "n_faces": 90,
+  "n_regions": 4
+ },
+ "d03": {
+  "deflection": 3.0,
+  "geometry_id": "4f1d9798-497b-42e3-ac2e-3543fc6ab6c0",
+  "onshape": {
+   "deflection_deg": 3.0,
+   "path": "/Users/trasomi/dev/cfd/runs_simscale_v3/d03/geometry/d03_filled_rocket.x_t",
+   "bytes": 214979,
+   "deflection_readback": "3 deg",
+   "api_requests": 3
+  },
+  "n_faces": 90,
+  "n_regions": 4
+ },
+ "d06": {
+  "deflection": 6.0,
+  "geometry_id": "e8daa3ff-d27c-4b53-8199-be9e76854a53",
+  "onshape": {
+   "deflection_deg": 6.0,
+   "path": "/Users/trasomi/dev/cfd/runs_simscale_v3/d06/geometry/d06_filled_rocket.x_t",
+   "bytes": 214966,
+   "deflection_readback": "6 deg",
+   "api_requests": 3
+  },
+  "n_faces": 90,
+  "n_regions": 4
+ },
+ "d09": {
+  "deflection": 9.0,
+  "geometry_id": "1a395624-fdb4-421e-b8f2-15b2b570ce14",
+  "onshape": {
+   "deflection_deg": 9.0,
+   "path": "/Users/trasomi/dev/cfd/runs_simscale_v3/d09/geometry/d09_filled_rocket.x_t",
+   "bytes": 214976,
+   "deflection_readback": "9 deg",
+   "api_requests": 3
+  },
+  "n_faces": 90,
+  "n_regions": 4
+ },
+ "d12": {
+  "deflection": 12.0,
+  "geometry_id": "2836ca9a-b354-47ce-9e96-4067abbdc51c",
+  "onshape": {
+   "deflection_deg": 12.0,
+   "path": "/Users/trasomi/dev/cfd/runs_simscale_v3/d12/geometry/d12_filled_rocket.x_t",
+   "bytes": 214968,
+   "deflection_readback": "12 deg",
+   "api_requests": 3
+  },
+  "n_faces": 90,
+  "n_regions": 4
+ },
+ "d15": {
+  "deflection": 15.0,
+  "geometry_id": "4b8daf2b-eb00-4a91-969f-795f7705d6da",
+  "onshape": {
+   "deflection_deg": 15.0,
+   "path": "/Users/trasomi/dev/cfd/runs_simscale_v3/d15/geometry/d15_filled_rocket.x_t",
+   "bytes": 214979,
+   "deflection_readback": "15 deg",
+   "api_requests": 3
+  },
+  "n_faces": 90,
+  "n_regions": 4
+ },
+ "dm06": {
+  "deflection": -6.0,
+  "geometry_id": "d5500178-4f3c-49ff-86a3-f2aadb77af4c",
+  "onshape": {
+   "deflection_deg": -6.0,
+   "path": "/Users/trasomi/dev/cfd/runs_simscale_v3/dm06/geometry/dm06_filled_rocket.x_t",
+   "bytes": 214955,
+   "deflection_readback": "-6 deg",
+   "api_requests": 3
+  },
+  "n_faces": 90,
+  "n_regions": 4
+ }
+}

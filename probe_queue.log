@@ -1,0 +1,7 @@
+00:22:18 start probe rho
+00:27:49 done probe rho: [probe rho] VERDICT FAIL
+00:27:49 start probe prelax
+00:33:59 done probe prelax: [probe prelax] VERDICT FAIL
+00:33:59 start probe eqrelax
+00:40:03 done probe eqrelax: [probe eqrelax] VERDICT PASS
+QUEUE DONE

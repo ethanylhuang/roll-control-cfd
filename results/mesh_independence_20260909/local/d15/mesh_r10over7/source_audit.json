@@ -1,0 +1,21 @@
+{
+  "source": "/Users/trasomi/dev/cfd/runs_v4/d15/mesh_filled_fine",
+  "geometrySHA256": {
+    "rocket_fins.stl": "9dfdb220f3d6bdfd83656fd0f0a007796da7ca396c764259c3def08c31ef2fd0",
+    "rocket_tab.stl": "3476594b824ba883cee29d7677d9b0e46d6b77c39ee89735b344ba374cc84deb",
+    "rocket_slot.stl": "88dcbcd099246ce5cec142d9280faa8da69b7b0622f0ded0f1417442610412bf",
+    "rocket_body.stl": "6963edb5c1cdb3922272e33e084241f6806fbdc7ab0e433ba8b062cd7e3edc18"
+  },
+  "baseResolution": [
+    21,
+    21,
+    112
+  ],
+  "newResolution": [
+    30,
+    30,
+    160
+  ],
+  "spacingRatio": 1.4285714285714286,
+  "invariant": "Same STL, domain, refinement levels and regions, snapping, relative layer and quality controls"
+}

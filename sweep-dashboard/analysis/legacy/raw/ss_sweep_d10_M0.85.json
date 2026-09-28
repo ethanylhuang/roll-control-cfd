@@ -1,0 +1,26 @@
+{
+  "deflection": 10.0,
+  "mach": 0.85,
+  "V_mps": 288.2,
+  "sim": "def23589-8c7c-4477-a38b-db53acbda29c",
+  "run": "39c3a6e8-96a9-4ec8-bce1-561da1f5ddb5",
+  "n_iterations": 3000,
+  "moments_Nm": {
+    "Mroll": 0.706429055683662,
+    "Mpitch": -0.19372049439682065,
+    "Myaw": 5.08466423747201
+  },
+  "forces_N": {
+    "Fx": 0.3739639982532826,
+    "Fy": 14.82715226919218,
+    "Fz": -158.490473764217
+  },
+  "convergence": {
+    "std_rel_pct": 4.213165029167114,
+    "drift_pct": 0.1279070788441297,
+    "p_residual": 0.000183352849819,
+    "flags": []
+  },
+  "mesh_name": "SimScale fine v3 (1.60M, local-mirror)",
+  "cofr_z": 0.399
+}

@@ -1,0 +1,4 @@
+04:14:39 sim 43fe4a80 run dacf4188 started (V=237.4, mesh 9e00744d)
+05:02:55 run FINISHED CPUh 12.485555555555555
+{"moments_Nm": {"Mroll": -0.2518623955000464, "Mpitch": 0.04891762522694072, "Myaw": -1.90854157350607}, "forces_N": {"Fx": -0.29447187808240594, "Fy": -5.56307878108388, "Fz": -85.99117600460147}, "convergence": {"std_rel_pct": 11.852049509996116, "block_std_pct": 0.07865833349284865, "block_means": [-0.2515647590909272, -0.2516492643428996, -0.251835393676474, -0.252001556517728, -0.2520928101330252, -0.2520305892392244], "drift_pct": 0.16234711982361838, "window": 1500, "p_residual": 0.000161313544679, "flags": []}}
+RESULT /Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_dm06_M0.7_fine_sealed.json

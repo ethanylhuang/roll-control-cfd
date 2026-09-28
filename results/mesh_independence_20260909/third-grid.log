@@ -1,0 +1,17 @@
+{"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/mesh_r40", "stage": "surfaceFeatureExtract"}
+{"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/mesh_r40", "stage": "blockMesh"}
+{"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/mesh_r40", "stage": "decomposePar"}
+{"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/mesh_r40", "stage": "snappyHexMesh"}
+{"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/mesh_r40", "stage": "checkMesh"}
+{"state": "NEEDS_REVIEW", "error": ""}
+{"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/mesh_r40", "stage": "surfaceFeatureExtract"}
+{"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/mesh_r40", "stage": "blockMesh"}
+{"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/mesh_r40", "stage": "decomposePar"}
+{"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/mesh_r40", "stage": "snappyHexMesh"}
+{"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/mesh_r40", "stage": "checkMesh"}
+{"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/mesh_r40", "stage": "reconstructParMesh"}
+{"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/mesh_r40", "stage": "renumberMesh"}
+{"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/M0.30_r40", "stage": "decomposePar"}
+{"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/M0.30_r40", "stage": "rhoSimpleFoam_3000"}
+{"state": "RUNNING", "case": "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/local/d15/M0.30_r40", "stage": "reconstructPar"}
+{"state": "READY_FOR_REVIEW", "meanStable": true, "relativeDeltaPct": {"roll": -0.9020797046569884, "yaw": -0.7142750828297739, "axial": -3.9126891677615294, "side": -0.6259775264470857}}

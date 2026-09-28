@@ -1,0 +1,8 @@
+{
+  "updated": 1789100762.761475,
+  "stage": "READY_FOR_REVIEW",
+  "outcome": "FINISHED",
+  "runId": "b67f503b-9032-4a50-87e8-9059951463b0",
+  "qualified": false,
+  "note": "Startup test only; does not establish convergence at M0.85"
+}

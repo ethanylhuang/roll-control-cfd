@@ -1,0 +1,36 @@
+SimScale-matched run [ramp]: d3 M0.3 V=101.7 m/s p=97690 T=286.2 rho=1.1892 CofR z=0.399 endTime=2000 avg from 1500 case=M0.30_filled_fine_opensides
+[mesh] levels {'body': 5, 'fins': 6, 'tab': 6, 'slot': 6} -> mesh 'mesh_filled_fine'
+[d03] surfaceFeatureExtract + blockMesh (mesh_filled_fine, levels 5/6/6/6)
+[d03] snappyHexMesh -parallel (np=10) ...
+[d03] mesh_filled_fine OK cells=1499982 coverage={'rocket_body': 98.9, 'rocket_fins': 94.3, 'rocket_tab': 54.4} gap~None across []
+  WARNING [d03]: rocket_tab layer coverage 54.4% < 90.0%
+[solve] pressure bounds 20000 .. 300000 Pa; relaxation overrides: p=0.3,rho=0.05,U=0.7,h=0.7,k=0.7,omega=0.7
+[solve] hinge fitted from -6.0 deg at ['-0.0854', '-0.0000', '0.0525']
+[solve] sides -> pressure outlet (open far field)
+[solve] ramped start -50 -> -101.7 m/s over 300 iterations, no potentialFoam
+[solve] rhoSimpleFoam to 2000 ...
+[solve] stop=endTime rc=0 iters=2000
+{
+ "stop_reason": "endTime",
+ "n_avg_samples": 501,
+ "moments_Nm": {
+  "Mroll": 0.020074127979041914,
+  "Mpitch": -0.031182964050203394,
+  "Myaw": 0.17189661885229537
+ },
+ "forces_N": {
+  "Fx": 0.09243869542303393,
+  "Fy": 0.5023263686107784,
+  "Fz": -14.571181825548903
+ },
+ "convergence": {
+  "mean": 0.020074127979041914,
+  "std": 0.0003732680751356931,
+  "slope_per_iter": 4.964112143522044e-08,
+  "drift": 2.482056071761022e-05,
+  "drift_pct": 0.12364452764037247,
+  "std_rel_pct": 1.8594485176412041,
+  "flags": []
+ },
+ "postprocess_error": null
+}

@@ -1,0 +1,31 @@
+{
+  "d03": [
+    {
+      "path": "/boundaryConditions/0/velocity/value/value/tableId",
+      "baseline": "b1dd64df-e6d5-4c7a-9cbc-0e071f866de5",
+      "refined": "b66b5650-3a63-4938-8e08-762c3bdb8a0a"
+    },
+    {
+      "path": "/simulationControl/maxRunTime/value",
+      "baseline": 20000,
+      "refined": 4500
+    },
+    {
+      "path": "/simulationControl/numProcessors",
+      "baseline": -1,
+      "refined": 32
+    }
+  ],
+  "d15": [
+    {
+      "path": "/simulationControl/maxRunTime/value",
+      "baseline": 20000,
+      "refined": 4500
+    },
+    {
+      "path": "/simulationControl/numProcessors",
+      "baseline": -1,
+      "refined": 32
+    }
+  ]
+}

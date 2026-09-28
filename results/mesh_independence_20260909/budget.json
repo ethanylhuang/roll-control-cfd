@@ -1,0 +1,52 @@
+{
+  "ceilingIncludesPriorWorkCPUh": 500,
+  "reservedCPUh": 44,
+  "items": [
+    {
+      "kind": "mesh",
+      "id": "ed040f6c-c63e-4d14-bb8e-f4cda8f818d7",
+      "maxCPUh": 8,
+      "status": "FINISHED",
+      "actualCPUh": 3.4052777777777776
+    },
+    {
+      "kind": "solver",
+      "tag": "d03",
+      "maxCPUh": 40,
+      "status": "FINISHED",
+      "runId": "fab10443-3d6a-4a7d-9e46-a71140941ffb",
+      "actualCPUh": 36.16777777777778,
+      "costNote": "Final API cost"
+    },
+    {
+      "kind": "mesh",
+      "tag": "d15",
+      "id": "5ffc88ed-fee3-4756-a6ef-70ceed3af8b5",
+      "maxCPUh": 8,
+      "status": "FINISHED",
+      "actualCPUh": 3.6805555555555554,
+      "costNote": "Final API cost"
+    },
+    {
+      "kind": "solver",
+      "tag": "d15",
+      "maxCPUh": 40,
+      "status": "FAILED",
+      "actualCPUh": 5.049917208888889,
+      "costNote": "Conservatively count 32-core wall duration; API reports zero for failed run"
+    },
+    {
+      "kind": "solver",
+      "tag": "d03_corrected",
+      "maxCPUh": 36,
+      "status": "RESERVED"
+    },
+    {
+      "kind": "solver",
+      "tag": "d15_energy_diagnostic",
+      "maxCPUh": 8,
+      "status": "RESERVED"
+    }
+  ],
+  "spentCPUh": 48.30352832
+}

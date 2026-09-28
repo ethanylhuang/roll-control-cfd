@@ -1,0 +1,8 @@
+09:37:45 case M0.95_filled_fine_LTSnt: M0.95 V=322.1 m/s, rhoPimpleFoam localEuler transonic=False, endTime 3000, mesh ../../mesh_filled_fine/constant/polyMesh
+Uinf        (0 0 -322.1);
+rampTable   ((0 (0 0 -50)) (300 (0 0 -322.1)) (1000000 (0 0 -322.1)));
+magUinf     322.1;
+endTime     3000;
+
+09:37:47 decomposePar rc=0
+09:37:47 rhoPimpleFoam ...

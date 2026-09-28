@@ -1,0 +1,4 @@
+06:42:04 sim 1f887afc run eb0bbcbd started (V=271.3, mesh 758cbf5c)
+07:30:21 run FINISHED CPUh 12.454444444444444
+{"moments_Nm": {"Mroll": 0.0037524337597394245, "Mpitch": -0.0304660145357625, "Myaw": -0.09955372722042397}, "forces_N": {"Fx": -0.08017303182056881, "Fy": -0.13644998061015798, "Fz": -124.49539129398033}, "convergence": {"std_rel_pct": 700.969287973031, "block_std_pct": 10.247207984090375, "block_means": [0.003955334509679942, 0.003683269119918784, 0.004234166880014158, 0.004073621651427722, 0.0034675284191083306, 0.0031006819782876077], "drift_pct": 3.6561033224951647, "window": 1500, "p_residual": 0.000145481777808, "flags": ["mroll_drift(3.7%)", "mroll_noisy(block_std=10.2%)"]}}
+RESULT /Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d00_M0.8_fine_sealed.json

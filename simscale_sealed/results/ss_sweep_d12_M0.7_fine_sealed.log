@@ -1,0 +1,4 @@
+02:29:41 sim dbc7567c run 26c98517 started (V=237.4, mesh e2583c24)
+03:23:59 run FINISHED CPUh 13.797777777777778
+{"moments_Nm": {"Mroll": 0.5720332593854114, "Mpitch": 0.03557546895580555, "Myaw": 4.077320743205273}, "forces_N": {"Fx": -0.34540540838233963, "Fy": 12.180150612716107, "Fz": -86.59633216120211}, "convergence": {"std_rel_pct": 4.321836434344078, "block_std_pct": 0.05543581058405549, "block_means": [0.5719686308569872, 0.57245899165424, 0.5724132423102488, 0.5717919584647476, 0.5715707324412644, 0.5719960005849803], "drift_pct": 0.02095177564679231, "window": 1500, "p_residual": 0.000161188258327, "flags": []}}
+RESULT /Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d12_M0.7_fine_sealed.json

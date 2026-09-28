@@ -1,0 +1,54 @@
+created 688a60ed-47c1-41e2-9f0f-d520dcc5c959
+check errors [] warnings 0
+22:07:35 steady run edf13ba5 started
+22:19:38 steady run FAILED CPUh 0.0
+eventlog: [('ERROR', 'Maximum number of iterations exceeded when calculating temperature from a thermodynamic potential. This may be caused by low-quality mesh producing unrealistic pressure in a few cells or inappropriate')]
+created 8ec76e45-ef4c-4faa-afce-0bc1ae1ae3e0
+check errors [] warnings 0
+22:20:19 steady run f77f25a8 started
+22:35:22 steady run FAILED CPUh 0.0
+eventlog: [('ERROR', 'Maximum number of iterations exceeded when calculating temperature from a thermodynamic potential. This may be caused by low-quality mesh producing unrealistic pressure in a few cells or inappropriate')]
+Traceback (most recent call last):
+  File "/Users/trasomi/.claude/skills/cfd-sweep/scripts/simscale_api.py", line 79, in request
+    with urllib.request.urlopen(req, timeout=timeout) as f:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/trasomi/dev/cfd/simscale_sealed/tools/ss_m12_steady.py", line 35, in <module>
+    else: sid = api.post(f"/projects/{P}/simulations", {"name": name, "geometryId": gid, "meshId": mesh_id, "model": m, "version": spec["version"]})["simulationId"]; print("created", sid)
+  File "/Users/trasomi/.claude/skills/cfd-sweep/scripts/simscale_api.py", line 103, in post
+    return self.request("POST", path, body=body, params=params or None)
+  File "/Users/trasomi/.claude/skills/cfd-sweep/scripts/simscale_api.py", line 90, in request
+    raise last
+simscale_api.ApiError: POST /projects/8556992379830923442/simulations -> HTTP 400: {
+  "code" : "spec-validation-error",
+  "details" : {
+    "problems" : [ {
+      "severity" : "ERROR",
+      "code" : "unexpected-conditional-value",
+      "message" : "Value should not be present when none of the following conditions are met: [analysis.type IS CONVECTIVE_HEAT_TRANSFER AND analysis.isCompressible, analysis.type IN (COUPLED_CONJUGATE_HEAT_TRANSFER,EMBEDDED_BOUNDARY)]",
+      "path" : "$.model.numerics.stabilization.fieldLimits.lowerTemperatureBound",
+      "allowMarkdown" : false,
+      "topoEntities" : [ ],
+      "details" : {
+        "whenNotAllOf" : "[analysis.type IS CONVECTIVE_HEAT_TRANSFER AND analysis.isCompressible, analysis.type IN (COUPLED_CONJUGATE_HEAT_TRANSFER,EMBEDDED_BOUNDARY)]",
+        "path" : "$.model.numerics.stabilization.fieldLimits.lowerTemperatureBou
+created f2f6da77-da77-463e-a812-b4fd8e5f93be
+check errors [] warnings 0
+22:38:38 steady run 1cd2e47e started
+22:59:44 steady run FAILED CPUh 0.0
+eventlog: [('ERROR', 'Maximum number of iterations exceeded when calculating temperature from a thermodynamic potential. This may be caused by low-quality mesh producing unrealistic pressure in a few cells or inappropriate')]

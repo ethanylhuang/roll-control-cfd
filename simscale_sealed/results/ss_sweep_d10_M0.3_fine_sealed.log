@@ -1,0 +1,4 @@
+22:19:19 sim fee187ec run d780e6a0 started (V=101.7, mesh 58b60269)
+23:07:34 run FINISHED CPUh 12.111944444444445
+{"moments_Nm": {"Mroll": 0.07504971962663128, "Mpitch": 0.034411302789976554, "Myaw": 0.5392959831662173}, "forces_N": {"Fx": -0.11577301122077911, "Fy": 1.6138116826521767, "Fz": -14.78238513462234}, "convergence": {"std_rel_pct": 2.970132559586161, "block_std_pct": 0.07083315690363888, "block_means": [0.07511683803938436, 0.0750810811894112, 0.075006959927624, 0.07496898426080909, 0.07502475671095964, 0.0750996976315994], "drift_pct": 0.08147281684153597, "window": 1500, "p_residual": 0.000107864399239, "flags": []}}
+RESULT /Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d10_M0.3_fine_sealed.json

@@ -1,0 +1,4 @@
+23:56:15 sim faf26637 run b534c4b6 started (V=237.4, mesh 8d90fd8b)
+00:46:33 run FINISHED CPUh 12.84361111111111
+{"moments_Nm": {"Mroll": 0.136267771137239, "Mpitch": 0.1285172531995086, "Myaw": 1.0398542440194092}, "forces_N": {"Fx": -0.44821314800911255, "Fy": 3.157372174654722, "Fz": -85.73790875478691}, "convergence": {"std_rel_pct": 23.337280732198156, "block_std_pct": 0.2569555892085026, "block_means": [0.13675080676225332, 0.13656067567250016, 0.13586811385183273, 0.13577104866942644, 0.136290629234257, 0.1363653526331644], "drift_pct": 0.005802671858882241, "window": 1500, "p_residual": 0.000162488266604, "flags": []}}
+RESULT /Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d03_M0.7_fine_sealed.json

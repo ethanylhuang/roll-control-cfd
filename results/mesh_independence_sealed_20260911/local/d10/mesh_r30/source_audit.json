@@ -1,0 +1,20 @@
+{
+  "source": "/Users/trasomi/dev/cfd/runs_v4/d10/mesh_sealedcad_fine",
+  "geometrySHA256": {
+    "rocket_fins.stl": "248d219197615a61680111a91dc602a1119a2ec3fe17a224252def90c33ff91e",
+    "rocket_tab.stl": "8c443a9bbaa91889458714423d9696399b1554a9899d35ef986506216964e139",
+    "rocket_slot.stl": "88dcbcd099246ce5cec142d9280faa8da69b7b0622f0ded0f1417442610412bf",
+    "rocket_body.stl": "6963edb5c1cdb3922272e33e084241f6806fbdc7ab0e433ba8b062cd7e3edc18"
+  },
+  "baseResolution": [
+    21,
+    21,
+    112
+  ],
+  "newResolution": [
+    30,
+    30,
+    160
+  ],
+  "invariant": "Same STL, domain, refinement levels and regions, snapping, relative layer and quality controls"
+}

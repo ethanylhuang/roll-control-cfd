@@ -1,0 +1,16 @@
+13:46:31 [qB] mesh d00 READY; waiting
+13:49:31 [qB] mesh d00 READY; waiting
+13:52:32 [qB] mesh d00 READY; waiting
+13:55:33 [qB] mesh d00 QUEUED; waiting
+13:58:33 [qB] mesh d00 RUNNING; waiting
+14:01:34 [qB] mesh d00 RUNNING; waiting
+14:04:35 [qB] start d00 (d0) M0.5 mesh 045b2439 base 6f746ff9
+14:54:59 [qB] done d00 M0.5: Mroll -0.0008 Myaw -0.010 Fz -47.7 std 1220.0% drift 158.9% ['mroll_drift(158.9%)', 'mroll_noisy(std=1220.0%)']
+14:55:01 [qB] sheet: row 16: M0.5 d0 Mroll -0.0008 Cl -0.00032 CA 1.06167 CY 0.00018 CN -0.00521 Cm 0.02696 Cn -0.00408 mroll_drift(158.9%), mroll_noisy(std=1220.0%)
+14:55:02 [qB] start d03 (d3) M0.5 mesh 56abc8d9 base 211a48e4
+15:43:26 [qB] done d03 M0.5: Mroll 0.0227 Myaw 0.174 Fz -47.6 std 42.4% drift 4.5% ['mroll_drift(4.5%)', 'mroll_noisy(std=42.4%)']
+15:43:26 [qB] sheet: row 17: M0.5 d3 Mroll 0.0227 Cl 0.00876 CA 1.06039 CY 0.0129 CN -0.00479 Cm 0.02265 Cn 0.05161 mroll_drift(4.5%), mroll_noisy(std=42.4%)
+15:43:27 [qB] start d06 (d6) M0.5 mesh 3be69d0c base 0015652e
+16:31:49 [qB] done d06 M0.5: Mroll 0.0969 Myaw 0.742 Fz -47.6 std 11.9% drift 0.1% ['mroll_noisy(std=11.9%)']
+16:31:50 [qB] sheet: row 18: M0.5 d6 Mroll 0.0969 Cl 0.03734 CA 1.0605 CY 0.04945 CN -0.007 Cm 0.03209 Cn 0.22685 mroll_noisy(std=11.9%)
+16:31:50 [qB] start d09 (d9) M0.5 mesh 0063d48e base 11541749

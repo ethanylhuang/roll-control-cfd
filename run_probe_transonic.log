@@ -1,0 +1,25 @@
+SimScale-matched run [ramp]: d10 M0.9 V=305 m/s p=97690 T=286.2 rho=1.1892 CofR z=0.399 endTime=450 avg from 350 case=M0.90_probe_transonic
+[d10] mesh_simscale exists — reusing (1247644 cells)
+[solve] SIMPLE: transonic       yes;
+[solve] pressure bounds 1 .. 1e+08 Pa; relaxation overrides: p=0.3,rho=0.05,U=0.7,h=0.7,k=0.7,omega=0.7
+[solve] hinge fitted from 10.0 deg at ['-0.0854', '-0.0000', '0.0515']
+[solve] ramped start -50 -> -305 m/s over 300 iterations, no potentialFoam
+[solve] rhoSimpleFoam to 450 ...
+[solve] stop=diverged rc=0 iters=2
+[solve] reconstructPar failed; processor dirs kept
+{
+ "stop_reason": "diverged",
+ "n_avg_samples": 0,
+ "moments_Nm": {
+  "Mroll": 230.834495,
+  "Mpitch": -256.255804,
+  "Myaw": 1106.19126
+ },
+ "forces_N": {
+  "Fx": -592.842399,
+  "Fy": 3041.12998,
+  "Fz": -103980.1
+ },
+ "convergence": null,
+ "postprocess_error": null
+}

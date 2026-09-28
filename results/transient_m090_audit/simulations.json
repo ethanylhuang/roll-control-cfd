@@ -1,0 +1,506 @@
+[
+  {
+    "name": "Compressible",
+    "simulationId": "5d3bbeda-172d-4577-af62-6f5fbfae1d78"
+  },
+  {
+    "name": "sweep d10",
+    "simulationId": "ead3fef8-767a-4047-9e74-555e7027875a"
+  },
+  {
+    "name": "orphan d06 (API clone, no mesh)",
+    "simulationId": "33d4faad-047e-48bc-a2f4-6ca9be89746f"
+  },
+  {
+    "name": "10D_M0.9 ramp1000 fix (API)",
+    "simulationId": "22447446-ce52-4c1f-b315-e7b4b27fe0b5"
+  },
+  {
+    "name": "sweep d06",
+    "simulationId": "0ba60520-6fe0-4682-a814-9f5905a6d95b"
+  },
+  {
+    "name": "sweep d00",
+    "simulationId": "1c6f00ec-3b6e-4f7e-b22e-96a201f8955c"
+  },
+  {
+    "name": "sweep d03",
+    "simulationId": "63187842-361d-442b-9aa2-52cd1cef0320"
+  },
+  {
+    "name": "sweep d09",
+    "simulationId": "4be0d370-28d0-44a0-a1ef-34b8795c371d"
+  },
+  {
+    "name": "sweep d12",
+    "simulationId": "108d5f52-73d7-4695-980b-0542b66cf037"
+  },
+  {
+    "name": "sweep d15",
+    "simulationId": "aaaa655d-0874-45f1-a0f1-6993019964a9"
+  },
+  {
+    "name": "sweep dm06",
+    "simulationId": "7b723f17-55d3-403d-ac4d-9226130fc748"
+  },
+  {
+    "name": "10D_M0.9 open-sides ramp300 (A: own relaxation)",
+    "simulationId": "5eb8ca27-c072-4d13-99a5-960a251dc6c8"
+  },
+  {
+    "name": "10D_M0.9 open-sides ramp300 (B: relax p.3 rho.05 eq.7)",
+    "simulationId": "b9aa8d46-b660-4f3a-a183-498fcb93c415"
+  },
+  {
+    "name": "10D_M0.9 sealed-gap open-sides ramp300 (API)",
+    "simulationId": "2d6d0ddb-1a4d-4a3f-94da-bfcb9ce28d8d"
+  },
+  {
+    "name": "10D_M0.9 sealed-gap (no mesh yet, API)",
+    "simulationId": "e2059722-cb41-44f7-99ab-d926631d5946"
+  },
+  {
+    "name": "diag d06 no p-limit",
+    "simulationId": "4644876b-e2a7-400f-a000-7feac8e9e5d8"
+  },
+  {
+    "name": "diag d06 p-limit 10-500 kPa",
+    "simulationId": "1d246d30-0486-4ac7-b0aa-d29a0119b5e4"
+  },
+  {
+    "name": "10D filled-gap M0.9 open-sides ramp300 (API)",
+    "simulationId": "e71992d7-0b10-47fd-ab1c-af43a25aa1e2"
+  },
+  {
+    "name": "diag d06 old numerics",
+    "simulationId": "cc78b0b0-b40b-49fb-9bdc-c3a37dc180ba"
+  },
+  {
+    "name": "10D filled-gap M0.9 open-sides ramp300 v4relax p20-300kPa (API)",
+    "simulationId": "a2c0d23e-3736-42b8-8882-2d668b3602f9"
+  },
+  {
+    "name": "10D filled FINE (fins+tab L6, body L5) M0.9 v4relax p20-300kPa (API)",
+    "simulationId": "33ff6036-81ee-44c2-88bf-231cc27dd83a"
+  },
+  {
+    "name": "10D filled FINE M0.9 wide p-bounds 2kPa-1MPa, relax p0.2 U0.5 (API)",
+    "simulationId": "4907c0e9-af3e-4e04-b369-dd1520ebd558"
+  },
+  {
+    "name": "10D filled FINE M0.9 v4relax p20-300kPa, grad cellLimited Gauss linear (API)",
+    "simulationId": "630b60c1-3f06-4b40-abb7-004dc368c5db"
+  },
+  {
+    "name": "10D filled FINE M0.9 TRANSIENT (Euler dt 1e-5 s, 25 ms, transonic, PIMPLE 3x2) (API)",
+    "simulationId": "9302a5ab-3783-413b-8776-30c4ed38cc11"
+  },
+  {
+    "name": "10D filled FINE M0.9 STEADY UPWIND-U (v4 relax, p 20-300 kPa) (API)",
+    "simulationId": "584fe7b9-d9a4-4e49-a97d-241b3abcd155"
+  },
+  {
+    "name": "10D filled FINE M0.9 upwind-U, inlet k/omega FIXED 13.98/93500 (API)",
+    "simulationId": "59fd02e1-f0e7-4505-82d2-f6981d678359"
+  },
+  {
+    "name": "10D filled COARSE(922k) M0.9 linearUpwindV, inlet k/omega FIXED 13.98/93500 (API)",
+    "simulationId": "089e0368-5da9-4748-92ab-b1927ad95f5e"
+  },
+  {
+    "name": "10D filled FINE-v2 mesh M0.9 linearUpwindV, inlet k/omega FIXED, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "e7c03e13-1906-4064-8ea0-bf81df1bb9bc"
+  },
+  {
+    "name": "10D filled FINE-v2 mesh M0.9 limitedLinearV 1 (TVD 2nd order), inlet k/omega FIXED, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "b82e0e74-2f23-43ab-9728-50789cc40c86"
+  },
+  {
+    "name": "10D filled FINE-v3 (local mirror mesh) M0.9 linearUpwindV, inlet k/omega FIXED, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "b5476936-0b6b-426c-86d5-02ee972e2821"
+  },
+  {
+    "name": "10D filled FINE-v3 M0.9 TRANSIENT (Euler dt 4e-6 s, 12 ms, potentialFoam init, transonic, PIMPLE 2x2, linearUpwindV, k/omega fixed) (API)",
+    "simulationId": "fe3412e2-ca7e-490f-af73-c6d8ce4e1973"
+  },
+  {
+    "name": "10D filled FINE-v3 STEADY M0.90 U305 local-match",
+    "simulationId": "13e944ff-9e88-4c11-9a5b-a31f32b91169"
+  },
+  {
+    "name": "10D filled FINE-v3 M0.9 TRANSIENT v2 (Euler dt 4e-6 s, 12 ms, uniform -305 start, no potential init, transonic, PIMPLE 2x2, linearUpwindV, k/omega fixed) (API)",
+    "simulationId": "dc4f995c-c2c2-4d56-8039-2437cad8eee1"
+  },
+  {
+    "name": "10D filled FINE-v3 M0.9 linearUpwindV, LOCAL GRADIENTS (Gauss linear; cellLimited Gauss linear 1 for U/k/omega), k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "410ee0b3-bf64-4b53-8a25-9b91d560ba55"
+  },
+  {
+    "name": "10D filled FINE-v3 M0.9 linearUpwindV, UNLIMITED LEAST-SQUARES gradients (all fields), k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "e695a4b0-4eee-46d4-8cc2-ceb2ac62cd0f"
+  },
+  {
+    "name": "10D filled FINE-v3 M0.9 TRANSIENT 30 ms (Euler dt 4e-6 s, from-rest start, transonic, PIMPLE 2x2, linearUpwindV, k/omega fixed) (API)",
+    "simulationId": "a58e115f-f105-4065-b785-a23e5b43000c"
+  },
+  {
+    "name": "SWEEP d10 M0.3 FINE mesh, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "c71a9a32-be57-4909-9c4c-2bfd595a94c8"
+  },
+  {
+    "name": "SWEEP d10 M0.5 FINE mesh, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "3687b59a-c7e5-4cf2-a2d6-6e653f71943d"
+  },
+  {
+    "name": "SWEEP d10 M0.6 FINE mesh, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "40c673a8-9bda-4087-b72a-adcca8f129ae"
+  },
+  {
+    "name": "SWEEP d10 M0.7 FINE mesh, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "de0d9524-1c58-439b-a3b8-4c38165a7c0e"
+  },
+  {
+    "name": "SWEEP d10 M0.8 FINE mesh, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "4bf44c68-00f4-4020-97ec-dfcebb9a27a8"
+  },
+  {
+    "name": "SWEEP d10 M0.85 FINE mesh, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "def23589-8c7c-4477-a38b-db53acbda29c"
+  },
+  {
+    "name": "SWEEP d10 M0.3 COARSE mesh 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "e0b7dc2c-06fa-42ff-8d1e-09d2d8abf7a5"
+  },
+  {
+    "name": "SWEEP d10 M0.7 COARSE mesh 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "745d89bf-90e0-4c92-b6a6-adbff07c90c5"
+  },
+  {
+    "name": "SWEEP d10 M0.5 COARSE mesh 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "9c32f15b-b282-4078-a972-e6635e40778d"
+  },
+  {
+    "name": "SWEEP d10 M0.85 COARSE mesh 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "82d66310-e8cc-45f5-9139-983432f845fd"
+  },
+  {
+    "name": "d00 filled2 base sim (089e0368 model, walls 91)",
+    "simulationId": "9c977f31-ce6c-4de5-9ab9-5910e8092e5c"
+  },
+  {
+    "name": "d03 filled2 base sim (089e0368 model, walls 89)",
+    "simulationId": "cc44f3c1-9a7f-4485-9c47-bdac9c02563e"
+  },
+  {
+    "name": "d06 filled2 base sim (089e0368 model, walls 89)",
+    "simulationId": "82b0d7e1-1b4c-47e0-94cf-86b7dbecf02b"
+  },
+  {
+    "name": "d09 filled2 base sim (089e0368 model, walls 89)",
+    "simulationId": "3c00c9c0-d19c-4b29-b4e0-97bbc1deb660"
+  },
+  {
+    "name": "d12 filled2 base sim (089e0368 model, walls 89)",
+    "simulationId": "82e733ed-74fb-4b25-94e5-62ec6ec5bf58"
+  },
+  {
+    "name": "d15 filled2 base sim (089e0368 model, walls 89)",
+    "simulationId": "2c4cd20e-3c87-4ce2-9880-f31e5d0476d8"
+  },
+  {
+    "name": "d10 filled2 base sim (089e0368 model, walls 89)",
+    "simulationId": "aa978371-be25-4e68-8457-3a299a6c48ec"
+  },
+  {
+    "name": "dm06 filled2 base sim (089e0368 model, walls 89)",
+    "simulationId": "6ab2b628-b4df-4c23-9aa3-52835db21db5"
+  },
+  {
+    "name": "10D filled FINE-v3 M0.9 TRANSIENT T1 (uniform -305 start, adaptive dt 4e-7..4e-6 maxCo 2, PIMPLE 3x2, transonic, linearUpwindV, k/omega fixed, p 10-500 kPa, T 120-900 K) (API)",
+    "simulationId": "1c8cf93e-d00a-4719-99f1-7e839275bac1"
+  },
+  {
+    "name": "10D filled COARSE(922k) M0.9 TRANSIENT T1 (uniform -305 start, adaptive dt 4e-7..4e-6 maxCo 2, PIMPLE 3x2, transonic, linearUpwindV, k/omega fixed, p 10-500 kPa) (API)",
+    "simulationId": "2c05d4ca-5568-47c2-98a8-2ab46418c11f"
+  },
+  {
+    "name": "10D filled FINE-v3 M0.9 TRANSIENT T2 (init -50, inlet ramp 50->305 over 7 ms, fixed dt 4e-6, PIMPLE 2x2, transonic, linearUpwindV, k/omega fixed, p 10-500 kPa) (API)",
+    "simulationId": "322891e4-30df-4bf9-ba9f-400733bc5490"
+  },
+  {
+    "name": "10D filled COARSE(922k) M0.9 TRANSIENT T2 (init -50, inlet ramp 50->305 over 7 ms, fixed dt 4e-6, PIMPLE 2x2, transonic, linearUpwindV, k/omega fixed, p 10-500 kPa) (API)",
+    "simulationId": "1f9e6f7b-3cbb-4483-b5bd-a03f20fa1465"
+  },
+  {
+    "name": "SWEEP d0 M0.6 COARSE filled2 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "a5999848-8222-4173-8efc-f07e8c5e25ab"
+  },
+  {
+    "name": "SWEEP d0 M0.5 COARSE filled2 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "5c9ef75d-ea39-4ea4-b9d6-19af3b3ed8fb"
+  },
+  {
+    "name": "SWEEP d0 M0.3 COARSE filled2 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "3272cc7a-d1b9-43e4-b1d2-a080d40233d7"
+  },
+  {
+    "name": "10D filled FINE-v3 M0.9 TRANSIENT T3 (uniform -150 start, inlet 150->305 over 1 ms, adaptive dt 1e-6..4e-6 maxCo 25, PIMPLE 2x2, transonic, linearUpwindV, k/omega fixed, p 10-500 kPa) (API)",
+    "simulationId": "1fe131c0-b49f-42dd-9a5e-d6319d1e0e61"
+  },
+  {
+    "name": "SWEEP d3 M0.5 COARSE filled2 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "e59275d8-806e-433d-9c19-c678847381bb"
+  },
+  {
+    "name": "SWEEP d3 M0.3 COARSE filled2 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "67bb01c9-1d7c-4730-84b1-1e98432a9f96"
+  },
+  {
+    "name": "SWEEP d3 M0.6 COARSE filled2 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "94d9086c-ad71-4bda-bb92-740ff943ad75"
+  },
+  {
+    "name": "SWEEP d6 M0.3 COARSE filled2 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "80b06937-7ae4-4480-bee3-a733e57a6998"
+  },
+  {
+    "name": "SWEEP d6 M0.5 COARSE filled2 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "a0128bf4-3383-4923-9ac6-6dc0c4f94dcc"
+  },
+  {
+    "name": "SWEEP d6 M0.6 COARSE filled2 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "3a12f7f6-6403-42ea-ae66-63e37643c2df"
+  },
+  {
+    "name": "SWEEP d10 M0.8 COARSE mesh 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "79bca850-a11b-4d87-a170-354b13078ce5"
+  },
+  {
+    "name": "SWEEP d10 M0.6 COARSE mesh 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "9a35c95e-d533-4240-aac2-686c8d180536"
+  },
+  {
+    "name": "d00 cfd base sim (089e0368 model, walls 82)",
+    "simulationId": "6f746ff9-59d1-421d-9ebf-0206956e158e"
+  },
+  {
+    "name": "d03 cfd base sim (089e0368 model, walls 80)",
+    "simulationId": "211a48e4-cf5b-4f6a-8af2-73474cd4524d"
+  },
+  {
+    "name": "d06 cfd base sim (089e0368 model, walls 80)",
+    "simulationId": "0015652e-ab2c-4a81-9f82-086670ae14db"
+  },
+  {
+    "name": "d09 cfd base sim (089e0368 model, walls 80)",
+    "simulationId": "11541749-4568-4559-9b63-3e111743834f"
+  },
+  {
+    "name": "d12 cfd base sim (089e0368 model, walls 80)",
+    "simulationId": "9afd9844-d7ff-403c-bf4b-451fe96a1a05"
+  },
+  {
+    "name": "d15 cfd base sim (089e0368 model, walls 80)",
+    "simulationId": "8769b659-ef09-4abd-9880-e52aeb51cc85"
+  },
+  {
+    "name": "dm06 cfd base sim (089e0368 model, walls 80)",
+    "simulationId": "73b003c4-11dd-41fb-85c2-1df6a4b8440e"
+  },
+  {
+    "name": "SWEEP d0 M0.3 COARSE cfd 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "79e8e710-7ad9-4dce-8a5f-594f4e940eed"
+  },
+  {
+    "name": "SWEEP d0 M0.6 COARSE cfd 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "881dff78-7c76-4461-9642-d9509b498f76"
+  },
+  {
+    "name": "SWEEP d0 M0.5 COARSE cfd 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "d06c3b46-0e53-4065-a9eb-fb3a0d8a947f"
+  },
+  {
+    "name": "10D filled FINE-v3 M0.9 TRANSIENT T4 30 ms (T2 recipe: init -50, inlet ramp 50->305 over 7 ms, fixed dt 4e-6, PIMPLE 2x2, transonic, linearUpwindV, k/omega fixed, p 10-500 kPa) (API)",
+    "simulationId": "d17a4d46-7512-43fc-9234-fccd9acf69c8"
+  },
+  {
+    "name": "SWEEP d3 M0.6 COARSE cfd 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "f18dd78e-c1f4-403b-ba44-fe215b67b299"
+  },
+  {
+    "name": "SWEEP d3 M0.5 COARSE cfd 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "5b52bbdf-063f-4611-8e18-91841e527b51"
+  },
+  {
+    "name": "SWEEP d3 M0.3 COARSE cfd 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "ea29e405-9b4f-4080-a8e5-3f47c04dad6b"
+  },
+  {
+    "name": "SWEEP d6 M0.5 COARSE cfd 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "31e63bb9-8acb-44b3-adf6-e2d0387bbdb7"
+  },
+  {
+    "name": "SWEEP d6 M0.6 COARSE cfd 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "b197ff3a-e25a-4184-bbf2-01d7947aa87b"
+  },
+  {
+    "name": "SWEEP d6 M0.3 COARSE cfd 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "29e93f41-3c80-4304-9716-41898d429a96"
+  },
+  {
+    "name": "SWEEP d9 M0.5 COARSE cfd 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "48a8c9bd-3733-44b1-a904-6d5071408fb7"
+  },
+  {
+    "name": "SWEEP d9 M0.6 COARSE cfd 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "15b00861-27f2-45cb-8626-be521c924dc5"
+  },
+  {
+    "name": "SWEEP d9 M0.3 COARSE cfd 922k, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "5d8b3e9a-cb79-4703-9fa3-5b7e8e4f2772"
+  },
+  {
+    "name": "SWEEP d3 M0.5 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "2905d190-7952-427e-bf07-10bd26237098"
+  },
+  {
+    "name": "SWEEP d3 M0.6 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "8830d02f-db02-4593-afa8-11a0d258c75a"
+  },
+  {
+    "name": "SWEEP d3 M0.3 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "ca06aa09-a75b-4a94-a416-69942807adee"
+  },
+  {
+    "name": "SWEEP d6 M0.3 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "16026e42-f4f5-4e1f-b66e-40edc29d7744"
+  },
+  {
+    "name": "SWEEP d6 M0.6 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "1910e937-675a-4f01-b0df-c45346080b71"
+  },
+  {
+    "name": "SWEEP d6 M0.5 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "d5314015-7866-4ec0-829f-ac24af907dd3"
+  },
+  {
+    "name": "SWEEP d9 M0.3 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "5e505f30-9cf8-461d-aa8c-bfc06d1bbb3c"
+  },
+  {
+    "name": "SWEEP d9 M0.6 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "8a1495f7-35e9-42b1-85cf-5614e2c2705b"
+  },
+  {
+    "name": "SWEEP d9 M0.5 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "d38c98d1-8f17-47fa-9db0-a20deb134ec2"
+  },
+  {
+    "name": "SWEEP d12 M0.6 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "01eee27e-21dd-4b0d-9733-7a9062cda9b4"
+  },
+  {
+    "name": "SWEEP d12 M0.5 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "f714fed2-11ec-458d-8d66-9a6236814cfa"
+  },
+  {
+    "name": "SWEEP d12 M0.3 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "9846af4c-5401-4b49-b571-aed590c587d9"
+  },
+  {
+    "name": "SWEEP d15 M0.5 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "47dcafc3-f650-4680-bbc8-93c42a148c47"
+  },
+  {
+    "name": "SWEEP d15 M0.6 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "023aae9d-15fd-4f94-a8ad-f391fcfe4737"
+  },
+  {
+    "name": "SWEEP d15 M0.3 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "b263979b-bf19-4c40-b608-e90cddcf2147"
+  },
+  {
+    "name": "SWEEP d-6 M0.3 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "10c95cec-8ce3-4cac-be6c-e1c77e689046"
+  },
+  {
+    "name": "SWEEP d-6 M0.5 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "9f63c050-20ed-48cd-ba57-d2c81841b716"
+  },
+  {
+    "name": "SWEEP d-6 M0.6 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "3f875aea-5f5b-44f9-9a88-1c91bc2a01b7"
+  },
+  {
+    "name": "SWEEP d3 M0.7 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "4ceeb251-ecc4-4139-8c3f-dcece9ae4128"
+  },
+  {
+    "name": "SWEEP d3 M0.8 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "3dc60ca0-5ecf-4906-9d65-49399fa1c258"
+  },
+  {
+    "name": "SWEEP d3 M0.85 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "7677e7bb-f012-4297-8c4f-c8a357cf2a69"
+  },
+  {
+    "name": "SWEEP d6 M0.7 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "44dcb043-1eec-436b-acc3-f8d437434f37"
+  },
+  {
+    "name": "SWEEP d6 M0.8 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "0b6d7aca-1b8c-4735-b73d-d4b8322ee894"
+  },
+  {
+    "name": "SWEEP d6 M0.85 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "63275073-203c-420c-854b-abec03962aef"
+  },
+  {
+    "name": "SWEEP d9 M0.7 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "90851ad2-8869-4ae8-9bfa-8b3dac7eb2ff"
+  },
+  {
+    "name": "SWEEP d9 M0.8 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "c7f4db58-33a0-4ba0-84f0-49030b07f25c"
+  },
+  {
+    "name": "SWEEP d9 M0.85 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "380b03ac-8c67-4e5e-8871-7e7cb34fc213"
+  },
+  {
+    "name": "SWEEP d12 M0.7 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "1f18848d-2025-406a-925c-eb64f902aecb"
+  },
+  {
+    "name": "SWEEP d12 M0.8 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "d8c61a0d-89e2-4f2e-b963-6a15ffd89745"
+  },
+  {
+    "name": "SWEEP d12 M0.85 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "15a46b95-3460-43dd-baa5-aaca30637298"
+  },
+  {
+    "name": "SWEEP d15 M0.7 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "c987e2b0-b527-4542-a3cc-d3991d2bba0b"
+  },
+  {
+    "name": "SWEEP d15 M0.8 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "f635a91f-5f8d-4a53-a55e-b80d1698a3d6"
+  },
+  {
+    "name": "SWEEP d15 M0.85 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "775dac9e-788a-4df0-86bd-75ab68b8f890"
+  },
+  {
+    "name": "SWEEP d-6 M0.7 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "9993aef9-117f-4b67-9efe-c4f271498cb1"
+  },
+  {
+    "name": "SWEEP d-6 M0.8 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "f98e3c31-f43a-4cd4-9090-eb3e60d1bcf5"
+  },
+  {
+    "name": "SWEEP d-6 M0.85 FINE cfd 1.6M, linearUpwindV, k/omega fixed, v4 relax, p 20-300 kPa (API)",
+    "simulationId": "e10cbc93-80ca-41f1-88e1-bd63e7b8aaa3"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "deflection": 15.0,
+  "mach": 0.6,
+  "V_mps": 203.5,
+  "stop_reason": "endTime",
+  "start": "ramp",
+  "pMin": 20000.0,
+  "pMax": 300000.0,
+  "relax_overrides": "p=0.3,rho=0.05,U=0.7,h=0.7,k=0.7,omega=0.7",
+  "div_u": "",
+  "transonic": false,
+  "consistent": false,
+  "open_sides": true,
+  "slot_level": 6,
+  "mesh_name": "mesh_filled_fine",
+  "setup": "simscale-matched",
+  "cofr_z": 0.399,
+  "p_inf": 97690.0,
+  "T_inf": 286.2,
+  "rho_inf": 1.189153884327524,
+  "n_avg_samples": 501,
+  "moments_Nm": {
+    "Mroll": 0.43044302104990023,
+    "Mpitch": -0.11127900956906188,
+    "Myaw": 2.9896968248502995
+  },
+  "forces_N": {
+    "Fx": 0.19380276759281434,
+    "Fy": 8.929725856806387,
+    "Fz": -60.58407274091816
+  },
+  "coefficients": {
+    "n_samples": 500,
+    "Cd": {
+      "mean": 0.9374033004119999,
+      "std": 0.00021183285030080211,
+      "snr": 4425.202696753075
+    },
+    "CmRoll": {
+      "mean": 0.115205673862,
+      "std": 0.002503598797271344,
+      "snr": 46.016028601532284
+    },
+    "CmPitch": {
+      "mean": -0.0297871243202,
+      "std": 0.002960792484167455,
+      "snr": 10.06052416016445
+    },
+    "CmYaw": {
+      "mean": 0.8001779614540001,
+      "std": 0.022564762886331337,
+      "snr": 35.461394630417765
+    }
+  },
+  "convergence": {
+    "mean": 0.43044302104990023,
+    "std": 0.009346044789197419,
+    "slope_per_iter": 3.2390866331080483e-07,
+    "drift": 0.0001619543316554024,
+    "drift_pct": 0.03762503368282684,
+    "std_rel_pct": 2.1712617773198732,
+    "flags": []
+  }
+}

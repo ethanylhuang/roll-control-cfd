@@ -1,0 +1,35 @@
+[d10] mesh_simscale exists — reusing (1247644 cells)
+[probe relax] case /Users/trasomi/dev/cfd/runs_v4/d10/probe_relax
+    fvSchemes: default steadyState;
+    fvSchemes: default Gauss linear;
+    fvSchemes: default none;
+    fvSchemes: div(phi,U) Gauss linearUpwindV grad(U);
+    fvSchemes: div(phi,e) Gauss linearUpwind limited;
+    fvSchemes: div(phi,K) Gauss linear;
+    fvSchemes: div(phi,Ekp) bounded Gauss upwind;
+    fvSchemes: laplacianSchemes
+    fvSchemes: default Gauss linear limited corrected 0.5;
+    fvSchemes: default linear;
+    fvSchemes: snGradSchemes
+    fvSchemes: default limited corrected 0.5;
+    fvSolution: 
+    fvSolution: p
+    fvSolution: nNonOrthogonalCorrectors 1;
+    fvSolution: pMin 50000;
+    fvSolution: pMax 200000;
+    fvSolution: p 0.3;
+    fvSolution: rho 0.05;
+    fvSolution: U 0.7;
+    fvSolution: e 0.7;
+    fvSolution: h 0.7;
+    fvSolution: k 0.7;
+    fvSolution: omega 0.7;
+    thermophysicalProperties: energy sensibleEnthalpy;
+    flowSettings: rampTable ((0 (0 0 -50)) (300 (0 0 -305)) (1000000 (0 0 -305)));
+    flowSettings: kInf 13.98;
+    flowSettings: omegaInf 93500;
+[probe relax] rhoSimpleFoam to 200 ...
+[probe relax] iterations 200  clamps total 1 (after it.70: 0)  zero-pressure-force rows 0
+[probe relax] clamp iterations: [7]
+[probe relax] iter: Fz_tot/Fz_pres/Mroll  25:-8/-6/0.012  50:-11/-9/0.019  75:-15/-13/0.033  100:-22/-18/0.050  125:-30/-25/0.070  150:-42/-34/0.099  175:-58/-48/0.136  200:-83/-68/0.186
+[probe relax] VERDICT PASS

@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "cells": 3132659,
+  "layer_coverage": {
+    "rocket_body": 99.0,
+    "rocket_fins": 97.0,
+    "rocket_tab": 70.0
+  },
+  "baseResolution": [
+    30,
+    30,
+    160
+  ],
+  "source": "/Users/trasomi/dev/cfd/runs_v4/d15/mesh_sealedcad_fine",
+  "patch_faces": {
+    "rocket_body": 128228,
+    "rocket_fins": 187036,
+    "rocket_tab": 1708,
+    "rocket_slot": 631
+  },
+  "source_patch_faces": {
+    "rocket_body": 63102,
+    "rocket_fins": 91737,
+    "rocket_tab": 808,
+    "rocket_slot": 338
+  }
+}

@@ -1,0 +1,7 @@
+05:14:53 steady queue finished; starting LTS queue
+05:14:53 start M0.95_filled_fine_LTS
+06:36:52 done M0.95_filled_fine_LTS rc=0: 06:36:52 solver rc=0 last=3000 stop=endTime wall=4917s | "Mroll":0.6701811326646707,
+  sheet: updated row 10: M0.95 Mroll 0.6702 Myaw(0.330) 3.2367
+06:36:55 start M0.90_filled_fine_LTS
+07:59:11 done M0.90_filled_fine_LTS rc=0: 07:59:11 solver rc=0 last=3000 stop=endTime wall=4933s | "Mroll":0.5933360570459081,
+07:59:11 start M0.85_filled_fine_LTS

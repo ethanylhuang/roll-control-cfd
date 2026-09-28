@@ -1,0 +1,28 @@
+{
+  "deflection": 15.0,
+  "mach": 0.8,
+  "V_mps": 271.3,
+  "sim": "f635a91f-5f8d-4a53-a55e-b80d1698a3d6",
+  "run": "5e4d9ba1-d1e5-43a3-ad05-bdaa5dd576f8",
+  "n_iterations": 3000,
+  "moments_Nm": {
+    "Mroll": 0.8476833486334387,
+    "Mpitch": -0.10914819970731411,
+    "Myaw": 6.139517537402845
+  },
+  "forces_N": {
+    "Fx": -0.06332816166266603,
+    "Fy": 18.182816624466735,
+    "Fz": -125.2746451899468
+  },
+  "convergence": {
+    "std_rel_pct": 2.605733087524384,
+    "block_std_pct": 0.03856417250961629,
+    "window": 1500,
+    "drift_pct": 0.051675257721493825,
+    "p_residual": 0.000177090122711,
+    "flags": []
+  },
+  "mesh_name": "FINE cfd 1.6M",
+  "cofr_z": 0.399
+}

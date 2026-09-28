@@ -1,0 +1,6 @@
+14:40:29 sim 034c2fe4 run 9b1d4bde started (V=101.7, mesh 69b9b690)
+14:52:32 run FAILED CPUh 0.0
+eventlog: [('WARNING', '**Result controls** have been applied on the following topological entities: B5_TE1877,B5_TE1842,B5_TE1835,B5_TE1828. Th'), ('WARNING', '**Boundary conditions** have been applied on the following faces: B5_TE1877,B5_TE1842,B5_TE1835,B5_TE1828. These faces h'), ('ERROR', 'Maximum number of iterations exceeded when calculating temperature from a thermodynamic potential. This may be caused by')]
+15:02:41 sim 034c2fe4 run 30e24668 started (V=101.7, mesh 69b9b690)
+15:14:45 run FAILED CPUh 0.0
+eventlog: [('WARNING', '**Boundary conditions** have been applied on the following faces: B5_TE1877,B5_TE1842,B5_TE1835,B5_TE1828. These faces h'), ('WARNING', '**Result controls** have been applied on the following topological entities: B5_TE1877,B5_TE1842,B5_TE1835,B5_TE1828. Th'), ('ERROR', 'Maximum number of iterations exceeded when calculating temperature from a thermodynamic potential. This may be caused by')]

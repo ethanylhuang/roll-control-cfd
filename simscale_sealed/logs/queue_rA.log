@@ -1,0 +1,9 @@
+14:28:19 [rA] mesh d03 QUEUED; waiting
+14:31:20 [rA] mesh d03 RUNNING; waiting
+14:34:20 [rA] mesh d03 RUNNING; waiting
+14:37:20 [rA] mesh d03 RUNNING; waiting
+14:40:21 [rA] start d03 (d3) M0.3 mesh 69b9b690 base d9122db4
+14:52:32 [rA] d03 M0.3 attempt 1 rc=2: eventlog: [('WARNING', '**Result controls** have been applied on the following topological entities: B5_TE1877,B5_TE1842,B5_TE1835,B5_TE1828. Th'), ('WARNING', '**Boundary conditions** have been appli
+15:14:46 [rA] d03 M0.3 attempt 2 rc=2: eventlog: [('WARNING', '**Boundary conditions** have been applied on the following faces: B5_TE1877,B5_TE1842,B5_TE1835,B5_TE1828. These faces h'), ('WARNING', '**Result controls** have been applied o
+15:14:46 [rA] FAILED d03 M0.3: no result
+15:14:46 [rA] QUEUE DONE

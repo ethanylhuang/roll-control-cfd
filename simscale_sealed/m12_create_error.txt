@@ -1,0 +1,137 @@
+{
+  "code" : "spec-validation-error",
+  "details" : {
+    "problems" : [ {
+      "severity" : "ERROR",
+      "code" : "missing-mandatory-value",
+      "message" : "A missing value was detected in a mandatory field. Please populate this field.",
+      "path" : "$.model.numerics.solvers.densitySolver.preconditioner",
+      "allowMarkdown" : false,
+      "topoEntities" : [ ],
+      "details" : {
+        "path" : "$.model.numerics.solvers.densitySolver.preconditioner",
+        "topoEntities" : [ ],
+        "parameterValuesCombinations" : [ ]
+      },
+      "errorMessageAddedToI18N" : false,
+      "errorDetails" : {
+        "parameters" : [ ],
+        "details" : {
+          "path" : "$.model.numerics.solvers.densitySolver.preconditioner",
+          "topoEntities" : [ ],
+          "parameterValuesCombinations" : [ ]
+        }
+      }
+    }, {
+      "severity" : "ERROR",
+      "code" : "missing-mandatory-value",
+      "message" : "A missing value was detected in a mandatory field. Please populate this field.",
+      "path" : "$.model.numerics.solvers.densityFinalSolver.preconditioner",
+      "allowMarkdown" : false,
+      "topoEntities" : [ ],
+      "details" : {
+        "path" : "$.model.numerics.solvers.densityFinalSolver.preconditioner",
+        "topoEntities" : [ ],
+        "parameterValuesCombinations" : [ ]
+      },
+      "errorMessageAddedToI18N" : false,
+      "errorDetails" : {
+        "parameters" : [ ],
+        "details" : {
+          "path" : "$.model.numerics.solvers.densityFinalSolver.preconditioner",
+          "topoEntities" : [ ],
+          "parameterValuesCombinations" : [ ]
+        }
+      }
+    }, {
+      "severity" : "ERROR",
+      "code" : "unexpected-conditional-value",
+      "message" : "Value should not be present when none of the following conditions are met: [analysis.type IS COMPRESSIBLE AND analysis.timeDependency.type IS STATIONARY, analysis.type IS CONVECTIVE_HEAT_TRANSFER AND analysis.isCompressible]",
+      "path" : "$.model.numerics.schemes.divergence.div_phi_Ekp",
+      "allowMarkdown" : false,
+      "topoEntities" : [ ],
+      "details" : {
+        "whenNotAllOf" : "[analysis.type IS COMPRESSIBLE AND analysis.timeDependency.type IS STATIONARY, analysis.type IS CONVECTIVE_HEAT_TRANSFER AND analysis.isCompressible]",
+        "path" : "$.model.numerics.schemes.divergence.div_phi_Ekp",
+        "topoEntities" : [ ],
+        "parameterValuesCombinations" : [ ]
+      },
+      "errorMessageAddedToI18N" : false,
+      "errorDetails" : {
+        "parameters" : [ ],
+        "details" : {
+          "whenNotAllOf" : "[analysis.type IS COMPRESSIBLE AND analysis.timeDependency.type IS STATIONARY, analysis.type IS CONVECTIVE_HEAT_TRANSFER AND analysis.isCompressible]",
+          "path" : "$.model.numerics.schemes.divergence.div_phi_Ekp",
+          "topoEntities" : [ ],
+          "parameterValuesCombinations" : [ ]
+        }
+      }
+    }, {
+      "severity" : "ERROR",
+      "code" : "unexpected-conditional-value",
+      "message" : "Value should not be present when none of the following conditions are met: [analysis.type IS COMPRESSIBLE AND analysis.timeDependency.type IS STATIONARY AND analysis.turbulenceModel IN (NONE,KEPSILON,KOMEGASST)]",
+      "path" : "$.model.numerics.schemes.laplacian.laplacian_rho_1_A_U_pressure",
+      "allowMarkdown" : false,
+      "topoEntities" : [ ],
+      "details" : {
+        "whenNotAllOf" : "[analysis.type IS COMPRESSIBLE AND analysis.timeDependency.type IS STATIONARY AND analysis.turbulenceModel IN (NONE,KEPSILON,KOMEGASST)]",
+        "path" : "$.model.numerics.schemes.laplacian.laplacian_rho_1_A_U_pressure",
+        "topoEntities" : [ ],
+        "parameterValuesCombinations" : [ ]
+      },
+      "errorMessageAddedToI18N" : false,
+      "errorDetails" : {
+        "parameters" : [ ],
+        "details" : {
+          "whenNotAllOf" : "[analysis.type IS COMPRESSIBLE AND analysis.timeDependency.type IS STATIONARY AND analysis.turbulenceModel IN (NONE,KEPSILON,KOMEGASST)]",
+          "path" : "$.model.numerics.schemes.laplacian.laplacian_rho_1_A_U_pressure",
+          "topoEntities" : [ ],
+          "parameterValuesCombinations" : [ ]
+        }
+      }
+    } ],
+    "parameters" : [ ]
+  },
+  "entries" : [ {
+    "code" : "missing-mandatory-value",
+    "details" : {
+      "path" : "$.model.numerics.solvers.densitySolver.preconditioner",
+      "topoEntities" : [ ],
+      "parameterValuesCombinations" : [ ]
+    },
+    "message" : "A missing value was detected in a mandatory field. Please populate this field.",
+    "severity" : "ERROR"
+  }, {
+    "code" : "missing-mandatory-value",
+    "details" : {
+      "path" : "$.model.numerics.solvers.densityFinalSolver.preconditioner",
+      "topoEntities" : [ ],
+      "parameterValuesCombinations" : [ ]
+    },
+    "message" : "A missing value was detected in a mandatory field. Please populate this field.",
+    "severity" : "ERROR"
+  }, {
+    "code" : "unexpected-conditional-value",
+    "details" : {
+      "whenNotAllOf" : "[analysis.type IS COMPRESSIBLE AND analysis.timeDependency.type IS STATIONARY, analysis.type IS CONVECTIVE_HEAT_TRANSFER AND analysis.isCompressible]",
+      "path" : "$.model.numerics.schemes.divergence.div_phi_Ekp",
+      "topoEntities" : [ ],
+      "parameterValuesCombinations" : [ ]
+    },
+    "message" : "Value should not be present when none of the following conditions are met: [analysis.type IS COMPRESSIBLE AND analysis.timeDependency.type IS STATIONARY, analysis.type IS CONVECTIVE_HEAT_TRANSFER AND analysis.isCompressible]",
+    "severity" : "ERROR"
+  }, {
+    "code" : "unexpected-conditional-value",
+    "details" : {
+      "whenNotAllOf" : "[analysis.type IS COMPRESSIBLE AND analysis.timeDependency.type IS STATIONARY AND analysis.turbulenceModel IN (NONE,KEPSILON,KOMEGASST)]",
+      "path" : "$.model.numerics.schemes.laplacian.laplacian_rho_1_A_U_pressure",
+      "topoEntities" : [ ],
+      "parameterValuesCombinations" : [ ]
+    },
+    "message" : "Value should not be present when none of the following conditions are met: [analysis.type IS COMPRESSIBLE AND analysis.timeDependency.type IS STATIONARY AND analysis.turbulenceModel IN (NONE,KEPSILON,KOMEGASST)]",
+    "severity" : "ERROR"
+  } ],
+  "message" : "Unprocessable entity",
+  "severity" : "ERROR",
+  "trace" : "6fb32234"
+}

@@ -1,0 +1,35 @@
+[d10] mesh_simscale exists — reusing (1247644 cells)
+[probe eqrelax] case /Users/trasomi/dev/cfd/runs_v4/d10/probe_eqrelax
+    fvSchemes: default steadyState;
+    fvSchemes: default Gauss linear;
+    fvSchemes: default none;
+    fvSchemes: div(phi,U) Gauss linearUpwindV grad(U);
+    fvSchemes: div(phi,e) Gauss linearUpwind limited;
+    fvSchemes: div(phi,K) Gauss linear;
+    fvSchemes: div(phi,Ekp) bounded Gauss upwind;
+    fvSchemes: laplacianSchemes
+    fvSchemes: default Gauss linear limited corrected 0.5;
+    fvSchemes: default linear;
+    fvSchemes: snGradSchemes
+    fvSchemes: default limited corrected 0.5;
+    fvSolution: 
+    fvSolution: p
+    fvSolution: nNonOrthogonalCorrectors 1;
+    fvSolution: pMin 50000;
+    fvSolution: pMax 200000;
+    fvSolution: p 0.15;
+    fvSolution: rho 0.1;
+    fvSolution: U 0.7;
+    fvSolution: e 0.1;
+    fvSolution: h 0.7;
+    fvSolution: k 0.7;
+    fvSolution: omega 0.7;
+    thermophysicalProperties: energy sensibleEnthalpy;
+    flowSettings: rampTable ((0 (0 0 -50)) (300 (0 0 -305)) (1000000 (0 0 -305)));
+    flowSettings: kInf 13.98;
+    flowSettings: omegaInf 93500;
+[probe eqrelax] rhoSimpleFoam to 200 ...
+[probe eqrelax] iterations 200  clamps total 6 (after it.70: 0)  zero-pressure-force rows 0
+[probe eqrelax] clamp iterations: [14, 15, 19, 23, 24, 25]
+[probe eqrelax] iter: Fz_tot/Fz_pres/Mroll  25:-8/-6/0.012  50:-11/-9/0.018  75:-16/-13/0.034  100:-22/-18/0.051  125:-31/-26/0.071  150:-43/-36/0.103  175:-63/-52/0.145  200:-97/-81/0.221
+[probe eqrelax] VERDICT PASS

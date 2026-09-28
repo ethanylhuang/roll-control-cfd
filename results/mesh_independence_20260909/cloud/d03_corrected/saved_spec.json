@@ -1,0 +1,761 @@
+{
+  "cadId": null,
+  "createdAt": "2026-09-10T03:52:46.154Z",
+  "geometryId": "b5fd1396-e1ae-4409-ab27-4f28f7ab62d1",
+  "meshId": "e579fe99-4af5-4d78-8c62-6cf08124a4e1",
+  "model": {
+    "type": "COMPRESSIBLE",
+    "turbulenceModel": "KOMEGASST",
+    "timeDependency": {
+      "type": "STATIONARY"
+    },
+    "model": {},
+    "materials": {
+      "fluids": [
+        {
+          "type": "COMPRESSIBLE",
+          "name": "Air",
+          "specie": {
+            "type": "SPECIE",
+            "molarWeight": {
+              "value": 28.97,
+              "unit": "kg/kmol"
+            }
+          },
+          "transport": {
+            "type": "CONST",
+            "dynamicViscosity": {
+              "value": 1.83e-05,
+              "unit": "kg/(s\u00b7m)"
+            },
+            "prandtlNumber": 0.713,
+            "thermo": {
+              "type": "HCONST",
+              "specificHeat": {
+                "value": 1004,
+                "unit": "J/(kg\u00b7K)"
+              },
+              "equationOfState": {
+                "type": "PERFECT_GAS",
+                "energy": "SENSIBLE_ENTHALPY"
+              }
+            }
+          },
+          "topologicalReference": {
+            "entities": [
+              "B5_TE5"
+            ],
+            "sets": []
+          },
+          "materialLibraryReference": {
+            "materialGroupId": "internal:af500b1b-bafb-421d-afa3-c976dc706f52",
+            "materialId": "internal:9d5b2b44-38fb-4080-92bb-6ca41ea1664f",
+            "interpolationParameters": {}
+          }
+        }
+      ]
+    },
+    "initialConditions": {
+      "pressure": {
+        "global": {
+          "value": 97690,
+          "unit": "Pa"
+        },
+        "subdomains": []
+      },
+      "velocity": {
+        "global": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "z": -50.0
+          },
+          "unit": "m/s"
+        },
+        "subdomains": []
+      },
+      "temperature": {
+        "global": {
+          "value": 286.2,
+          "unit": "K"
+        },
+        "subdomains": []
+      },
+      "turbulentKineticEnergy": {
+        "global": {
+          "value": 13.98,
+          "unit": "m\u00b2/s\u00b2"
+        }
+      },
+      "omegaDissipationRate": {
+        "global": {
+          "value": 93500,
+          "unit": "1/s"
+        }
+      }
+    },
+    "boundaryConditions": [
+      {
+        "name": "Velocity inlet 1",
+        "type": "VELOCITY_INLET_V3",
+        "velocity": {
+          "type": "FIXED_VALUE",
+          "value": {
+            "value": {
+              "type": "TABLE_DEFINED",
+              "label": "Table",
+              "tableId": "b1dd64df-e6d5-4c7a-9cbc-0e071f866de5",
+              "resultIndex": [
+                2,
+                3,
+                4
+              ],
+              "independentVariables": [
+                {
+                  "reference": 1,
+                  "parameter": "T",
+                  "unit": "s"
+                }
+              ],
+              "separator": ",",
+              "outOfBounds": "CLAMP"
+            },
+            "unit": "m/s"
+          }
+        },
+        "turbulence": {
+          "type": "FIXED_VALUE_TURBULENCE",
+          "turbulentKineticEnergy": {
+            "value": {
+              "type": "CONSTANT",
+              "value": 13.98
+            },
+            "unit": "m\u00b2/s\u00b2"
+          },
+          "omegaDissipationRate": {
+            "value": {
+              "type": "CONSTANT",
+              "value": 93500
+            },
+            "unit": "1/s"
+          }
+        },
+        "temperature": {
+          "type": "FIXED_VALUE",
+          "value": {
+            "value": {
+              "type": "CONSTANT",
+              "value": 286.2
+            },
+            "unit": "K"
+          }
+        },
+        "topologicalReference": {
+          "entities": [
+            "B5_TE36"
+          ],
+          "sets": []
+        }
+      },
+      {
+        "name": "Pressure outlet 2",
+        "type": "PRESSURE_OUTLET_V30",
+        "pressure": {
+          "type": "FIXED_VALUE",
+          "value": {
+            "value": {
+              "type": "CONSTANT",
+              "value": 97690
+            },
+            "unit": "Pa"
+          }
+        },
+        "topologicalReference": {
+          "entities": [
+            "B5_TE9"
+          ],
+          "sets": []
+        }
+      },
+      {
+        "name": "Sides open (pressure outlet)",
+        "type": "PRESSURE_OUTLET_V30",
+        "pressure": {
+          "type": "FIXED_VALUE",
+          "value": {
+            "value": {
+              "type": "CONSTANT",
+              "value": 97690
+            },
+            "unit": "Pa"
+          }
+        },
+        "topologicalReference": {
+          "entities": [
+            "B5_TE2",
+            "B5_TE30",
+            "B5_TE27",
+            "B5_TE33"
+          ],
+          "sets": []
+        }
+      },
+      {
+        "name": "Wall 4",
+        "type": "WALL_V34",
+        "velocity": {
+          "type": "NO_SLIP",
+          "turbulenceWall": "WALL_FUNCTION"
+        },
+        "temperature": {
+          "type": "ADIABATIC"
+        },
+        "topologicalReference": {
+          "entities": [
+            "B5_TE1653",
+            "B5_TE1660",
+            "B5_TE1667",
+            "B5_TE1674",
+            "B5_TE1681",
+            "B5_TE1688",
+            "B5_TE1695",
+            "B5_TE1702",
+            "B5_TE1710",
+            "B5_TE1717",
+            "B5_TE1725",
+            "B5_TE1732",
+            "B5_TE1739",
+            "B5_TE1746",
+            "B5_TE1753",
+            "B5_TE1760",
+            "B5_TE1767",
+            "B5_TE1774",
+            "B5_TE1781",
+            "B5_TE1788",
+            "B5_TE1795",
+            "B5_TE1802",
+            "B5_TE1809",
+            "B5_TE1816",
+            "B5_TE1823",
+            "B5_TE1830",
+            "B5_TE1837",
+            "B5_TE1844",
+            "B5_TE1851",
+            "B5_TE1858",
+            "B5_TE1865",
+            "B5_TE1872",
+            "B5_TE1879",
+            "B5_TE1886",
+            "B5_TE1893",
+            "B5_TE1900",
+            "B5_TE1907",
+            "B5_TE1914",
+            "B5_TE1921",
+            "B5_TE1928",
+            "B5_TE1935",
+            "B5_TE1942",
+            "B5_TE1950",
+            "B5_TE1957",
+            "B5_TE1964",
+            "B5_TE1971",
+            "B5_TE1978",
+            "B5_TE1985",
+            "B5_TE1992",
+            "B5_TE1999",
+            "B5_TE2006",
+            "B5_TE2013",
+            "B5_TE2020",
+            "B5_TE2027",
+            "B5_TE2034",
+            "B5_TE2041",
+            "B5_TE2048",
+            "B5_TE2055",
+            "B5_TE2062",
+            "B5_TE2069",
+            "B5_TE2076",
+            "B5_TE2083",
+            "B5_TE2090",
+            "B5_TE2097",
+            "B5_TE2104",
+            "B5_TE2111",
+            "B5_TE2118",
+            "B5_TE2125",
+            "B5_TE2132",
+            "B5_TE2139",
+            "B5_TE2146",
+            "B5_TE2153",
+            "B5_TE2160",
+            "B5_TE2167",
+            "B5_TE2174",
+            "B5_TE2181",
+            "B5_TE2188",
+            "B5_TE2195",
+            "B5_TE2202",
+            "B5_TE2210"
+          ],
+          "sets": []
+        }
+      }
+    ],
+    "advancedConcepts": {
+      "porousMediums": [],
+      "rotatingZones": []
+    },
+    "numerics": {
+      "relaxationType": "MANUAL",
+      "relaxationFactor": {
+        "pressureField": 0.3,
+        "velocityEquation": 0.7,
+        "densityField": 0.05,
+        "enthalpyEquation": 0.7,
+        "internalEnergyEquation": 0.1,
+        "turbulentKineticEnergyEquation": 0.7,
+        "omegaDissipationRateEquation": 0.7
+      },
+      "numNonOrthogonalCorrectors": 1,
+      "pressureReferenceCell": 0,
+      "pressureReferenceValue": {
+        "value": 97690,
+        "unit": "Pa"
+      },
+      "residualControls": {
+        "velocity": {
+          "absoluteTolerance": 1e-05
+        },
+        "pressure": {
+          "absoluteTolerance": 1e-05
+        },
+        "turbulentKineticEnergy": {
+          "absoluteTolerance": 1e-05
+        },
+        "omegaDissipationRate": {
+          "absoluteTolerance": 1e-05
+        }
+      },
+      "solvers": {
+        "velocitySolver": {
+          "type": "PBICGStab",
+          "absoluteTolerance": 1e-08,
+          "relativeTolerance": 0.01,
+          "preconditioner": {
+            "type": "DILU"
+          }
+        },
+        "pressureSolver": {
+          "type": "GAMG",
+          "absoluteTolerance": 1e-07,
+          "relativeTolerance": 0.01,
+          "smoother": "GAUSSSEIDEL",
+          "numPreSweeps": 2,
+          "numPostSweeps": 1,
+          "cacheAgglomerationOn": true,
+          "numCellsCoarsestLevel": 100,
+          "numMergeLevels": 1
+        },
+        "enthalpySolver": {
+          "type": "SMOOTH",
+          "absoluteTolerance": 1e-07,
+          "relativeTolerance": 0.01,
+          "smoother": "GAUSSSEIDEL",
+          "numSweeps": 1
+        },
+        "internalEnergySolver": {
+          "type": "SMOOTH",
+          "absoluteTolerance": 1e-07,
+          "relativeTolerance": 0.01,
+          "smoother": "GAUSSSEIDEL",
+          "numSweeps": 1
+        },
+        "turbulentKineticEnergySolver": {
+          "type": "PBICGStab",
+          "absoluteTolerance": 1e-08,
+          "relativeTolerance": 0.01,
+          "preconditioner": {
+            "type": "DILU"
+          }
+        },
+        "omegaDissipationRateSolver": {
+          "type": "PBICGStab",
+          "absoluteTolerance": 1e-08,
+          "relativeTolerance": 0.01,
+          "preconditioner": {
+            "type": "DILU"
+          }
+        }
+      },
+      "schemes": {
+        "timeDifferentiation": {
+          "forDefault": {
+            "type": "STEADYSTATE"
+          }
+        },
+        "gradient": {
+          "forDefault": {
+            "type": "CELLLIMITED_LEASTSQUARES",
+            "limiterCoefficient": 1
+          }
+        },
+        "divergence": {
+          "forDefault": {
+            "type": "GAUSS_LINEAR"
+          },
+          "div_Phi_velocity": {
+            "type": "GAUSS_LINEARUPWINDV_GRAD_U_"
+          },
+          "div_Phi_kineticEnergy": {
+            "type": "GAUSS_LINEAR"
+          },
+          "div_Phi_enthalpy": {
+            "type": "GAUSS_UPWIND"
+          },
+          "div_Phi_internalEnergy": {
+            "type": "GAUSS_LINEARUPWIND_LIMITEDGRAD"
+          },
+          "div_Phi_turbulentKineticEnergy": {
+            "type": "BOUNDED_GAUSS_UPWIND"
+          },
+          "div_MuEff_dev2_T_grad_velocity": {
+            "type": "GAUSS_LINEAR"
+          },
+          "div_Phi_omegaDissipationRate": {
+            "type": "BOUNDED_GAUSS_UPWIND"
+          },
+          "div_phi_Ekp": {
+            "type": "BOUNDED_GAUSS_UPWIND"
+          }
+        },
+        "laplacian": {
+          "forDefault": {
+            "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+            "limiterCoefficient": 0.5
+          },
+          "laplacian_DkEff_turbulentKineticEnergy": {
+            "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+            "limiterCoefficient": 0.5
+          },
+          "laplacian_alphaEff_enthalpy": {
+            "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+            "limiterCoefficient": 0.5
+          },
+          "laplacian_muEff_velocity": {
+            "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+            "limiterCoefficient": 0.5
+          },
+          "laplacian_alphaEff_internalEnergy": {
+            "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+            "limiterCoefficient": 0.5
+          },
+          "laplacian_DomegaEff_omegaDissipationRate": {
+            "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+            "limiterCoefficient": 0.5
+          },
+          "laplacian_rho_1_A_U_pressure": {
+            "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+            "limiterCoefficient": 0.5
+          },
+          "laplacian_mut_velocity": {
+            "type": "GAUSS_LINEAR_LIMITED_CORRECTED",
+            "limiterCoefficient": 0.5
+          }
+        },
+        "interpolation": {
+          "forDefault": {
+            "type": "LINEAR"
+          }
+        },
+        "surfaceNormalGradient": {
+          "forDefault": {
+            "type": "LIMITED",
+            "limiterCoefficient": 0.5
+          }
+        }
+      },
+      "stabilization": {
+        "fieldLimits": {
+          "lowerPressureBound": {
+            "value": 20000,
+            "unit": "Pa"
+          },
+          "upperPressureBound": {
+            "value": 300000,
+            "unit": "Pa"
+          }
+        }
+      }
+    },
+    "simulationControl": {
+      "endTime": {
+        "value": 3000,
+        "unit": "s"
+      },
+      "deltaT": {
+        "value": 1,
+        "unit": "s"
+      },
+      "writeControl": {
+        "type": "TIME_STEP",
+        "writeInterval": 1000
+      },
+      "numProcessors": 32,
+      "maxRunTime": {
+        "value": 4050.0,
+        "unit": "s"
+      },
+      "potentialFoamInitialization": false,
+      "decomposeAlgorithm": {
+        "type": "SCOTCH"
+      }
+    },
+    "resultControl": {
+      "forcesMoments": [
+        {
+          "type": "FORCES_AND_MOMENTS",
+          "name": "Forces and moments 1",
+          "centerOfRotation": {
+            "value": {
+              "x": 0,
+              "y": 0,
+              "z": 399
+            },
+            "unit": "mm"
+          },
+          "writeControl": {
+            "type": "TIME_STEP",
+            "writeInterval": 1
+          },
+          "topologicalReference": {
+            "entities": [
+              "B5_TE1653",
+              "B5_TE1660",
+              "B5_TE1667",
+              "B5_TE1674",
+              "B5_TE1681",
+              "B5_TE1688",
+              "B5_TE1695",
+              "B5_TE1702",
+              "B5_TE1710",
+              "B5_TE1717",
+              "B5_TE1725",
+              "B5_TE1732",
+              "B5_TE1739",
+              "B5_TE1746",
+              "B5_TE1753",
+              "B5_TE1760",
+              "B5_TE1767",
+              "B5_TE1774",
+              "B5_TE1781",
+              "B5_TE1788",
+              "B5_TE1795",
+              "B5_TE1802",
+              "B5_TE1809",
+              "B5_TE1816",
+              "B5_TE1823",
+              "B5_TE1830",
+              "B5_TE1837",
+              "B5_TE1844",
+              "B5_TE1851",
+              "B5_TE1858",
+              "B5_TE1865",
+              "B5_TE1872",
+              "B5_TE1879",
+              "B5_TE1886",
+              "B5_TE1893",
+              "B5_TE1900",
+              "B5_TE1907",
+              "B5_TE1914",
+              "B5_TE1921",
+              "B5_TE1928",
+              "B5_TE1935",
+              "B5_TE1942",
+              "B5_TE1950",
+              "B5_TE1957",
+              "B5_TE1964",
+              "B5_TE1971",
+              "B5_TE1978",
+              "B5_TE1985",
+              "B5_TE1992",
+              "B5_TE1999",
+              "B5_TE2006",
+              "B5_TE2013",
+              "B5_TE2020",
+              "B5_TE2027",
+              "B5_TE2034",
+              "B5_TE2041",
+              "B5_TE2048",
+              "B5_TE2055",
+              "B5_TE2062",
+              "B5_TE2069",
+              "B5_TE2076",
+              "B5_TE2083",
+              "B5_TE2090",
+              "B5_TE2097",
+              "B5_TE2104",
+              "B5_TE2111",
+              "B5_TE2118",
+              "B5_TE2125",
+              "B5_TE2132",
+              "B5_TE2139",
+              "B5_TE2146",
+              "B5_TE2153",
+              "B5_TE2160",
+              "B5_TE2167",
+              "B5_TE2174",
+              "B5_TE2181",
+              "B5_TE2188",
+              "B5_TE2195",
+              "B5_TE2202",
+              "B5_TE2210"
+            ],
+            "sets": []
+          }
+        },
+        {
+          "type": "FORCE_AND_MOMENT_COEFFICIENTS",
+          "name": "Force and moment coefficients 2",
+          "centerOfRotation": {
+            "value": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "unit": "m"
+          },
+          "liftDirection": {
+            "value": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "unit": "m"
+          },
+          "dragDirection": {
+            "value": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "unit": "m"
+          },
+          "pitchAxis": {
+            "value": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "unit": "m"
+          },
+          "freestreamVelocityMagnitude": {
+            "value": 1,
+            "unit": "m/s"
+          },
+          "referenceLength": {
+            "value": 1,
+            "unit": "m"
+          },
+          "referenceAreaValue": {
+            "value": 1,
+            "unit": "m\u00b2"
+          },
+          "writeControl": {
+            "type": "TIME_STEP",
+            "writeInterval": 1
+          },
+          "topologicalReference": {
+            "entities": [
+              "B5_TE1653",
+              "B5_TE1660",
+              "B5_TE1667",
+              "B5_TE1674",
+              "B5_TE1681",
+              "B5_TE1688",
+              "B5_TE1695",
+              "B5_TE1702",
+              "B5_TE1710",
+              "B5_TE1717",
+              "B5_TE1725",
+              "B5_TE1732",
+              "B5_TE1739",
+              "B5_TE1746",
+              "B5_TE1753",
+              "B5_TE1760",
+              "B5_TE1767",
+              "B5_TE1774",
+              "B5_TE1781",
+              "B5_TE1788",
+              "B5_TE1795",
+              "B5_TE1802",
+              "B5_TE1809",
+              "B5_TE1816",
+              "B5_TE1823",
+              "B5_TE1830",
+              "B5_TE1837",
+              "B5_TE1844",
+              "B5_TE1851",
+              "B5_TE1858",
+              "B5_TE1865",
+              "B5_TE1872",
+              "B5_TE1879",
+              "B5_TE1886",
+              "B5_TE1893",
+              "B5_TE1900",
+              "B5_TE1907",
+              "B5_TE1914",
+              "B5_TE1921",
+              "B5_TE1928",
+              "B5_TE1935",
+              "B5_TE1942",
+              "B5_TE1950",
+              "B5_TE1957",
+              "B5_TE1964",
+              "B5_TE1971",
+              "B5_TE1978",
+              "B5_TE1985",
+              "B5_TE1992",
+              "B5_TE1999",
+              "B5_TE2006",
+              "B5_TE2013",
+              "B5_TE2020",
+              "B5_TE2027",
+              "B5_TE2034",
+              "B5_TE2041",
+              "B5_TE2048",
+              "B5_TE2055",
+              "B5_TE2062",
+              "B5_TE2069",
+              "B5_TE2076",
+              "B5_TE2083",
+              "B5_TE2090",
+              "B5_TE2097",
+              "B5_TE2104",
+              "B5_TE2111",
+              "B5_TE2118",
+              "B5_TE2125",
+              "B5_TE2132",
+              "B5_TE2139",
+              "B5_TE2146",
+              "B5_TE2153",
+              "B5_TE2160",
+              "B5_TE2167",
+              "B5_TE2174",
+              "B5_TE2181",
+              "B5_TE2188",
+              "B5_TE2195",
+              "B5_TE2202",
+              "B5_TE2210"
+            ],
+            "sets": []
+          }
+        }
+      ],
+      "surfaceData": [],
+      "probePoints": [],
+      "fieldCalculations": []
+    }
+  },
+  "modifiedAt": "2026-09-11T03:57:42.219Z",
+  "name": "MI 20260909 d03 M0.30 refined h0.7",
+  "parameters": null,
+  "simulationId": "c12eb180-877d-40bc-be57-e2b62af54697",
+  "stateId": null,
+  "version": "internal:629"
+}

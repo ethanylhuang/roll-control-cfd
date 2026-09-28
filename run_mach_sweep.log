@@ -1,0 +1,18 @@
+00:24:31 start M0.95_filled_fine_opensides
+00:58:58 RESTART: dropped M0.95/M0.85 (steady limit cycle), continuing with subsonic cases
+00:58:58 start M0.80_filled_fine_opensides
+01:49:54 done M0.80_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 |   "Mroll": 0.5469338004331338,
+  sheet: updated row 7: M0.8 Mroll 0.5469 Myaw(0.330) 3.0917
+01:49:58 start M0.70_filled_fine_opensides
+02:41:01 done M0.70_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 |   "Mroll": 0.3730078346427146,
+  sheet: updated row 6: M0.7 Mroll 0.3730 Myaw(0.330) 2.0394
+02:41:03 start M0.60_filled_fine_opensides
+03:31:46 done M0.60_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 |   "Mroll": 0.25602282180439123,
+  sheet: appended row: M0.6 Mroll 0.2560 Myaw(0.330) 1.4767
+03:31:48 start M0.50_filled_fine_opensides
+04:23:17 done M0.50_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 |   "Mroll": 0.17015064591017962,
+  sheet: updated row 5: M0.5 Mroll 0.1702 Myaw(0.330) 0.9837
+04:23:20 start M0.30_filled_fine_opensides
+05:13:49 done M0.30_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 |   "Mroll": 0.05769863699261477,
+  sheet: updated row 4: M0.3 Mroll 0.0577 Myaw(0.330) 0.3291
+05:13:52 MACH SWEEP DONE

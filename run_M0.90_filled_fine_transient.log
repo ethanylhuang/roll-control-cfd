@@ -1,0 +1,32 @@
+20:59:35 case M0.90_filled_fine_transient: restart from M0.90_filled_fine_opensides/3000 (M0.9, V=305.0), rhoPimpleFoam Euler dt 4e-06 endTime 0.01
+20:59:38 decomposePar rc=0
+22:34:52 solver rc=0 last t=0.01 fatal=False wall=5714s
+{
+ "stop_reason": "endTime",
+ "t_last": 0.01,
+ "window": {
+  "t_start": 0.007504,
+  "t_end": 0.01,
+  "n": 625
+ },
+ "moments_Nm": {
+  "Mroll": 0.8123937487728,
+  "Myaw": 5.46767790704
+ },
+ "forces_N": {
+  "Fy": 15.73453135264,
+  "Fz": -186.7385196128
+ },
+ "convergence": {
+  "std_rel_pct": 0.1961093170062063,
+  "drift_pct": 0.0010652865601305014,
+  "roll_min": 0.80956184,
+  "roll_max": 0.81506029
+ },
+ "quarter_means": [
+  0.812372371923077,
+  0.8125992441346156,
+  0.8120106138589744,
+  0.81259149755414
+ ]
+}

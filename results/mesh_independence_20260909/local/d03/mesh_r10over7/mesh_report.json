@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "cells": 3137295,
+  "layer_coverage": {
+    "rocket_body": 99.0,
+    "rocket_fins": 97.0,
+    "rocket_tab": 61.0
+  },
+  "spacingRatio": 1.4285714285714286,
+  "source": "/Users/trasomi/dev/cfd/runs_v4/d03/mesh_filled_fine",
+  "note": "Layer coverage and y+ remain part of acceptance; Mesh OK alone is insufficient"
+}

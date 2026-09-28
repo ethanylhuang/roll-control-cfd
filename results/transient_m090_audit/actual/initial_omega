@@ -1,0 +1,519 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2406                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       volScalarField;
+    location    "0";
+    object      omega;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 0 -1 0 0 0 0];
+
+internalField   uniform 93500;
+
+boundaryField
+{
+    B5_TE5_B5_TE2
+    {
+        type            inletOutlet;
+        inletValue      uniform 93500;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2041
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1964
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2097
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2027
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2202
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1710
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1695
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1872
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2139
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2076
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1893
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2132
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2167
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1957
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1886
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2048
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1788
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2188
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1851
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1844
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1971
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2125
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE33
+    {
+        type            inletOutlet;
+        inletValue      uniform 93500;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE36
+    {
+        type            fixedValue;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1809
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2034
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1992
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1999
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2083
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1774
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1830
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2146
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1907
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1732
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1978
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1942
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2153
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1688
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE9
+    {
+        type            inletOutlet;
+        inletValue      uniform 93500;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2111
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2062
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1802
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2013
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2055
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1900
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2020
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1921
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1767
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1717
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1879
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2181
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1739
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1653
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2069
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2006
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1914
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1816
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1823
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2118
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2195
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1681
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1702
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1725
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1781
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1985
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1935
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1660
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2104
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1837
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1928
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE30
+    {
+        type            inletOutlet;
+        inletValue      uniform 93500;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1858
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2160
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1950
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1674
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2210
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE27
+    {
+        type            inletOutlet;
+        inletValue      uniform 93500;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2174
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE2090
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1865
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+    B5_TE5_B5_TE1667
+    {
+        type            omegaWallFunction;
+        blending        stepwise;
+        value           uniform 93500;
+    }
+}
+
+
+// ************************************************************************* //

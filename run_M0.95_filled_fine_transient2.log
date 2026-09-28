@@ -1,0 +1,33 @@
+09:41:02 case M0.95_filled_fine_transient: restart from M0.95_filled_fine_upwind/2000 (M0.95, V=322.1), rhoPimpleFoam Euler dt 4e-06 endTime 0.015
+fvSchemes: div(phi,U) -> Gauss linearUpwindV grad(U) (second order)
+09:41:05 decomposePar rc=0
+12:06:33 solver rc=0 last t=0.015 fatal=False wall=8728s
+{
+ "stop_reason": "endTime",
+ "t_last": 0.015,
+ "window": {
+  "t_start": 0.011252,
+  "t_end": 0.015,
+  "n": 938
+ },
+ "moments_Nm": {
+  "Mroll": 0.9442885431417911,
+  "Myaw": 4.739464465469083
+ },
+ "forces_N": {
+  "Fy": 13.702249456289978,
+  "Fz": -241.33183814712154
+ },
+ "convergence": {
+  "std_rel_pct": 0.15948272459634913,
+  "drift_pct": 0.060115065386825414,
+  "roll_min": 0.941816584,
+  "roll_max": 0.946844489
+ },
+ "quarter_means": [
+  0.9443948996068378,
+  0.9443444832212765,
+  0.9442113169017095,
+  0.9442035967957448
+ ]
+}

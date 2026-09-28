@@ -1,0 +1,4 @@
+19:15:27 sim c3b6f439 run 247f80bb started (V=203.5, mesh f884164c)
+20:03:44 run FINISHED CPUh 12.403055555555556
+{"moments_Nm": {"Mroll": 0.16625922545202412, "Mpitch": 0.07782244492174208, "Myaw": 1.2304821540763948}, "forces_N": {"Fx": -0.27738523034010604, "Fy": 3.7252044496666086, "Fz": -60.760451055813135}, "convergence": {"std_rel_pct": 12.20454587136611, "block_std_pct": 0.3266708161390408, "block_means": [0.1664844285239204, 0.1655932727065636, 0.1666720975950796, 0.166610435018672, 0.1654158023080188, 0.1667793165598904], "drift_pct": 0.09660315622306467, "window": 1500, "p_residual": 0.000170548266025, "flags": []}}
+RESULT /Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d06_M0.6_fine_sealed.json

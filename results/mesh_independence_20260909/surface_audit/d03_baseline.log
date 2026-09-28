@@ -1,0 +1,42 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2606                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _481094fdf3-20260618 OPENFOAM=2606 version=v2606
+Arch   : "LSB;label=32;scalar=64"
+Exec   : surfaceMeshExtract -case /Users/trasomi/dev/cfd/runs_v4/d03/mesh_filled_fine -constant -patches rocket_tab /Users/trasomi/dev/cfd/results/mesh_independence_20260909/surface_audit/d03_baseline.stl
+Date   : Sep 10 2026
+Time   : 20:58:34
+Host   : Trasos-Mini-2
+PID    : 99804
+I/O    : uncollated
+Case   : /Users/trasomi/dev/cfd/runs_v4/d03/mesh_filled_fine
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+memory pool : not available
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+
+--> FOAM Warning : allowSystemOperations : Allowing user-supplied system call operations.
+                   This can be a security risk if running untrusted cases
+                   through e.g. 'coded' on-the-fly-compilation functionality.
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Extracting surface from boundaryMesh ...
+
+Including all processor patches.
+
+Including patches (rocket_tab)
+
+Reading mesh from time 0
+Create polyMesh for time = 0
+
+Time [0] = constant
+surfZone 0 : rocket_tab
+Writing merged surface to "/Users/trasomi/dev/cfd/results/mesh_independence_20260909/surface_audit/d03_baseline.stl"
+End
+

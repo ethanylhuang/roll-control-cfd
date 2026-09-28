@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "cells": 1497219,
+  "levels": {
+    "body": 5,
+    "fins": 6,
+    "tab": 6,
+    "slot": 6
+  },
+  "settings_fp": "6097caff9ae4",
+  "layer_coverage": {
+    "rocket_body": 98.8,
+    "rocket_fins": 94.6,
+    "rocket_tab": 60.6
+  },
+  "gap_cells": -1,
+  "gap_cells_across_est": null,
+  "quality_notes": [],
+  "warnings": [
+    "rocket_tab layer coverage 60.6% < 90.0%"
+  ],
+  "minutes": 1.0
+}

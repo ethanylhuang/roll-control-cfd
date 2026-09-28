@@ -1,0 +1,962 @@
+[
+  {
+    "file": "openfoam_dm06_M0.30.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/dm06/M0.30_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "9b8635b9b194a979dd61c3d8440de195435e8743df8c8241e15fd89c562d0c81"
+  },
+  {
+    "file": "openfoam_dm06_M0.50.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/dm06/M0.50_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "8b8ebf1db1e953c12fc8f430d476549f7b5f85a0b8e81cd3fff92715c800a2df"
+  },
+  {
+    "file": "openfoam_dm06_M0.60.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/dm06/M0.60_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "e991e0b24963f81cc5c9e9be91f394bee86bb92c9fa77b6570af88e3380ea5f7"
+  },
+  {
+    "file": "openfoam_dm06_M0.70.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/dm06/M0.70_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "616a784e80a65ab3b4900ada3a5a3f82ed7042e048bf20acc77d25f23365d683"
+  },
+  {
+    "file": "openfoam_dm06_M0.80.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/dm06/M0.80_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "ef5c547865ed53bdc6728489ae3eb495dee312b02dc8ba5c6048131dcda793fb"
+  },
+  {
+    "file": "openfoam_dm06_M0.85.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/dm06/M0.85_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "6c98b784ce8a09975f0e49a8687acf7370a4209ca1a5c4f2cc81f1730b5387e2"
+  },
+  {
+    "file": "openfoam_dm06_M0.90_transient.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/dm06/M0.90_sealedcad_fine_transient/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "Transient rhoPimpleFoam restart (15 ms) replaces the steady mean (steady drift 9.4 %).",
+    "sha256": "b6285f5a0bc9d371a5c734a9111295da53eb6d7b990a880374777ef0ce272024"
+  },
+  {
+    "file": "openfoam_dm06_M0.90_steady.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/dm06/M0.90_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "context",
+    "note": "Steady mean superseded by the transient restart.",
+    "sha256": "a09312b58d80b161a494e29d214be9f2cd889749c5d17899b6f08affa26bb913"
+  },
+  {
+    "file": "openfoam_d00_M0.30.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d00/M0.30_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "fa5145285df839cc9e78a137ef818a86f9aa43acfafb556cbe9a5dd636770998"
+  },
+  {
+    "file": "openfoam_d00_M0.50.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d00/M0.50_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "5f367b61f4ba1ec398d379d96ee113507b956eb3e77450beeb0c49150b5899a1"
+  },
+  {
+    "file": "openfoam_d00_M0.60.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d00/M0.60_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "211b94b5f737abd9780ef47c4fdf78d57c1bd3df71c014cd08973277100e65e6"
+  },
+  {
+    "file": "openfoam_d00_M0.70.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d00/M0.70_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "4801a28da0446bd4091dcd03167a8a9d31aa20ef128d12b695406dc3f920a184"
+  },
+  {
+    "file": "openfoam_d00_M0.80.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d00/M0.80_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "c0cca09b383983f5dde376b51c5b6307d42c3fa6176e81f23bbd730aafbbd330"
+  },
+  {
+    "file": "openfoam_d00_M0.85.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d00/M0.85_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "4ee001e4fc33d1507157755043f4d58d2c7c2f92e1821ac6516ffde8299bf928"
+  },
+  {
+    "file": "openfoam_d00_M0.90.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d00/M0.90_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "ca50cc78448961291dd7a94f417665e64530beed45a5dee435f336b848ac229a"
+  },
+  {
+    "file": "openfoam_d03_M0.30.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d03/M0.30_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "38931ee8b3915635aa4c710e13bcfd5081e02ac0d4bef53fc74c6e2b17e696ed"
+  },
+  {
+    "file": "openfoam_d03_M0.50.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d03/M0.50_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "c561f42530c59ee34a579f6bceb6c0d73e04ef0f6e1a0c32ba904ca424aef191"
+  },
+  {
+    "file": "openfoam_d03_M0.60.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d03/M0.60_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "77a234fbf3a9b941a6938697b7307d5de9e2f4f464744d5e4e07c957929a8450"
+  },
+  {
+    "file": "openfoam_d03_M0.70.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d03/M0.70_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "28d31fcce664b3487b091f50d9423f210f9c2b3da30742ce420e0629fe8b4b56"
+  },
+  {
+    "file": "openfoam_d03_M0.80.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d03/M0.80_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "9e57a9319691e47467e9a4fcd1d9e16d6f340e559d27537187bd329aa523c1a8"
+  },
+  {
+    "file": "openfoam_d03_M0.85.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d03/M0.85_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "8aa8937c622f2843e550526414bc157dca2ac4bd1512295de667964b0a5082f4"
+  },
+  {
+    "file": "openfoam_d03_M0.90.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d03/M0.90_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "144223f90dac9ec99a4ad1d6a16b5d772f4fd01791a319f6724f09b5195d833b"
+  },
+  {
+    "file": "openfoam_d06_M0.30.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d06/M0.30_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "e6a24c3199d2f2e87af820cecac362570f23534097601c9cb1b7af1305c570ea"
+  },
+  {
+    "file": "openfoam_d06_M0.50.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d06/M0.50_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "74c5c8cdbd22cd00f0fcd90195fc21f373c0745e1d9db70aa3adcc7c37472112"
+  },
+  {
+    "file": "openfoam_d06_M0.60.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d06/M0.60_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "2acdb63998640f78387737e56b7c60b5a71a54851878611ee20ed29561c37822"
+  },
+  {
+    "file": "openfoam_d06_M0.70.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d06/M0.70_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "646fc561f2c261cb634e3ba2b9d175cf07421f9c1e567ab8e6af512d9e8b5b11"
+  },
+  {
+    "file": "openfoam_d06_M0.80.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d06/M0.80_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "3857d30ed111e1c04eba8d1706740d306f275c8c603897a8e55ade9ad7026e1d"
+  },
+  {
+    "file": "openfoam_d06_M0.85.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d06/M0.85_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "c0ace8941b5190211e8fdc961d9a9959db24908b940c4a90102b1d007384dfc9"
+  },
+  {
+    "file": "openfoam_d06_M0.90.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d06/M0.90_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "d13e8b9ba762a7b5fc7a54fe44dccfb4004a07f6eed86a9e0f93f74a808b910c"
+  },
+  {
+    "file": "openfoam_d09_M0.30.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d09/M0.30_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "10fa3241853aac36f31fb5b030e3d07a851cccdf2415913a52ad04b22b2b49c4"
+  },
+  {
+    "file": "openfoam_d09_M0.50.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d09/M0.50_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "710379e6720a223b791fb86fb21b62ed0471fa78c444a825c675a86324f93ffb"
+  },
+  {
+    "file": "openfoam_d09_M0.60.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d09/M0.60_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "50115b5215b8a219be4beda51d955a8a2e4219436f1e6e65d7b8d210bc1b7f98"
+  },
+  {
+    "file": "openfoam_d09_M0.70.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d09/M0.70_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "b95bb4ad229297c0a5667c10d39c70cb2f473bfe25abfb4afdaf2df094f258a1"
+  },
+  {
+    "file": "openfoam_d09_M0.80.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d09/M0.80_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "915ac4979799af0a7e31f18bdac92007979d0f9b59b9c8e2c2d95121259b7ae9"
+  },
+  {
+    "file": "openfoam_d09_M0.85.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d09/M0.85_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "d4cf7d7b3a5fef5605c3356a0a108594ee08cc452076485e22d1eb4d4d4b31df"
+  },
+  {
+    "file": "openfoam_d09_M0.90.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d09/M0.90_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "73edb36a5196fdb7084becb659b969a4be10c0eab067c1b82f9ab4038180485a"
+  },
+  {
+    "file": "openfoam_d10_M0.30.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d10/M0.30_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "4c58cea1d9de0c2bf1db873fa97ba8446107f5a8838de393613ee6934b92f954"
+  },
+  {
+    "file": "openfoam_d10_M0.50.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d10/M0.50_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "62f11e973da37051a74830aedcd037687ae83377be325cf4b85551ca996755b9"
+  },
+  {
+    "file": "openfoam_d10_M0.60.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d10/M0.60_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "26d06d24ad0723289a14427c8fb4f42339ccdb56b00d739f1fd8f055e05ad666"
+  },
+  {
+    "file": "openfoam_d10_M0.70.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d10/M0.70_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "48d25ce9aac574aecec975ad54d5df4525b4a0178bd758db67a3a995257efa8a"
+  },
+  {
+    "file": "openfoam_d10_M0.80.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d10/M0.80_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "5f30e506c4ac868f63a49de5ca181abadc85ebfebea57a923000c16f3ff9ebb8"
+  },
+  {
+    "file": "openfoam_d10_M0.85.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d10/M0.85_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "cfc85168c69a368dc8b68965e6df8d58c3b65d65ff166b1399bebcddb948a205"
+  },
+  {
+    "file": "openfoam_d10_M0.90.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d10/M0.90_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "ae970b1369a62e6eaa570f8a31aca282869e0c5b85f07bb58df99060883cffa6"
+  },
+  {
+    "file": "openfoam_d12_M0.30.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d12/M0.30_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "d8614604ab544b65a902c08bba13f944d744fb85012ed0f9a291eab0ebf6a6cb"
+  },
+  {
+    "file": "openfoam_d12_M0.50.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d12/M0.50_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "6a0886e58b86199d349f88da5fa2a2f15e49310e66cb6533519d34893c0a7dcd"
+  },
+  {
+    "file": "openfoam_d12_M0.60.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d12/M0.60_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "e5686615f4cb2df6c4555b61913c2574daa49ab8597d473669677dddedf8d779"
+  },
+  {
+    "file": "openfoam_d12_M0.70.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d12/M0.70_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "6900b78d1e0aa12ccfd751ec682cf54b7027f44ef659345bad5275ae53f22c1c"
+  },
+  {
+    "file": "openfoam_d12_M0.80.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d12/M0.80_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "28e51c2e717efb8b66f0781a7691673044b2b8f8fe769c128789d40c8eaef2b8"
+  },
+  {
+    "file": "openfoam_d12_M0.85.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d12/M0.85_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "a721e1b2c60694f68bba68ce02f3ba5b86b178638a170f6c3efab3028fe33f6f"
+  },
+  {
+    "file": "openfoam_d12_M0.90.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d12/M0.90_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "d2306ef61278a038dff0704005535fd450dcb110b90cfa073a676043ed73d8b4"
+  },
+  {
+    "file": "openfoam_d15_M0.30.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.30_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "68dfc3652e94310357108b712ab93bde5ffa6c52f2d3a8bcb11c92d7471b320e"
+  },
+  {
+    "file": "openfoam_d15_M0.50.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.50_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "81e4838761a03a8b262ad1cd6a7cc694d2e79613b4c78865de3a5e9ed9f7e412"
+  },
+  {
+    "file": "openfoam_d15_M0.60.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.60_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "393c399e78dfbb172c390cccb66223093062ef418934193d17c05b894d47b112"
+  },
+  {
+    "file": "openfoam_d15_M0.70.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.70_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "481985a3af59a9c2e17d1d7237cc4fa68ef149b5a43045c00887bc34f8a0763b"
+  },
+  {
+    "file": "openfoam_d15_M0.80.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.80_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "53703d8e6e8bf2906e5c1bceafc923eca47b717d077b3d2d48a4561e254e556d"
+  },
+  {
+    "file": "openfoam_d15_M0.85.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.85_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "",
+    "sha256": "0cade114add2e595955e663b054a266d96373c1b266c032dcdfe2735a5d3acba"
+  },
+  {
+    "file": "openfoam_d15_M0.90_transient.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.90_sealedcad_fine_transient/result.json",
+    "solver": "OpenFOAM",
+    "role": "primary",
+    "note": "Transient rhoPimpleFoam restart (15 ms) replaces the steady mean (steady drift 30 %, std 18 %).",
+    "sha256": "bcc4540691b257046d4130a660bd231896e42109ec96f110e10d16ee19e234d6"
+  },
+  {
+    "file": "openfoam_d15_M0.90_steady.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M0.90_sealedcad_fine_opensides/result.json",
+    "solver": "OpenFOAM",
+    "role": "context",
+    "note": "Steady mean superseded by the transient restart.",
+    "sha256": "8d1fbf4506030ec78a7224ef609a21e7a581ab11dbc8ce1bd18bcd938cf66db5"
+  },
+  {
+    "file": "ss_sweep_dm06_M0.3_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_dm06_M0.3_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "397d0c675804f6ee4a610c5e982d872e77f8f73652511f032c9860a3d6b0f6f1"
+  },
+  {
+    "file": "ss_sweep_dm06_M0.5_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_dm06_M0.5_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "08e5d0cdc929b687f63a2502f976be56ca112c63e28ce4e38b157ff6d0795386"
+  },
+  {
+    "file": "ss_sweep_dm06_M0.6_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_dm06_M0.6_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "4bac9911c1882f7efb6d8a259d6a02edf9d11da6f8aecaa4ac263138e0ed25cb"
+  },
+  {
+    "file": "ss_sweep_dm06_M0.7_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_dm06_M0.7_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "0fd6e35258bd69d852a46f83d5a0d373412a7d8244ab6da5f2c43a267b5a2a99"
+  },
+  {
+    "file": "ss_sweep_dm06_M0.8_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_dm06_M0.8_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "46e874c36de7548222dbeffad07be7a8cd6b7cad7d795182ac04ffd5e196f447"
+  },
+  {
+    "file": "ss_sweep_dm06_M0.85_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_dm06_M0.85_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "cef7e4ab04dd8caf3bafbf99460ac32284f29bbc727118d8097ef572050e5098"
+  },
+  {
+    "file": "ss_sweep_d00_M0.3_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d00_M0.3_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "172e8a8a3b329f1637d48e4ee751c148a96c18d3aedf9439a5cd51e864f313d1"
+  },
+  {
+    "file": "ss_sweep_d00_M0.5_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d00_M0.5_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "b9dd3b486a6676b77a1965fa3491f3f7c807894559de642b57a118860f9cf3c7"
+  },
+  {
+    "file": "ss_sweep_d00_M0.6_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d00_M0.6_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "5176387f30d0c99094aa092337e4643890745272e95ef2d259653bbbe7392e40"
+  },
+  {
+    "file": "ss_sweep_d00_M0.7_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d00_M0.7_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "c0e19499ed74a11977acf1638c096af32c7a3a677820d1caafa16f5342a27aed"
+  },
+  {
+    "file": "ss_sweep_d00_M0.8_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d00_M0.8_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "4b4ef0ca38d88775d78b41ec9869d0d7b50e379ac520cef53314c2c05f485c2b"
+  },
+  {
+    "file": "ss_sweep_d00_M0.85_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d00_M0.85_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "ed5faa0b7a7dc924eb2eaeef47e629b17dd7c839bc907b8e2af46af95cca3d05"
+  },
+  {
+    "file": "ss_sweep_d03_M0.3_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d03_M0.3_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "cfaf8bd1b9c44a5a07b7de26e1c1d5984bc721179ad92e1de07eb4f7af3e3d75"
+  },
+  {
+    "file": "ss_sweep_d03_M0.5_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d03_M0.5_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "3f4f212eaf51b869ad124f7e1c6a6eb6786bf53ba95d77c5da1efca8bedad09e"
+  },
+  {
+    "file": "ss_sweep_d03_M0.6_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d03_M0.6_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "59d0db86ed62eef35bc4435bb4937d080ac102b930c95f41f95610c8b8d1e50f"
+  },
+  {
+    "file": "ss_sweep_d03_M0.7_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d03_M0.7_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "2f9839b1fe70eef6d9ede8fc34e1ba09c9cd4f69f461b4d27c87e1bbd2fafef9"
+  },
+  {
+    "file": "ss_sweep_d03_M0.8_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d03_M0.8_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "9e203103d4f4acdd7bafb23631a64f2c73dfbe9cc5332ecee2bf39eade0decea"
+  },
+  {
+    "file": "ss_sweep_d03_M0.85_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d03_M0.85_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "1f876c6d077f46cbe1204d3b9d96f4102f8fb475ea684e0081bff81989c8d21e"
+  },
+  {
+    "file": "ss_sweep_d06_M0.3_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d06_M0.3_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "3ff8fae83609c137a5afec6e3f0781acc2bde294ef5e81bfca87eecaa9ab0a01"
+  },
+  {
+    "file": "ss_sweep_d06_M0.5_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d06_M0.5_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "c05882a63d36e6698aa575e791e2ddaee80ec2cc966b709a96cc1b7c03047ab3"
+  },
+  {
+    "file": "ss_sweep_d06_M0.6_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d06_M0.6_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "5cb8be8c52d2a1ff65da351a080f7630010d79d282ecf40eed3e04cc855d3fd8"
+  },
+  {
+    "file": "ss_sweep_d06_M0.7_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d06_M0.7_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "a16e7b4c2d238c78b032ee8308c24734ba5ef54d591a59b0a5252dc44e9aacb2"
+  },
+  {
+    "file": "ss_sweep_d06_M0.8_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d06_M0.8_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "da4a164ee7e16b6819cc6a01bd0fae1046c6386ff1d34501e643a7769d0c0fab"
+  },
+  {
+    "file": "ss_sweep_d06_M0.85_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d06_M0.85_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "e4f9ec31f47c40cd6a0af77a267bbd759a252e007adcd9a8202d1927e5f76bca"
+  },
+  {
+    "file": "ss_sweep_d09_M0.3_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d09_M0.3_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "f088b1354b07946afc3ea3bdaaa55a5b80c1527aae1dcfb5e4457b1abff08f7e"
+  },
+  {
+    "file": "ss_sweep_d09_M0.5_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d09_M0.5_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "bfc92ec144fde51239ece2fce377d186a5ae8e9a58ed562d6ec8134d7cb702d6"
+  },
+  {
+    "file": "ss_sweep_d09_M0.6_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d09_M0.6_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "b7d36f551d5d6c415fd8393b6bfa4b1ee8431764814e38d2ed4a2ead02d1dd32"
+  },
+  {
+    "file": "ss_sweep_d09_M0.7_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d09_M0.7_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "16236476db597405f97bb584394bdb846a2ea12d6ebfa71b49131cd9eebfde86"
+  },
+  {
+    "file": "ss_sweep_d09_M0.8_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d09_M0.8_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "278cb890425833e0c4b07a4849dcd0e0568a9fce317f6edfd66164f54c53710f"
+  },
+  {
+    "file": "ss_sweep_d09_M0.85_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d09_M0.85_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "6363d13ae72d03526120095eef02256e9a230d06981a63e90df201d6a2c595cf"
+  },
+  {
+    "file": "ss_sweep_d10_M0.3_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d10_M0.3_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "ee83d651d126b7ad4312022c80a449927c55b043152215c6985ee629d8e117eb"
+  },
+  {
+    "file": "ss_sweep_d10_M0.5_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d10_M0.5_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "f7ee88cf23c45660342e1e8ceda14074cf5a6e3b40cef4b2da4e86020a96cd7d"
+  },
+  {
+    "file": "ss_sweep_d10_M0.6_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d10_M0.6_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "6a5b63a4330aee1f2c632f12ba5f369aee678d4075203108fccc459af2caa340"
+  },
+  {
+    "file": "ss_sweep_d10_M0.7_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d10_M0.7_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "616979eb4b38849edb0d59609fc943d297d255d14e0d5865dfde39a86ed9f57a"
+  },
+  {
+    "file": "ss_sweep_d10_M0.8_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d10_M0.8_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "482c02fe0510abe96ec77cf216d535a54e5e5b1c674d84bba1d1f3d6611a244e"
+  },
+  {
+    "file": "ss_sweep_d10_M0.85_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d10_M0.85_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "21f3eeeecf141fc95d6c09e764aa18204953ebc30fe43f258f1dc3275f646352"
+  },
+  {
+    "file": "ss_sweep_d12_M0.3_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d12_M0.3_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "a1152b77b717f6752e4605f8c37f14cab3c4f60efff8723f45eda457cc5ab983"
+  },
+  {
+    "file": "ss_sweep_d12_M0.5_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d12_M0.5_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "bb9d0a5e5c555a3967119d9e2929e268379cf938e55af3a2264c770402e88062"
+  },
+  {
+    "file": "ss_sweep_d12_M0.6_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d12_M0.6_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "cd5ef3a801d80af6649a25145a7ff6bab974957fe37d161ccf8224952eee0780"
+  },
+  {
+    "file": "ss_sweep_d12_M0.7_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d12_M0.7_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "1a027577156e5e0c86576e6737bdc5c9449ab4e469d82ff4576865cd754ccdcd"
+  },
+  {
+    "file": "ss_sweep_d12_M0.8_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d12_M0.8_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "3b346a04b4f24319a3c2f9b564f7ad2ed209f240d9feaaaf84867b5be9d285bb"
+  },
+  {
+    "file": "ss_sweep_d12_M0.85_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d12_M0.85_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "e6d9f6803ff354785a87cda143a5bde988c6e12527b9e4221c7a75260acb4a56"
+  },
+  {
+    "file": "ss_sweep_d15_M0.3_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d15_M0.3_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "f0f05cbac9e434f0cd4a2cef0503dfd148a1e11eb76711779c16d8e9c3bf0b9a"
+  },
+  {
+    "file": "ss_sweep_d15_M0.5_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d15_M0.5_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "bf49c699ccb4f77839125c38183bcd480e9acd81c030e961653f78b6e0946022"
+  },
+  {
+    "file": "ss_sweep_d15_M0.6_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d15_M0.6_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "8897a46865ad2b4f9902f53d6d80d88d4834c62bf9a99c7e30b8a9a180347b1d"
+  },
+  {
+    "file": "ss_sweep_d15_M0.7_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d15_M0.7_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "8e0d345beb8526a791e71f94a7f8d6c16b1336567e8d974b614c96fdddf9dbee"
+  },
+  {
+    "file": "ss_sweep_d15_M0.8_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d15_M0.8_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "60d6ea0c70bfd7587aceb670834283d7c8e35f5d949c1ac2cdb00f627fdbbadf"
+  },
+  {
+    "file": "ss_sweep_d15_M0.85_fine_sealed.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d15_M0.85_fine_sealed.json",
+    "solver": "SimScale",
+    "role": "primary",
+    "note": "",
+    "sha256": "59014f51bb377efb380903903efeadf3f17cad23a89b42976e7e17a649efa294"
+  },
+  {
+    "file": "openfoam_d15_M1.20_transient.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M1.20_sealedcad_fine_transient/result.json",
+    "solver": "OpenFOAM",
+    "role": "supersonic",
+    "note": "Recommended M1.2 value: transient restart from the SIMPLEC steady, 10 ms, flat from 1.5 ms.",
+    "sha256": "4d06ebd6a40b5bfc1fb7a197c0e82782f35db97af12dd921eaefb1141e94b13a"
+  },
+  {
+    "file": "openfoam_d15_M1.20_steady.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/M1.20_sealedcad_fine_restart/result.json",
+    "solver": "OpenFOAM",
+    "role": "supersonic",
+    "note": "Steady transonic-SIMPLEC restart from M0.90; not a fixed point of the transient (upper bound, +8 %).",
+    "sha256": "f54a1bb5dac396edda5282e3f21d99c0a3ed7489068beb782dadb2346eea85e0"
+  },
+  {
+    "file": "grid_openfoam_d03_M0.30_r30.json",
+    "source": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d03/M0.30_r30/result.json",
+    "solver": "OpenFOAM",
+    "role": "grid",
+    "note": "",
+    "sha256": "ded82c6114e39f8116f170ffb5dec888870fe30fec01f9e28c055010ae8e409d"
+  },
+  {
+    "file": "grid_openfoam_d03_mesh_r30.json",
+    "source": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d03/mesh_r30/mesh_report.json",
+    "solver": "OpenFOAM",
+    "role": "grid-mesh",
+    "note": "",
+    "sha256": "29e471278578f498ed59716c0e2a08edbda58b6e5a1938081a30ddeeedeaf0d9"
+  },
+  {
+    "file": "grid_openfoam_d03_mesh_fine.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d03/mesh_sealedcad_fine/mesh_report.json",
+    "solver": "OpenFOAM",
+    "role": "grid-mesh",
+    "note": "",
+    "sha256": "0a867a1adfa4128d0319066cce5bf3f68750e25952f1c76c417213a7a7d3dba7"
+  },
+  {
+    "file": "grid_openfoam_d10_M0.60_r30.json",
+    "source": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d10/M0.60_r30/result.json",
+    "solver": "OpenFOAM",
+    "role": "grid",
+    "note": "",
+    "sha256": "e70720b20191c898fe315957b124f3365aedb923adc81ad48df3001d40d865de"
+  },
+  {
+    "file": "grid_openfoam_d10_mesh_r30.json",
+    "source": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d10/mesh_r30/mesh_report.json",
+    "solver": "OpenFOAM",
+    "role": "grid-mesh",
+    "note": "",
+    "sha256": "2ba5ac850e1782ec1a00b439f1316d99bed407acbec0d4934e5ef5b14d99ac55"
+  },
+  {
+    "file": "grid_openfoam_d10_mesh_fine.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d10/mesh_sealedcad_fine/mesh_report.json",
+    "solver": "OpenFOAM",
+    "role": "grid-mesh",
+    "note": "",
+    "sha256": "34c4190f538d4962b4308656fcea1523e5343f65ec645b7a7f23e6abbf4a045a"
+  },
+  {
+    "file": "grid_openfoam_d15_M0.85_r30.json",
+    "source": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d15/M0.85_r30/result.json",
+    "solver": "OpenFOAM",
+    "role": "grid",
+    "note": "",
+    "sha256": "9d4d8f34055a345587d42ff8acf15b2a2bc0003c81573123dd4eb6ae6f0a6b4e"
+  },
+  {
+    "file": "grid_openfoam_d15_mesh_r30.json",
+    "source": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d15/mesh_r30/mesh_report.json",
+    "solver": "OpenFOAM",
+    "role": "grid-mesh",
+    "note": "",
+    "sha256": "8929506a24b0140183ca3ef35449221181695dd15a97b80bcdbf154f55df381a"
+  },
+  {
+    "file": "grid_openfoam_d15_mesh_fine.json",
+    "source": "/Users/trasomi/dev/cfd/runs_v4/d15/mesh_sealedcad_fine/mesh_report.json",
+    "solver": "OpenFOAM",
+    "role": "grid-mesh",
+    "note": "",
+    "sha256": "337f2b29feffac1abf8a0a4ec4eb9648512686a9dfad65a18853c99448d0e9c0"
+  },
+  {
+    "file": "ss_sweep_d03_M0.3_fine_sealed_h0.2.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d03_M0.3_fine_sealed_h0.2.json",
+    "solver": "SimScale",
+    "role": "grid",
+    "note": "",
+    "sha256": "480cff8ad966070707539c7f54b79d75952fc664aae954362d1097776b6f2d2b"
+  },
+  {
+    "file": "ss_sweep_d03_M0.3_refined_sealed_h0.2.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d03_M0.3_refined_sealed_h0.2.json",
+    "solver": "SimScale",
+    "role": "grid",
+    "note": "",
+    "sha256": "4186b3e5ce7b2f4f13402a1fd5d512e416e96fbafaed1c1730df9d1343b1080b"
+  },
+  {
+    "file": "ss_sweep_d15_M0.85_refined_sealed_h0.2.json",
+    "source": "/Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_d15_M0.85_refined_sealed_h0.2.json",
+    "solver": "SimScale",
+    "role": "grid",
+    "note": "",
+    "sha256": "58f5a95249206dd7b757a4e8a018210180254cbe091549691f44b49268817f59"
+  }
+]

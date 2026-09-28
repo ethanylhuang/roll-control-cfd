@@ -1,0 +1,32 @@
+22:35:37 case M0.95_filled_fine_transient: restart from M0.95_filled_fine_upwind/2000 (M0.95, V=322.1), rhoPimpleFoam Euler dt 4e-06 endTime 0.015
+22:35:40 decomposePar rc=0
+00:58:22 solver rc=0 last t=0.015 fatal=False wall=8563s
+{
+ "stop_reason": "endTime",
+ "t_last": 0.015,
+ "window": {
+  "t_start": 0.011252,
+  "t_end": 0.015,
+  "n": 938
+ },
+ "moments_Nm": {
+  "Mroll": 0.7529141003006398,
+  "Myaw": 4.548677580692963
+ },
+ "forces_N": {
+  "Fy": 13.111554038059701,
+  "Fz": -249.81994682196162
+ },
+ "convergence": {
+  "std_rel_pct": 0.0003641966455408049,
+  "drift_pct": 0.00042012784833295375,
+  "roll_min": 0.752908661,
+  "roll_max": 0.752917592
+ },
+ "quarter_means": [
+  0.7529125398290599,
+  0.7529141060468085,
+  0.7529148188333334,
+  0.7529149329106383
+ ]
+}

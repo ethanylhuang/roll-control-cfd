@@ -1,0 +1,4 @@
+{
+  "attempted": true,
+  "reason": "Four faces exceeded skewness 4; tighten boundary skewness from 20 to 4 and regenerate from the background mesh. Preserve initial logs."
+}

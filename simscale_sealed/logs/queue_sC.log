@@ -1,0 +1,6 @@
+13:52:16 [sC] mesh d10 QUEUED; waiting
+13:55:17 [sC] mesh d10 RUNNING; waiting
+13:58:18 [sC] mesh d10 RUNNING; waiting
+14:01:18 [sC] start d10 (d10) M0.6 mesh 58b60269 base 10650c16
+14:53:46 [sC] done d10 M0.6: Mroll 0.3204 Myaw 2.283 Fz -61.0 block_std 0.2% drift 0.3% []
+14:53:46 [sC] QUEUE DONE

@@ -1,0 +1,46 @@
+# environments / deps / builds
+venv/
+.venv/
+node_modules/
+dist/
+.next/
+.wrangler/
+__pycache__/
+*.tsbuildinfo
+.claude/
+.DS_Store
+
+# OpenFOAM case data (fields, meshes, VTK, processor dirs) - regenerate with the scripts
+runs_v4/
+runs_v5cam/
+runs_v5cam_bt/
+**/constant/polyMesh/
+**/processor*/
+**/VTK/
+**/postProcessing/**/*.vtk
+
+# large / binary artifacts
+*.gz
+*.tgz
+*.tar
+*.zip
+*.x_t
+*.x_b
+*.mp4
+*.vtk
+*.vtu
+*.foam
+
+# run bookkeeping
+*.pid
+*.pgid
+*.ranks
+.refine_reported
+*.bak-*
+
+# contains (expired) signed download URLs
+**/results_index.json
+
+# full solver logs (multi-MB each); summaries/coefficients are kept
+**/log.*
+*-error.log

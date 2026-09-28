@@ -1,0 +1,36 @@
+18:28:16 mesh db7a21cc-de6d-4d83-a8ae-6b294c8be9e8 ready; attaching to sim d9df179b
+18:28:19 check: 0 errors 0 warnings  
+18:28:20 estimate: {"cellCount": null, "computeResource": {"intervalMax": 25.18, "intervalMin": 16.78, "type": "CPU_HOURS", "value": 20.98}, "duration": {"intervalMax": "PT24M", "intervalMin": "PT16M", "value": "PT20M"}, "totalRunCount": 1}
+18:28:22 run 610382be started
+18:37:24 run FAILED CPUh 8.658055555555556
+eventlog: [('WARNING', '**Result controls** have been applied on the following topological entities: B5_TE1835,B5_TE1842,B5_TE1877,B5_TE2024,B5_TE1828. These faces have been defeatured'), ('WARNING', '**Boundary conditions** have been applied on the following faces: B5_TE1835,B5_TE1842,B5_TE1877,B5_TE2024,B5_TE1828. These faces have been defeatured because th'), ('ERROR', 'Maximum number of iterations exceeded when calculating temperature from a thermodynamic potential. This may be caused by low-quality mesh producing unrealistic ')]
+18:41:14 mesh db7a21cc-de6d-4d83-a8ae-6b294c8be9e8 ready; attaching to sim d9df179b
+18:41:17 check: 0 errors 0 warnings  
+18:41:18 estimate: {"cellCount": null, "computeResource": {"intervalMax": 25.18, "intervalMin": 16.78, "type": "CPU_HOURS", "value": 20.98}, "duration": {"intervalMax": "PT24M", "intervalMin": "PT16M", "value": "PT20M"}, "totalRunCount": 1}
+18:41:19 run 6e17c1db started
+19:17:28 run FAILED CPUh 0.0
+eventlog: [('WARNING', '**Boundary conditions** have been applied on the following faces: B5_TE1877,B5_TE1828,B5_TE1835,B5_TE2024,B5_TE1842. These faces have been defeatured because th'), ('WARNING', '**Result controls** have been applied on the following topological entities: B5_TE1877,B5_TE1828,B5_TE1835,B5_TE2024,B5_TE1842. These faces have been defeatured'), ('ERROR', 'The solution diverged, please check your simulation setup. Divergence can also be caused by bad elements in the mesh. Such elements tend to exist near walls and')]
+19:50:11 mesh db7a21cc-de6d-4d83-a8ae-6b294c8be9e8 ready; attaching to sim d9df179b
+19:50:14 check: 0 errors 0 warnings  
+19:50:14 estimate: {"cellCount": null, "computeResource": {"intervalMax": 589.22, "intervalMin": 392.82, "type": "CPU_HOURS", "value": 491.02}, "duration": {"intervalMax": "PT9H12M", "intervalMin": "PT6H8M", "value": "PT7H40M"}, "totalRunCount": 1}
+19:50:16 run 313f14c8 started
+20:26:25 run FAILED CPUh 0.0
+eventlog: [('WARNING', '**Boundary conditions** have been applied on the following faces: B5_TE1835,B5_TE1877,B5_TE1842,B5_TE2024,B5_TE1828. These faces have been defeatured because th'), ('WARNING', '**Result controls** have been applied on the following topological entities: B5_TE1835,B5_TE1877,B5_TE1842,B5_TE2024,B5_TE1828. These faces have been defeatured'), ('ERROR', 'The solution diverged, please check your simulation setup. Divergence can also be caused by bad elements in the mesh. Such elements tend to exist near walls and')]
+20:36:06 mesh db7a21cc-de6d-4d83-a8ae-6b294c8be9e8 ready; attaching to sim d9df179b
+20:36:08 check: 0 errors 0 warnings  
+20:36:09 estimate: {"cellCount": null, "computeResource": {"intervalMax": 589.22, "intervalMin": 392.82, "type": "CPU_HOURS", "value": 491.02}, "duration": {"intervalMax": "PT9H12M", "intervalMin": "PT6H8M", "value": "PT7H40M"}, "totalRunCount": 1}
+20:36:11 run e46736f4 started
+21:12:20 run FAILED CPUh 0.0
+eventlog: [('WARNING', '**Result controls** have been applied on the following topological entities: B5_TE1835,B5_TE1828,B5_TE2024,B5_TE1842,B5_TE1877. These faces have been defeatured'), ('WARNING', '**Boundary conditions** have been applied on the following faces: B5_TE1835,B5_TE1828,B5_TE2024,B5_TE1842,B5_TE1877. These faces have been defeatured because th'), ('ERROR', 'Maximum number of iterations exceeded when calculating temperature from a thermodynamic potential. This may be caused by low-quality mesh producing unrealistic ')]
+21:13:56 mesh db7a21cc-de6d-4d83-a8ae-6b294c8be9e8 ready; attaching to sim d9df179b
+21:13:58 check: 0 errors 0 warnings  
+21:13:59 estimate: {"cellCount": null, "computeResource": {"intervalMax": 589.22, "intervalMin": 392.82, "type": "CPU_HOURS", "value": 491.02}, "duration": {"intervalMax": "PT9H12M", "intervalMin": "PT6H8M", "value": "PT7H40M"}, "totalRunCount": 1}
+21:14:01 run 354b5da2 started
+22:02:13 run FAILED CPUh 0.0
+eventlog: [('WARNING', '**Result controls** have been applied on the following topological entities: B5_TE2024,B5_TE1842,B5_TE1828,B5_TE1877,B5_TE1835. These faces have been defeatured'), ('WARNING', '**Boundary conditions** have been applied on the following faces: B5_TE2024,B5_TE1842,B5_TE1828,B5_TE1877,B5_TE1835. These faces have been defeatured because th'), ('WARNING', 'A possible divergence was detected in the solver. Please double check your results and consider lowering the relaxation factor for field Uy.'), ('WARNING', 'A possible divergence was detected in the solver. Please double check your results and consider lowering the relaxation factor for field rho.'), ('WARNING', 'A possible divergence was detected in the solver. Please double check your results and consider lowering the relaxation factor for field omega.'), ('WARNING', 'A possible divergence was detected in the solver. Please double check your results and consider lowering the relaxation factor for field Ux.'), ('WARNING', 'A possible divergence was detected in the solver. Please double check your results and consider lowering the relaxation factor for field k.'), ('WARNING', 'A possible divergence was detected in the solver. Please double check your results and consider lowering the relaxation factor for field h.'), ('WARNING', 'A possible divergence was detected in the solver. Please double check your results and consider lowering the relaxation factor for field Uz.'), ('ERROR', 'Maximum number of iterations exceeded when calculating temperature from a thermodynamic potential. This may be caused by low-quality mesh producing unrealistic ')]
+22:06:08 mesh db7a21cc-de6d-4d83-a8ae-6b294c8be9e8 ready; attaching to sim d9df179b
+22:06:11 check: 0 errors 1 warnings  [{'code': 'too-many-written-timesteps', 'details': {'path': '$.model.simulationControl', 'topoEntities': [], 'parameterValuesCombinations': []}, 'message': 'The simulation will produce 60 time steps. We recommend 50 or fewer to maintain usable results.', 'severity': 'WARNING'}]
+22:06:12 estimate: {"cellCount": null, "computeResource": {"intervalMax": 589.22, "intervalMin": 392.82, "type": "CPU_HOURS", "value": 491.02}, "duration": {"intervalMax": "PT9H12M", "intervalMin": "PT6H8M", "value": "PT7H40M"}, "totalRunCount": 1}
+22:06:14 run ea180cc3 started
+22:15:16 run FAILED CPUh 0.0
+eventlog: [('WARNING', '**Boundary conditions** have been applied on the following faces: B5_TE2024,B5_TE1835,B5_TE1828,B5_TE1842,B5_TE1877. These faces have been defeatured because th'), ('WARNING', '**Result controls** have been applied on the following topological entities: B5_TE2024,B5_TE1835,B5_TE1828,B5_TE1842,B5_TE1877. These faces have been defeatured'), ('ERROR', 'Maximum number of iterations exceeded when calculating temperature from a thermodynamic potential. This may be caused by low-quality mesh producing unrealistic ')]

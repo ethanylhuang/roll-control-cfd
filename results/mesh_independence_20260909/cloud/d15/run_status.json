@@ -1,0 +1,14 @@
+{
+  "computeResource": {
+    "type": "CPU_HOURS",
+    "value": 0.0
+  },
+  "createdAt": "2026-09-10T04:52:11.642347Z",
+  "duration": "PT9M28.115686S",
+  "finishedAt": "2026-09-10T05:02:31.362762Z",
+  "name": "MI d15 refined same physics 32 cores",
+  "progress": 0.0023333332501351833,
+  "runId": "13c2eb61-71dc-4e2f-ad44-cdf30ca0112e",
+  "startedAt": "2026-09-10T04:53:03.247076Z",
+  "status": "FAILED"
+}

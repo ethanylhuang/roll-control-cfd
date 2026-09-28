@@ -1,0 +1,29 @@
+01:49:31 old-CAD d00 case/mesh parked as *_sep4cad; models_v4/d00 must be the Sep-5 export (tab 1090 tris)
+01:49:31 start d00 M0.30_filled_fine_opensides
+02:40:14 done d00 M0.30_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.013447513783632735,
+  sheet: row 8: M0.3 d0 Mroll -0.0134 Cl -0.01441 CA 0.91143 CY -0.02482 CN -0.00592 Cm 0.03755 Cn -0.11763 mroll_noisy(std=10.2%)
+02:40:15 start d00 M0.50_filled_fine_opensides
+03:31:04 done d00 M0.50_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.04008654491786427,
+  sheet: row 16: M0.5 d0 Mroll -0.0401 Cl -0.01545 CA 0.91928 CY -0.02376 CN -0.00487 Cm 0.03037 Cn -0.11224 mroll_drift(11.6%), mroll_noisy(std=30.0%)
+03:31:04 start d00 M0.60_filled_fine_opensides
+04:21:32 done d00 M0.60_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.06368293596506985,
+  sheet: row 24: M0.6 d0 Mroll -0.0637 Cl -0.01704 CA 0.93593 CY -0.02508 CN -0.00408 Cm 0.02692 Cn -0.11739 mroll_drift(3.2%), mroll_noisy(std=26.0%)
+04:21:33 start d00 M0.70_filled_fine_opensides
+05:12:26 done d00 M0.70_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.09428834551057884,
+  sheet: row 32: M0.7 d0 Mroll -0.0943 Cl -0.01854 CA 0.97092 CY -0.02712 CN -0.0002 Cm 0.0069 Cn -0.12711 mroll_noisy(std=20.7%)
+05:12:28 start d00 M0.80_filled_fine_opensides
+06:03:10 done d00 M0.80_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.13328009044311376,
+  sheet: row 40: M0.8 d0 Mroll -0.1333 Cl -0.02007 CA 1.05595 CY -0.02924 CN 0.00531 Cm -0.0217 Cn -0.13832 mroll_noisy(std=16.0%)
+06:03:11 start d00 M0.85_filled_fine_opensides
+06:53:37 done d00 M0.85_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.1524796591013972,
+  sheet: row 48: M0.85 d0 Mroll -0.1525 Cl -0.02035 CA 1.14954 CY -0.02854 CN 0.00808 Cm -0.03587 Cn -0.13604 mroll_noisy(std=15.2%)
+06:53:38 start d00 M0.90_filled_fine_opensides
+07:43:55 done d00 M0.90_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":-0.16871259231137725,
+  sheet: row 56: M0.9 d0 Mroll -0.1687 Cl -0.0201 CA 1.31471 CY -0.02626 CN 0.00864 Cm -0.03939 Cn -0.12643 mroll_noisy(std=12.4%)
+07:43:57 start d10 M0.30_filled_fine_cad2
+08:34:43 done d10 M0.30_filled_fine_cad2 rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.013407516094051896,
+  sheet: row 12: M0.3 d10 Mroll 0.0134 Cl 0.01437 CA 0.92388 CY 0.01029 CN -0.00071 Cm 0.00075 Cn 0.03887 mroll_drift(11.8%), mroll_noisy(std=46.3%)
+08:34:45 start d10 M0.50_filled_fine_cad2
+09:25:46 done d10 M0.50_filled_fine_cad2 rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.03129496621508363,
+  sheet: row 20: M0.5 d10 Mroll 0.0313 Cl 0.01206 CA 0.93119 CY 0.0079 CN 0.00304 Cm -0.01735 Cn 0.02994 mroll_drift(109.2%), mroll_noisy(std=53.3%)
+09:25:47 start d10 M0.60_filled_fine_cad2

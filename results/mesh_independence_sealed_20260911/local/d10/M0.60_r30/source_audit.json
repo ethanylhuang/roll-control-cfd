@@ -1,0 +1,5 @@
+{
+  "source": "/Users/trasomi/dev/cfd/runs_v4/d10/M0.60_sealedcad_fine_opensides",
+  "mesh": "/Users/trasomi/dev/cfd/results/mesh_independence_sealed_20260911/local/d10/mesh_r30",
+  "solverInvariant": true
+}

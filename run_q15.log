@@ -1,0 +1,5 @@
+18:02:03 start d15 M0.90_filled_fine_opensides_long
+19:56:29 done d15 M0.90_filled_fine_opensides_long rc=0: [solve] stop=endTime rc=0 iters=4000 | "Mroll":1.1767441343186815,
+convergence {'std_rel_pct': 14.740440669895982, 'drift_pct': 6.917510483583507, 'flags': ['mroll_drift(6.9%)', 'mroll_noisy(std=14.7%)']}
+  sheet: row 62: M0.9 d15 Mroll 1.1767 Cl 0.14021 CA 1.3199 CY 0.1521 CN 0.00883 Cm -0.05597 Cn 0.73124 mroll_drift(6.9%), mroll_noisy(std=14.7%)
+19:56:30 Q15 DONE

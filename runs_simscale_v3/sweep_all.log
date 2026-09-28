@@ -1,0 +1,21 @@
+21:59:47 watchdog: starting driver (attempt 1) pid-parent 69189
+21:59:47 SimScale sweep project=1269879333705405039 deflections=[0.0, 3.0, 6.0, -6.0, 9.0, 12.0, 15.0] machs=[0.3, 0.5, 0.7, 0.8, 0.85, 0.9, 0.95] endTime=3000 budget=450.0 CPUh
+21:59:48 reference mesh op 'd10 filled sealed (from Mesh 48)' type FULL_SNAPPY_HEX_MESH version internal:65
+21:59:48 reference simulation '10D filled-gap M0.9 open-sides ramp300 v4relax p20-300kPa (API)' type COMPRESSIBLE version internal:629
+21:59:48 freestream from reference: T=286.2 K p=97690.0 Pa rho=1.1891 a=339.1 m/s -> V={'0.3': 102.0, '0.5': 170.0, '0.7': 237.0, '0.8': 271.0, '0.85': 288.0, '0.9': 305.0, '0.95': 322.0}; CG=[0.0, 0.0, 0.33]
+21:59:49 primitive domain: a9f86493-124a-43b8-b406-06c2893a1fc5
+21:59:49 primitive wake: 262a5148-c595-4aaa-811d-bbbfcc405384
+21:59:50 primitive slot: c7dee2a8-4588-4481-9a52-fecb556ed58b
+21:59:50 [d06] rocket geometry staged: e8daa3ff-d27c-4b53-8199-be9e76854a53
+21:59:50 [d00] rocket geometry staged: 6525e043-ad7e-433c-902e-53bd8ece18ad
+21:59:50 [d03] rocket geometry staged: 4f1d9798-497b-42e3-ac2e-3543fc6ab6c0
+21:59:51 [dm06] rocket geometry staged: d5500178-4f3c-49ff-86a3-f2aadb77af4c
+21:59:51 [d09] rocket geometry staged: 1a395624-fdb4-421e-b8f2-15b2b570ce14
+21:59:51 [d12] rocket geometry staged: 2836ca9a-b354-47ce-9e96-4067abbdc51c
+21:59:52 [d15] rocket geometry staged: 4b8daf2b-eb00-4a91-969f-795f7705d6da
+21:59:52 WAITING ON WORKBENCH MESH for d06, d00, d03, dm06, d09, d12, d15 — duplicate 'Compressible', switch its geometry to the 'dXX rocket' flow region, name it 'sweep dXX' and generate the mesh; the driver re-checks every poll and adopts it by name
+21:59:58 active 0 pending 0 done 0 waiting-for-mesh ['d06', 'd00', 'd03', 'dm06', 'd09', 'd12', 'd15'] | spent 0.0 CPUh | API calls 28
+22:01:03 active 0 pending 0 done 0 waiting-for-mesh ['d06', 'd00', 'd03', 'dm06', 'd09', 'd12', 'd15'] | spent 0.0 CPUh | API calls 42
+22:02:08 active 0 pending 0 done 0 waiting-for-mesh ['d06', 'd00', 'd03', 'dm06', 'd09', 'd12', 'd15'] | spent 0.0 CPUh | API calls 56
+22:03:13 active 0 pending 0 done 0 waiting-for-mesh ['d06', 'd00', 'd03', 'dm06', 'd09', 'd12', 'd15'] | spent 0.0 CPUh | API calls 70
+22:04:18 active 0 pending 0 done 0 waiting-for-mesh ['d06', 'd00', 'd03', 'dm06', 'd09', 'd12', 'd15'] | spent 0.0 CPUh | API calls 84

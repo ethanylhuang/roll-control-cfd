@@ -1,0 +1,11 @@
+09:42:32 start M0.85_filled_fine_opensides
+10:32:55 done M0.85_filled_fine_opensides rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.6736396343772455,
+  sheet: gws failed: Using keyring backend: file
+  sheet: error[api]: The service is currently unavailable.
+  sheet: 
+10:32:56 start M0.90_filled_fine_upwind
+11:16:50 done M0.90_filled_fine_upwind rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.6673765924411177,
+11:16:50 start M0.95_filled_fine_upwind
+12:00:43 done M0.95_filled_fine_upwind rc=0: [solve] stop=endTime rc=0 iters=2000 | "Mroll":0.7533558890518962,
+  sheet: updated row 10: M0.95 Mroll 0.7534 Myaw(0.330) 3.6577
+12:00:46 Q3 DONE

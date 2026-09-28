@@ -1,0 +1,202 @@
+[
+  {
+    "simulationId": "9302a5ab-3783-413b-8776-30c4ed38cc11",
+    "name": "10D filled FINE M0.9 TRANSIENT (Euler dt 1e-5 s, 25 ms, transonic, PIMPLE 3x2) (API)",
+    "runs": [
+      {
+        "computeResource": {
+          "type": "CPU_HOURS",
+          "value": 0.0
+        },
+        "createdAt": "2026-09-05T08:04:41.406115Z",
+        "duration": "PT24M37.18079S",
+        "finishedAt": "2026-09-05T08:30:23.254015Z",
+        "name": "10D filled fine-mesh M0.9 TRANSIENT Euler dt1e-5 25ms transonic",
+        "progress": 0.1624000072479248,
+        "runId": "c94e62cb-8029-4b9b-95af-654949b929ba",
+        "startedAt": "2026-09-05T08:05:46.073225Z",
+        "status": "FAILED"
+      }
+    ]
+  },
+  {
+    "simulationId": "fe3412e2-ca7e-490f-af73-c6d8ce4e1973",
+    "name": "10D filled FINE-v3 M0.9 TRANSIENT (Euler dt 4e-6 s, 12 ms, potentialFoam init, transonic, PIMPLE 2x2, linearUpwindV, k/omega fixed) (API)",
+    "runs": [
+      {
+        "computeResource": {
+          "type": "CPU_HOURS",
+          "value": 12.015555555555556
+        },
+        "createdAt": "2026-09-05T21:07:35.115049Z",
+        "duration": "PT45M3.508141S",
+        "finishedAt": "2026-09-05T21:53:33.070373Z",
+        "name": "10D filled fine-v3 M0.9 TRANSIENT dt4e-6 12ms",
+        "progress": 0.44966667890548706,
+        "runId": "cdfd285e-dd4c-4b3f-ba24-563f796e07b2",
+        "startedAt": "2026-09-05T21:08:29.562232Z",
+        "status": "CANCELED"
+      }
+    ]
+  },
+  {
+    "simulationId": "dc4f995c-c2c2-4d56-8039-2437cad8eee1",
+    "name": "10D filled FINE-v3 M0.9 TRANSIENT v2 (Euler dt 4e-6 s, 12 ms, uniform -305 start, no potential init, transonic, PIMPLE 2x2, linearUpwindV, k/omega fixed) (API)",
+    "runs": [
+      {
+        "computeResource": {
+          "type": "CPU_HOURS",
+          "value": 0.0
+        },
+        "createdAt": "2026-09-05T21:54:05.458361Z",
+        "duration": "PT5M26.341751S",
+        "finishedAt": "2026-09-05T22:00:31.275643Z",
+        "name": "10D filled fine-v3 M0.9 TRANSIENT v2 uniform start",
+        "progress": 0.00033333332976326346,
+        "runId": "db885424-da0a-433b-be5c-1ef078ce607d",
+        "startedAt": "2026-09-05T21:55:04.933892Z",
+        "status": "FAILED"
+      }
+    ]
+  },
+  {
+    "simulationId": "a58e115f-f105-4065-b785-a23e5b43000c",
+    "name": "10D filled FINE-v3 M0.9 TRANSIENT 30 ms (Euler dt 4e-6 s, from-rest start, transonic, PIMPLE 2x2, linearUpwindV, k/omega fixed) (API)",
+    "runs": [
+      {
+        "computeResource": {
+          "type": "CPU_HOURS",
+          "value": 0.0
+        },
+        "createdAt": "2026-09-06T03:55:53.343256Z",
+        "duration": "PT1H49M43.993327S",
+        "finishedAt": "2026-09-06T05:46:40.357585Z",
+        "name": "10D filled fine-v3 M0.9 TRANSIENT 30ms from-rest",
+        "progress": 0.3829333186149597,
+        "runId": "275a5e5f-c13b-41bb-8e3c-7d2674f9fb79",
+        "startedAt": "2026-09-06T03:56:56.364258Z",
+        "status": "FAILED"
+      }
+    ]
+  },
+  {
+    "simulationId": "1c8cf93e-d00a-4719-99f1-7e839275bac1",
+    "name": "10D filled FINE-v3 M0.9 TRANSIENT T1 (uniform -305 start, adaptive dt 4e-7..4e-6 maxCo 2, PIMPLE 3x2, transonic, linearUpwindV, k/omega fixed, p 10-500 kPa, T 120-900 K) (API)",
+    "runs": [
+      {
+        "computeResource": {
+          "type": "CPU_HOURS",
+          "value": 9.130555555555556
+        },
+        "createdAt": "2026-09-06T06:32:44.313378Z",
+        "duration": "PT34M14.395613S",
+        "finishedAt": "2026-09-06T07:08:02.999288Z",
+        "name": "T1_fine",
+        "progress": 3.800986087298952e-05,
+        "runId": "2bf5bf55-c82c-448d-b64c-de7d3997e8e2",
+        "startedAt": "2026-09-06T06:33:48.603675Z",
+        "status": "CANCELED"
+      }
+    ]
+  },
+  {
+    "simulationId": "2c05d4ca-5568-47c2-98a8-2ab46418c11f",
+    "name": "10D filled COARSE(922k) M0.9 TRANSIENT T1 (uniform -305 start, adaptive dt 4e-7..4e-6 maxCo 2, PIMPLE 3x2, transonic, linearUpwindV, k/omega fixed, p 10-500 kPa) (API)",
+    "runs": [
+      {
+        "computeResource": {
+          "type": "CPU_HOURS",
+          "value": 0.0
+        },
+        "createdAt": "2026-09-06T06:32:52.505395Z",
+        "duration": "PT6M25.964732S",
+        "finishedAt": "2026-09-06T06:39:36.093797Z",
+        "name": "T1_coarse",
+        "progress": 8.800000068731606e-05,
+        "runId": "9f0f1aff-fed5-4100-9bd8-0d700576c557",
+        "startedAt": "2026-09-06T06:33:10.129065Z",
+        "status": "FAILED"
+      }
+    ]
+  },
+  {
+    "simulationId": "322891e4-30df-4bf9-ba9f-400733bc5490",
+    "name": "10D filled FINE-v3 M0.9 TRANSIENT T2 (init -50, inlet ramp 50->305 over 7 ms, fixed dt 4e-6, PIMPLE 2x2, transonic, linearUpwindV, k/omega fixed, p 10-500 kPa) (API)",
+    "runs": [
+      {
+        "computeResource": {
+          "type": "CPU_HOURS",
+          "value": 27.273333333333333
+        },
+        "createdAt": "2026-09-06T06:47:43.715371Z",
+        "duration": "PT1H42M16.548316S",
+        "finishedAt": "2026-09-06T08:31:15.78624Z",
+        "name": "T2_fine",
+        "progress": 1.0,
+        "runId": "36f006bf-c514-414a-aec6-cfc3b1422f88",
+        "startedAt": "2026-09-06T06:48:59.237924Z",
+        "status": "FINISHED"
+      }
+    ]
+  },
+  {
+    "simulationId": "1f9e6f7b-3cbb-4483-b5bd-a03f20fa1465",
+    "name": "10D filled COARSE(922k) M0.9 TRANSIENT T2 (init -50, inlet ramp 50->305 over 7 ms, fixed dt 4e-6, PIMPLE 2x2, transonic, linearUpwindV, k/omega fixed, p 10-500 kPa) (API)",
+    "runs": [
+      {
+        "computeResource": {
+          "type": "CPU_HOURS",
+          "value": 12.404722222222222
+        },
+        "createdAt": "2026-09-06T06:47:53.767515Z",
+        "duration": "PT1H33M2.184257S",
+        "finishedAt": "2026-09-06T08:22:01.464115Z",
+        "name": "T2_coarse",
+        "progress": 1.0,
+        "runId": "964ae060-f022-4d57-b0ac-064636d1f280",
+        "startedAt": "2026-09-06T06:48:59.279858Z",
+        "status": "FINISHED"
+      }
+    ]
+  },
+  {
+    "simulationId": "1fe131c0-b49f-42dd-9a5e-d6319d1e0e61",
+    "name": "10D filled FINE-v3 M0.9 TRANSIENT T3 (uniform -150 start, inlet 150->305 over 1 ms, adaptive dt 1e-6..4e-6 maxCo 25, PIMPLE 2x2, transonic, linearUpwindV, k/omega fixed, p 10-500 kPa) (API)",
+    "runs": [
+      {
+        "computeResource": {
+          "type": "CPU_HOURS",
+          "value": 9.151666666666667
+        },
+        "createdAt": "2026-09-06T07:37:56.476402Z",
+        "duration": "PT34M19.13153S",
+        "finishedAt": "2026-09-06T08:13:17.157721Z",
+        "name": "T3_fine",
+        "progress": 9.230769501300529e-05,
+        "runId": "71e97b15-d3dd-4ca0-a960-96ea3710c227",
+        "startedAt": "2026-09-06T07:38:58.026191Z",
+        "status": "CANCELED"
+      }
+    ]
+  },
+  {
+    "simulationId": "d17a4d46-7512-43fc-9234-fccd9acf69c8",
+    "name": "10D filled FINE-v3 M0.9 TRANSIENT T4 30 ms (T2 recipe: init -50, inlet ramp 50->305 over 7 ms, fixed dt 4e-6, PIMPLE 2x2, transonic, linearUpwindV, k/omega fixed, p 10-500 kPa) (API)",
+    "runs": [
+      {
+        "computeResource": {
+          "type": "CPU_HOURS",
+          "value": 48.208888888888886
+        },
+        "createdAt": "2026-09-06T21:41:00.729321Z",
+        "duration": "PT3H47.054464S",
+        "finishedAt": "2026-09-07T00:42:46.246083Z",
+        "name": "T4_fine30",
+        "progress": 1.0,
+        "runId": "f14922f9-cc74-457c-b16d-0deea960985d",
+        "startedAt": "2026-09-06T21:41:59.191619Z",
+        "status": "CANCELED"
+      }
+    ]
+  }
+]

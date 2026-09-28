@@ -1,0 +1,12 @@
+SimScale-matched run [ramp]: d10 M0.6 V=203.5 m/s p=97690 T=286.2 rho=1.1892 CofR z=0.399 endTime=3000 avg from 2500 case=M0.60_gap9_opensides
+[mesh] levels {'body': 4, 'fins': 5, 'tab': 5, 'slot': 9} -> mesh 'mesh_gap9'
+[d10] surfaceFeatureExtract + blockMesh (mesh_gap9, levels 4/5/5/9)
+[d10] snappyHexMesh -parallel (np=10) ...
+[d10] mesh_gap9 OK cells=5828317 coverage={'rocket_body': 97.5, 'rocket_fins': 35.8, 'rocket_tab': 0.0} gap~6.3 across []
+  WARNING [d10]: rocket_fins layer coverage 35.8% < 90.0%
+  WARNING [d10]: rocket_tab layer coverage 0.0% < 90.0%
+[solve] pressure bounds 1 .. 1e+08 Pa; relaxation overrides: p=0.3,rho=0.05,U=0.7,h=0.7,k=0.7,omega=0.7
+[solve] hinge fitted from 10.0 deg at ['-0.0854', '-0.0000', '0.0515']
+[solve] sides -> pressure outlet (open far field)
+[solve] ramped start -50 -> -305 m/s over 300 iterations, no potentialFoam
+[solve] rhoSimpleFoam to 3000 ...

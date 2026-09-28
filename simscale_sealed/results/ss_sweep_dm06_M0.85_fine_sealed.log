@@ -1,0 +1,4 @@
+03:34:15 sim d8235fe1 run 78bb42a6 started (V=288.2, mesh 9e00744d)
+04:24:31 run FINISHED CPUh 13.0075
+{"moments_Nm": {"Mroll": -0.47011658484821506, "Mpitch": -0.07617840109289106, "Myaw": -3.5434896281686714}, "forces_N": {"Fx": 0.11727523511959649, "Fy": -10.195644752285867, "Fz": -158.37946232595866}, "convergence": {"std_rel_pct": 7.374877291228551, "block_std_pct": 0.016303959727274372, "block_means": [-0.4701690052157816, -0.4700980463511136, -0.47002549344696437, -0.4700136387518204, -0.4701818788992948, -0.4702114464243156], "drift_pct": 0.4256000805379452, "window": 1500, "p_residual": 0.000178442791554, "flags": []}}
+RESULT /Users/trasomi/dev/cfd/simscale_sealed/results/ss_sweep_dm06_M0.85_fine_sealed.json

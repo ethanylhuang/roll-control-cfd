@@ -1,0 +1,20 @@
+M0.90_sealedcad_fine_transient: 150 frames in /Users/trasomi/dev/cfd/runs_v4/d15/M0.90_sealedcad_fine_transient/postProcessing/animSlices
+rocket plane Mach available: False
+scales: schlieren tab 161 / rocket 87 kg/m^4, |omega_z| 19974 1/s, Ma max 1.30
+  frame 1/150 t=0.0001 -> frame_0000.png (1s)
+  frame 11/150 t=0.0011 -> frame_0010.png (10s)
+  frame 21/150 t=0.0021 -> frame_0020.png (19s)
+  frame 31/150 t=0.0031 -> frame_0030.png (28s)
+  frame 41/150 t=0.0041 -> frame_0040.png (38s)
+  frame 51/150 t=0.0051 -> frame_0050.png (47s)
+  frame 61/150 t=0.0061 -> frame_0060.png (56s)
+  frame 71/150 t=0.0071 -> frame_0070.png (65s)
+  frame 81/150 t=0.0081 -> frame_0080.png (75s)
+  frame 91/150 t=0.0091 -> frame_0090.png (84s)
+  frame 101/150 t=0.0101 -> frame_0100.png (93s)
+  frame 111/150 t=0.0111 -> frame_0110.png (103s)
+  frame 121/150 t=0.0121 -> frame_0120.png (112s)
+  frame 131/150 t=0.0131 -> frame_0130.png (121s)
+  frame 141/150 t=0.0141 -> frame_0140.png (130s)
+  frame 150/150 t=0.015 -> frame_0149.png (139s)
+ffmpeg rc=0: /Users/trasomi/dev/cfd/runs_v4/d15/M0.90_sealedcad_fine_transient/anim/d15_M0.90_sealedcad_fine_transient.mp4 (3.2 MB)

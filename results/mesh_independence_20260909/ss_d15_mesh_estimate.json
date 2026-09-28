@@ -1,0 +1,20 @@
+{
+  "cellCount": {
+    "intervalMax": 5764282,
+    "intervalMin": 3842855,
+    "type": "CELLS",
+    "value": 4803569
+  },
+  "computeResource": {
+    "intervalMax": 2.11,
+    "intervalMin": 1.41,
+    "type": "CPU_HOURS",
+    "value": 1.76
+  },
+  "duration": {
+    "intervalMax": "PT4M",
+    "intervalMin": "PT3M",
+    "value": "PT3M"
+  },
+  "totalRunCount": 1
+}

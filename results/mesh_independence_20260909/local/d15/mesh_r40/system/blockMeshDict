@@ -1,0 +1,64 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2606                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      blockMeshDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+// v4 SimScale-matched background domain: FIXED extents, not derived from the
+// geometry. x,y: -0.60..+0.60; z: -3.74..+1.75 (nose at z=+1.03, flow along
+// -z). Base cell ~0.064 m -> 19 x 19 x 86.
+
+scale   1;
+
+vertices
+(
+    (-0.60 -0.60 -4.40)
+    ( 0.60 -0.60 -4.40)
+    ( 0.60  0.60 -4.40)
+    (-0.60  0.60 -4.40)
+    (-0.60 -0.60  2.00)
+    ( 0.60 -0.60  2.00)
+    ( 0.60  0.60  2.00)
+    (-0.60  0.60  2.00)
+);
+
+blocks
+(
+    hex (0 1 2 3 4 5 6 7) (40 40 214) simpleGrading (1 1 1)
+);
+
+boundary
+(
+    inlet     // z max face — flow enters travelling toward -z
+    {
+        type patch;
+        faces ((4 5 6 7));
+    }
+    outlet    // z min face
+    {
+        type patch;
+        faces ((0 3 2 1));
+    }
+    sides     // the four lateral faces, slip
+    {
+        type patch;
+        faces
+        (
+            (0 4 7 3)
+            (2 6 5 1)
+            (1 5 4 0)
+            (3 7 6 2)
+        );
+    }
+);
+
+// ************************************************************************* //

@@ -2,9 +2,9 @@
 
 Local interactive analysis of the **sealed-tab (v5) sweep** (CAD 11 Sep 2026, runs 11–14 Sep). OpenFOAM: 56 points (M0.30–0.90 × 8 deflections; 15° and −6° at M0.90 are transient restarts) plus a 15° / M1.2 case; SimScale: 48 points (M0.30–0.85 × 8 deflections); 48 paired conditions.
 
-Tabs: Overview · Solver comparison · Sealed vs previous (point-by-point vs the 4 Sep gap sweep) · Transonic & M1.2 (transients, M1.2, videos) · Mesh study (sealed grid check, both solvers) · Data & method.
+Tabs: Overview · Solver comparison · Sealed vs previous (point-by-point vs the 4 Sep gap sweep) · Transonic & M1.2 (transients, M1.2, videos) · Hand estimates (strip theory, vortex lattice and Ackeret vs CFD) · Mesh study (sealed grid check, both solvers) · Data & method.
 
-The production server is the `com.trasomi.cfd-dashboard` launchd job (`wrangler dev` on `dist/`, port 3000). After changes: `python3 scripts/analyze.py && npm run build && launchctl kickstart -k gui/$(id -u)/com.trasomi.cfd-dashboard`.
+The production server is the `com.trasomi.cfd-dashboard` launchd job (`wrangler dev` on `dist/`, port 3000). After changes: `python3 scripts/analyze.py && python3 scripts/heuristics.py && npm run build && launchctl kickstart -k gui/$(id -u)/com.trasomi.cfd-dashboard`.
 
 ## Analysis
 
@@ -15,6 +15,8 @@ Sources: `runs_v4/*/M*_sealedcad_fine_opensides`, `runs_v4/{d15,dm06}/M0.90_seal
 Percent differences use the ratio form 100 (a/b − 1), so a larger magnitude reads positive at negative deflections too. Moments are transformed from z = 0.399 m to z = 0.330 m, as before.
 
 Videos in `public/media` are faststart copies of `results/anim/*.mp4` (the wrangler server ignores Range requests, so the index must be at the front).
+
+`python3 scripts/heuristics.py` (needs numpy) reads `analysis/sweep.json` and writes `analysis/heuristic.json` and `public/data/heuristic.csv`: hand-method roll-moment estimates from the sealed-tab CAD geometry (measured from `../models_v4/d00`, the CFD-workspace export), compared against the sweep. Geometry constants and method notes are in the script's docstring.
 
 ## Previous sweep (archived)
 

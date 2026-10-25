@@ -2,7 +2,7 @@
 
 Local interactive analysis of the **sealed-tab (v5) sweep** (CAD 11 Sep 2026, runs 11–14 Sep). OpenFOAM: 56 points (M0.30–0.90 × 8 deflections; 15° and −6° at M0.90 are transient restarts) plus a 15° / M1.2 case; SimScale: 48 points (M0.30–0.85 × 8 deflections); 48 paired conditions.
 
-Tabs: Overview (CFD means, fits and hand estimates on every chart) · Transonic & M1.2 (transients, M1.2, videos, with estimates). The Solver comparison, Sealed vs previous, Mesh study and Data & method tabs were removed on 24 Oct 2026; analyze.py still writes their data files.
+One page (Overview): CFD means, fits and hand estimates on every chart, M0.30–0.90. The Solver comparison, Sealed vs previous, Mesh study, Data & method and Transonic & M1.2 tabs were removed on 24 Oct 2026; analyze.py still writes their data files (including the M1.2 point and videos).
 
 The production server runs on the Mac mini (`trasomi@100.83.170.110`, checkout `~/dev/rocket/cfd`) as the `com.trasomi.cfd-dashboard` LaunchAgent (`wrangler dev` on `dist/`, 127.0.0.1:3000). After changes: `python3 scripts/analyze.py && python3 scripts/heuristics.py && npm run build && launchctl kickstart -k gui/$(id -u)/com.trasomi.cfd-dashboard`.
 
@@ -16,7 +16,7 @@ Percent differences use the ratio form 100 (a/b − 1), so a larger magnitude re
 
 Videos in `public/media` are faststart copies of `results/anim/*.mp4` (the wrangler server ignores Range requests, so the index must be at the front).
 
-`python3 scripts/heuristics.py` (needs numpy) reads `analysis/sweep.json` and writes `analysis/heuristic.json`: hand-method per-degree estimates of roll, side force and yaw from the sealed-tab CAD geometry (measured from `../models_v4/d00`, the CFD-workspace export), which the charts overlay as strip theory, vortex lattice, calibrated vortex lattice and Ackeret (M1.2) lines. Geometry constants and method notes are in the script's docstring.
+`python3 scripts/heuristics.py` (needs numpy) reads `analysis/sweep.json` and writes `analysis/heuristic.json`: hand-method per-degree estimates of roll, side force and yaw from the sealed-tab CAD geometry (measured from `../models_v4/d00`, the CFD-workspace export), which the charts overlay as strip theory, vortex lattice and calibrated vortex lattice lines (the Ackeret M1.2 value is computed but no longer plotted). Geometry constants and method notes are in the script's docstring.
 
 ## Previous sweep (archived)
 

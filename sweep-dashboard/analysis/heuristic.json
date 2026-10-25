@@ -1,20 +1,14 @@
 {
  "geometry": {
   "onshape": "4a30312915205423304bc8d9 / CFD workspace 44bb5cf8 / export 2026-09-11 11:24",
-  "rootRadius": 0.02875,
-  "tipRadius": 0.1119,
   "span": 0.08315,
   "rootChord": 0.11500000000000002,
   "tipChord": 0.055,
-  "leSweepDeg": 35.813745110742325,
   "finArea": 0.00706775,
-  "finThickness": 0.01,
   "aspect": 1.956470588235294,
   "tabSpan": 0.008000000000000007,
   "tabChord": 0.0265,
-  "tabArea": 0.0002120000000000002,
   "tabArm": 0.08541,
-  "localChord": 0.07411485267588697,
   "chordFraction": 0.35755316300617423,
   "tau": 0.7131605508448546,
   "panels": 1408
@@ -23,866 +17,172 @@
   {
    "mach": 0.3,
    "q": 6149.62382175,
-   "beta": 0.9539392014169457,
-   "cfdSlope": 0.007875801627786975,
-   "cfdSlopeSimScale": 0.007281375697276118,
-   "cfdSlopeSource": "OpenFOAM OLS \u22126\u00b0\u202615\u00b0",
-   "strip": 0.009891776853369257,
-   "vlm": 0.009361174166830235,
-   "linear": null,
-   "finLiftSlope": 2.551861633012962
+   "est": {
+    "strip": {
+     "roll": 0.009891776853369257,
+     "cl": 0.01060050544617463
+    },
+    "vlm": {
+     "roll": 0.009361174166830235,
+     "cl": 0.010031886000771758,
+     "side": 0.12542799930932957,
+     "cy": 0.007770513640840793,
+     "yaw": 0.03325040419806904,
+     "cn": 0.0356327377794701
+    },
+    "calibrated": {
+     "roll": 0.007935909614995318,
+     "cl": 0.008504503724773535
+    }
+   }
   },
   {
    "mach": 0.5,
    "q": 17102.450431999998,
-   "beta": 0.8660254037844386,
-   "cfdSlope": 0.02285394165966488,
-   "cfdSlopeSimScale": 0.02119876319134696,
-   "cfdSlopeSource": "OpenFOAM OLS \u22126\u00b0\u202615\u00b0",
-   "strip": 0.028246341559473975,
-   "vlm": 0.026954311003149108,
-   "linear": null,
-   "finLiftSlope": 2.6202047410060203
+   "est": {
+    "strip": {
+     "roll": 0.02824634155947398,
+     "cl": 0.010884404651020441
+    },
+    "vlm": {
+     "roll": 0.026954311003149108,
+     "cl": 0.010386535453803778,
+     "side": 0.3623477155627053,
+     "cy": 0.008071810729603945,
+     "yaw": 0.09631842241410894,
+     "cn": 0.037115202430576366
+    },
+    "calibrated": {
+     "roll": 0.02285044290847711,
+     "cl": 0.008805156821715393
+    }
+   }
   },
   {
    "mach": 0.6,
    "q": 24622.68854375,
-   "beta": 0.8,
-   "cfdSlope": 0.03405106068289015,
-   "cfdSlopeSimScale": 0.03163288269236916,
-   "cfdSlopeSource": "OpenFOAM OLS \u22126\u00b0\u202615\u00b0",
-   "strip": 0.04146122533006022,
-   "vlm": 0.03987064219272112,
-   "linear": null,
-   "finLiftSlope": 2.6713944748221037
+   "est": {
+    "strip": {
+     "roll": 0.04146122533006022,
+     "cl": 0.011097048254061305
+    },
+    "vlm": {
+     "roll": 0.03987064219272112,
+     "cl": 0.010671330545849941,
+     "side": 0.5374137831590244,
+     "cy": 0.0083152844775823,
+     "yaw": 0.14318060542269212,
+     "cn": 0.038322120843576585
+    },
+    "calibrated": {
+     "roll": 0.03380022709698097,
+     "cl": 0.009046591076542201
+    }
+   }
   },
   {
    "mach": 0.7,
    "q": 33509.509727000004,
-   "beta": 0.714142842854285,
-   "cfdSlope": 0.04863682168863157,
-   "cfdSlopeSimScale": 0.045276343112897945,
-   "cfdSlopeSource": "OpenFOAM OLS \u22126\u00b0\u202615\u00b0",
-   "strip": 0.057812732857322316,
-   "vlm": 0.05628047015532151,
-   "linear": null,
-   "finLiftSlope": 2.737075565857837
+   "est": {
+    "strip": {
+     "roll": 0.05781273285732231,
+     "cl": 0.01136988936512614
+    },
+    "vlm": {
+     "roll": 0.05628047015532151,
+     "cl": 0.0110685429914293,
+     "side": 0.7614562042321302,
+     "cy": 0.008657263542911185,
+     "yaw": 0.20354616063923933,
+     "cn": 0.04003092766563838
+    },
+    "calibrated": {
+     "roll": 0.047711613552139216,
+     "cl": 0.009383326833178211
+    }
+   }
   },
   {
    "mach": 0.8,
    "q": 43762.91398175,
-   "beta": 0.5999999999999999,
-   "cfdSlope": 0.06856687213644773,
-   "cfdSlopeSimScale": 0.06574842171178977,
-   "cfdSlopeSource": "OpenFOAM OLS \u22126\u00b0\u202615\u00b0",
-   "strip": 0.0778215257174472,
-   "vlm": 0.07737256361612774,
-   "linear": null,
-   "finLiftSlope": 2.821141509731439
+   "est": {
+    "strip": {
+     "roll": 0.0778215257174472,
+     "cl": 0.011719101675206513
+    },
+    "vlm": {
+     "roll": 0.07737256361612775,
+     "cl": 0.011651492713994674,
+     "side": 1.0527162225170479,
+     "cy": 0.009164501910434445,
+     "yaw": 0.28285125519464144,
+     "cn": 0.042594418292709386
+    },
+    "calibrated": {
+     "roll": 0.06559237768631085,
+     "cl": 0.009877520854774101
+    }
+   }
   },
   {
    "mach": 0.85,
    "q": 49384.94762299999,
-   "beta": 0.526782687642637,
-   "cfdSlope": 0.08178195584476702,
-   "cfdSlopeSimScale": 0.08034245869217432,
-   "cfdSlopeSource": "OpenFOAM OLS \u22126\u00b0\u202615\u00b0",
-   "strip": 0.08939771607588172,
-   "vlm": 0.09040661895569835,
-   "linear": null,
-   "finLiftSlope": 2.8718594944484006
+   "est": {
+    "strip": {
+     "roll": 0.08939771607588172,
+     "cl": 0.011929785619138213
+    },
+    "vlm": {
+     "roll": 0.09040661895569835,
+     "cl": 0.012064419875974565,
+     "side": 1.2350460347213237,
+     "cy": 0.00952779338711516,
+     "yaw": 0.33310024632495766,
+     "cn": 0.04445096253875055
+    },
+    "calibrated": {
+     "roll": 0.07664196219871011,
+     "cl": 0.01022757871895318
+    }
+   }
   },
   {
    "mach": 0.9,
    "q": 55310.339374999996,
-   "beta": 0.4358898943540673,
-   "cfdSlope": 0.09580724481456958,
-   "cfdSlopeSimScale": null,
-   "cfdSlopeSource": "OpenFOAM OLS \u22126\u00b0\u202615\u00b0",
-   "strip": 0.10214184083087433,
-   "vlm": 0.10598094375577975,
-   "linear": null,
-   "finLiftSlope": 2.929737564061014
+   "est": {
+    "strip": {
+     "roll": 0.10214184083087434,
+     "cl": 0.012170212758370753
+    },
+    "vlm": {
+     "roll": 0.10598094375577975,
+     "cl": 0.012627642338818058,
+     "side": 1.45594253191831,
+     "cy": 0.010028631937562081,
+     "yaw": 0.3947685073751149,
+     "cn": 0.047036715668897305
+    },
+    "calibrated": {
+     "roll": 0.08984505314919894,
+     "cl": 0.0107050490104577
+    }
+   }
   },
   {
    "mach": 1.2,
    "q": 98442.36171574998,
-   "beta": 0.6633249580710799,
-   "cfdSlope": 0.11930793568904877,
-   "cfdSlopeSimScale": null,
-   "cfdSlopeSource": "OpenFOAM 15\u00b0 transient \u00f7 15",
-   "strip": null,
-   "vlm": null,
-   "linear": 0.18760207071182144,
-   "finLiftSlope": null
-  }
- ],
- "rows": [
-  {
-   "mach": 0.3,
-   "angle": -6,
-   "openfoam": -0.04847780012934132,
-   "simscale": -0.035055834008785855,
-   "openfoamMethod": "steady",
-   "strip": -0.05935066112021555,
-   "vlm": -0.05616704500098142,
-   "linear": null,
-   "stripRatio": 1.2242853628230834,
-   "vlmRatio": 1.1586137335259603,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.3,
-   "angle": 0,
-   "openfoam": -0.0002522147471470359,
-   "simscale": 9.688908071883888e-05,
-   "openfoamMethod": "steady",
-   "strip": 0.0,
-   "vlm": 0.0,
-   "linear": null,
-   "stripRatio": null,
-   "vlmRatio": null,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.3,
-   "angle": 3,
-   "openfoam": 0.02424709983772455,
-   "simscale": 0.022877071485831114,
-   "openfoamMethod": "steady",
-   "strip": 0.029675330560107776,
-   "vlm": 0.02808352250049071,
-   "linear": null,
-   "stripRatio": 1.2238713396122443,
-   "vlmRatio": 1.1582219188456224,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.3,
-   "angle": 6,
-   "openfoam": 0.04740432925748503,
-   "simscale": 0.03424173210919399,
-   "openfoamMethod": "steady",
-   "strip": 0.05935066112021555,
-   "vlm": 0.05616704500098142,
-   "linear": null,
-   "stripRatio": 1.25200930062404,
-   "vlmRatio": 1.1848505375089298,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.3,
-   "angle": 9,
-   "openfoam": 0.07264697194251497,
-   "simscale": 0.07507746529894593,
-   "openfoamMethod": "steady",
-   "strip": 0.08902599168032331,
-   "vlm": 0.08425056750147213,
-   "linear": null,
-   "stripRatio": 1.225460460358471,
-   "vlmRatio": 1.1597257979057818,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.3,
-   "angle": 10,
-   "openfoam": 0.07304413761656686,
-   "simscale": 0.07504971962663128,
-   "openfoamMethod": "steady",
-   "strip": 0.09891776853369257,
-   "vlm": 0.09361174166830236,
-   "linear": null,
-   "stripRatio": 1.35421913053372,
-   "vlmRatio": 1.281577751793056,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.3,
-   "angle": 12,
-   "openfoam": 0.09238875572155689,
-   "simscale": 0.09307828144569193,
-   "openfoamMethod": "steady",
-   "strip": 0.1187013222404311,
-   "vlm": 0.11233409000196284,
-   "linear": null,
-   "stripRatio": 1.284802693935781,
-   "vlmRatio": 1.2158848674238845,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.3,
-   "angle": 15,
-   "openfoam": 0.11983948533932137,
-   "simscale": 0.113469005884493,
-   "openfoamMethod": "steady",
-   "strip": 0.14837665280053886,
-   "vlm": 0.14041761250245352,
-   "linear": null,
-   "stripRatio": 1.238128254476523,
-   "vlmRatio": 1.1717140815889344,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.5,
-   "angle": -6,
-   "openfoam": -0.14155701108782434,
-   "simscale": -0.10785248504434287,
-   "openfoamMethod": "steady",
-   "strip": -0.16947804935684388,
-   "vlm": -0.16172586601889466,
-   "linear": null,
-   "stripRatio": 1.197242355249341,
-   "vlmRatio": 1.1424786718515638,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.5,
-   "angle": 0,
-   "openfoam": -0.0008111019398387225,
-   "simscale": 0.000988148834785332,
-   "openfoamMethod": "steady",
-   "strip": 0.0,
-   "vlm": 0.0,
-   "linear": null,
-   "stripRatio": null,
-   "vlmRatio": null,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.5,
-   "angle": 3,
-   "openfoam": 0.0700273143247505,
-   "simscale": 0.06532602573245935,
-   "openfoamMethod": "steady",
-   "strip": 0.08473902467842194,
-   "vlm": 0.08086293300944733,
-   "linear": null,
-   "stripRatio": 1.2100853145023687,
-   "vlmRatio": 1.1547341746457223,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.5,
-   "angle": 6,
-   "openfoam": 0.13764301688423153,
-   "simscale": 0.10651220567559774,
-   "openfoamMethod": "steady",
-   "strip": 0.16947804935684388,
-   "vlm": 0.16172586601889466,
-   "linear": null,
-   "stripRatio": 1.2312869420712282,
-   "vlmRatio": 1.1749660075739161,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.5,
-   "angle": 9,
-   "openfoam": 0.21038218183832336,
-   "simscale": 0.2084784791046814,
-   "openfoamMethod": "steady",
-   "strip": 0.25421707403526583,
-   "vlm": 0.24258879902834196,
-   "linear": null,
-   "stripRatio": 1.2083583876443926,
-   "vlmRatio": 1.153086240044649,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.5,
-   "angle": 10,
-   "openfoam": 0.2161645850738523,
-   "simscale": 0.21568557715373146,
-   "openfoamMethod": "steady",
-   "strip": 0.2824634155947398,
-   "vlm": 0.26954311003149106,
-   "linear": null,
-   "stripRatio": 1.306705330562065,
-   "vlmRatio": 1.2469346444488216,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.5,
-   "angle": 12,
-   "openfoam": 0.26827590051896205,
-   "simscale": 0.2724583741542002,
-   "openfoamMethod": "steady",
-   "strip": 0.33895609871368776,
-   "vlm": 0.3234517320377893,
-   "linear": null,
-   "stripRatio": 1.2634608552538618,
-   "vlmRatio": 1.2056682371099798,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.5,
-   "angle": 15,
-   "openfoam": 0.3445503624451098,
-   "simscale": 0.3260945882206332,
-   "openfoamMethod": "steady",
-   "strip": 0.42369512339210963,
-   "vlm": 0.40431466504723657,
-   "linear": null,
-   "stripRatio": 1.2297044774103478,
-   "vlmRatio": 1.1734559272496712,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.6,
-   "angle": -6,
-   "openfoam": -0.21203491831337323,
-   "simscale": -0.16964766932660827,
-   "openfoamMethod": "steady",
-   "strip": -0.24876735198036135,
-   "vlm": -0.23922385315632674,
-   "linear": null,
-   "stripRatio": 1.1732376627358143,
-   "vlmRatio": 1.128228572252284,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.6,
-   "angle": 0,
-   "openfoam": -0.0016205410378317365,
-   "simscale": 0.0007699102176133954,
-   "openfoamMethod": "steady",
-   "strip": 0.0,
-   "vlm": 0.0,
-   "linear": null,
-   "stripRatio": -0.0,
-   "vlmRatio": -0.0,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.6,
-   "angle": 3,
-   "openfoam": 0.10390585131776447,
-   "simscale": 0.09488739438092632,
-   "openfoamMethod": "steady",
-   "strip": 0.12438367599018067,
-   "vlm": 0.11961192657816337,
-   "linear": null,
-   "stripRatio": 1.197080572582876,
-   "vlmRatio": 1.1511567930122302,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.6,
-   "angle": 6,
-   "openfoam": 0.20546673396606785,
-   "simscale": 0.16625922545202412,
-   "openfoamMethod": "steady",
-   "strip": 0.24876735198036135,
-   "vlm": 0.23922385315632674,
-   "linear": null,
-   "stripRatio": 1.2107427181932255,
-   "vlmRatio": 1.1642948157040047,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.6,
-   "angle": 9,
-   "openfoam": 0.3127963884491018,
-   "simscale": 0.30435954799277576,
-   "openfoamMethod": "steady",
-   "strip": 0.37315102797054195,
-   "vlm": 0.3588357797344901,
-   "linear": null,
-   "stripRatio": 1.192951842636959,
-   "vlmRatio": 1.147186454145649,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.6,
-   "angle": 10,
-   "openfoam": 0.3264913325508982,
-   "simscale": 0.3203938496008312,
-   "openfoamMethod": "steady",
-   "strip": 0.4146122533006022,
-   "vlm": 0.39870642192721123,
-   "linear": null,
-   "stripRatio": 1.269902787498858,
-   "vlmRatio": 1.2211853184955688,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.6,
-   "angle": 12,
-   "openfoam": 0.4003901892714571,
-   "simscale": 0.4000146244856255,
-   "openfoamMethod": "steady",
-   "strip": 0.4975347039607227,
-   "vlm": 0.4784477063126535,
-   "linear": null,
-   "stripRatio": 1.2426246129207812,
-   "vlmRatio": 1.1949536205750408,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.6,
-   "angle": 15,
-   "openfoam": 0.5092336608183633,
-   "simscale": 0.4805552106390761,
-   "openfoamMethod": "steady",
-   "strip": 0.6219183799509033,
-   "vlm": 0.5980596328908168,
-   "linear": null,
-   "stripRatio": 1.2212829351293277,
-   "vlmRatio": 1.174430676734342,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.7,
-   "angle": -6,
-   "openfoam": -0.3033570784031936,
-   "simscale": -0.2518623955000464,
-   "openfoamMethod": "steady",
-   "strip": -0.34687639714393387,
-   "vlm": -0.3376828209319291,
-   "linear": null,
-   "stripRatio": 1.1434590515237575,
-   "vlmRatio": 1.1131529308939117,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.7,
-   "angle": 0,
-   "openfoam": -0.0023475231908302993,
-   "simscale": 0.0019170689041297397,
-   "openfoamMethod": "steady",
-   "strip": 0.0,
-   "vlm": 0.0,
-   "linear": null,
-   "stripRatio": -0.0,
-   "vlmRatio": -0.0,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.7,
-   "angle": 3,
-   "openfoam": 0.1486844601057884,
-   "simscale": 0.136267771137239,
-   "openfoamMethod": "steady",
-   "strip": 0.17343819857196693,
-   "vlm": 0.16884141046596454,
-   "linear": null,
-   "stripRatio": 1.1664850411977576,
-   "vlmRatio": 1.1355686421152187,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.7,
-   "angle": 6,
-   "openfoam": 0.2945392483173653,
-   "simscale": 0.24926234446427753,
-   "openfoamMethod": "steady",
-   "strip": 0.34687639714393387,
-   "vlm": 0.3376828209319291,
-   "linear": null,
-   "stripRatio": 1.1776915950100322,
-   "vlmRatio": 1.1464781785824234,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.7,
-   "angle": 9,
-   "openfoam": 0.44668482219560884,
-   "simscale": 0.4255535039686291,
-   "openfoamMethod": "steady",
-   "strip": 0.5203145957159008,
-   "vlm": 0.5065242313978936,
-   "linear": null,
-   "stripRatio": 1.1648360764943309,
-   "vlmRatio": 1.133963381402022,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.7,
-   "angle": 10,
-   "openfoam": 0.4735361284371257,
-   "simscale": 0.45774099657282447,
-   "openfoamMethod": "steady",
-   "strip": 0.5781273285732231,
-   "vlm": 0.562804701553215,
-   "linear": null,
-   "stripRatio": 1.2208726934548662,
-   "vlmRatio": 1.188514809652886,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.7,
-   "angle": 12,
-   "openfoam": 0.5750749904471059,
-   "simscale": 0.5720332593854114,
-   "openfoamMethod": "steady",
-   "strip": 0.6937527942878677,
-   "vlm": 0.6753656418638582,
-   "linear": null,
-   "stripRatio": 1.2063692662908065,
-   "vlmRatio": 1.1743957798247824,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.7,
-   "angle": 15,
-   "openfoam": 0.7215599588203593,
-   "simscale": 0.6803162842166705,
-   "openfoamMethod": "steady",
-   "strip": 0.8671909928598346,
-   "vlm": 0.8442070523298226,
-   "linear": null,
-   "stripRatio": 1.2018280425060723,
-   "vlmRatio": 1.1699749161663193,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.8,
-   "angle": -6,
-   "openfoam": -0.423210758251497,
-   "simscale": -0.3794187806928243,
-   "openfoamMethod": "steady",
-   "strip": -0.46692915430468324,
-   "vlm": -0.4642353816967665,
-   "linear": null,
-   "stripRatio": 1.1033017124465587,
-   "vlmRatio": 1.0969366270714938,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.8,
-   "angle": 0,
-   "openfoam": -0.0011343459595806388,
-   "simscale": 0.0037524337597394245,
-   "openfoamMethod": "steady",
-   "strip": 0.0,
-   "vlm": 0.0,
-   "linear": null,
-   "stripRatio": -0.0,
-   "vlmRatio": -0.0,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.8,
-   "angle": 3,
-   "openfoam": 0.21087492357684634,
-   "simscale": 0.19469222939416828,
-   "openfoamMethod": "steady",
-   "strip": 0.23346457715234162,
-   "vlm": 0.23211769084838324,
-   "linear": null,
-   "stripRatio": 1.1071234701230999,
-   "vlmRatio": 1.1007363365506837,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.8,
-   "angle": 6,
-   "openfoam": 0.4170773799161676,
-   "simscale": 0.3787309010530626,
-   "openfoamMethod": "steady",
-   "strip": 0.46692915430468324,
-   "vlm": 0.4642353816967665,
-   "linear": null,
-   "stripRatio": 1.119526439910349,
-   "vlmRatio": 1.1130677520561714,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.8,
-   "angle": 9,
-   "openfoam": 0.6288214031956089,
-   "simscale": 0.6024731913610507,
-   "openfoamMethod": "steady",
-   "strip": 0.7003937314570248,
-   "vlm": 0.6963530725451497,
-   "linear": null,
-   "stripRatio": 1.1138198030437456,
-   "vlmRatio": 1.1073940374903772,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.8,
-   "angle": 10,
-   "openfoam": 0.6796773082874251,
-   "simscale": 0.6610258760279453,
-   "openfoamMethod": "steady",
-   "strip": 0.778215257174472,
-   "vlm": 0.7737256361612774,
-   "linear": null,
-   "stripRatio": 1.144977546970535,
-   "vlmRatio": 1.138372028501032,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.8,
-   "angle": 12,
-   "openfoam": 0.818505989043912,
-   "simscale": 0.8142066228181046,
-   "openfoamMethod": "steady",
-   "strip": 0.9338583086093665,
-   "vlm": 0.928470763393533,
-   "linear": null,
-   "stripRatio": 1.1409303305162082,
-   "vlmRatio": 1.1343481609439041,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.8,
-   "angle": 15,
-   "openfoam": 1.0151516084031935,
-   "simscale": 0.9865628113157278,
-   "openfoamMethod": "steady",
-   "strip": 1.167322885761708,
-   "vlm": 1.160588454241916,
-   "linear": null,
-   "stripRatio": 1.1499000504938133,
-   "vlmRatio": 1.1432661334866925,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.85,
-   "angle": -6,
-   "openfoam": -0.4977664772035928,
-   "simscale": -0.47011658484821506,
-   "openfoamMethod": "steady",
-   "strip": -0.5363862964552903,
-   "vlm": -0.5424397137341902,
-   "linear": null,
-   "stripRatio": 1.0775862196840982,
-   "vlmRatio": 1.089747378693655,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.85,
-   "angle": 0,
-   "openfoam": 0.00283367976943014,
-   "simscale": 0.00828678830706786,
-   "openfoamMethod": "steady",
-   "strip": 0.0,
-   "vlm": 0.0,
-   "linear": null,
-   "stripRatio": 0.0,
-   "vlmRatio": 0.0,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.85,
-   "angle": 3,
-   "openfoam": 0.25241978709381235,
-   "simscale": 0.23659113679925448,
-   "openfoamMethod": "steady",
-   "strip": 0.2681931482276452,
-   "vlm": 0.2712198568670951,
-   "linear": null,
-   "stripRatio": 1.0624886080264802,
-   "vlmRatio": 1.0744793821028604,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.85,
-   "angle": 6,
-   "openfoam": 0.49877575091816373,
-   "simscale": 0.4679417287822498,
-   "openfoamMethod": "steady",
-   "strip": 0.5363862964552903,
-   "vlm": 0.5424397137341902,
-   "linear": null,
-   "stripRatio": 1.075405721845723,
-   "vlmRatio": 1.0875422727260664,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.85,
-   "angle": 9,
-   "openfoam": 0.7502628238003992,
-   "simscale": 0.7258324570472797,
-   "openfoamMethod": "steady",
-   "strip": 0.8045794446829354,
-   "vlm": 0.8136595706012851,
-   "linear": null,
-   "stripRatio": 1.0723967910437031,
-   "vlmRatio": 1.0844993844687045,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.85,
-   "angle": 10,
-   "openfoam": 0.8187391983253494,
-   "simscale": 0.8080155074130534,
-   "openfoamMethod": "steady",
-   "strip": 0.8939771607588172,
-   "vlm": 0.9040661895569835,
-   "linear": null,
-   "stripRatio": 1.0918949069341735,
-   "vlmRatio": 1.1042175474267777,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.85,
-   "angle": 12,
-   "openfoam": 0.982052825752495,
-   "simscale": 0.987670072874215,
-   "openfoamMethod": "steady",
-   "strip": 1.0727725929105807,
-   "vlm": 1.0848794274683804,
-   "linear": null,
-   "stripRatio": 1.0923776855777305,
-   "vlmRatio": 1.1047057744954758,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.85,
-   "angle": 15,
-   "openfoam": 1.216171361457086,
-   "simscale": 1.2069131202357506,
-   "openfoamMethod": "steady",
-   "strip": 1.3409657411382256,
-   "vlm": 1.356099284335475,
-   "linear": null,
-   "stripRatio": 1.102612496590632,
-   "vlmRatio": 1.1150560910353478,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.9,
-   "angle": -6,
-   "openfoam": -0.5775252648219615,
-   "simscale": null,
-   "openfoamMethod": "transient",
-   "strip": -0.612851044985246,
-   "vlm": -0.6358856625346786,
-   "linear": null,
-   "stripRatio": 1.0611675061075894,
-   "vlmRatio": 1.1010525448279882,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.9,
-   "angle": 0,
-   "openfoam": 0.006350145902508783,
-   "simscale": null,
-   "openfoamMethod": "steady",
-   "strip": 0.0,
-   "vlm": 0.0,
-   "linear": null,
-   "stripRatio": 0.0,
-   "vlmRatio": 0.0,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.9,
-   "angle": 3,
-   "openfoam": 0.3006751351616766,
-   "simscale": null,
-   "openfoamMethod": "steady",
-   "strip": 0.306425522492623,
-   "vlm": 0.3179428312673393,
-   "linear": null,
-   "stripRatio": 1.0191249180876043,
-   "vlmRatio": 1.0574297442200455,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.9,
-   "angle": 6,
-   "openfoam": 0.5947017005469061,
-   "simscale": null,
-   "openfoamMethod": "steady",
-   "strip": 0.612851044985246,
-   "vlm": 0.6358856625346786,
-   "linear": null,
-   "stripRatio": 1.0305184001015117,
-   "vlmRatio": 1.0692514616149549,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.9,
-   "angle": 9,
-   "openfoam": 0.8909033285908183,
-   "simscale": null,
-   "openfoamMethod": "steady",
-   "strip": 0.919276567477869,
-   "vlm": 0.9538284938020178,
-   "linear": null,
-   "stripRatio": 1.0318477190246105,
-   "vlmRatio": 1.0706307443151335,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.9,
-   "angle": 10,
-   "openfoam": 0.9769977364251496,
-   "simscale": null,
-   "openfoamMethod": "steady",
-   "strip": 1.0214184083087434,
-   "vlm": 1.0598094375577976,
-   "linear": null,
-   "stripRatio": 1.045466504401668,
-   "vlmRatio": 1.0847614053187649,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.9,
-   "angle": 12,
-   "openfoam": 1.1495989534930142,
-   "simscale": null,
-   "openfoamMethod": "steady",
-   "strip": 1.225702089970492,
-   "vlm": 1.2717713250693572,
-   "linear": null,
-   "stripRatio": 1.0661997266492296,
-   "vlmRatio": 1.1062739063959015,
-   "linearRatio": null
-  },
-  {
-   "mach": 0.9,
-   "angle": 15,
-   "openfoam": 1.4252916389339019,
-   "simscale": null,
-   "openfoamMethod": "transient",
-   "strip": 1.532127612463115,
-   "vlm": 1.5897141563366963,
-   "linear": null,
-   "stripRatio": 1.0749572723299807,
-   "vlmRatio": 1.1153606131624965,
-   "linearRatio": null
-  },
-  {
-   "mach": 1.2,
-   "angle": 15,
-   "openfoam": 1.7896190353357315,
-   "simscale": null,
-   "openfoamMethod": "transient",
-   "strip": null,
-   "vlm": null,
-   "linear": 2.8140310606773213,
-   "stripRatio": null,
-   "vlmRatio": null,
-   "linearRatio": 1.572419048476097
+   "est": {
+    "linear": {
+     "roll": 0.18760207071182142,
+     "cl": 0.012559039221176923,
+     "side": 2.1964883586444377,
+     "cy": 0.008500621208011216,
+     "yaw": 0.6386289902758704,
+     "cn": 0.04275308106260615
+    }
+   }
   }
  ],
  "etaSubsonic": 0.8477472455447838,
- "etaSupersonic": 0.63596278674514,
- "extrapolation": [
-  {
-   "mach": 1.2,
-   "q": 98452.03925628001,
-   "beta": 0.6633249580710799,
-   "linear": 0.18762051324622625,
-   "calibrated": 0.11931966445462348
-  },
-  {
-   "mach": 1.45,
-   "q": 143746.81426133934,
-   "beta": 1.05,
-   "linear": 0.1730576775764507,
-   "calibrated": 0.11005824289916151
-  },
-  {
-   "mach": 1.9,
-   "q": 246813.79285775745,
-   "beta": 1.6155494421403511,
-   "linear": 0.19312171703020525,
-   "calibrated": 0.12281822534353568
-  }
- ]
+ "etaSupersonic": 0.6359627867451401
 }

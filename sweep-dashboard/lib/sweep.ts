@@ -1,5 +1,6 @@
 import raw from '@/analysis/sweep.json';
-export { raw };
+import heuristic from '@/analysis/heuristic.json';
+export { raw, heuristic };
 export type Solver = 'OpenFOAM' | 'SimScale';
 export type Metric = 'roll' | 'cl' | 'yaw' | 'cn' | 'pitch' | 'cm' | 'axial' | 'ca' | 'side' | 'cy' | 'normal' | 'cNormal';
 export type Point = typeof raw.points[number];
@@ -39,3 +40,15 @@ export const fmt = (v: number | null | undefined, digits = 4) => v == null ? '�
 export const signed = (v: number, digits = 2) => `${v >= 0 ? '+' : '−'}${fmt(Math.abs(v), digits)}`;
 export const tick = (v: number) => fmt(v, 3);
 export const fitRange = [{ name: 'Full range · −6° to 15°', lo: -6, hi: 15 }, { name: 'Small positive · 0° to 10°', lo: 0, hi: 10 }, { name: 'Positive · 0° to 15°', lo: 0, hi: 15 }];
+export type EstMethod = 'strip' | 'vlm' | 'calibrated' | 'linear';
+export const estMethods: Record<EstMethod, { label: string; color: string; dashed: boolean }> = {
+  strip: { label: 'Strip theory', color: '#b45309', dashed: true },
+  vlm: { label: 'Vortex lattice', color: '#16a34a', dashed: true },
+  calibrated: { label: 'Calibrated VLM', color: '#16a34a', dashed: false },
+  linear: { label: 'Ackeret', color: '#8b5cf6', dashed: true },
+};
+/** Hand-estimate derivative per degree, or undefined where the method doesn't cover this metric/Mach. */
+export const estimate = (method: EstMethod, metric: Metric, mach: number): number | undefined =>
+  (heuristic.perMach.find(r => r.mach === mach)?.est as Partial<Record<EstMethod, Partial<Record<Metric, number>>>> | undefined)?.[method]?.[metric];
+export const estimatedMethods = (metric: Metric, mach?: number) =>
+  (Object.keys(estMethods) as EstMethod[]).filter(k => heuristic.perMach.some(r => (mach == null || r.mach === mach) && estimate(k, metric, r.mach) != null));

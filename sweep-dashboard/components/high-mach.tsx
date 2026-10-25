@@ -1,9 +1,12 @@
 'use client';
-import { CartesianGrid, Line, LineChart, ResponsiveContainer, Scatter, ComposedChart, Tooltip, XAxis, YAxis, Legend as RLegend } from 'recharts';
+import { CartesianGrid, Line, LineChart, ResponsiveContainer, Scatter, ComposedChart, Tooltip, XAxis, YAxis } from 'recharts';
 import { Info } from 'lucide-react';
 import { Table, TableHeader, TableHead, TableBody, TableRow, TableCell } from '@/components/ui/table';
-import { Panel } from '@/components/sweep-charts';
-import { colors, extraPoints, fmt, points, raw, tick } from '@/lib/sweep';
+import { EstSwatch, Panel } from '@/components/sweep-charts';
+import { colors, estimate, estMethods, extraPoints, fmt, points, raw, tick } from '@/lib/sweep';
+
+const ests = ['strip', 'vlm', 'calibrated'] as const;
+const estLines = ests.map(e => <Line key={e} dataKey={e} name={estMethods[e].label} stroke={estMethods[e].color} strokeDasharray={estMethods[e].dashed ? '6 4' : undefined} strokeWidth={estMethods[e].dashed ? 1.6 : 2} connectNulls dot={false} isAnimationActive={false} />);
 
 export function HighMach() {
   const machs = [...raw.machs, 1.2];
@@ -12,7 +15,8 @@ export function HighMach() {
     const s = points.find(x => x.solver === 'SimScale' && x.angle === angle && x.mach === m);
     const t = extraPoints.find(x => x.angle === angle && x.mach === m && x.method === 'transient');
     const st = extraPoints.find(x => x.angle === angle && x.mach === m && x.method === 'steady');
-    return { mach: m, OpenFOAM: p?.roll ?? t?.roll, SimScale: s?.roll, steady: st?.roll };
+    const est = (e: 'strip' | 'vlm' | 'calibrated' | 'linear') => { const v = estimate(e, 'roll', m); return v == null ? undefined : v * angle; };
+    return { mach: m, OpenFOAM: p?.roll ?? t?.roll, SimScale: s?.roll, steady: st?.roll, strip: est('strip'), vlm: est('vlm'), calibrated: est('calibrated'), linear: est('linear') };
   });
   const d15 = at(15), dm6 = at(-6);
   const rows = [...points.filter(p => p.method === 'transient'), ...extraPoints].sort((a, b) => a.angle - b.angle || a.mach - b.mach || a.method.localeCompare(b.method));
@@ -27,9 +31,11 @@ export function HighMach() {
           <Line dataKey="OpenFOAM" stroke={colors.OpenFOAM} strokeWidth={2} connectNulls dot={{ r: 3.5 }} isAnimationActive={false} />
           <Line dataKey="SimScale" stroke={colors.SimScale} strokeWidth={2} connectNulls dot={{ r: 3.5 }} isAnimationActive={false} />
           <Scatter dataKey="steady" name="Steady (superseded)" fill="white" stroke={colors.OpenFOAM} isAnimationActive={false} />
-          <RLegend verticalAlign="top" height={24} />
+          {estLines}
+          <Scatter dataKey="linear" name="Ackeret" fill={estMethods.linear.color} shape="diamond" isAnimationActive={false} />
         </ComposedChart></ResponsiveContainer></div>
-        <p className="fineprint">M0.90: transient 1.425 vs drifting steady 1.300. M1.2: transient 1.790 vs steady 1.931 (upper bound, +8 %). Roll grows ×1.26 from M0.90 to M1.2 while dynamic pressure grows ×1.78, so tab effectiveness drops supersonic.</p>
+        <div className="legend"><span><i style={{ background: colors.OpenFOAM }} />OpenFOAM</span><span><i style={{ background: colors.SimScale }} />SimScale</span><span className="muted"><b className="hollow" />Steady (superseded)</span>{ests.map(e => <EstSwatch key={e} method={e} />)}<span><b style={{ width: 8, height: 8, background: estMethods.linear.color, transform: 'rotate(45deg)', display: 'inline-block' }} />Ackeret (M1.2)</span></div>
+        <p className="fineprint">M0.90: transient 1.425 vs drifting steady 1.300. M1.2: transient 1.790 vs steady 1.931 (upper bound, +8 %). Roll grows ×1.26 from M0.90 to M1.2 while dynamic pressure grows ×1.78, so tab effectiveness drops supersonic. Linear supersonic theory (Ackeret) gives 2.81 N·m at M1.2, 57 % above CFD: at 15° the compression face is far past the ~4° shock-detachment angle, so it is an upper bound.</p>
       </Panel>
       <Panel title="−6° roll moment across Mach" subtitle="Sweep points and the M0.90 transient">
         <div className="axis-caption">Mroll <span>(N·m)</span></div>
@@ -38,8 +44,9 @@ export function HighMach() {
           <YAxis tickFormatter={tick} width={62} axisLine={false} tickLine={false} /><Tooltip formatter={v => fmt(Number(v), 4)} labelFormatter={l => `M${Number(l).toFixed(2)}`} />
           <Line dataKey="OpenFOAM" stroke={colors.OpenFOAM} strokeWidth={2} connectNulls dot={{ r: 3.5 }} isAnimationActive={false} />
           <Line dataKey="SimScale" stroke={colors.SimScale} strokeWidth={2} connectNulls dot={{ r: 3.5 }} isAnimationActive={false} />
-          <RLegend verticalAlign="top" height={24} />
+          {estLines}
         </LineChart></ResponsiveContainer></div>
+        <div className="legend"><span><i style={{ background: colors.OpenFOAM }} />OpenFOAM</span><span><i style={{ background: colors.SimScale }} />SimScale</span>{ests.map(e => <EstSwatch key={e} method={e} />)}</div>
         <p className="fineprint">−6° mirrors +6° within ~2 % on both solvers. The local ±6° rows sit 6–38 % above SimScale (largest at low Mach): the one unresolved solver disagreement.</p>
       </Panel>
     </div>

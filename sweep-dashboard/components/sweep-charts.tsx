@@ -1,9 +1,9 @@
 'use client';
 import type { ReactNode } from 'react';
-import { CartesianGrid, Line, LineChart, ReferenceLine, ResponsiveContainer, Scatter, ScatterChart, Tooltip, XAxis, YAxis, ZAxis } from 'recharts';
+import { CartesianGrid, Line, LineChart, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { ArrowDownToLine } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { colors, fmt, metrics, palette, points, raw, signed, solvers, tick, type GetFit, type Metric, type Solver } from '@/lib/sweep';
+import { colors, estimate, estimatedMethods, estMethods, fmt, metrics, palette, points, raw, solvers, tick, type EstMethod, type GetFit, type Metric, type Solver } from '@/lib/sweep';
 
 function ExportChart({ title }: { title: string }) {
   return <Button variant="ghost" size="icon" aria-label={`Download ${title} as SVG`} title="Download chart as SVG" onClick={e => {
@@ -39,8 +39,12 @@ function ExportChart({ title }: { title: string }) {
 export function Panel({ title, subtitle, children, action, className = '' }: { title: string; subtitle?: string; children: ReactNode; action?: ReactNode; className?: string }) {
   return <section className={`panel ${className}`}><div className="panel-head"><div><h2>{title}</h2>{subtitle && <p>{subtitle}</p>}</div><div className="panel-actions">{action}<ExportChart title={title} /></div></div>{children}</section>;
 }
-export function Legend({ fits = false, flags = true }: { fits?: boolean; flags?: boolean }) {
-  return <div className="legend">{solvers.map(s => <span key={s}><i style={{ background: colors[s] }} />{s}</span>)}{fits && <span><i className="dashed" />Linear fit</span>}{flags && <span className="muted"><b className="hollow" />Source flagged</span>}</div>;
+export function EstSwatch({ method }: { method: EstMethod }) {
+  const m = estMethods[method];
+  return <span><i className={m.dashed ? 'dashed' : ''} style={m.dashed ? { borderTop: `2px dashed ${m.color}` } : { background: m.color }} />{m.label}</span>;
+}
+export function Legend({ fits = false, flags = true, estimates = [] }: { fits?: boolean; flags?: boolean; estimates?: EstMethod[] }) {
+  return <div className="legend">{solvers.map(s => <span key={s}><i style={{ background: colors[s] }} />{s}</span>)}{fits && <span><i className="dashed" />Linear fit</span>}{estimates.map(e => <EstSwatch key={e} method={e} />)}{flags && <span className="muted"><b className="hollow" />Source flagged</span>}</div>;
 }
 function ChartTip({ active, payload, label, xLabel = 'Deflection', xUnit = '°' }: { active?: boolean; payload?: readonly { color?: string; name?: string | number; value?: unknown }[]; label?: string | number; xLabel?: string; xUnit?: string }) {
   if (!active || !payload?.length) return null;
@@ -48,6 +52,7 @@ function ChartTip({ active, payload, label, xLabel = 'Deflection', xUnit = '°' 
 }
 export function ResponseChart({ metric, mach, getFit, withFits = false }: { metric: Metric; mach: number; getFit: GetFit; withFits?: boolean }) {
   const meta = metrics[metric];
+  const ests = estimatedMethods(metric, mach);
   const rows = raw.angles.map(angle => {
     const row: Record<string, number | boolean | undefined> = { angle };
     solvers.forEach(s => {
@@ -55,26 +60,25 @@ export function ResponseChart({ metric, mach, getFit, withFits = false }: { metr
       row[s] = point?.[metric]; row[`${s}Flag`] = !!point?.flags.length;
       const fit = getFit(s, mach, metric);
       if (fit && angle >= Math.min(...fit.angles) && angle <= Math.max(...fit.angles)) row[`${s}Fit`] = fit.slope * angle + fit.intercept;
-    }); return row;
+    });
+    ests.forEach(e => { row[e] = estimate(e, metric, mach)! * angle; });
+    return row;
   });
   return <><div className="axis-caption">{meta.symbol} <span>{meta.unit === '–' ? '(dimensionless)' : `(${meta.unit})`}</span></div><div className={`chart ${withFits ? 'hero-chart' : ''}`}><ResponsiveContainer width="100%" height="100%" initialDimension={{width:600,height:300}}><LineChart data={rows} margin={{ top: 14, right: 24, bottom: 24, left: 4 }} accessibilityLayer>
     <CartesianGrid vertical={false} stroke="#ededed" /><XAxis type="number" dataKey="angle" domain={[-6, 15]} ticks={[-6, 0, 3, 6, 9, 12, 15]} tickLine={false} axisLine={{ stroke: '#e5e5e5' }} tickMargin={10} label={{ value: 'Deflection δ (°)', position: 'bottom', offset: 6 }} />
     <YAxis tickFormatter={tick} axisLine={false} tickLine={false} width={62} domain={['auto', 'auto']} /><Tooltip content={<ChartTip />} /><ReferenceLine y={0} stroke="#d4d4d4" />
     {solvers.map(s => <Line key={s} name={s} dataKey={s} stroke={colors[s]} strokeWidth={2} connectNulls isAnimationActive={false} dot={(props: { cx?: number; cy?: number; payload?: Record<string, unknown>; index?: number }) => typeof props.payload?.[s] !== 'number' ? <g key={`${s}-${props.index}`} /> : <circle key={`${s}-${props.index}`} cx={props.cx} cy={props.cy} r={3.5} fill={props.payload?.[`${s}Flag`] ? 'white' : colors[s]} stroke={colors[s]} strokeWidth={1.7} />} activeDot={{ r: 6 }} />)}
     {withFits && solvers.map(s => <Line key={`${s}fit`} name={`${s} fit`} dataKey={`${s}Fit`} stroke={colors[s]} strokeDasharray="5 5" strokeWidth={1.3} opacity={.5} connectNulls dot={false} isAnimationActive={false} />)}
-  </LineChart></ResponsiveContainer></div><Legend fits={withFits} /></>;
+    {ests.map(e => <Line key={e} name={estMethods[e].label} dataKey={e} stroke={estMethods[e].color} strokeDasharray={estMethods[e].dashed ? '6 4' : undefined} strokeWidth={estMethods[e].dashed ? 1.6 : 2} dot={false} isAnimationActive={false} />)}
+  </LineChart></ResponsiveContainer></div><Legend fits={withFits} estimates={ests} /></>;
 }
 export function FamilyChart({ metric, solver }: { metric: Metric; solver: Solver }) {
-  const family = raw.angles.map(angle => Object.fromEntries([['angle', angle], ...raw.machs.map(m => [`M${m}`, points.find(p => p.solver === solver && p.angle === angle && p.mach === m)?.[metric]])]));
-  return <><div className="axis-caption">{metrics[metric].symbol} ({metrics[metric].unit})</div><div className="chart family-chart"><ResponsiveContainer width="100%" height="100%" initialDimension={{width:600,height:300}}><LineChart data={family} margin={{ top: 10, right: 28, left: 4, bottom: 24 }} accessibilityLayer><CartesianGrid vertical={false} stroke="#ededed"/><XAxis type="number" dataKey="angle" domain={[-6,15]} ticks={[-6,0,3,6,9,12,15]} axisLine={false} tickLine={false} label={{ value: 'Deflection δ (°)', position:'bottom', offset:6 }}/><YAxis tickFormatter={tick} width={62} axisLine={false} tickLine={false}/><ReferenceLine y={0} stroke="#d4d4d4"/><Tooltip content={<ChartTip/>}/>{raw.machs.filter(m => solver === 'OpenFOAM' || m < .9).map((m,i) => <Line key={m} dataKey={`M${m}`} name={`M${m.toFixed(2)}`} stroke={palette[i]} strokeWidth={2} connectNulls dot={{ r:3 }} isAnimationActive={false}/>)}</LineChart></ResponsiveContainer></div><div className="legend">{raw.machs.filter(m => solver === 'OpenFOAM' || m < .9).map((m,i) => <span key={m}><i style={{ background:palette[i] }}/>M{m.toFixed(2)}</span>)}</div></>;
+  const est: EstMethod | undefined = estimatedMethods(metric).includes('calibrated') ? 'calibrated' : estimatedMethods(metric).includes('vlm') ? 'vlm' : undefined;
+  const family = raw.angles.map(angle => Object.fromEntries([['angle', angle], ...raw.machs.flatMap(m => [[`M${m}`, points.find(p => p.solver === solver && p.angle === angle && p.mach === m)?.[metric]], [`E${m}`, est && estimate(est, metric, m)! * angle]])]));
+  return <><div className="axis-caption">{metrics[metric].symbol} ({metrics[metric].unit})</div><div className="chart family-chart"><ResponsiveContainer width="100%" height="100%" initialDimension={{width:600,height:300}}><LineChart data={family} margin={{ top: 10, right: 28, left: 4, bottom: 24 }} accessibilityLayer><CartesianGrid vertical={false} stroke="#ededed"/><XAxis type="number" dataKey="angle" domain={[-6,15]} ticks={[-6,0,3,6,9,12,15]} axisLine={false} tickLine={false} label={{ value: 'Deflection δ (°)', position:'bottom', offset:6 }}/><YAxis tickFormatter={tick} width={62} axisLine={false} tickLine={false}/><ReferenceLine y={0} stroke="#d4d4d4"/><Tooltip content={<ChartTip/>}/>{raw.machs.filter(m => solver === 'OpenFOAM' || m < .9).map((m,i) => <Line key={m} dataKey={`M${m}`} name={`M${m.toFixed(2)}`} stroke={palette[i]} strokeWidth={2} connectNulls dot={{ r:3 }} isAnimationActive={false}/>)}{est && raw.machs.filter(m => solver === 'OpenFOAM' || m < .9).map((m,i) => <Line key={`E${m}`} dataKey={`E${m}`} name={`M${m.toFixed(2)} ${estMethods[est].label}`} stroke={palette[i]} strokeDasharray="6 4" strokeWidth={1.2} opacity={.8} dot={false} isAnimationActive={false}/>)}</LineChart></ResponsiveContainer></div><div className="legend">{raw.machs.filter(m => solver === 'OpenFOAM' || m < .9).map((m,i) => <span key={m}><i style={{ background:palette[i] }}/>M{m.toFixed(2)}</span>)}{est && <span className="muted"><i className="dashed" />{estMethods[est].label} (same colour)</span>}</div></>;
 }
 export function SlopeChart({ metric, getFit }: { metric: Metric; getFit: GetFit }) {
-  const rows = raw.machs.map(m => ({ mach: m, OpenFOAM: getFit('OpenFOAM', m, metric)?.slope, SimScale: getFit('SimScale', m, metric)?.slope }));
-  return <><div className="chart"><ResponsiveContainer width="100%" height="100%" initialDimension={{width:600,height:300}}><LineChart data={rows} margin={{top:20,right:24,left:10,bottom:25}} accessibilityLayer><CartesianGrid vertical={false} stroke="#ededed"/><XAxis type="number" dataKey="mach" domain={[.3,.9]} ticks={raw.machs} axisLine={false} tickLine={false} tickFormatter={v => v.toFixed(2)} label={{value:'Mach',position:'bottom',offset:6}}/><YAxis tickFormatter={tick} width={70} axisLine={false} tickLine={false}/><Tooltip content={<ChartTip xLabel="Mach" xUnit=""/>}/>{solvers.map(s => <Line key={s} dataKey={s} name={s} stroke={colors[s]} strokeWidth={2} dot={{r:4}} isAnimationActive={false}/>)}</LineChart></ResponsiveContainer></div><Legend flags={false}/></>;
-}
-export function ParityChart({ metric, quality }: { metric: Metric; quality: boolean }) {
-  const pairs = raw.pairs.filter(p => p.metric === metric && (!quality || !p.flagged));
-  const bounds = pairs.flatMap(p => [p.openfoam, p.simscale]);
-  const low = Math.min(0, ...bounds), high = Math.max(0, ...bounds), pad = (high-low)*.07 || 1;
-  return <><div className="chart"><ResponsiveContainer width="100%" height="100%" initialDimension={{width:600,height:300}}><ScatterChart margin={{top:20,right:25,left:22,bottom:28}} accessibilityLayer><CartesianGrid stroke="#ededed"/><XAxis type="number" dataKey="openfoam" domain={[low-pad,high+pad]} tickFormatter={tick} axisLine={false} tickLine={false} label={{value:'OpenFOAM',position:'bottom',offset:6}}/><YAxis type="number" dataKey="simscale" domain={[low-pad,high+pad]} tickFormatter={tick} width={65} axisLine={false} tickLine={false} label={{value:'SimScale',angle:-90,position:'insideLeft',offset:-8}}/><ZAxis range={[42,42]}/><ReferenceLine segment={[{x:low-pad,y:low-pad},{x:high+pad,y:high+pad}]} stroke="#a3a3a3" strokeDasharray="5 5"/><Tooltip content={({active,payload}) => { const p=payload?.[0]?.payload; return active && p ? <div className="chart-tip"><strong>M{p.mach.toFixed(2)} · {p.angle}°</strong><div>OpenFOAM <b>{fmt(p.openfoam,6)}</b></div><div>SimScale <b>{fmt(p.simscale,6)}</b></div><div>Δ <b>{signed(p.delta,6)}</b></div>{p.flagged && <small>Source convergence flag</small>}</div> : null; }}/><Scatter data={pairs} fill={colors.SimScale} fillOpacity={.72} isAnimationActive={false}/></ScatterChart></ResponsiveContainer></div><div className="legend"><span><i style={{background:colors.SimScale}}/>{pairs.length} paired conditions</span><span><i className="dashed"/>Equal prediction</span></div></>;
+  const ests = estimatedMethods(metric).filter(e => e !== 'linear');
+  const rows = raw.machs.map(m => ({ mach: m, OpenFOAM: getFit('OpenFOAM', m, metric)?.slope, SimScale: getFit('SimScale', m, metric)?.slope, ...Object.fromEntries(ests.map(e => [e, estimate(e, metric, m)])) }));
+  return <><div className="chart"><ResponsiveContainer width="100%" height="100%" initialDimension={{width:600,height:300}}><LineChart data={rows} margin={{top:20,right:24,left:10,bottom:25}} accessibilityLayer><CartesianGrid vertical={false} stroke="#ededed"/><XAxis type="number" dataKey="mach" domain={[.3,.9]} ticks={raw.machs} axisLine={false} tickLine={false} tickFormatter={v => v.toFixed(2)} label={{value:'Mach',position:'bottom',offset:6}}/><YAxis tickFormatter={tick} width={70} axisLine={false} tickLine={false}/><Tooltip content={<ChartTip xLabel="Mach" xUnit=""/>}/>{solvers.map(s => <Line key={s} dataKey={s} name={s} stroke={colors[s]} strokeWidth={2} dot={{r:4}} isAnimationActive={false}/>)}{ests.map(e => <Line key={e} dataKey={e} name={estMethods[e].label} stroke={estMethods[e].color} strokeDasharray={estMethods[e].dashed ? '6 4' : undefined} strokeWidth={estMethods[e].dashed ? 1.6 : 2} dot={{r:2.5}} isAnimationActive={false}/>)}</LineChart></ResponsiveContainer></div><Legend flags={false} estimates={ests}/></>;
 }

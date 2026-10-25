@@ -1,7 +1,8 @@
 """Hand-method estimates of tab roll moment, compared against the sealed-tab CFD sweep.
 
-Reads analysis/sweep.json (written by analyze.py) and writes analysis/heuristic.json
-plus public/data/heuristic.csv. Run after analyze.py. Needs numpy; no network.
+Reads analysis/sweep.json (written by analyze.py) and writes analysis/heuristic.json, whose
+per-degree derivatives the dashboard overlays on its CFD charts. Run after analyze.py.
+Needs numpy; no network.
 
 Geometry: Onshape document 4a303129, CFD workspace (44bb5cf8), Part Studio export of
 2026-09-11 11:24 = the sealed-tab CAD meshed for the sweep (../models_v4/d00). Measured
@@ -17,9 +18,10 @@ Methods (all inviscid, small-angle, linear in deflection):
          tab panels at +delta; Prandtl-Glauert via the Goethert rule. Subsonic only.
   linear Ackeret supersonic theory: each tab face carries Cp = 2 delta / beta, the
          side-edge spill lands on the neighbouring fin, so total = 4 delta / beta x S_tab.
+Side force and yaw (about z = 0.330 m) count the fin load only: lift the tab induces on
+the body has no roll arm and is not estimated, so CFD side force should come out higher.
 """
 from pathlib import Path
-import csv
 import json
 import math
 
@@ -28,7 +30,6 @@ import numpy as np
 ROOT = Path(__file__).resolve().parents[1]
 SWEEP = ROOT / 'analysis/sweep.json'
 OUT_JSON = ROOT / 'analysis/heuristic.json'
-OUT_CSV = ROOT / 'public/data/heuristic.csv'
 
 # Geometry, metres (see docstring for provenance).
 R_ROOT, R_TIP = .02875, .1119
@@ -43,7 +44,7 @@ TAB_AREA = TAB_SPAN * TAB_CHORD
 TAB_ARM = sum(TAB_R) / 2
 FIN_AREA = SPAN * ((Z_LE_ROOT - Z_TE) + (Z_LE_TIP - Z_TE)) / 2
 RHO = 1.18915  # sweep reference density
-SOUND = 339.1  # source velocities are Mach x 339.1 (analyze.py)
+AREA, LENGTH, ZREF = .0026248, .05781, .330  # sweep reference area, length, moment point
 
 
 def z_le(r):
@@ -113,7 +114,8 @@ def build_lattice(n_front=14, n_back=8):
     return panels
 
 
-def vlm_roll_per_rad(mach, q, panels):
+def vlm_per_rad(mach, q, panels):
+    """Returns (roll N·m, side force N, yaw N·m about ZREF), each per radian of tab."""
     b = beta(mach)
     y0 = np.array([p['y0'] for p in panels]); y1 = np.array([p['y1'] for p in panels])
     xa0 = np.array([p['xa0'] for p in panels]) / b; xb0 = np.array([p['xb0'] for p in panels]) / b
@@ -130,73 +132,57 @@ def vlm_roll_per_rad(mach, q, panels):
     gamma = np.linalg.solve(aic, -defl)          # per unit V and unit deflection (rad)
     v = math.sqrt(2 * q / RHO)
     force = RHO * v * v * gamma * (y1 - y0)       # Kutta-Joukowski, N per rad
-    return float((force * (R_ROOT + ym)).sum()), float(force.sum())
+    z_load = Z_LE_ROOT - b * (a[:, 0] + bb[:, 0]) / 2
+    return float((force * (R_ROOT + ym)).sum()), float(force.sum()), float((force * (ZREF - z_load)).sum())
 
 
 # ---- supersonic linear theory ---------------------------------------------------
-def ackeret_roll_per_rad(mach, q):
-    return q * 4 / beta(mach) * TAB_AREA * TAB_ARM
+def ackeret_per_rad(mach, q):
+    force = q * 4 / beta(mach) * TAB_AREA
+    return force * TAB_ARM, force, force * (ZREF - sum(TAB_Z) / 2)
+
+
+def coefficients(q, roll, side=None, yaw=None):
+    """Per-degree dimensional values plus the sweep's coefficients."""
+    d = math.pi / 180
+    out = dict(roll=roll * d, cl=roll * d / (q * AREA * LENGTH))
+    if side is not None:
+        out.update(side=side * d, cy=side * d / (q * AREA), yaw=yaw * d, cn=yaw * d / (q * AREA * LENGTH))
+    return out
 
 
 def main():
     sweep = json.loads(SWEEP.read_text())
     panels = build_lattice()
-    cfd = {}
-    for p in sweep['points']:
-        if p['role'] in ('primary', 'supersonic') and not (p['role'] == 'supersonic' and p['method'] != 'transient'):
-            cfd[(p['solver'], p['mach'], p['angle'])] = p
-    machs = sweep['machs'] + [1.2]
-    per_mach, rows = [], []
-    for m in machs:
-        q = next(p['q'] for k, p in cfd.items() if k[1] == m)
-        strip = strip_roll_per_rad(m, q) if m < 1 else None
-        vlm = vlm_roll_per_rad(m, q, panels)[0] if m < 1 else None
-        lin = ackeret_roll_per_rad(m, q) if m > 1 else None
-        fit = next((f for f in sweep['fits'] if f['solver'] == 'OpenFOAM' and f['mach'] == m and f['metric'] == 'roll'
-                    and f['minAngle'] == -6 and f['maxAngle'] == 15 and not f['excludeFlagged']), None)
-        fit_ss = next((f for f in sweep['fits'] if f['solver'] == 'SimScale' and f['mach'] == m and f['metric'] == 'roll'
-                       and f['minAngle'] == -6 and f['maxAngle'] == 15 and not f['excludeFlagged']), None)
-        of15 = cfd.get(('OpenFOAM', m, 15.0))
-        per_deg = lambda v: None if v is None else v * math.pi / 180
-        cfd_slope = fit['slope'] if fit else (of15['roll'] / 15 if of15 else None)
-        per_mach.append(dict(mach=m, q=q, beta=beta(m), cfdSlope=cfd_slope, cfdSlopeSimScale=fit_ss['slope'] if fit_ss else None,
-                             cfdSlopeSource='OpenFOAM OLS −6°…15°' if fit else 'OpenFOAM 15° transient ÷ 15',
-                             strip=per_deg(strip), vlm=per_deg(vlm), linear=per_deg(lin),
-                             finLiftSlope=fin_lift_slope(m) if m < 1 else None))
-        for angle in sweep['angles']:
-            of = cfd.get(('OpenFOAM', m, float(angle)))
-            ss = cfd.get(('SimScale', m, float(angle)))
-            if of is None and ss is None:
-                continue
-            est = {k: (None if v is None else v * math.radians(angle)) for k, v in (('strip', strip), ('vlm', vlm), ('linear', lin))}
-            ref = of['roll'] if of else None
-            ratio = lambda v: None if v is None or ref is None or abs(ref) < 1e-3 else v / ref
-            rows.append(dict(mach=m, angle=angle, openfoam=ref, simscale=ss['roll'] if ss else None,
-                             openfoamMethod=of['method'] if of else None, **est,
-                             stripRatio=ratio(est['strip']), vlmRatio=ratio(est['vlm']), linearRatio=ratio(est['linear'])))
-    sub = [r for r in per_mach if r['vlm'] and r['cfdSlope']]
-    eta = sum(r['cfdSlope'] / r['vlm'] for r in sub if r['mach'] <= .6) / len([r for r in sub if r['mach'] <= .6])
-    sup = next(r for r in per_mach if r['mach'] == 1.2)
-    eta_sup = sup['cfdSlope'] / sup['linear']
-    # Flight extrapolation: Ackeret scaled by the M1.2 calibration, at the sweep's sea-level density.
-    extrap = [dict(mach=m, q=.5 * RHO * (m * SOUND) ** 2, beta=beta(m),
-                   linear=ackeret_roll_per_rad(m, .5 * RHO * (m * SOUND) ** 2) * math.pi / 180,
-                   calibrated=eta_sup * ackeret_roll_per_rad(m, .5 * RHO * (m * SOUND) ** 2) * math.pi / 180)
-              for m in (1.2, 1.45, 1.9)]
+    q_of = {p['mach']: p['q'] for p in sweep['points']}
+    roll_slope = lambda m: next(f['slope'] for f in sweep['fits'] if f['solver'] == 'OpenFOAM' and f['mach'] == m
+                                and f['metric'] == 'roll' and f['minAngle'] == -6 and f['maxAngle'] == 15 and not f['excludeFlagged'])
+    m12 = next(p for p in sweep['points'] if p['mach'] == 1.2 and p['method'] == 'transient')
+    per_mach = []
+    for m in sweep['machs'] + [1.2]:
+        q = q_of[m]
+        est = {}
+        if m < 1:
+            est['strip'] = coefficients(q, strip_roll_per_rad(m, q))
+            est['vlm'] = coefficients(q, *vlm_per_rad(m, q, panels))
+        else:
+            est['linear'] = coefficients(q, *ackeret_per_rad(m, q))
+        per_mach.append(dict(mach=m, q=q, est=est))
+    calib = [r for r in per_mach if r['mach'] <= .6]
+    eta = sum(roll_slope(r['mach']) / r['est']['vlm']['roll'] for r in calib) / len(calib)
+    for r in per_mach:
+        if 'vlm' in r['est']:
+            r['est']['calibrated'] = {k: eta * r['est']['vlm'][k] for k in ('roll', 'cl')}
+    sup = per_mach[-1]['est']['linear']
+    eta_sup = m12['roll'] / 15 / sup['roll']
     geometry = dict(onshape='4a30312915205423304bc8d9 / CFD workspace 44bb5cf8 / export 2026-09-11 11:24',
-                    rootRadius=R_ROOT, tipRadius=R_TIP, span=SPAN, rootChord=Z_LE_ROOT - Z_TE, tipChord=Z_LE_TIP - Z_TE,
-                    leSweepDeg=math.degrees(math.atan((Z_LE_ROOT - Z_LE_TIP) / SPAN)), finArea=FIN_AREA, finThickness=.010,
-                    aspect=2 * SPAN ** 2 / FIN_AREA, tabSpan=TAB_SPAN, tabChord=TAB_CHORD, tabArea=TAB_AREA, tabArm=TAB_ARM,
-                    localChord=LOCAL_CHORD, chordFraction=TAB_CHORD / LOCAL_CHORD, tau=TAU, panels=len(panels))
-    OUT_JSON.write_text(json.dumps(dict(geometry=geometry, perMach=per_mach, rows=rows, etaSubsonic=eta,
-                                        etaSupersonic=eta_sup, extrapolation=extrap), indent=1))
-    with OUT_CSV.open('w', newline='') as fh:
-        w = csv.DictWriter(fh, fieldnames=list(rows[0]))
-        w.writeheader(); w.writerows(rows)
+                    span=SPAN, rootChord=Z_LE_ROOT - Z_TE, tipChord=Z_LE_TIP - Z_TE, finArea=FIN_AREA,
+                    aspect=2 * SPAN ** 2 / FIN_AREA, tabSpan=TAB_SPAN, tabChord=TAB_CHORD, tabArm=TAB_ARM,
+                    chordFraction=TAB_CHORD / LOCAL_CHORD, tau=TAU, panels=len(panels))
+    OUT_JSON.write_text(json.dumps(dict(geometry=geometry, perMach=per_mach, etaSubsonic=eta, etaSupersonic=eta_sup), indent=1))
     print(f"tau={TAU:.3f}  E={TAB_CHORD / LOCAL_CHORD:.3f}  fin AR={geometry['aspect']:.2f}  eta_sub={eta:.3f}  eta_M1.2={eta_sup:.3f}")
     for r in per_mach:
-        f = lambda v: '   —   ' if v is None else f'{v:7.4f}'
-        print(f"M{r['mach']:.2f}  CFD {f(r['cfdSlope'])}  strip {f(r['strip'])}  VLM {f(r['vlm'])}  linear {f(r['linear'])}  N·m/deg")
+        print(f"M{r['mach']:.2f}", {k: {mk: round(mv, 4) for mk, mv in v.items()} for k, v in r['est'].items()})
 
 
 if __name__ == '__main__':
